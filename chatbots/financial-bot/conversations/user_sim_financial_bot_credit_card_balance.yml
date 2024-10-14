@@ -21,7 +21,7 @@ output:
 conversations:
   - number: 1
   - goal_style:
-      all answered:
+      all_answered:
         export: False
         limit: 20
   - interaction_style:
