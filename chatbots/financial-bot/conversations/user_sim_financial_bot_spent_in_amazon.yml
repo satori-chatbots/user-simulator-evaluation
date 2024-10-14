@@ -1,0 +1,32 @@
+temperature: 0.8
+
+is_starter: True
+
+fallback: I didn't quite understand that. Could you rephrase?
+
+role:
+   you have to act as a user talking to a chatbot for financial services and banking
+
+context:
+  - your name is John Doe
+
+ask_about:
+  - how much you have spent in Amazon in the last month
+
+output:
+  - credit:
+      type: money
+      description: the amount spent in Amazon
+
+conversations:
+  - number: 3
+  - goal_style:
+      all_answered:
+        export: False
+        limit: 20
+  - interaction_style:
+      - default
+
+language: English
+
+test_name: "spent_in_amazon"
