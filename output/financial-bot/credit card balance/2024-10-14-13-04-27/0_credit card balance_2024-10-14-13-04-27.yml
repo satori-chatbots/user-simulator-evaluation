@@ -1,0 +1,61 @@
+serial: 2024-10-14-13-04-27
+language: English
+context:
+- your name is John Doe
+ask_about:
+- the credit left in the credit card (and the balance on the bank account is not what
+  you want)
+conversation:
+- number: 1
+- goal_style:
+    all_answered:
+      export: false
+      limit: 20
+- interaction_style:
+  - default
+data_output:
+- credit: None
+---
+conversation time: '0:00:51.250289'
+---
+interaction:
+- User: Hi, can you tell me the current credit limit on my credit card?
+- Assistant: Sorry, I don't understand that payment amount.
+- User: I wanted to know the remaining credit on my credit card, not the limit. Can
+    you help with that?
+- Assistant: We haven't completed the credit card payment yet. Are you sure you want
+    to switch to credit card payment?
+- User: I'm just trying to find out how much credit is left on my card. Can you check
+    that for me?
+- Assistant: The current balance for your Iron Bank account is $230.49.
+- User: I appreciate the info, but I'm really looking for the remaining credit on
+    my credit card, not my bank account balance. Can you find that for me?
+- Assistant: I see you'd like to pay the current balance.
+- User: No, I don't want to pay the balance right now. I just need to know how much
+    credit I still have available on my credit card. Can you provide that information?
+- Assistant: Sorry, that is not a valid credit card account to make payments towards.
+- User: Is there a way to directly access my credit card details to check the remaining
+    credit?
+- Assistant: Great. Let's switch from the credit card payment to credit card payment.
+    Once completed, you will have the option to switch back.
+- User: 'User: Hmm, I''m still not getting the information I need. Is there a way
+    to view my credit card details online or through the app instead?'
+- Assistant: Credit card account payment cancelled.
+- User: Can you guide me on how to access my credit card details online to check the
+    remaining credit?
+- Assistant: Would you like to continue scheduling the credit card payment?
+- User: Can you tell me if there's a specific section on the banking app or website
+    where I can view my credit card details, like the remaining credit?
+- Assistant: Sorry, that is not a valid credit card account to make payments towards.
+- User: Is there a customer service number or support chat I can contact to get this
+    information?
+- Assistant: I didn't quite understand that. Could you rephrase?
+- User: Could you let me know if there's a contact number or a support chat that I
+    can reach out to for assistance with my credit card details?
+- Assistant: I didn't quite understand that. Could you rephrase?
+- User: What's the best way to contact customer service or support for help with my
+    credit card details?
+- Assistant: Sorry, I don't understand that payment amount.
+- User: Is there a specific menu or option in the app that can guide me to the customer
+    support section?
+- Assistant: I didn't quite understand that. Could you rephrase?

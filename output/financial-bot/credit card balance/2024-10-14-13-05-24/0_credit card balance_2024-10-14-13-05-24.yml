@@ -1,0 +1,80 @@
+serial: 2024-10-14-13-05-24
+language: English
+context:
+- your name is John Doe
+ask_about:
+- the credit left in the credit card (and the balance on the bank account is not what
+  you want)
+conversation:
+- number: 1
+- goal_style:
+    all_answered:
+      export: false
+      limit: 20
+- interaction_style:
+  - default
+data_output:
+- credit: None
+---
+conversation time: '0:01:07.141398'
+---
+interaction:
+- User: What's the current credit available on my credit card?
+- Assistant: Sorry, I don't understand that payment amount.
+- User: Can you tell me how much credit is available on my credit card, then?
+- Assistant: I didn't quite understand that. Could you rephrase?
+- User: Sure, let me try again. Can you tell me the remaining credit on my credit
+    card?
+- Assistant: We haven't completed the credit card payment yet. Are you sure you want
+    to switch to credit card payment?
+- User: How about we try this one more time? I'd really just like to know the available
+    credit on my credit card.
+- Assistant: I didn't quite understand that. Could you rephrase?
+- User: Can you show me the available credit left on my credit card?
+- Assistant: I didn't quite understand that. Could you rephrase?
+- User: How much credit do I still have on my credit card?
+- Assistant: I didn't quite understand that. Could you rephrase?
+- User: Is there any way you can guide me on how to check the interest rates for a
+    new savings account?
+- Assistant: I didn't quite understand that. Could you rephrase?
+- User: Where can I find the interest rates for a new savings account?
+- Assistant: I didn't quite understand that. Could you rephrase?
+- User: Could you tell me how to check the credit available on my credit card?
+- Assistant: Great. Let's switch from the credit card payment to credit card payment.
+    Once completed, you will have the option to switch back.
+- User: Why is there so much confusion in these responses? Can you clarify how to
+    actually check the credit available on my credit card?
+- Assistant: I didn't quite understand that. Could you rephrase?
+- User: Is there a way to see how much credit I have left on my credit card?
+- Assistant: The current balance for your Iron Bank account is $361.16.
+- User: That response doesn't seem to address my question about the credit card. Can
+    you try again and tell me how I can find out the available credit on my credit
+    card?
+- Assistant: Great. Let's switch from the credit card payment to credit card payment.
+    Once completed, you will have the option to switch back.
+- User: Is there a specific feature or setting I need to adjust to get accurate responses
+    about my credit card?
+- Assistant: You are entitled to six transfers within a statement cycle before being
+    charged. For subsequent transfers you will be charged $10 per transaction.
+- User: That seems a bit off-topic. I'm really trying to figure out how to see the
+    available credit on my credit card. Is there a specific section or tab on the
+    banking app or website where I can check this?
+- Assistant: Sorry, that is not a valid credit card account to make payments towards.
+- User: Does it typically take this long to get info on the available credit for a
+    credit card? Maybe there's another way to access it?
+- Assistant: I didn't quite understand that. Could you rephrase?
+- User: So, is there another method or perhaps a support line I can contact to find
+    out the available credit on my credit card?
+- Assistant: I didn't quite understand that. Could you rephrase?
+- User: Is there a dedicated customer support line or a specific feature in the app
+    where I can get the details about my credit card's available credit?
+- Assistant: Sorry, I don't understand that payment amount.
+- User: Is there an FAQ section on the website that might have information on how
+    to check my credit card's available credit?
+- Assistant: The current balance for your Iron Bank account is $361.16.
+- User: Are there any troubleshooting tips on the website that might help me get the
+    info I need about my credit card's available credit?
+- Assistant: I didn't quite understand that. Could you rephrase?
+- User: Can you tell me if there's a way to troubleshoot or find guidance on the website
+    for checking my credit card's available credit?
+- Assistant: The current balance for your Iron Bank account is $361.16.
