@@ -74,3 +74,8 @@ rasa run --enable-api
 
 If you want to test the chatbot interactively, you can use use `rasa shell --debug` instead of `rasa run`.
 
+## User simulator execution
+
+```
+python3 ../user-simulator/src/autotest.py --technology rasa --chatbot http://0.0.0.0:5005/webhooks/rest/webhook --user chatbots/financial-bot/conversations/ --extract output/financial-bot
+```

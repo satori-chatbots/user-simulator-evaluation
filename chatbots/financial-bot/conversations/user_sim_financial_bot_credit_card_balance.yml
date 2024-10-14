@@ -11,7 +11,7 @@ context:
   - your name is John Doe
 
 ask_about:
-  - the credit left in the credit card
+  - the credit left in the credit card (and the balance on the bank account is not what you want)
 
 output:
   - credit:
