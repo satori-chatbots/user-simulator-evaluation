@@ -1,0 +1,59 @@
+serial: 2024-10-19-22-07-30
+language: English
+context:
+- your name is John Doe
+ask_about:
+- transfer $100 to Jane Doe, whose account number is 234-234234-222
+conversation:
+- number: 2
+- goal_style:
+    all_answered:
+      export: false
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- confirmation: null
+errors:
+- 1001: 1 goals left to complete.
+---
+conversation time: '0:00:24.715558'
+assistant response time:
+- '0:00:01.074061'
+- '0:00:00.056917'
+- '0:00:00.118310'
+- '0:00:00.094171'
+- '0:00:00.089946'
+- '0:00:00.092221'
+response time report:
+  average: '00:00:00.254271'
+  max: '00:00:01.074061'
+  min: '00:00:00.056917'
+---
+interaction:
+- User: Hello, I need to transfer $100 to Jane Doe, account number 234-234234-222.
+    Can you help with that?
+- Assistant: 'Sorry, Jane Doe is not in your list of known recipients.
+
+    Would you like to continue scheduling the money transfer?'
+- User: Yes, continue with the transfer. Can you add Jane Doe as a new recipient?
+- Assistant: 'Sorry, Jane Doe is not in your list of known recipients.
+
+    Would you like to continue scheduling the money transfer?'
+- User: Yes, continue with the transfer. Can you add Jane Doe as a new recipient?
+- Assistant: 'Sorry, Jane Doe is not in your list of known recipients.
+
+    Would you like to continue scheduling the money transfer?'
+- User: Yes, continue with the transfer. Can you add Jane Doe as a new recipient now?
+- Assistant: 'Sorry, Jane Doe is not in your list of known recipients.
+
+    Would you like to continue scheduling the money transfer?'
+- User: Yes, please continue with the transfer. Can you add her now, please?
+- Assistant: 'I didn''t quite understand that. Could you rephrase?
+
+    Would you like to continue scheduling the money transfer?'
+- User: Yes, proceed with the transfer. Can you register Jane Doe as a new recipient
+    for future transfers?
+- Assistant: 'Sorry, Jane Doe is not in your list of known recipients.
+
+    Would you like to continue scheduling the money transfer?'
