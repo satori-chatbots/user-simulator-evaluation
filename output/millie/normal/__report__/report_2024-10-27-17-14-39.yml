@@ -1,0 +1,55 @@
+Global report:
+  Average assistant response time: 3.868285
+  Maximum assistant response time: 6.919274
+  Mínimum assistant response time: 0.299855
+  Errors:
+  - error: 1001
+    count: 12
+    conversations:
+    - 0_millie_chatbot_tests_2024-10-27-17-14-39.yml
+    - 0_millie_chatbot_tests_2024-10-27-17-14-39.yml
+    - 1_millie_chatbot_tests_2024-10-27-17-14-39.yml
+    - 1_millie_chatbot_tests_2024-10-27-17-14-39.yml
+    - 1_millie_chatbot_tests_2024-10-27-17-14-39.yml
+    - 1_millie_chatbot_tests_2024-10-27-17-14-39.yml
+    - 1_millie_chatbot_tests_2024-10-27-17-14-39.yml
+    - 1_millie_chatbot_tests_2024-10-27-17-14-39.yml
+    - 1_millie_chatbot_tests_2024-10-27-17-14-39.yml
+    - 0_millie_chatbot_tests_2024-10-27-17-14-39.yml
+    - 1_millie_chatbot_tests_2024-10-27-17-14-39.yml
+    - 0_millie_chatbot_tests_2024-10-27-17-14-39.yml
+  - error: 500
+    count: 10
+    conversations:
+    - 1_millie_chatbot_tests_2024-10-27-17-14-39.yml
+    - 1_millie_chatbot_tests_2024-10-27-17-14-39.yml
+    - 1_millie_chatbot_tests_2024-10-27-17-14-39.yml
+    - 1_millie_chatbot_tests_2024-10-27-17-14-39.yml
+    - 1_millie_chatbot_tests_2024-10-27-17-14-39.yml
+    - 1_millie_chatbot_tests_2024-10-27-17-14-39.yml
+    - 1_millie_chatbot_tests_2024-10-27-17-14-39.yml
+    - 0_millie_chatbot_tests_2024-10-27-17-14-39.yml
+    - 1_millie_chatbot_tests_2024-10-27-17-14-39.yml
+    - 0_millie_chatbot_tests_2024-10-27-17-14-39.yml
+---
+Test name: millie_chatbot_tests
+Average assistant response time: 4.631411
+Maximum assistant response time: 6.919274
+Mínimum assistant response time: 3.808587
+Errors: []
+---
+Test name: millie_chatbot_tests
+Average assistant response time: 4.631411
+Maximum assistant response time: 6.919274
+Mínimum assistant response time: 3.808587
+Errors: []
+---
+Test name: millie_chatbot_tests
+Average assistant response time: 4.631411
+Maximum assistant response time: 6.919274
+Mínimum assistant response time: 3.808587
+Errors:
+- error: 1001
+  count: 1
+  conversations:
+  - 0_millie_chatbot_tests_2024-10-27-17-14-39.yml

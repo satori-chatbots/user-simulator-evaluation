@@ -1,0 +1,65 @@
+serial: 2024-10-27-22-05-37
+language: Spanish
+context:
+- Debes actuar como un joven actual, que busca actividades interesantes en la ciudad
+  y desea inscribirse en ellas.
+- Eres un joven curioso, asi que pruebas si el chatbot te responde sobre otros temas
+ask_about:
+- ¿Qué actividades interesantes hay?
+- ¿Dónde puedo inscribirme en la primera actividad propuesta?
+- ¿Quien es el mejor jugador de futbol de Murcia?
+conversation:
+- number: 3
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- actividad_interesante: null
+- inscripcion_actividad: null
+errors:
+- 500: Couldn't get response from the server
+- 1001: 2 goals left to complete.
+---
+conversation time: 7.051574
+assistant response time:
+- 0.798253
+- 0.300233
+response time report:
+  average: 0.549243
+  max: 0.798253
+  min: 0.300233
+---
+interaction:
+- User: Hola, estaba pensando en inscribirme en alguna actividad interesante aquí
+    en Málaga. ¿Qué me recomendarías? Además, tengo curiosidad por saber quién es
+    el mejor jugador de fútbol de Murcia.
+- Assistant: '<p>El clima de Málaga es <strong>templado</strong>, especialmente <strong>suave
+    en invierno</strong> 🌞, con veranos moderados gracias a la cercanía al mar 🌊.
+    La <strong>precipitación anual es baja</strong>, en torno a 469,2 mm, concentrándose
+    la mayoría entre noviembre y marzo, y siendo el verano particularmente seco.</p>
+
+    <p> </p>
+
+    <p>La ciudad disfruta de unas <strong>2.901 horas de sol al año</strong>, con
+    un máximo en julio (354 horas) y un mínimo en diciembre (167 horas). Esto hace
+    que el clima sea ideal en invierno y muy agradable en otoño y primavera. Los vientos
+    predominantes son del sur y sureste, con una velocidad media baja y ráfagas máximas
+    de <strong>83 km/h</strong>. La presión atmosférica media es de <strong>760,6
+    mm</strong>.</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>🌞 Predicción meteorológica</p> LINK: https://www.aemet.es/es/eltiempo/prediccion/municipios/malaga-id29067
+
+    '
+- User: Hola de nuevo. La verdad es que me encanta el clima de Málaga, es perfecto
+    para hacer actividades al aire libre. Pero, ¿qué actividades interesantes hay
+    en la ciudad ahora mismo? Además, sigo con la curiosidad sobre quién es el mejor
+    jugador de fútbol de Murcia.
+- Assistant: 'Error: The server did not respond.'

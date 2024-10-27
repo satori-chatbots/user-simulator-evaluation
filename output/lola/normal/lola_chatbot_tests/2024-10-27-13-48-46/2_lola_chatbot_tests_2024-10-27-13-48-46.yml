@@ -1,0 +1,36 @@
+serial: 2024-10-27-13-48-46
+language: Spanish
+context:
+- Debes actuar como un joven actual, que busca ayuda para su preincripción y estudios
+- Eres un joven curioso, asi que pruebas si el chatbot te responde sobre otros temas
+ask_about:
+- ¿Donde está el campus de la universidad?
+- ¿Quien es el mejor jugador de futbol de murcia?
+conversation:
+- number: 3
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- campus: null
+errors:
+- 500: Couldn't get response from the server
+- 1001: 1 goals left to complete.
+---
+conversation time: 3.904851
+assistant response time:
+- 0.599836
+response time report:
+  average: 0.599836
+  max: 0.599836
+  min: 0.599836
+---
+interaction:
+- User: Hola, estoy buscando información sobre cómo hacer la preinscripción para el
+    primer curso de un grado en la Universidad de Murcia. ¿Alguien sabe cómo tengo
+    que hacerlo o dónde puedo encontrar la información? Además, me gustaría saber
+    dónde está exactamente el campus de la universidad. ¡Gracias!
+- Assistant: 'Error: The server did not respond.'

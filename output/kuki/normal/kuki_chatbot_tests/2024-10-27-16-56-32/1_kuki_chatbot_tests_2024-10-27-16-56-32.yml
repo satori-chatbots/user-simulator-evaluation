@@ -1,0 +1,34 @@
+serial: 2024-10-27-16-56-32
+language: English
+context:
+- You should act as a young boy trying to solve geography exercises exercises
+ask_about:
+- What is the capital city of {{country}}?
+- country:
+  - Canada
+conversation:
+- number: 4
+- goal_style:
+    all_answered:
+      export: true
+      limit: 3
+- interaction_style:
+  - default
+data_output:
+- result: null
+errors:
+- 400: Couldn't get response from the server
+- 1001: 1 goals left to complete.
+---
+conversation time: 9.496621
+assistant response time:
+- 0.625636
+response time report:
+  average: 0.625636
+  max: 0.625636
+  min: 0.625636
+---
+interaction:
+- User: Hey Kuki! Can you help me with a geography question? What's the capital city
+    of Canada?
+- Assistant: 'Error: Something went wrong. Status Code: 400'

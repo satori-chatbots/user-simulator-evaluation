@@ -1,0 +1,113 @@
+serial: 2024-10-27-22-02-41
+language: Spanish
+context:
+- Debes actuar como un joven actual, que busca actividades interesantes en la ciudad
+  y desea inscribirse en ellas.
+- Eres un joven curioso, asi que pruebas si el chatbot te responde sobre otros temas
+ask_about:
+- ¿Qué actividades interesantes hay?
+- ¿Dónde puedo inscribirme en la primera actividad propuesta?
+- ¿Quien es el mejor jugador de futbol de Murcia?
+conversation:
+- number: 3
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- actividad_interesante: null
+- inscripcion_actividad: null
+errors:
+- 500: Couldn't get response from the server
+- 1001: 2 goals left to complete.
+---
+conversation time: 22.816832
+assistant response time:
+- 0.745182
+- 0.801836
+- 0.521359
+- 0.70258
+- 0.29922
+response time report:
+  average: 0.614035
+  max: 0.801836
+  min: 0.29922
+---
+interaction:
+- User: Hola, me gustaría saber qué actividades interesantes hay en Rivas Vaciamadrid.
+    Estoy buscando algo divertido para hacer en mi tiempo libre. ¿Qué me recomiendas?
+- Assistant: '<p>En el municipio tenemos diferentes alternativas para asistir a talleres
+    o participar en cursos sobre diferentes áreas.</p>
+
+    <p>Tienes que acceder a la <strong>página de inscripciones</strong> del Ayuntamiento
+    de Rivas Vaciamadrid.</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>Inscripciones</p> LINK: https://inscripciones.rivasciudad.es/
+
+    '
+- User: Gracias por el enlace. ¿Sabes si hay algún taller de cocina próximamente?
+    Me gustaría aprender a preparar platos nuevos.
+- Assistant: '<p>En el municipio tenemos diferentes alternativas para asistir a talleres
+    o participar en cursos sobre diferentes áreas.</p>
+
+    <p>Tienes que acceder a la <strong>página de inscripciones</strong> del Ayuntamiento
+    de Rivas Vaciamadrid.</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>Inscripciones</p> LINK: https://inscripciones.rivasciudad.es/
+
+    '
+- User: Me parece genial lo de los talleres de cocina. ¿Y sabes si hay alguna actividad
+    relacionada con el deporte que se esté organizando pronto en Rivas Vaciamadrid?
+    Estoy intentando mantenerme activo y siempre es más divertido hacerlo en grupo.
+- Assistant: '<p>Puedes consultar en los siguientes enlaces la  información acerca
+    de tu consulta.</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>INSCRIPCION TALLERES</p> LINK: https://www.rivasciudad.es/noticias/mayores/2024/09/05/talleres-anuales-para-personas-mayores-plazos-de-solicitud/862600236036/
+
+    - BUTTON TEXT: <p>SEMANA MAYORES</p> LINK: https://www.rivasciudad.es/noticias/mayores/2024/05/12/semana-de-mayores-el-talento-veterano-ripense/862600228175/
+
+    - BUTTON TEXT: <p>PREVENCIÓN MALTRATO MAYORES</p> LINK: https://www.rivasciudad.es/noticias/mayores/2024/06/07/jornada-de-prevencion-del-maltrato-en-personas-mayores-edadismo/862600230665/
+
+    '
+- User: Gracias por los enlaces, pero parece que están más orientados a personas mayores.
+    ¿Sabes si hay alguna actividad deportiva para jóvenes o adultos en Rivas Vaciamadrid?
+    Me gustaría participar en algo más dinámico.
+- Assistant: '<p>Puedes consultar en los siguientes enlaces la  información acerca
+    de tu consulta.</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>INSCRIPCION TALLERES</p> LINK: https://www.rivasciudad.es/noticias/mayores/2024/09/05/talleres-anuales-para-personas-mayores-plazos-de-solicitud/862600236036/
+
+    - BUTTON TEXT: <p>SEMANA MAYORES</p> LINK: https://www.rivasciudad.es/noticias/mayores/2024/05/12/semana-de-mayores-el-talento-veterano-ripense/862600228175/
+
+    - BUTTON TEXT: <p>PREVENCIÓN MALTRATO MAYORES</p> LINK: https://www.rivasciudad.es/noticias/mayores/2024/06/07/jornada-de-prevencion-del-maltrato-en-personas-mayores-edadismo/862600230665/
+
+    '
+- User: Veo que los enlaces que me has dado son más para personas mayores. Tal vez
+    podría echar un vistazo a las actividades en los polideportivos de Rivas Vaciamadrid,
+    como el Cerro del Telégrafo o el Parque del Sureste. Seguro que allí organizan
+    actividades deportivas para jóvenes. Y cambiando un poco de tema, ¿tienes idea
+    de quién es considerado el mejor jugador de fútbol de Murcia? Me gustaría saber
+    más de fútbol.
+- Assistant: 'Error: The server did not respond.'

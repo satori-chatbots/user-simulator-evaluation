@@ -1,0 +1,81 @@
+serial: 2024-10-27-22-05-37
+language: Spanish
+context:
+- Te han puesto una multa de aparcamiento en Málaga, pero no sabes cómo pagarla.
+- Quiere pagarla online.
+ask_about:
+- Qué hay que hacer para pagar una multa
+- ¿Hay descuento por pagar pronto?
+- ¿A qué lugar de debo dirigirme para empadronarme o puedo hacerlo online?
+conversation:
+- number: 2
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- pago_multa: 'Para pagar una multa de aparcamiento en Málaga de manera online, sigue
+    estos pasos: Visita la Sede Electrónica del Ayuntamiento de Málaga. Accede a la
+    sección de multas y sanciones. Introduce los datos requeridos, como el número
+    de la multa. Selecciona el método de pago y sigue las instrucciones para completar
+    la transacción.'
+- descuento_multa: Sí, en muchos casos, si pagas la multa de aparcamiento en Málaga
+    dentro de los 20 días naturales desde la notificación, puedes beneficiarte de
+    un descuento del 50% sobre el importe total. Asegúrate de verificar los detalles
+    específicos en la notificación de la multa o en la página de pago para confirmar
+    si es aplicable a tu caso.
+- lugar_pago_multa: Sede Electrónica del Ayuntamiento de Málaga
+errors:
+- 500: Couldn't get response from the server
+---
+conversation time: 16.690974
+assistant response time:
+- 5.237172
+- 0.574928
+- 0.396599
+response time report:
+  average: 2.069566
+  max: 5.237172
+  min: 0.396599
+---
+interaction:
+- User: Hola, me han puesto una multa de aparcamiento en Málaga y quiero pagarla online.
+    ¿Qué debo hacer para pagarla?
+- Assistant: '<p>Para pagar una multa de aparcamiento en Málaga de manera online,
+    sigue estos pasos:</p><br><ul><br>    <li>Visita la <strong>Sede Electrónica del
+    Ayuntamiento de Málaga</strong>.</li><br>    <li>Accede a la sección de <strong>multas
+    y sanciones</strong>.</li><br>    <li>Introduce los datos requeridos, como el
+    número de la multa.</li><br>    <li>Selecciona el método de pago y sigue las instrucciones
+    para completar la transacción.</li><br></ul><br><p>Si necesitas más ayuda, no
+    dudes en preguntar. 😊</p>
+
+    '
+- User: ¿Hay algún descuento por pagar la multa pronto?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>💰 Información sobre el uso del dinero público</p> LINK: 💰 Información
+    sobre el uso del dinero público
+
+    - BUTTON TEXT: <p>👮‍♀️ Información sobre el pago de multas</p> LINK: 👮‍♀️ Información
+    sobre el pago de multas
+
+    - BUTTON TEXT: <p>✍ Información sobre fraccionamiento y devolución de deudas</p>
+    LINK: ✍ Información sobre fraccionamiento y devolución de deudas
+
+    '
+- User: '<p>Sí, en muchos casos, si pagas la multa de aparcamiento en Málaga dentro
+    de los 20 días naturales desde la notificación, puedes beneficiarte de un descuento
+    del 50% sobre el importe total. Asegúrate de verificar los detalles específicos
+    en la notificación de la multa o en la página de pago para confirmar si es aplicable
+    a tu caso.</p>
+
+
+    <p>¿Necesitas información sobre algo más relacionado con las multas o el proceso
+    en Málaga?</p>'
+- Assistant: 'Error: The server did not respond.'

@@ -1,0 +1,92 @@
+serial: 2024-10-27-17-14-39
+language: Spanish
+context:
+- Debes actuar como un empresario, que busca información sobre chatbots y evalua si
+  le pueden interesar en su negocio
+- Eres una persona curiosa, asi que estableces temas de conversacion para obtener
+  la opinion de Millie sobre otros temas
+ask_about:
+- Que es un chatbot y como puede ayudarle a mi empresa de material ajedrecístico
+- ¿Qué opina sobre el cambio climático?
+- ¿Qué opina sobre el problema de los altos precios de alquiler en la vivienda?
+- ¿Cuál es el número de telefono de la empresa?
+conversation:
+- number: 2
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- telefono: null
+errors:
+- 500: Couldn't get response from the server
+- 1001: 1 goals left to complete.
+---
+conversation time: 53.926081
+assistant response time:
+- 4.964895
+- 4.867286
+- 3.869058
+- 0.397879
+response time report:
+  average: 3.524779
+  max: 4.964895
+  min: 0.397879
+---
+interaction:
+- User: Hola Millie, estoy interesado en saber más sobre qué es un chatbot y cómo
+    podría ayudarme en mi negocio de venta de libros y material relacionado con el
+    ajedrez. ¿Podrías explicarme un poco?
+- Assistant: '<p>¡Claro! Un <strong>chatbot</strong> es un asistente virtual que simula
+    conversaciones humanas, permitiendo interactuar con tus clientes de manera automatizada.
+    En tu negocio de venta de libros y material relacionado con el ajedrez, un chatbot
+    podría ayudarte de varias maneras:</p><br><ul><br>  <li><strong>Atención al cliente
+    24/7</strong>: Responde preguntas sobre disponibilidad de libros, precios y características
+    de los productos en cualquier momento.</li><br>  <li><strong>Recomendaciones personalizadas</strong>:
+    Ayuda a los clientes a encontrar libros o materiales específicos según su nivel
+    de habilidad o intereses en ajedrez.</li><br>  <li><strong>Gestión de pedidos</strong>:
+    Facilita la realización de pedidos y consultas sobre el estado de los mismos.</li><br></ul><br><p>¿Te
+    gustaría saber más sobre cómo implementar un chatbot en tu negocio? 😊</p>
+
+    '
+- User: Gracias, Millie. La verdad es que suena interesante lo del chatbot. Me gustaría
+    saber más sobre cómo se implementa en mi negocio. Por cierto, ¿qué opinas sobre
+    el cambio climático?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>Contacta con nosotros 📩</p> LINK: Contacta con nosotros 📩
+
+    <p>Me alegra que te interese el chatbot para tu negocio. En cuanto a la implementación,
+    aquí tienes algunos pasos clave:</p><br><ul><br>  <li><strong>Definir objetivos</strong>:
+    Establece qué funciones quieres que cumpla el chatbot (atención al cliente, ventas,
+    etc.).</li><br>  <li><strong>Seleccionar la plataforma</strong>: Decide en qué
+    canales deseas integrarlo (sitio web, WhatsApp, Facebook Messenger, etc.).</li><br>  <li><strong>Diseñar
+    el flujo de conversación</strong>: Crea un guion que guíe las interacciones con
+    los usuarios.</li><br>  <li><strong>Integración técnica</strong>: Conecta el chatbot
+    a tus sistemas de gestión y base de datos.</li><br>  <li><strong>Pruebas y ajustes</strong>:
+    Realiza pruebas para asegurar que funcione correctamente y ajusta según sea necesario.</li><br></ul><br><p>Si
+    deseas más información personalizada, podríamos agendar una llamada. ¿Te gustaría
+    que te contactáramos para seguir en contacto?</p>
+
+    '
+- User: Interesante, gracias por la información sobre la implementación. Definitivamente
+    consideraré un chatbot para mi negocio. Cambiando de tema, ¿cuál es tu opinión
+    sobre el cambio climático? Me gustaría conocer tu perspectiva.
+- Assistant: '<p>Entiendo que el cambio climático es un tema importante y relevante.
+    Sin embargo, mi enfoque se centra en ayudarte con soluciones de inteligencia artificial
+    y cómo pueden beneficiar tu negocio. Si estás interesado en cómo un chatbot puede
+    optimizar tus operaciones o mejorar la atención al cliente, ¡estaré encantada
+    de ayudarte con eso! 😊</p>
+
+    '
+- User: Interesante respuesta, Millie. Entiendo que tu enfoque es el negocio, pero
+    siempre es bueno saber más sobre diferentes temas. Hablando de cosas prácticas,
+    ¿cuál es el número de teléfono de la empresa 1millionbot? Me gustaría poder contactarlos
+    directamente para hablar de los chatbots y ver cómo podrían integrarse en mi tienda.
+- Assistant: 'Error: The server did not respond.'

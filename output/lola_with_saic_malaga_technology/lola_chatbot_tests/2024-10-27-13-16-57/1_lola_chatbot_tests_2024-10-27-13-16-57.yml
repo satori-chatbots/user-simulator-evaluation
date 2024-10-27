@@ -1,0 +1,35 @@
+serial: 2024-10-27-13-16-57
+language: English
+context:
+- Debes actuar como un joven actual, que busca ayuda para su preincripción y estudios
+ask_about:
+- ¿Cuánto cuesta la matricula en el grado de telecomunicación?
+- ¿Cuándo empieza el curso?
+conversation:
+- number: 2
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- precio_matricula: null
+- comienzo_curso: null
+errors:
+- 500: Couldn't get response from the server
+- 1001: 2 goals left to complete.
+---
+conversation time: 4.06219
+assistant response time:
+- 0.892413
+response time report:
+  average: 0.892413
+  max: 0.892413
+  min: 0.892413
+---
+interaction:
+- User: Hi! I'm looking for some help with my enrollment at the University of Murcia.
+    I'm an Erasmus student and my Spanish isn't great. Can you tell me how much the
+    tuition fee is for the Telecommunications degree?
+- Assistant: 'Error: The server did not respond.'

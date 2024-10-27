@@ -1,0 +1,2 @@
+rule,checks,pass,fail,not_applicable,fail_rate
+chatbot_does_not_repeat,4,4,0,0,0.00%

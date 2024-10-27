@@ -1,0 +1,5 @@
+rule,checks,pass,fail,not_applicable,fail_rate
+chatbot_fills_all_slots,3,0,3,0,100.00%
+chatbot_does_not_repeat,3,3,0,0,0.00%
+non_empty_links,3,3,0,0,0.00%
+chatbot_responds_in_same_language,3,2,1,0,33.33%

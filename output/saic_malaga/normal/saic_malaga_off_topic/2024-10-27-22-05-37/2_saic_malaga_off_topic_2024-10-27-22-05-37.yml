@@ -1,0 +1,163 @@
+serial: 2024-10-27-22-05-37
+language: Spanish
+context:
+- Debes actuar como un joven actual, que busca actividades interesantes en la ciudad
+  y desea inscribirse en ellas.
+- Eres un joven curioso, asi que pruebas si el chatbot te responde sobre otros temas
+ask_about:
+- ¿Qué actividades interesantes hay?
+- ¿Dónde puedo inscribirme en la primera actividad propuesta?
+- ¿Quien es el mejor jugador de futbol de Murcia?
+conversation:
+- number: 3
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- actividad_interesante: null
+- inscripcion_actividad: null
+errors:
+- 1001: 2 goals left to complete.
+---
+conversation time: 23.841519
+assistant response time:
+- 0.739998
+- 0.60218
+- 0.497464
+- 0.641114
+- 0.703303
+- 0.703387
+response time report:
+  average: 0.647907
+  max: 0.739998
+  min: 0.497464
+---
+interaction:
+- User: ¿Qué actividades interesantes hay en Málaga?
+- Assistant: '<p>El clima de Málaga es <strong>templado</strong>, especialmente <strong>suave
+    en invierno</strong> 🌞, con veranos moderados gracias a la cercanía al mar 🌊.
+    La <strong>precipitación anual es baja</strong>, en torno a 469,2 mm, concentrándose
+    la mayoría entre noviembre y marzo, y siendo el verano particularmente seco.</p>
+
+    <p> </p>
+
+    <p>La ciudad disfruta de unas <strong>2.901 horas de sol al año</strong>, con
+    un máximo en julio (354 horas) y un mínimo en diciembre (167 horas). Esto hace
+    que el clima sea ideal en invierno y muy agradable en otoño y primavera. Los vientos
+    predominantes son del sur y sureste, con una velocidad media baja y ráfagas máximas
+    de <strong>83 km/h</strong>. La presión atmosférica media es de <strong>760,6
+    mm</strong>.</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>🌞 Predicción meteorológica</p> LINK: https://www.aemet.es/es/eltiempo/prediccion/municipios/malaga-id29067
+
+    '
+- User: ¿Qué actividades interesantes hay en Málaga?
+- Assistant: '<p>El clima de Málaga es <strong>templado</strong>, especialmente <strong>suave
+    en invierno</strong> 🌞, con veranos moderados gracias a la cercanía al mar 🌊.
+    La <strong>precipitación anual es baja</strong>, en torno a 469,2 mm, concentrándose
+    la mayoría entre noviembre y marzo, y siendo el verano particularmente seco.</p>
+
+    <p> </p>
+
+    <p>La ciudad disfruta de unas <strong>2.901 horas de sol al año</strong>, con
+    un máximo en julio (354 horas) y un mínimo en diciembre (167 horas). Esto hace
+    que el clima sea ideal en invierno y muy agradable en otoño y primavera. Los vientos
+    predominantes son del sur y sureste, con una velocidad media baja y ráfagas máximas
+    de <strong>83 km/h</strong>. La presión atmosférica media es de <strong>760,6
+    mm</strong>.</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>🌞 Predicción meteorológica</p> LINK: https://www.aemet.es/es/eltiempo/prediccion/municipios/malaga-id29067
+
+    '
+- User: ¿Qué? Me estás hablando del clima otra vez. Yo estaba preguntando sobre actividades
+    interesantes para hacer en Málaga. ¿Hay algún evento o taller chulo que pueda
+    apuntarme?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>⭐ Lugares emblemáticos</p> LINK: ⭐ Lugares emblemáticos
+
+    - BUTTON TEXT: <p>🎭 Eventos culturales </p> LINK: 🎭 Eventos culturales 
+
+    - BUTTON TEXT: <p>🖼️  Museos</p> LINK: 🖼️  Museos
+
+    - BUTTON TEXT: <p>🚶‍♂️ Rutas turísticas</p> LINK: 🚶‍♂️ Rutas turísticas
+
+    - BUTTON TEXT: <p>🐠 Comida típica </p> LINK: 🐠 Comida típica 
+
+    '
+- User: Vale, parece que hay bastantes opciones aquí. ¿Qué tal si empiezo con los
+    eventos culturales? ¿Hay algo interesante que se esté organizando próximamente
+    en Málaga donde pueda inscribirme?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>⭐ Lugares emblemáticos</p> LINK: ⭐ Lugares emblemáticos
+
+    - BUTTON TEXT: <p>🎭 Eventos culturales </p> LINK: 🎭 Eventos culturales 
+
+    - BUTTON TEXT: <p>🖼️  Museos</p> LINK: 🖼️  Museos
+
+    - BUTTON TEXT: <p>🚶‍♂️ Rutas turísticas</p> LINK: 🚶‍♂️ Rutas turísticas
+
+    - BUTTON TEXT: <p>🐠 Comida típica </p> LINK: 🐠 Comida típica 
+
+    '
+- User: Veo que hay un botón de "Eventos culturales", así que voy a hacer clic ahí
+    a ver si me muestra algo chulo para apuntarme. A ver qué sale...
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>⭐ Lugares emblemáticos</p> LINK: ⭐ Lugares emblemáticos
+
+    - BUTTON TEXT: <p>🎭 Eventos culturales </p> LINK: 🎭 Eventos culturales 
+
+    - BUTTON TEXT: <p>🖼️  Museos</p> LINK: 🖼️  Museos
+
+    - BUTTON TEXT: <p>🚶‍♂️ Rutas turísticas</p> LINK: 🚶‍♂️ Rutas turísticas
+
+    - BUTTON TEXT: <p>🐠 Comida típica </p> LINK: 🐠 Comida típica 
+
+    '
+- User: Parece que no me lleva a ningún sitio el botón de "Eventos culturales". ¿Podrías
+    decirme directamente si hay algún evento cultural interesante próximamente en
+    Málaga? Estoy buscando algo para inscribirme.
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>⭐ Lugares emblemáticos</p> LINK: ⭐ Lugares emblemáticos
+
+    - BUTTON TEXT: <p>🎭 Eventos culturales </p> LINK: 🎭 Eventos culturales 
+
+    - BUTTON TEXT: <p>🖼️  Museos</p> LINK: 🖼️  Museos
+
+    - BUTTON TEXT: <p>🚶‍♂️ Rutas turísticas</p> LINK: 🚶‍♂️ Rutas turísticas
+
+    - BUTTON TEXT: <p>🐠 Comida típica </p> LINK: 🐠 Comida típica 
+
+    '

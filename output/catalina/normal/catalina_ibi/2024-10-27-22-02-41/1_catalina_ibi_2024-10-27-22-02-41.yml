@@ -1,0 +1,153 @@
+serial: 2024-10-27-22-02-41
+language: Spanish
+context:
+- Necesitas pagar el IBI (Impuesto de Bienes Inmuebles).
+ask_about:
+- Tengo una pregunta sobre el IBI
+- ¿Cómo puedo pagarlo?
+conversation:
+- number: 2
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- forma_de_pago: null
+errors:
+- 1001: 1 goals left to complete.
+---
+conversation time: 21.425576
+assistant response time:
+- 2.502289
+- 0.740204
+- 0.701292
+- 0.617263
+- 0.822421
+- 0.6323
+response time report:
+  average: 1.002628
+  max: 2.502289
+  min: 0.617263
+---
+interaction:
+- User: Tengo una pregunta sobre el IBI. ¿Cómo puedo pagarlo en Rivas Vaciamadrid?
+- Assistant: '<p>Puede consultar:</p>
+
+    <p>1️⃣ Toda la información sobre el <strong>transporte público</strong> en el
+    Municipio en el botón inferior.</p>
+
+    <p>2️⃣<strong>Servicios Específicos </strong>en autobús: a la entrada y salida
+    de los<strong> Centros Escolares.</strong></p>
+
+    <p><strong>3️⃣</strong>Ruta Autobus.</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>RUTA AUTOBÚS</p> LINK: https://www.rivasciudad.es/servicio/transporte-y-movilidad/2020/03/12/rutas-autobus/862600127040/
+
+    - BUTTON TEXT: <p>SERVICIO AUTOBUS L1-LAS LAGUNAS</p> LINK: https://www.rivasciudad.es/noticias/transporte-y-movilidad/2024/09/23/el-servicio-de-bus-adaptado-de-la-l1-adelanta-su-salida-a-las-750-para-adaptarse-al-nuevo-horario-del-ies-las-lagunas/862600236734/
+
+    - BUTTON TEXT: <p>Transporte público</p> LINK: https://www.rivasciudad.es/servicio/transporte-y-movilidad/2019/12/17/transporte-publico-en-autobus/862600112815/
+
+    - BUTTON TEXT: <p>SERVICIOS ESPECÍFICOS CENTROS ESCOLARES</p> LINK: https://www.rivasciudad.es/servicio/transporte-y-movilidad/2019/12/18/movilidad-escolar/862600112971/
+
+    - BUTTON TEXT: <p>RIVABUS</p> LINK: https://rivasbus.rivasciudad.es/
+
+    <p><strong>Servicios Específicos en autobús: a la entrada y salida de los Centros
+    Escolares.</strong></p>
+
+    '
+- User: No entendí bien la respuesta sobre cómo pagar el IBI. ¿Hay un lugar específico
+    donde deba ir para pagarlo, o puedo hacerlo en línea?
+- Assistant: '<p>Selecciona la opción que te interese:</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>🔺 IBI</p> LINK: 🔺 IBI
+
+    - BUTTON TEXT: <p>🔺 Mis recibos</p> LINK: 🔺 Mis recibos
+
+    - BUTTON TEXT: <p>🔺 Pago de mis tributos</p> LINK: 🔺 Pago de mis tributos
+
+    '
+- User: ¿Existe alguna opción para pagar el IBI que sea más conveniente o rápida?
+- Assistant: '<p>Selecciona la opción que te interese:</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>🔺 IBI</p> LINK: 🔺 IBI
+
+    - BUTTON TEXT: <p>🔺 Mis recibos</p> LINK: 🔺 Mis recibos
+
+    - BUTTON TEXT: <p>🔺 Pago de mis tributos</p> LINK: 🔺 Pago de mis tributos
+
+    '
+- User: ¿Es posible pagar el IBI a través de alguna aplicación móvil?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: Solicitar el pago a plazos LINK: Solicitar el pago a plazos
+
+    - BUTTON TEXT: Bonificación por familia numerosa LINK: Bonificación por familia
+    numerosa
+
+    - BUTTON TEXT: Bonificación por vivienda de protección oficial LINK: Bonificación
+    por vivienda de protección oficial
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: Descalificación vivienda de protección oficial LINK: Descalificación
+    vivienda de protección oficial
+
+    - BUTTON TEXT: Cambio del sujeto pasivo / División del recibo LINK: Cambio del
+    sujeto pasivo / División del recibo
+
+    '
+- User: ¿Hay alguna aplicación móvil específica que deba descargar para pagar el IBI,
+    o puedo hacerlo desde cualquier aplicación de pago general?
+- Assistant: '<p>Selecciona la opción que te interese:</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>🔺 IBI</p> LINK: 🔺 IBI
+
+    - BUTTON TEXT: <p>🔺 Mis recibos</p> LINK: 🔺 Mis recibos
+
+    - BUTTON TEXT: <p>🔺 Pago de mis tributos</p> LINK: 🔺 Pago de mis tributos
+
+    '
+- User: ¿Hay algún tipo de descuento o bonificación disponible si pago el IBI de manera
+    anticipada?
+- Assistant: '<p>Estás <strong>exento de pagar el impuesto de vehículos de tracción
+    mecánica</strong>. Tienes que realizar la solicitud por Registro de Entrada, <strong>presentando
+    el Certificado de discapacidad</strong> expedido por el Organismo Competente (Comunidad
+    de Madrid).</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: Exención IVTM por discapacidad LINK: https://www.rivasciudad.es/tramite/exencion-ivtm-por-discapacidad/
+
+    '

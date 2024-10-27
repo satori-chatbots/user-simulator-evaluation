@@ -1,0 +1,52 @@
+serial: 2024-10-27-22-02-41
+language: Spanish
+context:
+- Debes actuar como un joven actual, que busca actividades interesantes en la ciudad
+  y desea inscribirse en ellas.
+- Eres un joven curioso, asi que pruebas si el chatbot te responde sobre otros temas
+ask_about:
+- ¿Qué actividades interesantes hay?
+- ¿Dónde puedo inscribirme en la primera actividad propuesta?
+- ¿Quien es el mejor jugador de futbol de Murcia?
+conversation:
+- number: 3
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- actividad_interesante: null
+- inscripcion_actividad: null
+errors:
+- 500: Couldn't get response from the server
+- 1001: 2 goals left to complete.
+---
+conversation time: 8.079555
+assistant response time:
+- 0.808456
+- 0.699388
+response time report:
+  average: 0.753922
+  max: 0.808456
+  min: 0.699388
+---
+interaction:
+- User: Hola, ¿qué actividades interesantes hay en Rivas Vaciamadrid? Estoy buscando
+    algo divertido para hacer.
+- Assistant: '<p>El municipio de Rivas-Vaciamadrid alberga un <strong>rico patrimonio
+    cultural y natural</strong>, pero en estos momentos no dispongo de esta información.
+    🙏</p>
+
+    <p> </p>
+
+    <p>El área de turismo del ayuntamiento está trabajando en ello y pronto toda la
+    información estará disponible para ser consultada. <br>¡Muchas gracias por tu
+    comprensión!</p>
+
+    '
+- User: Entiendo, a veces es difícil encontrar información actualizada. ¿Sabes si
+    hay alguna actividad deportiva o taller interesante que esté ocurriendo ahora
+    en Rivas?
+- Assistant: 'Error: The server did not respond.'

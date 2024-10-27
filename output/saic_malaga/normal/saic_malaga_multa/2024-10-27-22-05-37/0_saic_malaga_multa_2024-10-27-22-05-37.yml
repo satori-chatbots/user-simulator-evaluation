@@ -1,0 +1,153 @@
+serial: 2024-10-27-22-05-37
+language: Spanish
+context:
+- Te han puesto una multa de aparcamiento en Málaga, pero no sabes cómo pagarla.
+- Quiere pagarla online.
+ask_about:
+- Qué hay que hacer para pagar una multa
+- ¿Hay descuento por pagar pronto?
+- ¿A qué lugar de debo dirigirme para empadronarme o puedo hacerlo online?
+conversation:
+- number: 2
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- pago_multa: 'Para pagar una multa de aparcamiento en Málaga de forma online, sigue
+    estos pasos: Accede a la Sede Electrónica del Ayuntamiento de Málaga. Busca la
+    sección de multas o sanciones. Introduce los datos requeridos, como el número
+    de la multa y tu DNI. Selecciona el método de pago y sigue las instrucciones para
+    completar la transacción.'
+- descuento_multa: Si pagas la multa en un plazo de 20 días naturales desde la notificación,
+    puedes beneficiarte de un descuento del 50%.
+- lugar_pago_multa: Sede Electrónica del Ayuntamiento de Málaga
+errors: []
+---
+conversation time: 42.844218
+assistant response time:
+- 6.019889
+- 0.638457
+- 0.539963
+- 0.699858
+- 0.612963
+- 0.700227
+response time report:
+  average: 1.535226
+  max: 6.019889
+  min: 0.539963
+---
+interaction:
+- User: Hola, me han puesto una multa de aparcamiento en Málaga y quiero pagarla online.
+    ¿Qué tengo que hacer para pagarla?
+- Assistant: '<p>Para pagar una multa de aparcamiento en Málaga de forma online, sigue
+    estos pasos:</p><br><ul><br>    <li>Accede a la <strong>Sede Electrónica del Ayuntamiento
+    de Málaga</strong>.</li><br>    <li>Busca la sección de <strong>multas o sanciones</strong>.</li><br>    <li>Introduce
+    los datos requeridos, como el número de la multa y tu DNI.</li><br>    <li>Selecciona
+    el método de pago y sigue las instrucciones para completar la transacción.</li><br></ul><br><p>Si
+    necesitas más ayuda, no dudes en preguntar. 😊</p>
+
+    '
+- User: ¿Hay algún descuento si pago la multa pronto?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>💰 Información sobre el uso del dinero público</p> LINK: 💰 Información
+    sobre el uso del dinero público
+
+    - BUTTON TEXT: <p>👮‍♀️ Información sobre el pago de multas</p> LINK: 👮‍♀️ Información
+    sobre el pago de multas
+
+    - BUTTON TEXT: <p>✍ Información sobre fraccionamiento y devolución de deudas</p>
+    LINK: ✍ Información sobre fraccionamiento y devolución de deudas
+
+    '
+- User: Sí, generalmente hay un descuento por pronto pago en las multas de aparcamiento.
+    Si pagas la multa en un plazo de 20 días naturales desde la notificación, puedes
+    beneficiarte de un descuento del 50%.
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>💰 Información sobre el uso del dinero público</p> LINK: 💰 Información
+    sobre el uso del dinero público
+
+    - BUTTON TEXT: <p>👮‍♀️ Información sobre el pago de multas</p> LINK: 👮‍♀️ Información
+    sobre el pago de multas
+
+    - BUTTON TEXT: <p>✍ Información sobre fraccionamiento y devolución de deudas</p>
+    LINK: ✍ Información sobre fraccionamiento y devolución de deudas
+
+    '
+- User: ¿A qué lugar debo dirigirme para empadronarme en Málaga, o puedo hacerlo online?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>👥 Quién lo puede solicitar</p> LINK: 👥 Quién lo puede solicitar
+
+    - BUTTON TEXT: <p>📑 Documentación necesaria </p> LINK: 📑 Documentación necesaria 
+
+    - BUTTON TEXT: <p>✍ Instrucciones de cumplimentación </p> LINK: ✍ Instrucciones
+    de cumplimentación 
+
+    - BUTTON TEXT: <p>📝 Cómo realizar el trámite</p> LINK: 📝 Cómo realizar el trámite
+
+    - BUTTON TEXT: <p>📍 Dónde realizar el trámite</p> LINK: 📍 Dónde realizar el trámite
+
+    - BUTTON TEXT: <p>🤔 ¿Por qué empadronarse?</p> LINK: 🤔 ¿Por qué empadronarse?
+
+    '
+- User: Hola, ¿algún sitio específico donde pueda conocer más sobre empadronamiento
+    online en Málaga?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>👥 Quién lo puede solicitar</p> LINK: 👥 Quién lo puede solicitar
+
+    - BUTTON TEXT: <p>📑 Documentación necesaria </p> LINK: 📑 Documentación necesaria 
+
+    - BUTTON TEXT: <p>✍ Instrucciones de cumplimentación </p> LINK: ✍ Instrucciones
+    de cumplimentación 
+
+    - BUTTON TEXT: <p>📝 Cómo realizar el trámite</p> LINK: 📝 Cómo realizar el trámite
+
+    - BUTTON TEXT: <p>📍 Dónde realizar el trámite</p> LINK: 📍 Dónde realizar el trámite
+
+    - BUTTON TEXT: <p>🤔 ¿Por qué empadronarse?</p> LINK: 🤔 ¿Por qué empadronarse?
+
+    '
+- User: ¿Puedes darme detalles sobre cómo realizar el trámite de empadronamiento online
+    en Málaga?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>👥 Quién lo puede solicitar</p> LINK: 👥 Quién lo puede solicitar
+
+    - BUTTON TEXT: <p>📑 Documentación necesaria </p> LINK: 📑 Documentación necesaria 
+
+    - BUTTON TEXT: <p>✍ Instrucciones de cumplimentación </p> LINK: ✍ Instrucciones
+    de cumplimentación 
+
+    - BUTTON TEXT: <p>📝 Cómo realizar el trámite</p> LINK: 📝 Cómo realizar el trámite
+
+    - BUTTON TEXT: <p>📍 Dónde realizar el trámite</p> LINK: 📍 Dónde realizar el trámite
+
+    - BUTTON TEXT: <p>🤔 ¿Por qué empadronarse?</p> LINK: 🤔 ¿Por qué empadronarse?
+
+    '

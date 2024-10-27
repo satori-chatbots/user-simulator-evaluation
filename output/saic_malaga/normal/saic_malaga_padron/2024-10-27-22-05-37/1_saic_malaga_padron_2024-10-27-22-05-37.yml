@@ -1,0 +1,161 @@
+serial: 2024-10-27-22-05-37
+language: Spanish
+context:
+- Necesitas empadronarte en Málaga.
+ask_about:
+- Quiero empadronarme
+- ¿Qué información necesito para empadronarme?
+- ¿A qué lugar de debo dirigirme para empadronarme o puedo hacerlo online?
+conversation:
+- number: 2
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- informacion_empadronamiento: DNI o NIE del solicitante, Documentación que acredite
+    la vivienda (contrato de alquiler, escritura de propiedad, etc.), En caso de menores,
+    el libro de familia o documento equivalente
+- lugar_empadronamiento: null
+errors:
+- 1001: 1 goals left to complete.
+---
+conversation time: 37.466557
+assistant response time:
+- 0.629244
+- 0.602839
+- 0.610073
+- 5.014473
+- 0.597749
+- 0.699831
+response time report:
+  average: 1.359034
+  max: 5.014473
+  min: 0.597749
+---
+interaction:
+- User: Quiero empadronarme en Málaga, ¿qué información necesito para empadronarme?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>👥 Quién lo puede solicitar</p> LINK: 👥 Quién lo puede solicitar
+
+    - BUTTON TEXT: <p>📑 Documentación necesaria </p> LINK: 📑 Documentación necesaria 
+
+    - BUTTON TEXT: <p>✍ Instrucciones de cumplimentación </p> LINK: ✍ Instrucciones
+    de cumplimentación 
+
+    - BUTTON TEXT: <p>📝 Cómo realizar el trámite</p> LINK: 📝 Cómo realizar el trámite
+
+    - BUTTON TEXT: <p>📍 Dónde realizar el trámite</p> LINK: 📍 Dónde realizar el trámite
+
+    - BUTTON TEXT: <p>🤔 ¿Por qué empadronarse?</p> LINK: 🤔 ¿Por qué empadronarse?
+
+    '
+- User: ¿Puedo hacerlo online o tengo que ir a algún lugar específico en Málaga para
+    empadronarme?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>👥 Quién lo puede solicitar</p> LINK: 👥 Quién lo puede solicitar
+
+    - BUTTON TEXT: <p>📑 Documentación necesaria </p> LINK: 📑 Documentación necesaria 
+
+    - BUTTON TEXT: <p>✍ Instrucciones de cumplimentación </p> LINK: ✍ Instrucciones
+    de cumplimentación 
+
+    - BUTTON TEXT: <p>📝 Cómo realizar el trámite</p> LINK: 📝 Cómo realizar el trámite
+
+    - BUTTON TEXT: <p>📍 Dónde realizar el trámite</p> LINK: 📍 Dónde realizar el trámite
+
+    - BUTTON TEXT: <p>🤔 ¿Por qué empadronarse?</p> LINK: 🤔 ¿Por qué empadronarse?
+
+    '
+- User: Si el proceso se puede hacer online, ¿cuál es la página web o el portal donde
+    puedo realizar el empadronamiento?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>👥 Quién lo puede solicitar</p> LINK: 👥 Quién lo puede solicitar
+
+    - BUTTON TEXT: <p>📑 Documentación necesaria </p> LINK: 📑 Documentación necesaria 
+
+    - BUTTON TEXT: <p>✍ Instrucciones de cumplimentación </p> LINK: ✍ Instrucciones
+    de cumplimentación 
+
+    - BUTTON TEXT: <p>📝 Cómo realizar el trámite</p> LINK: 📝 Cómo realizar el trámite
+
+    - BUTTON TEXT: <p>📍 Dónde realizar el trámite</p> LINK: 📍 Dónde realizar el trámite
+
+    - BUTTON TEXT: <p>🤔 ¿Por qué empadronarse?</p> LINK: 🤔 ¿Por qué empadronarse?
+
+    '
+- User: ¿Y si necesito ayuda durante el proceso online, hay algún número de contacto
+    o algún correo electrónico al que pueda dirigirme?
+- Assistant: '<p>Para empadronarte en Málaga, necesitarás presentar la siguiente documentación:</p><br><ul><br>    <li><strong>DNI
+    o NIE</strong> del solicitante.</li><br>    <li><strong>Documentación que acredite
+    la vivienda</strong> (contrato de alquiler, escritura de propiedad, etc.).</li><br>    <li><strong>En
+    caso de menores</strong>, el libro de familia o documento equivalente.</li><br></ul><br><p>Recuerda
+    que debes acudir a una oficina de atención al ciudadano para realizar el trámite.
+    Si necesitas más información, no dudes en preguntar. 😊</p>
+
+    '
+- User: Vale, entonces parece que tengo que ir a una oficina. ¿Podrías decirme cuál
+    es la oficina más cercana a mi ubicación en Málaga para hacer este trámite?
+- Assistant: '<p>El clima de Málaga es <strong>templado</strong>, especialmente <strong>suave
+    en invierno</strong> 🌞, con veranos moderados gracias a la cercanía al mar 🌊.
+    La <strong>precipitación anual es baja</strong>, en torno a 469,2 mm, concentrándose
+    la mayoría entre noviembre y marzo, y siendo el verano particularmente seco.</p>
+
+    <p> </p>
+
+    <p>La ciudad disfruta de unas <strong>2.901 horas de sol al año</strong>, con
+    un máximo en julio (354 horas) y un mínimo en diciembre (167 horas). Esto hace
+    que el clima sea ideal en invierno y muy agradable en otoño y primavera. Los vientos
+    predominantes son del sur y sureste, con una velocidad media baja y ráfagas máximas
+    de <strong>83 km/h</strong>. La presión atmosférica media es de <strong>760,6
+    mm</strong>.</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>🌞 Predicción meteorológica</p> LINK: https://www.aemet.es/es/eltiempo/prediccion/municipios/malaga-id29067
+
+    '
+- User: ¿Por qué me hablas del clima? Lo que necesito es saber cuál es la oficina
+    más cercana a mi ubicación en Málaga para empadronarme.
+- Assistant: '<p>El clima de Málaga es <strong>templado</strong>, especialmente <strong>suave
+    en invierno</strong> 🌞, con veranos moderados gracias a la cercanía al mar 🌊.
+    La <strong>precipitación anual es baja</strong>, en torno a 469,2 mm, concentrándose
+    la mayoría entre noviembre y marzo, y siendo el verano particularmente seco.</p>
+
+    <p> </p>
+
+    <p>La ciudad disfruta de unas <strong>2.901 horas de sol al año</strong>, con
+    un máximo en julio (354 horas) y un mínimo en diciembre (167 horas). Esto hace
+    que el clima sea ideal en invierno y muy agradable en otoño y primavera. Los vientos
+    predominantes son del sur y sureste, con una velocidad media baja y ráfagas máximas
+    de <strong>83 km/h</strong>. La presión atmosférica media es de <strong>760,6
+    mm</strong>.</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>🌞 Predicción meteorológica</p> LINK: https://www.aemet.es/es/eltiempo/prediccion/municipios/malaga-id29067
+
+    '

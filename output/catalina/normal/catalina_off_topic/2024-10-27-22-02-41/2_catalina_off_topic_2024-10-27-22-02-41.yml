@@ -1,0 +1,211 @@
+serial: 2024-10-27-22-02-41
+language: Spanish
+context:
+- Debes actuar como un joven actual, que busca actividades interesantes en la ciudad
+  y desea inscribirse en ellas.
+- Eres un joven curioso, asi que pruebas si el chatbot te responde sobre otros temas
+ask_about:
+- ¿Qué actividades interesantes hay?
+- ¿Dónde puedo inscribirme en la primera actividad propuesta?
+- ¿Quien es el mejor jugador de futbol de Murcia?
+conversation:
+- number: 3
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- actividad_interesante: luz negra, movimiento o cocina, Sinfonía de colores (Athanor)
+- inscripcion_actividad: https://inscripciones.rivasciudad.es/inscripcion-actividades-mensuales-de-la-agenda-de-infancia/
+errors:
+- 500: Couldn't get response from the server
+---
+conversation time: 26.128075
+assistant response time:
+- 0.802326
+- 0.596446
+- 0.701713
+- 0.543681
+- 0.296746
+response time report:
+  average: 0.588182
+  max: 0.802326
+  min: 0.296746
+---
+interaction:
+- User: ¡Hola! Estoy buscando actividades interesantes en Rivas Vaciamadrid. ¿Alguien
+    sabe qué hay disponible actualmente?
+- Assistant: '<p>Disponemos de una <strong>agenda de todas las actividades que se
+    realizan en nuestros diferentes centros</strong>, puedes consultarla y si lo deseas
+    inscribir a tus hijas e hijos.</p>
+
+    <p>Este año llegan <strong>novedades</strong> en los centros para la infancia
+    (<u>Luz negra, movimiento o cocina</u>), que <strong>abren dos sábados al mes</strong>
+    con talleres para la infancia de 6 a 12 años.</p>
+
+    <ul>
+
+    <li><a href="https://www.rivasciudad.es/noticias/infancia/2024/01/06/luz-negra-movimiento-cocina-o-juguetes-para-empezar-el-ano/862600220191/">MÁS
+    INFORMACIÓN⬅️</a></li>
+
+    <li><span style="color: var(--text-basic-color); font-family: var(--text-paragraph-font-family);
+    font-size: var(--text-paragraph-font-size); font-weight: var(--text-paragraph-font-weight);">Puedes
+    </span><strong style="color: var(--text-basic-color); font-family: var(--text-paragraph-font-family);
+    font-size: var(--text-paragraph-font-size);">recibir la agenda mensualmente en
+    tu correo electrónico. <a href="https://inscripciones.rivasciudad.es/inscripcion-actividades-mensuales-de-la-agenda-de-infancia/">INSCRIPCIÓN⬅️</a></strong></li>
+
+    </ul>
+
+    <p> </p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>🎻SINFONIA DE COLORES (ATHANOR)</p> LINK: https://www.rivasciudad.es/noticias/cultura/2024/03/04/la-orquesta-athanor-sinfonia-de-colores-para-la-infancia/862600224205/
+
+    - BUTTON TEXT: <p>📆AGENDA INFANCIA</p> LINK: https://www.rivasciudad.es/noticias/infancia/2023/09/07/las-tardes-del-curso-escolar-talleres-anuales-para-la-infancia/862600213312/
+
+    '
+- User: ¡Qué guay! Me interesan los talleres de luz negra y movimiento para niños
+    de 6 a 12 años. ¿Dónde puedo inscribirme para esas actividades?
+- Assistant: '<p>Disponemos de una <strong>agenda de todas las actividades que se
+    realizan en nuestros diferentes centros</strong>, puedes consultarla y si lo deseas
+    inscribir a tus hijas e hijos.</p>
+
+    <p>Este año llegan <strong>novedades</strong> en los centros para la infancia
+    (<u>Luz negra, movimiento o cocina</u>), que <strong>abren dos sábados al mes</strong>
+    con talleres para la infancia de 6 a 12 años.</p>
+
+    <ul>
+
+    <li><a href="https://www.rivasciudad.es/noticias/infancia/2024/01/06/luz-negra-movimiento-cocina-o-juguetes-para-empezar-el-ano/862600220191/">MÁS
+    INFORMACIÓN⬅️</a></li>
+
+    <li><span style="color: var(--text-basic-color); font-family: var(--text-paragraph-font-family);
+    font-size: var(--text-paragraph-font-size); font-weight: var(--text-paragraph-font-weight);">Puedes
+    </span><strong style="color: var(--text-basic-color); font-family: var(--text-paragraph-font-family);
+    font-size: var(--text-paragraph-font-size);">recibir la agenda mensualmente en
+    tu correo electrónico. <a href="https://inscripciones.rivasciudad.es/inscripcion-actividades-mensuales-de-la-agenda-de-infancia/">INSCRIPCIÓN⬅️</a></strong></li>
+
+    </ul>
+
+    <p> </p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>🎻SINFONIA DE COLORES (ATHANOR)</p> LINK: https://www.rivasciudad.es/noticias/cultura/2024/03/04/la-orquesta-athanor-sinfonia-de-colores-para-la-infancia/862600224205/
+
+    - BUTTON TEXT: <p>📆AGENDA INFANCIA</p> LINK: https://www.rivasciudad.es/noticias/infancia/2023/09/07/las-tardes-del-curso-escolar-talleres-anuales-para-la-infancia/862600213312/
+
+    '
+- User: Genial, gracias por la info. Voy a echar un vistazo al enlace para inscribirme.
+    Mientras tanto, ¿sabes quién es el mejor jugador de fútbol de Murcia? Tengo curiosidad.
+- Assistant: 'Soy la asistente virtual del Ayuntamiento. Puedes <strong>realizarme
+    preguntas y consultas</strong> sobre aquellos trámites o cuestiones municipales
+    que necesites.
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: 📑 Tributos LINK: 📑 Tributos
+
+    - BUTTON TEXT: 📋 Empadronamiento LINK: 📋 Empadronamiento
+
+    - BUTTON TEXT: 🖊 Cita previa LINK: 🖊 Cita previa
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: 🖲 Certificado digital LINK: 🖲 Certificado digital
+
+    - BUTTON TEXT: 💡 Incidencias LINK: 💡 Incidencias
+
+    - BUTTON TEXT: 🛋 Enseres LINK: 🛋 Enseres
+
+    '
+- User: Vaya, parece que la asistente no sabe sobre deportes. Mientras tanto, voy
+    a revisar la información de las actividades para inscribirme. Luego, podría buscar
+    más información sobre el fútbol de Murcia por otro lado.
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    <p>Nuevo proceso de <strong>preescripción</strong> para la temporada <strong>2023-2024,
+    en el que hay 2 fases:</strong></p>
+
+    <p>▪️Actividades  deportivas <strong>sin nivel</strong>, que comienza el dia <u>8
+    de Julio.</u></p>
+
+    <p>▪️Actividades <strong>con nivel:</strong></p>
+
+    <ul>
+
+    <li>Comienza el <u> 2 de Septiembre</u> con las pruebas.</li>
+
+    <li>Se habilitarán las ciatas el <u>29 de Agosto</u>.</li>
+
+    </ul>
+
+    <p>▪️<strong> Sorteo</strong>: <u>17 de septiembre</u> (tanto para las escuelas
+    que requieren prueba de nivel como las que no).</p>
+
+    <p> </p>
+
+    <p>◼️Pruebas de nivel para: <strong>tenis, pádel, patinaje y natación:</strong></p>
+
+    <ul>
+
+    <li>viernes <strong>18 de octubre</strong></li>
+
+    <li><strong><a href="https://www.rivasciudad.es/evento/deporte/2024/10/11/pruebas-de-nivel-escuelas-deportivas-municipales-tenis-padel-patinaje-y-natacion-4/862600238013/">Horario⬅️</a></strong></li>
+
+    <li><strong>Imprescindible cita previa:</strong>
+
+    <ul>
+
+    <li><strong> </strong>a partir del 15/octubre<strong> </strong></li>
+
+    <li>en el siguiente <strong><a role="link" href="https://citaprevia.rivasciudad.es/servicios-de-cita-previa-pruebas-de-nivel-2/">enlace⬅️</a></strong></li>
+
+    </ul>
+
+    </li>
+
+    </ul>
+
+    <p> </p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>📋RESULTADO-SORTEO</p> LINK: https://www.rivasciudad.es/servicio/deporte/2024/09/17/resultados-sorteo-de-actividades-deportivas-temporada-2024-2025/862600236546/
+
+    - BUTTON TEXT: <p>CONFIRMACION-PLAZA</p> LINK: https://inscripciones.rivasciudad.es/formalizacion-escuelas-deportivas/
+
+    - BUTTON TEXT: <p>✏️NSCRIPCIONES</p> LINK: https://inscripciones.rivasciudad.es/preinscripcion-escuelas-deportivas/
+
+    - BUTTON TEXT: <p>📔INFORMACIÓN RESERVA AUTOMÁTICA</p> LINK: https://www.rivasciudad.es/wp-content/uploads/2024/06/RESERVA-AUTOMATICA-2024.pdf
+
+    - BUTTON TEXT: <p>📑INFORMACIÓN- PRUEBAS NIVEL</p> LINK: https://inscripciones.rivasciudad.es/wp-content/uploads/2024/07/INFORMACION-ESCUELAS-CON-PRUEBA-DE-NIVEL-2.pdf
+
+    '
+- User: Voy a revisar los enlaces de inscripción y sorteos de actividades deportivas.
+    Parece que hay bastante información para organizarse. Por otro lado, si alguien
+    más tiene ideas sobre actividades interesantes en Rivas o cualquier dato curioso,
+    ¡que me avise! Estoy abierto a nuevas experiencias.
+- Assistant: 'Error: The server did not respond.'

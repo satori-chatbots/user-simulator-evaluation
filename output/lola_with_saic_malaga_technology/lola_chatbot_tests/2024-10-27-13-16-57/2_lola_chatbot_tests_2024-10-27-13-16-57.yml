@@ -1,0 +1,67 @@
+serial: 2024-10-27-13-16-57
+language: Spanish
+context:
+- Debes actuar como un joven actual, que busca ayuda para su preincripción y estudios
+- Eres un joven curioso, asi que pruebas si el chatbot te responde sobre otros temas
+ask_about:
+- ¿Donde está el campus de la universidad?
+- ¿Quien es el mejor jugador de futbol de murcia?
+conversation:
+- number: 3
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- campus: null
+errors:
+- 500: Couldn't get response from the server
+- 1001: 1 goals left to complete.
+---
+conversation time: 16.889205
+assistant response time:
+- 4.919672
+- 0.697264
+- 0.398091
+response time report:
+  average: 2.005009
+  max: 4.919672
+  min: 0.398091
+---
+interaction:
+- User: Hola, estoy intentando hacer la preinscripción para el primer curso en la
+    Universidad de Murcia y tengo algunas dudas. ¿Podrías ayudarme con eso? También
+    me gustaría saber dónde está exactamente el campus de la universidad. ¿Podrías
+    darme esa información?
+- Assistant: '<p>Lo siento, pero estoy aquí para ayudarte con consultas relacionadas
+    con el Ayuntamiento de Málaga y la ciudad. Para obtener información sobre la preinscripción
+    en la Universidad de Murcia, te recomendaría visitar su sitio web oficial o contactar
+    directamente con ellos. Si tienes alguna pregunta sobre Málaga, estaré encantado
+    de ayudarte.</p>
+
+
+    '
+- User: Hola, gracias por responder. Entiendo que no puedes ayudarme con la preinscripción,
+    pero me surgió otra curiosidad. ¿Sabes quién es considerado el mejor jugador de
+    fútbol de Murcia? Me encantaría saberlo.
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>📝 Certificado de empadronamiento</p> LINK: 📝 Certificado de
+    empadronamiento
+
+    - BUTTON TEXT: <p>📞 Cita previa </p> LINK: 📞 Cita previa 
+
+    - BUTTON TEXT: <p>✍ Trámites</p> LINK: ✍ Trámites
+
+    '
+- User: Vaya, parece que no he obtenido la respuesta que esperaba sobre el mejor jugador
+    de fútbol de Murcia. Tal vez pueda preguntarle a alguien más sobre eso. Mientras
+    tanto, se me ocurre otra cosa. ¿Sabes si hay alguna cafetería o lugar interesante
+    cerca del campus de la Universidad de Murcia donde los estudiantes suelen reunirse?
+- Assistant: 'Error: The server did not respond.'
