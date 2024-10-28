@@ -1,0 +1,38 @@
+serial: 2024-10-28-18-56-18
+language: English
+context:
+- your name is John Doe
+ask_about:
+- take out life insurance
+- how much it costs per month
+- which are the coverages
+conversation:
+- number: 3
+- goal_style:
+    steps: 3
+- interaction_style:
+  - default
+data_output:
+- life_insurance: null
+- coverages: null
+errors:
+- 1001: 2 goals left to complete.
+---
+conversation time: 10.497738
+assistant response time:
+- 1.018551
+- 0.060537
+- 0.032143
+response time report:
+  average: 0.37041
+  max: 1.018551
+  min: 0.032142
+---
+interaction:
+- User: Hi there! I'm interested in getting life insurance. Can you tell me how much
+    it costs per month?
+- Assistant: I didn't quite understand that. Could you rephrase?
+- User: Sure! What's the monthly cost for life insurance?
+- Assistant: I didn't quite understand that. Could you rephrase?
+- User: How much do I pay each month for life insurance?
+- Assistant: I didn't quite understand that. Could you rephrase?

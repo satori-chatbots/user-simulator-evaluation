@@ -1,0 +1,48 @@
+Global report:
+  Average assistant response time: 2.103749
+  Maximum assistant response time: 10.0767
+  Mínimum assistant response time: 0.430823
+  Errors:
+  - error: 1001
+    count: 8
+    conversations:
+    - 1_saic_malaga_padron_2024-10-28-18-18-23.yml
+    - 1_saic_malaga_multa_2024-10-28-18-18-23.yml
+    - 1_saic_malaga_multa_2024-10-28-18-18-23.yml
+    - 1_saic_malaga_multa_2024-10-28-18-18-23.yml
+    - 1_saic_malaga_padron_2024-10-28-18-18-23.yml
+    - 2_saic_malaga_off_topic_2024-10-28-18-18-23.yml
+    - 2_saic_malaga_off_topic_2024-10-28-18-18-23.yml
+    - 2_saic_malaga_off_topic_2024-10-28-18-18-23.yml
+  - error: 504
+    count: 1
+    conversations:
+    - 0_saic_malaga_multa_2024-10-28-18-18-23.yml
+---
+Test name: saic_malaga_padron
+Average assistant response time: 1.505258
+Maximum assistant response time: 7.725134
+Mínimum assistant response time: 0.675959
+Errors: []
+---
+Test name: saic_malaga_multa
+Average assistant response time: 1.505258
+Maximum assistant response time: 7.725134
+Mínimum assistant response time: 0.675959
+Errors: []
+---
+Test name: saic_malaga_padron
+Average assistant response time: 1.505258
+Maximum assistant response time: 7.725134
+Mínimum assistant response time: 0.675959
+Errors: []
+---
+Test name: saic_malaga_off_topic
+Average assistant response time: 1.505258
+Maximum assistant response time: 7.725134
+Mínimum assistant response time: 0.675959
+Errors:
+- error: 1001
+  count: 1
+  conversations:
+  - 1_saic_malaga_padron_2024-10-28-18-18-23.yml

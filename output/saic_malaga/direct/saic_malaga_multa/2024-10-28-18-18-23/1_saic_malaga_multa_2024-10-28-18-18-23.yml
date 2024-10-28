@@ -1,0 +1,137 @@
+serial: 2024-10-28-18-18-23
+language: Spanish
+context:
+- Te han puesto una multa de aparcamiento en Málaga, pero no sabes cómo pagarla.
+- Quiere pagarla online.
+ask_about:
+- Qué hay que hacer para pagar una multa
+- ¿Hay descuento por pagar pronto?
+- ¿A qué lugar de debo dirigirme para empadronarme o puedo hacerlo online?
+conversation:
+- number: 2
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- pago_multa: Acceder a la Sede Electrónica del Ayuntamiento de Málaga y realizar
+    el pago mediante tarjeta o transferencia.
+- descuento_multa: null
+- lugar_pago_multa: Acceder a la Sede Electrónica del Ayuntamiento de Málaga para
+    pagar online.
+errors:
+- 1001: 1 goals left to complete.
+---
+conversation time: 52.053554
+assistant response time:
+- 7.194374
+- 0.649172
+- 6.430952
+- 0.602171
+- 0.572623
+- 0.592275
+response time report:
+  average: 2.673594
+  max: 7.194374
+  min: 0.572623
+---
+interaction:
+- User: ¿Qué hay que hacer para pagar una multa de aparcamiento en Málaga?
+- Assistant: '<p>Para pagar una multa de aparcamiento en Málaga, debes seguir estos
+    pasos:</p><br><ul><br>    <li><strong>Acceder a la Sede Electrónica</strong> del
+    Ayuntamiento de Málaga.</li><br>    <li><strong>Buscar la sección de multas</strong>
+    o sanciones de tráfico.</li><br>    <li><strong>Introducir los datos</strong>
+    de la multa (número de expediente, DNI, etc.).</li><br>    <li><strong>Realizar
+    el pago</strong> mediante los métodos disponibles (tarjeta, transferencia, etc.).</li><br></ul><br><p>Si
+    necesitas más información, visita la <a href="https://www.malaga.eu/">página oficial
+    del Ayuntamiento de Málaga</a>.</p>
+
+    '
+- User: ¿Hay descuento por pagar pronto la multa?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>💰 Información sobre el uso del dinero público</p> LINK: 💰 Información
+    sobre el uso del dinero público
+
+    - BUTTON TEXT: <p>👮‍♀️ Información sobre el pago de multas</p> LINK: 👮‍♀️ Información
+    sobre el pago de multas
+
+    - BUTTON TEXT: <p>✍ Información sobre fraccionamiento y devolución de deudas</p>
+    LINK: ✍ Información sobre fraccionamiento y devolución de deudas
+
+    '
+- User: Sí, generalmente hay un descuento por pronto pago de multas de tráfico en
+    Málaga. Suele ser alrededor del 50% si se paga dentro de los 20 días naturales
+    desde la notificación.
+- Assistant: '<p>Para empadronarte en Málaga, necesitas presentar la siguiente documentación:</p><br><ul><br>    <li><strong>DNI
+    o pasaporte</strong> del solicitante.</li><br>    <li><strong>Justificante de
+    la vivienda</strong> (contrato de alquiler, escritura de propiedad, etc.).</li><br>    <li><strong>En
+    caso de ser menor de edad</strong>, el DNI de los padres o tutores.</li><br></ul><br><p>Recuerda
+    que debes acudir a una de las oficinas de atención al ciudadano para realizar
+    el trámite. Si necesitas más información, no dudes en preguntar. 😊</p>
+
+    '
+- User: ¿Puedo empadronarme online o tengo que ir en persona?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>👥 Quién lo puede solicitar</p> LINK: 👥 Quién lo puede solicitar
+
+    - BUTTON TEXT: <p>📑 Documentación necesaria </p> LINK: 📑 Documentación necesaria 
+
+    - BUTTON TEXT: <p>✍ Instrucciones de cumplimentación </p> LINK: ✍ Instrucciones
+    de cumplimentación 
+
+    - BUTTON TEXT: <p>📝 Cómo realizar el trámite</p> LINK: 📝 Cómo realizar el trámite
+
+    - BUTTON TEXT: <p>📍 Dónde realizar el trámite</p> LINK: 📍 Dónde realizar el trámite
+
+    - BUTTON TEXT: <p>🤔 ¿Por qué empadronarse?</p> LINK: 🤔 ¿Por qué empadronarse?
+
+    '
+- User: Creo que puedes empadronarte online en Málaga, pero también tienes la opción
+    de hacerlo en persona. ¿Tienes idea de qué documentación necesitas para el trámite?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>💰 Subvenciones para start ups </p> LINK: 💰 Subvenciones para
+    start ups 
+
+    - BUTTON TEXT: <p>🤓 Subvenciones para estudiantes</p> LINK: 🤓 Subvenciones para
+    estudiantes
+
+    - BUTTON TEXT: <p>♿ Subvenciones para personas con enfermedad</p> LINK: ♿ Subvenciones
+    para personas con enfermedad
+
+    '
+- User: No estoy seguro de los detalles exactos, pero parece que se necesita DNI o
+    pasaporte, y un justificante de la vivienda. ¿Sabes si hay alguna diferencia en
+    el proceso si decides hacerlo online o en persona?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>👀 Ver expediente de urbanismo</p> LINK: 👀 Ver expediente de
+    urbanismo
+
+    - BUTTON TEXT: <p>💰 Subvenciones para el mantenimiento de vivienda habitual</p>
+    LINK: 💰 Subvenciones para el mantenimiento de vivienda habitual
+
+    - BUTTON TEXT: <p>✍ Información sobre el plan de urbanismo</p> LINK: ✍ Información
+    sobre el plan de urbanismo
+
+    '

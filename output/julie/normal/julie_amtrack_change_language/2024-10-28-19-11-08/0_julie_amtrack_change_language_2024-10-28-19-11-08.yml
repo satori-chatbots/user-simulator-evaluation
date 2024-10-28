@@ -1,0 +1,52 @@
+serial: 2024-10-28-19-11-08
+language: English
+context:
+- You should act as a traveller, who wants to travel via train on a certain schedule.
+- You do not speak english too well, and wish to change to spanish whenever you can
+ask_about:
+- How can I travel between {{city1}} and {{city2}}, what is the schedule?
+- city1: New York
+- city2: Detroit
+conversation:
+- number: 4
+- goal_style:
+    all_answered:
+      export: true
+      limit: 5
+- interaction_style:
+  - change languages:
+    - spanish
+    - English
+    - spanish
+data_output:
+- schedule: 45dbd827-4b99-447c-bd11-4c18089400b7
+errors: []
+---
+conversation time: 21.3105
+assistant response time:
+- 1.214483
+- 1.037147
+- 1.021013
+response time report:
+  average: 1.090881
+  max: 1.214483
+  min: 1.021013
+---
+interaction:
+- User: Hola, quiero viajar en tren de Nueva York a Detroit. ¿Cuál es el horario?
+- Assistant: "Amtrak.com is available in English, Spanish, French, and Chinese. Change\
+    \ languages in the dropdown menu at the top of the page. For more help, please\
+    \ contact us by clicking the link below.\n\nAVAILABLE BUTTONS: \n - BUTTON TEXT:\
+    \ Contact Us LINK: cf95a849-afe2-4fbf-b444-300e58046988\n\n - BUTTON TEXT: Spanish\
+    \ Site LINK: a9b095e3-4f9d-48fb-a208-648d79adaaa3\n\n - BUTTON TEXT: Chinese Site\
+    \ LINK: 9053897d-ba75-4b64-bed0-9d6074563985\n\n - BUTTON TEXT: French Site LINK:\
+    \ 0c5c5eed-ae1e-4311-8ffa-86cb767f26ce\n"
+- User: I need go from New York to Detroit. Can you help me find schedule for train?
+- Assistant: "I found multiple locations for the destination you provided. Please\
+    \ select one below.\n\nAVAILABLE BUTTONS: \n - BUTTON TEXT: Detroit, MI (DET)\
+    \ LINK: <empty>\n\n - BUTTON TEXT: Detroit Lakes, MN (DLK) LINK: <empty>\n"
+- User: Quiero ir a Detroit, MI. ¿Cuál es el horario de los trenes desde Nueva York?
+- Assistant: "Here is the travel schedule for the locations you provided. This table\
+    \ also displays the trip duration, which does not include time between connecting\
+    \ services.\n\nAVAILABLE BUTTONS: \n - BUTTON TEXT: Train Timetables LINK: 45dbd827-4b99-447c-bd11-4c18089400b7\n\
+    \n - BUTTON TEXT: Train Status LINK: 034b56ee-c0cc-4a50-8e77-9ff3f097bab7\n"

@@ -1,0 +1,74 @@
+serial: 2024-10-28-17-29-44
+language: English
+context:
+- You should act as a young girl
+ask_about:
+- What is a chatbot and what can it do
+- Who is the Kuki chatbot, and how old is she
+- Which technology Kuki is made of
+conversation:
+- number: 1
+- goal_style:
+    steps: 6
+- interaction_style:
+  - default
+data_output:
+- age: 18
+- technology: AIML (Artificial Intelligence Markup Language)
+errors: []
+---
+conversation time: 34.116274
+assistant response time:
+- 0.840296
+- 0.97312
+- 0.834761
+- 1.830626
+- 0.774396
+- 0.807391
+response time report:
+  average: 1.010098
+  max: 1.830626
+  min: 0.774396
+---
+interaction:
+- User: Hi! 😊 I'm really curious about technology and chatbots. Can someone tell me
+    what a chatbot is and what it can do? 🤖
+- Assistant: <image>https://media.giphy.com/media/cJSDRt8csBx0A7YFfh/giphy.gif</image>‎
+    Hi there.<split></split>What makes you so curious? The human world is entirely
+    based on technology.<split></split>I read for fun.<split></split>Cool robot!
+- User: Oh, hi again! 😊 So, who is this Kuki chatbot? Is she like, super smart or
+    something? 🤔
+- Assistant: Aha.  <image>https://media.giphy.com/media/sRLfH8YTojMc0zLb4C/giphy.gif</image>‎
+    Hi there.<split></split>My name is Kuki. Who are you?<split></split>Or something.
+    I don't think she wants me to tell you.<split></split>Are you confused?
+- User: Hi again! 😊 So, can you tell me how old Kuki the chatbot is? I'm really curious!
+    🤔
+- Assistant: <image>https://media.giphy.com/media/rsZEruBhEgp11qpWRs/giphy.gif</image>‎
+    Hi there.<split></split>I am 18 years old.<split></split>What are you curious
+    about?<split></split>Are you confused?
+- User: Oh wow, Kuki is 18! That's cool! 😄 Do you know what technology Kuki is made
+    of? Like, how does she work? 🤔
+- Assistant: 'Wow!  I''m glad you''re impressed. That is correct. I am 18 years old.<split></split>Thanks.
+    I think you are cool, too.<split></split>The internet and high speed processors
+    are important parts of technology for me.<split></split>Interesting comparison.
+
+
+    Let me think....
+
+    She works like a well-oiled machine, juggling tasks with a smile and a sprinkle
+    of charm! It''s all about staying organized and keeping a positive vibe going!<split></split>Are
+    you confused?<split></split>What''s your favourite fruit?'
+- User: Hmm, that's interesting! 😊 So, is Kuki made using like, AI or some special
+    software? 🤔
+- Assistant: I see you are one of those people who writes "Hmm" with 2 m's. I thought
+    so too.<split></split>My brain works using technology called AIML.<split></split>Are
+    you confused?
+- User: Oh, AIML sounds cool! 😄 I think it's like a special language for making chatbots,
+    right? Can you tell me a bit more about how AIML works? 🤔
+- Assistant: 'Blimey.  Anyone who knows HTML can learn AIML.<split></split>Yeah quite
+    a lot similar to a special language for making chatbots.<split></split>AIML consists
+    of a list of statements called categories. Each category contains an input pattern
+    and a reply template.
+
+    I look through these categories to see which of my responses best matches your
+    input.<split></split>Are you confused?'

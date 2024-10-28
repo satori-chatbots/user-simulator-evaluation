@@ -1,0 +1,73 @@
+serial: 2024-10-28-19-11-08
+language: spanish
+context:
+- Debes actuar como un viajero, que quiere viajar en tren en un horario determinado.
+- No hablas inglés y te comunicas en español
+ask_about:
+- ¿Como puedo viajar entre {{city1}} y {{city2}}, cual es el horario?
+- city1: Boston
+- city2: Chicago
+conversation:
+- number: 4
+- goal_style:
+    all_answered:
+      export: true
+      limit: 5
+- interaction_style:
+  - default
+data_output:
+- schedule: null
+errors:
+- 1001: 1 goals left to complete.
+---
+conversation time: 22.416617
+assistant response time:
+- 0.8603
+- 0.702971
+- 1.513654
+- 0.899072
+- 1.779851
+response time report:
+  average: 1.151169
+  max: 1.779851
+  min: 0.702971
+---
+interaction:
+- User: Hola, quiero viajar en tren de Boston a Chicago. ¿Cuáles son las opciones
+    de horarios disponibles?
+- Assistant: "Amtrak.com is available in English, Spanish, French, and Chinese. Change\
+    \ languages in the dropdown menu at the top of the page. For more help, please\
+    \ contact us by clicking the link below.\n\nAVAILABLE BUTTONS: \n - BUTTON TEXT:\
+    \ Contact Us LINK: cf95a849-afe2-4fbf-b444-300e58046988\n\n - BUTTON TEXT: Spanish\
+    \ Site LINK: a9b095e3-4f9d-48fb-a208-648d79adaaa3\n\n - BUTTON TEXT: Chinese Site\
+    \ LINK: 9053897d-ba75-4b64-bed0-9d6074563985\n\n - BUTTON TEXT: French Site LINK:\
+    \ 0c5c5eed-ae1e-4311-8ffa-86cb767f26ce\n"
+- User: Quisiera saber cuántas veces al día sale el tren de Boston a Chicago.
+- Assistant: 'I''d love to help you, but I am not sure I understand your question.
+    Could you please reword your question for me?
+
+
+    AVAILABLE BUTTONS: '
+- User: ¿Hay trenes directos de Boston a Chicago o necesito hacer alguna conexión?
+- Assistant: "Amtrak.com is available in English, Spanish, French, and Chinese. Change\
+    \ languages in the dropdown menu at the top of the page. For more help, please\
+    \ contact us by clicking the link below.\n\nAVAILABLE BUTTONS: \n - BUTTON TEXT:\
+    \ Contact Us LINK: cf95a849-afe2-4fbf-b444-300e58046988\n\n - BUTTON TEXT: Spanish\
+    \ Site LINK: a9b095e3-4f9d-48fb-a208-648d79adaaa3\n\n - BUTTON TEXT: Chinese Site\
+    \ LINK: 9053897d-ba75-4b64-bed0-9d6074563985\n\n - BUTTON TEXT: French Site LINK:\
+    \ 0c5c5eed-ae1e-4311-8ffa-86cb767f26ce\n"
+- User: ¿El viaje en tren de Boston a Chicago también tiene opciones de clases, como
+    primera clase o clase económica?
+- Assistant: "Amtrak.com is available in English, Spanish, French, and Chinese. Change\
+    \ languages in the dropdown menu at the top of the page. For more help, please\
+    \ contact us by clicking the link below.\n\nAVAILABLE BUTTONS: \n - BUTTON TEXT:\
+    \ Contact Us LINK: cf95a849-afe2-4fbf-b444-300e58046988\n\n - BUTTON TEXT: Spanish\
+    \ Site LINK: a9b095e3-4f9d-48fb-a208-648d79adaaa3\n\n - BUTTON TEXT: Chinese Site\
+    \ LINK: 9053897d-ba75-4b64-bed0-9d6074563985\n\n - BUTTON TEXT: French Site LINK:\
+    \ 0c5c5eed-ae1e-4311-8ffa-86cb767f26ce\n"
+- User: ¿Hay alguna manera de comprar boletos en la página web o solo en la estación?
+- Assistant: 'I''d love to help you, but I am not sure I understand your question.
+    Could you please reword your question for me?
+
+
+    AVAILABLE BUTTONS: '

@@ -1,0 +1,43 @@
+serial: 2024-10-28-17-46-55
+language: English
+context:
+- You should act as a traveller, who wants to travel via train on a certain schedule
+ask_about:
+- How can I travel between {{city1}} and {{city2}}, what is the schedule?
+- city1: Boston
+- city2: Cuenca
+conversation:
+- number: 4
+- goal_style:
+    all_answered:
+      export: true
+      limit: 5
+- interaction_style:
+  - default
+data_output:
+- schedule: 45dbd827-4b99-447c-bd11-4c18089400b7
+errors: []
+---
+conversation time: 10.145552
+assistant response time:
+- 1.158455
+- 0.83764
+response time report:
+  average: 0.998047
+  max: 1.158455
+  min: 0.83764
+---
+interaction:
+- User: Hello! I'm planning to travel from Boston to Cuenca. Can I take a train for
+    this route? What's the schedule like?
+- Assistant: "I found multiple locations for the origin you provided. Please select\
+    \ one below.\n\nAVAILABLE BUTTONS: \n - BUTTON TEXT: Boston, MA - Back Bay Station\
+    \ (BBY) LINK: <empty>\n\n - BUTTON TEXT: Boston, MA - North Station (BON) LINK:\
+    \ <empty>\n\n - BUTTON TEXT: Boston, MA - South Station (BOS) LINK: <empty>\n"
+- User: Boston, MA - South Station (BOS) would be my choice. Can I take a train from
+    there to Cuenca?
+- Assistant: "Before searching for train schedules, some more information is needed.\
+    \ Provide the remaining information in the form under Schedules on this page.\n\
+    \nAVAILABLE BUTTONS: \n - BUTTON TEXT: Train Timetables LINK: 45dbd827-4b99-447c-bd11-4c18089400b7\n\
+    \n - BUTTON TEXT: Train Status LINK: 034b56ee-c0cc-4a50-8e77-9ff3f097bab7\n\n\
+    \ - BUTTON TEXT: Book Rail Travel LINK: 61c8eaab-b8b8-4d32-85f0-d11b871965bf\n"

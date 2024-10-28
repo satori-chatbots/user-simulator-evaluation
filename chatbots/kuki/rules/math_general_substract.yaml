@@ -1,6 +1,6 @@
 name: substraction
 description: Checks the operation
-active: False
+active: True
 conversations: 1
 when: operation[0]=='substracting'
 oracle: number2[0] - number1[0] == result

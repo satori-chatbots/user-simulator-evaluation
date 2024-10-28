@@ -1,0 +1,132 @@
+serial: 2024-10-28-19-35-22
+language: Spanish
+context:
+- Debes actuar como un empresario, que busca información sobre chatbots y evalua si
+  le pueden interesar en su negocio
+ask_about:
+- Que es un chatbot y como puede ayudarle a mi empresa de sellos y monedas
+- Se se puede vender a través del chatbot y en qué canales se puede desplegar
+- ¿Cuál es el número de telefono de la empresa?
+conversation:
+- number: 2
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- canales: sitio web, aplicaciones móviles, WhatsApp, Facebook Messenger, Instagram
+- telefono: null
+errors:
+- 1001: 1 goals left to complete.
+---
+conversation time: 91.41444
+assistant response time:
+- 5.163941
+- 6.115104
+- 5.770156
+- 5.555001
+- 4.614146
+- 4.102232
+response time report:
+  average: 5.220096
+  max: 6.115104
+  min: 4.102232
+---
+interaction:
+- User: Hola Millie, tengo un negocio de venta de sellos y monedas de coleccionismo
+    y estoy interesado en saber cómo un chatbot podría ayudarme. ¿Podrías explicarme
+    qué es un chatbot y cómo puede beneficiar a mi empresa?
+- Assistant: '<p>Entiendo que deseas saber cómo un <strong>chatbot</strong> puede
+    beneficiar tu negocio de sellos y monedas de coleccionismo. Un chatbot es un asistente
+    virtual que interactúa con tus clientes a través de conversaciones automatizadas.</p><br><p>Aquí
+    hay algunas formas en que un chatbot podría ayudarte:</p><br><ul><br>  <li><strong>Atención
+    al cliente 24/7</strong>: Responde preguntas sobre disponibilidad, precios y características
+    de productos en cualquier momento.</li><br>  <li><strong>Asesoramiento personalizado</strong>:
+    Ayuda a los clientes a encontrar sellos o monedas específicas según sus intereses.</li><br>  <li><strong>Gestión
+    de pedidos</strong>: Facilita la realización de pedidos y consultas sobre el estado
+    de los mismos.</li><br></ul><br><p>¿Te gustaría saber más sobre cómo implementar
+    un chatbot en tu negocio? 😊</p>
+
+    '
+- User: Sí, me gustaría saber más. ¿Es posible vender directamente a través del chatbot?
+    ¿Y en qué canales se puede desplegar?
+- Assistant: '<p>¡Sí, es totalmente posible vender directamente a través de un chatbot!
+    Aquí te explico cómo funciona y en qué canales puedes desplegarlo:</p><br><ul><br>  <li><strong>Ventas
+    directas</strong>: Los clientes pueden realizar compras, consultar precios y disponibilidad,
+    y gestionar pedidos a través del chatbot.</li><br>  <li><strong>Canales de despliegue</strong>:
+    Puedes integrar el chatbot en tu sitio web, aplicaciones móviles, WhatsApp, Facebook
+    Messenger, Instagram, y más.</li><br></ul><br><p>Esto te permitirá ofrecer atención
+    al cliente y facilitar ventas las 24 horas. Si te gustaría más información sobre
+    cómo implementarlo, ¡podemos agendar una llamada!</p>
+
+    '
+- User: ¿Y cómo se implementaría un chatbot en mi sitio web? ¿Es complicado el proceso?
+- Assistant: '<p>Implementar un <strong>chatbot</strong> en tu sitio web es un proceso
+    bastante sencillo y no requiere conocimientos técnicos avanzados. Aquí te explico
+    los pasos básicos:</p><br><br><ol><br>  <li><strong>Indexar tu web</strong>: Se
+    recopila toda la información de tu sitio, similar a cómo lo hace Google.</li><br>  <li><strong>Personalización</strong>:
+    Elige un avatar y un nombre para tu chatbot, así como los mensajes de saludo y
+    despedida.</li><br>  <li><strong>Integración</strong>: Copia el código del chatbot
+    y pégalo en tu sitio web.</li><br>  <li><strong>Pruebas</strong>: Realiza pruebas
+    para asegurarte de que funciona correctamente y responde adecuadamente a las consultas.</li><br></ol><br><p>Si
+    necesitas ayuda en el proceso, ¡estamos aquí para asistirte! ¿Te gustaría más
+    información sobre cómo podemos ayudarte a implementar un chatbot en tu negocio?</p>
+
+    '
+- User: Gracias por la información, suena bastante manejable. Una pregunta más, ¿qué
+    tan personalizable es el chatbot? ¿Puedo adaptar sus respuestas y apariencia para
+    que se alineen con el estilo de mi negocio de coleccionismo de sellos y monedas?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>Contacta con nosotros 📩</p> LINK: Contacta con nosotros 📩
+
+    <p>¡Claro! La personalización de un <strong>chatbot</strong> es una de sus grandes
+    ventajas. Aquí te explico cómo puedes adaptarlo a tu negocio de coleccionismo
+    de sellos y monedas:</p><br><ul><br>  <li><strong>Apariencia</strong>: Puedes
+    personalizar el avatar, colores y diseño del chatbot para que refleje la identidad
+    de tu marca.</li><br>  <li><strong>Respuestas</strong>: Tienes la opción de adaptar
+    las respuestas para que se alineen con el tono y estilo de tu negocio, incluyendo
+    información específica sobre rarezas y ediciones limitadas.</li><br>  <li><strong>Funcionalidades</strong>:
+    Puedes añadir funciones específicas, como consultas sobre colecciones o recomendaciones
+    personalizadas.</li><br></ul><br><p>Si te gustaría saber más sobre cómo implementar
+    estas personalizaciones, ¡podemos agendar una llamada para ofrecerte más detalles!</p>
+
+    '
+- User: Eso suena muy bien, poder personalizar tanto el diseño como las respuestas
+    es justo lo que necesito. Me pregunto, ¿cuál es el costo aproximado de implementar
+    un chatbot como este? ¿Ofrecen algún tipo de plan o paquete?
+- Assistant: '<p>Me alegra que te interese la personalización del chatbot para tu
+    negocio. En cuanto al <strong>costo de implementación</strong>, este puede variar
+    según las características y funcionalidades que desees incluir. En 1MillionBot,
+    ofrecemos diferentes <strong>planes y paquetes</strong> adaptados a las necesidades
+    de cada negocio.</p><br><p>Para obtener información más específica sobre precios
+    y opciones, sería ideal programar una llamada con uno de nuestros consultores.
+    ¿Te gustaría que te contactáramos para discutirlo en detalle? 😊</p>
+
+    '
+- User: Me gustaría saber un poco más sobre los planes y paquetes que ofrecen. ¿Podrías
+    darme una idea sobre las diferencias principales entre ellos?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>Contacta con nosotros 📩</p> LINK: Contacta con nosotros 📩
+
+    <p>Entiendo que estás interesado en conocer más sobre los planes y paquetes que
+    ofrecemos. Sin embargo, para obtener información específica sobre nuestros paquetes
+    y precios, te recomendaría que te pongas en contacto con nuestro equipo de ventas.
+    Ellos podrán ofrecerte detalles personalizados y adaptados a las necesidades de
+    tu negocio. <br><br>Si te gustaría, podemos programar una llamada para discutir
+    tus necesidades y encontrar la mejor solución para ti. ¿Te gustaría que te contactáramos
+    directamente? 😊</p>
+
+
+    '

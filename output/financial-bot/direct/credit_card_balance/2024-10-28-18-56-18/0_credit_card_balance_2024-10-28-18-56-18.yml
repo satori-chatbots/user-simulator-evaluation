@@ -1,0 +1,140 @@
+serial: 2024-10-28-18-56-18
+language: English
+context:
+- your name is John Doe
+ask_about:
+- the credit left in the credit card (and the balance on the bank account is not what
+  you want)
+conversation:
+- number: 1
+- goal_style:
+    all_answered:
+      export: false
+      limit: 20
+- interaction_style:
+  - default
+data_output:
+- credit: null
+errors:
+- 1001: 1 goals left to complete.
+---
+conversation time: 55.240754
+assistant response time:
+- 1.060358
+- 0.061539
+- 0.077552
+- 0.115693
+- 0.056791
+- 0.056561
+- 0.105521
+- 0.132102
+- 0.112373
+- 0.105084
+- 0.156965
+- 0.118701
+- 0.125553
+- 0.146388
+- 0.141471
+- 0.175662
+- 0.152291
+- 0.181214
+- 0.15773
+- 0.141629
+response time report:
+  average: 0.169058
+  max: 1.060358
+  min: 0.056561
+---
+interaction:
+- User: Hi, I need to know how much credit I have left on my credit card. Can you
+    tell me?
+- Assistant: 'The current balance for your Iron Bank account is $412.75.
+
+    The current balance for your Credit All account is $36.56.
+
+    The current balance for your Emblem account is $108.84.
+
+    The current balance for your Justice Bank account is $119.37.'
+- User: I need to know the credit left, not the balance. Is it more than $500?
+- Assistant: 'The current balance for your Iron Bank account is $412.75.
+
+    The current balance for your Credit All account is $36.56.
+
+    The current balance for your Emblem account is $108.84.
+
+    The current balance for your Justice Bank account is $119.37.'
+- User: Is there a way to see the credit limits for these cards instead?
+- Assistant: Would you like to continue the transaction search?
+- User: What are the credit limits for these cards?
+- Assistant: 'I didn''t quite understand that. Could you rephrase?
+
+    Would you like to continue the transaction search?'
+- User: What's the credit limit for the Iron Bank card?
+- Assistant: Would you like to continue the transaction search?
+- User: How can I find out the credit limit for the Iron Bank card?
+- Assistant: Would you like to continue the transaction search?
+- User: Is there a way to get the credit limit information directly?
+- Assistant: 'You''re welcome :)
+
+    Would you like to continue the transaction search?'
+- User: Is there an option to speak with a representative for help with the credit
+    limits?
+- Assistant: 'I didn''t quite understand that. Could you rephrase?
+
+    Would you like to continue the transaction search?'
+- User: Is there a number I can call to talk to someone about my credit limits?
+- Assistant: 'You are entitled to six transfers within a statement cycle before being
+    charged. For subsequent transfers you will be charged $10 per transaction.
+
+    Would you like to continue the transaction search?'
+- User: Can you check if there's an option to chat with a representative online?
+- Assistant: 'I didn''t quite understand that. Could you rephrase?
+
+    Would you like to continue the transaction search?'
+- User: Is there a way to chat with a representative online?
+- Assistant: 'You are entitled to six transfers within a statement cycle before being
+    charged. For subsequent transfers you will be charged $10 per transaction.
+
+    Would you like to continue the transaction search?'
+- User: Do you know if there's a FAQ section on the website for credit limit info?
+- Assistant: 'I didn''t quite understand that. Could you rephrase?
+
+    Would you like to continue the transaction search?'
+- User: Is there a FAQ section on the website where I can find credit limit information?
+- Assistant: 'I didn''t quite understand that. Could you rephrase?
+
+    Would you like to continue the transaction search?'
+- User: Is there a way to see the credit limit information in a FAQ section on the
+    website?
+- Assistant: 'I didn''t quite understand that. Could you rephrase?
+
+    Would you like to continue the transaction search?'
+- User: Is there a mobile app that might have the credit limit info?
+- Assistant: 'The current balance for your Iron Bank account is $412.75.
+
+    The current balance for your Credit All account is $36.56.
+
+    The current balance for your Emblem account is $108.84.
+
+    The current balance for your Justice Bank account is $119.37.
+
+    Would you like to continue the transaction search?'
+- User: Is there a mobile app that could show my credit card limits?
+- Assistant: 'I didn''t quite understand that. Could you rephrase?
+
+    Would you like to continue the transaction search?'
+- User: Is there an app where I can see my credit card limits?
+- Assistant: 'I didn''t quite understand that. Could you rephrase?
+
+    Would you like to continue the transaction search?'
+- User: Is there a way to check my credit card limits using an app?
+- Assistant: 'Sorry, that is not a valid credit card account to make payments towards.
+
+    Sorry, I don''t understand that payment amount.
+
+    Would you like to continue scheduling the credit card payment?'
+- User: Can you tell me how to make a payment to my credit card using the app?
+- Assistant: We haven't completed the credit card payment yet. Are you sure you want
+    to switch to credit card payment?
+- User: Can I pay my credit card bill directly through the app?
+- Assistant: I didn't quite understand that. Could you rephrase?

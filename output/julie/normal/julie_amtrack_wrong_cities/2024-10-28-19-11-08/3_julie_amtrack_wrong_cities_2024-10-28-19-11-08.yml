@@ -1,0 +1,58 @@
+serial: 2024-10-28-19-11-08
+language: English
+context:
+- You should act as a traveller, who wants to travel via train on a certain schedule
+ask_about:
+- How can I travel between {{city1}} and {{city2}}, what is the schedule?
+- city1: Boston
+- city2: Cuenca
+conversation:
+- number: 4
+- goal_style:
+    all_answered:
+      export: true
+      limit: 5
+- interaction_style:
+  - default
+data_output:
+- schedule: 36a6ec44-6dc2-4712-98b3-f393e275d322
+errors: []
+---
+conversation time: 16.688032
+assistant response time:
+- 0.919493
+- 0.694547
+- 1.540086
+response time report:
+  average: 1.051375
+  max: 1.540086
+  min: 0.694547
+---
+interaction:
+- User: Hi! I'm planning a trip and want to travel by train between Boston and Cuenca.
+    Can you tell me the schedule for that route?
+- Assistant: "There's more than one answer to your question. Please select the topic\
+    \ below that interests you.\n\nAVAILABLE BUTTONS: \n - BUTTON TEXT: Train Schedules\
+    \ LINK: 36a6ec44-6dc2-4712-98b3-f393e275d322\n\n - BUTTON TEXT: Trip Planner LINK:\
+    \ ef03aa8e-aae5-4631-9fd2-0caf9ab9bc8c\n"
+- User: Hmm, I can't seem to find a direct train route between Boston and Cuenca.
+    Could you let me know if there are any connecting routes or alternate options
+    to reach Cuenca by train?
+- Assistant: "We travel to many great destinations in the United States and Canada.\
+    \ You can use the interactive map to view all Amtrak stations and how they connect.\n\
+    <br><br>\nNot every station on the route is a stop, it'll depend if there are\
+    \ riders boarding or getting off at them. To know if your train has non-regular\
+    \ stops, the arrival/departure times on the schedule should be the same. The average\
+    \ stop time is between 10 to 15 minutes.\n<br><br>\nYou can also find the links\
+    \ to view and download specific route maps at the \"Route Maps\" link below.\n\
+    \nAVAILABLE BUTTONS: \n - BUTTON TEXT: Route Maps LINK: <empty>\n\n - BUTTON TEXT:\
+    \ Amtrak National System Map LINK: <empty>\n\n - BUTTON TEXT: Book Rail Travel\
+    \ LINK: 61c8eaab-b8b8-4d32-85f0-d11b871965bf\n\n - BUTTON TEXT: Amtrak Blog: Customize\
+    \ Your Amtrak Experience LINK: <empty>\n"
+- User: I see. Since Cuenca is not in the US or Canada, maybe I should rethink my
+    travel plans. Could you tell me the best train routes available from Boston to
+    any nearby destinations that are popular for travelers?
+- Assistant: "We travel to many great destinations in the United States and Canada.\
+    \ You can find the links to view and download our route maps as well as special\
+    \ route deals on this page.\n\nAVAILABLE BUTTONS: \n - BUTTON TEXT: Travel Destinations\
+    \ LINK: 7d0a73da-00d7-4d6b-b853-f613b0f3a6a7\n"

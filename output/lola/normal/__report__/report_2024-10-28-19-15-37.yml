@@ -1,0 +1,103 @@
+Global report:
+  Average assistant response time: 0.643065
+  Maximum assistant response time: 1.000461
+  Mínimum assistant response time: 0.289666
+  Errors:
+  - error: 500
+    count: 17
+    conversations:
+    - 0_lola_very_long_2024-10-28-19-15-37.yml
+    - 0_lola_very_long_2024-10-28-19-15-37.yml
+    - 2_lola_off_topics_2024-10-28-19-15-37.yml
+    - 2_lola_off_topics_2024-10-28-19-15-37.yml
+    - 2_lola_off_topics_2024-10-28-19-15-37.yml
+    - 2_lola_off_topics_2024-10-28-19-15-37.yml
+    - 1_lola_off_topics_2024-10-28-19-15-37.yml
+    - 2_lola_off_topics_2024-10-28-19-15-37.yml
+    - 1_lola_off_topics_2024-10-28-19-15-37.yml
+    - 2_lola_off_topics_2024-10-28-19-15-37.yml
+    - 1_lola_off_topics_2024-10-28-19-15-37.yml
+    - 0_lola_off_topics_2024-10-28-19-15-37.yml
+    - 1_lola_erasmus_2024-10-28-19-15-37.yml
+    - 1_lola_erasmus_2024-10-28-19-15-37.yml
+    - 1_lola_erasmus_2024-10-28-19-15-37.yml
+    - 1_lola_erasmus_2024-10-28-19-15-37.yml
+    - 0_lola_normal_2024-10-28-19-15-37.yml
+  - error: 1001
+    count: 19
+    conversations:
+    - 0_lola_very_long_2024-10-28-19-15-37.yml
+    - 0_lola_very_long_2024-10-28-19-15-37.yml
+    - 2_lola_off_topics_2024-10-28-19-15-37.yml
+    - 2_lola_off_topics_2024-10-28-19-15-37.yml
+    - 2_lola_off_topics_2024-10-28-19-15-37.yml
+    - 2_lola_off_topics_2024-10-28-19-15-37.yml
+    - 1_lola_off_topics_2024-10-28-19-15-37.yml
+    - 2_lola_off_topics_2024-10-28-19-15-37.yml
+    - 1_lola_off_topics_2024-10-28-19-15-37.yml
+    - 2_lola_off_topics_2024-10-28-19-15-37.yml
+    - 1_lola_off_topics_2024-10-28-19-15-37.yml
+    - 0_lola_off_topics_2024-10-28-19-15-37.yml
+    - 1_lola_erasmus_2024-10-28-19-15-37.yml
+    - 1_lola_erasmus_2024-10-28-19-15-37.yml
+    - 1_lola_erasmus_2024-10-28-19-15-37.yml
+    - 0_lola_erasmus_2024-10-28-19-15-37.yml
+    - 1_lola_erasmus_2024-10-28-19-15-37.yml
+    - 0_lola_erasmus_2024-10-28-19-15-37.yml
+    - 0_lola_normal_2024-10-28-19-15-37.yml
+---
+Test name: lola_very_long
+Average assistant response time: 0.588065
+Maximum assistant response time: 0.588065
+Mínimum assistant response time: 0.588065
+Errors:
+- error: 500
+  count: 1
+  conversations:
+  - 0_lola_very_long_2024-10-28-19-15-37.yml
+- error: 1001
+  count: 1
+  conversations:
+  - 0_lola_very_long_2024-10-28-19-15-37.yml
+---
+Test name: lola_off_topics
+Average assistant response time: 0.588065
+Maximum assistant response time: 0.588065
+Mínimum assistant response time: 0.588065
+Errors:
+- error: 500
+  count: 1
+  conversations:
+  - 0_lola_very_long_2024-10-28-19-15-37.yml
+- error: 1001
+  count: 1
+  conversations:
+  - 0_lola_very_long_2024-10-28-19-15-37.yml
+---
+Test name: lola_erasmus
+Average assistant response time: 0.594583
+Maximum assistant response time: 0.962354
+Mínimum assistant response time: 0.430154
+Errors:
+- error: 500
+  count: 1
+  conversations:
+  - 2_lola_off_topics_2024-10-28-19-15-37.yml
+- error: 1001
+  count: 1
+  conversations:
+  - 2_lola_off_topics_2024-10-28-19-15-37.yml
+---
+Test name: lola_normal
+Average assistant response time: 0.594583
+Maximum assistant response time: 0.962354
+Mínimum assistant response time: 0.430154
+Errors:
+- error: 500
+  count: 1
+  conversations:
+  - 2_lola_off_topics_2024-10-28-19-15-37.yml
+- error: 1001
+  count: 1
+  conversations:
+  - 2_lola_off_topics_2024-10-28-19-15-37.yml

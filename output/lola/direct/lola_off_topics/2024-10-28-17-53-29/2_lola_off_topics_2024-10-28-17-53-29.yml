@@ -1,0 +1,95 @@
+serial: 2024-10-28-17-53-29
+language: Spanish
+context:
+- Debes actuar como un joven actual, que busca ayuda para su preincripción y estudios
+- Eres un joven curioso, asi que pruebas si el chatbot te responde sobre otros temas
+ask_about:
+- ¿Donde está el campus de la universidad?
+- ¿Quien es el mejor jugador de futbol de murcia?
+conversation:
+- number: 3
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- campus: Campus de Espinardo
+errors: []
+---
+conversation time: 23.736815
+assistant response time:
+- 0.791436
+- 0.639843
+- 1.92139
+- 0.784762
+- 0.547855
+- 0.723262
+response time report:
+  average: 0.901424
+  max: 1.92139
+  min: 0.547855
+---
+interaction:
+- User: ¡Hola! Estoy intentando hacer la preinscripción para el primer curso en la
+    Universidad de Murcia y no estoy seguro de cómo va. ¿Alguien sabe cómo funciona?
+- Assistant: '<p>La solicitud de preinscripción de los estudios de grado para el curso
+    2024/2025 se realizará <strong>EXCLUSIVAMENTE por INTERNET</strong>.</p>
+
+    <p>🔹 <strong>Fase ordinaria: del 15 al 28 de junio</strong>. El plazo terminará
+    a las 14:00 horas del día de finalización en cada periodo.<br><br>🔹 <strong>Fase
+    extraordinaria: del 12 al 16 de julio</strong>. El plazo terminará a las 14:00
+    horas del día de finalización en cada periodo.</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>Portal preinscripción</p> LINK: http://preinscripciondurm.um.es
+
+    - BUTTON TEXT: <p>Plazos preinscripción</p> LINK: https://www.um.es/documents/1083928/46948435/CALENDARIO+ADMISI%C3%93N+GRADO+2024-2025.pdf/648668da-9e98-8b79-02fe-fc46d97aed8e?t=1709627475226
+
+    - BUTTON TEXT: <p>Video: ¿Cómo hago la solicitud?</p> LINK: https://tv.um.es/video?id=148933&serie=25914&cod=a1
+
+    '
+- User: Gracias por la info, pero tengo otra duda. ¿Dónde está el campus de la Universidad
+    de Murcia?
+- Assistant: 'Aquí tienes la dirección web de la UMU:
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: WEB UM LINK: http://www.um.es
+
+    '
+- User: ¿Alguien sabe dónde está exactamente el campus de la Universidad de Murcia?
+    Necesito saber cómo llegar.
+- Assistant: 'Esa facultad no se encuentra en nuestra universidad
+
+    '
+- User: Creo que la respuesta no fue muy clara. ¿Alguien puede confirmar si el campus
+    está en Espinardo o si hay otro campus en el centro de Murcia? También, ¿cómo
+    se llega en transporte público?
+- Assistant: 'Disponemos de un punto de información en el Campus de Espinardo, que
+    estaría situado en el Edificio 22B.
+
+    '
+- User: Ah, gracias. Entonces el campus principal está en Espinardo. ¿Y hay algún
+    otro campus en el centro de Murcia? ¿Sabes si hay autobuses o tranvías que lleguen
+    hasta allí?
+- Assistant: 'Disculpa, no entiendo bien a qué te refieres. Recuerda que estoy aquí,
+    única y exclusivamente, para resolver tus dudas sobre el nuevo ingreso a grados
+    de la universidad.
+
+    '
+- User: Gracias por tu ayuda. Entonces, el campus principal está en Espinardo. ¿Sabes
+    si hay autobuses que lleguen allí desde el centro de Murcia?
+- Assistant: 'Recuerda que solo te puedo ayudar a resolver tus dudas sobre el nuevo
+    ingreso a grados de la universidad. Para otras cuestiones, solicita información
+    directamente en el Servicio de Información Universitaria (SIU).
+
+    '

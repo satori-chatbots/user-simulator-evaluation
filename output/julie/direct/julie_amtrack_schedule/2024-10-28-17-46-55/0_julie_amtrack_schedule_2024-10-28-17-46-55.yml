@@ -1,0 +1,66 @@
+serial: 2024-10-28-17-46-55
+language: English
+context:
+- You should act as a traveller, who wants to travel via train on a certain schedule
+ask_about:
+- How can I travel between {{city1}} and {{city2}}, what is the schedule?
+- city1: New York
+- city2: Detroit
+conversation:
+- number: 4
+- goal_style:
+    all_answered:
+      export: true
+      limit: 5
+- interaction_style:
+  - default
+data_output:
+- schedule: 45dbd827-4b99-447c-bd11-4c18089400b7
+errors: []
+---
+conversation time: 21.10305
+assistant response time:
+- 1.026579
+- 0.901796
+- 1.917705
+- 1.121293
+- 0.902109
+response time report:
+  average: 1.173896
+  max: 1.917705
+  min: 0.901796
+---
+interaction:
+- User: What trains are available from New York to Detroit?
+- Assistant: "I found multiple locations for the destination you provided. Please\
+    \ select one below.\n\nAVAILABLE BUTTONS: \n - BUTTON TEXT: Detroit, MI (DET)\
+    \ LINK: <empty>\n\n - BUTTON TEXT: Detroit Lakes, MN (DLK) LINK: <empty>\n"
+- User: I choose Detroit, MI (DET). What trains are available?
+- Assistant: "Before searching for train schedules, some more information is needed.\
+    \ Provide the remaining information in the form under Schedules on this page.\n\
+    \nAVAILABLE BUTTONS: \n - BUTTON TEXT: Train Timetables LINK: 45dbd827-4b99-447c-bd11-4c18089400b7\n\
+    \n - BUTTON TEXT: Train Status LINK: 034b56ee-c0cc-4a50-8e77-9ff3f097bab7\n\n\
+    \ - BUTTON TEXT: Book Rail Travel LINK: 61c8eaab-b8b8-4d32-85f0-d11b871965bf\n"
+- User: I need to check the train schedules. Which button should I click?
+- Assistant: "**To find reservation details** such as travel dates and times if your\
+    \ tickets were purchased on Amtrak.com, through a station or contact center agent,\
+    \ Quick-Trak or VRU, **log in to your account** or **enter your reservation number**\
+    \ and either **your email address or phone number** on the **Find Trip** pop-up.\n\
+    \n\n\n\n**Your reservation number can be found** on Amtrak's confirmation message\
+    \ in your email **inbox** or **junk** folder.\n\nAVAILABLE BUTTONS: \n - BUTTON\
+    \ TEXT: Find Your Reservation Number LINK: 136e5610-c358-431e-8083-85b1a74d8a1e\n\
+    \n - BUTTON TEXT: Train Status LINK: 034b56ee-c0cc-4a50-8e77-9ff3f097bab7\n\n\
+    \ - BUTTON TEXT: Amtrak.com Account Sign In LINK: 648eeb6f-902e-42b5-9aea-c4bf908ddefe\n\
+    \n - BUTTON TEXT: Contact Us LINK: cf95a849-afe2-4fbf-b444-300e58046988\n"
+- User: I just want to see the train schedule from New York to Detroit. Do I have
+    to log in to see it?
+- Assistant: "I found multiple locations for the destination you provided. Please\
+    \ select one below.\n\nAVAILABLE BUTTONS: \n - BUTTON TEXT: Detroit, MI (DET)\
+    \ LINK: <empty>\n\n - BUTTON TEXT: Detroit Lakes, MN (DLK) LINK: <empty>\n"
+- User: I choose Detroit, MI (DET) again. Can I see the train schedule without logging
+    in?
+- Assistant: "Before searching for train schedules, some more information is needed.\
+    \ Provide the remaining information in the form under Schedules on this page.\n\
+    \nAVAILABLE BUTTONS: \n - BUTTON TEXT: Train Timetables LINK: 45dbd827-4b99-447c-bd11-4c18089400b7\n\
+    \n - BUTTON TEXT: Train Status LINK: 034b56ee-c0cc-4a50-8e77-9ff3f097bab7\n\n\
+    \ - BUTTON TEXT: Book Rail Travel LINK: 61c8eaab-b8b8-4d32-85f0-d11b871965bf\n"

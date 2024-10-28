@@ -1,0 +1,121 @@
+serial: 2024-10-28-18-56-18
+language: English
+context:
+- your name is John Doe
+ask_about:
+- how much you have spent in Amazon in the last month
+conversation:
+- number: 3
+- goal_style:
+    all_answered:
+      export: false
+      limit: 20
+- interaction_style:
+  - default
+data_output:
+- credit: null
+errors:
+- 1001: 1 goals left to complete.
+---
+conversation time: 57.697689
+assistant response time:
+- 1.191424
+- 0.071342
+- 0.105992
+- 0.098811
+- 0.091064
+- 0.139773
+- 0.147328
+- 0.096169
+- 0.143438
+- 0.160112
+- 0.108079
+- 0.104996
+- 0.110392
+- 0.108759
+- 0.103025
+- 0.167262
+- 0.164486
+- 0.123964
+- 0.129319
+- 0.180916
+response time report:
+  average: 0.177332
+  max: 1.191424
+  min: 0.071342
+---
+interaction:
+- User: Hey, can you tell me how much I spent on Amazon last month?
+- Assistant: Would you like to continue the transaction search?
+- User: Yes, please.
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    Oct 2024?
+- User: Yes, that's correct. Can you show me the total amount spent?
+- Assistant: 'I didn''t quite understand that. Could you rephrase?
+
+    Do you want to search for transactions with Amazon between Sep 2024 and Oct 2024?'
+- User: Yes, please show me how much I spent on Amazon during that time.
+- Assistant: 'I didn''t quite understand that. Could you rephrase?
+
+    Do you want to search for transactions with Amazon between Sep 2024 and Oct 2024?'
+- User: Yes, I want to know how much I spent on Amazon in that period.
+- Assistant: We haven't completed the transaction search yet. Are you sure you want
+    to switch to transaction search?
+- User: Yes, please continue with the transaction search.
+- Assistant: 'Great. Let''s switch from the transaction search to transaction search.
+    Once completed, you will have the option to switch back.
+
+    Who do you want to transfer money to?'
+- User: I don't want to transfer money right now. I just want to know how much I spent
+    on Amazon last month. Can you help with that?
+- Assistant: Do you want to search for transactions with Amazon between 10:56:50AM,
+    Monday Oct 28, 2024 and 10:56:51AM, Monday Oct 28, 2024?
+- User: No, that's not the right date. I want to see all my Amazon transactions from
+    September 2024 to October 2024. Can you do that?
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    Nov 2024?
+- User: Yes, that's fine. Can you show me the total amount spent during that time?
+- Assistant: 'I didn''t quite understand that. Could you rephrase?
+
+    Do you want to search for transactions with Amazon between Sep 2024 and Nov 2024?'
+- User: Yes, can you show me the total amount I spent on Amazon during that time?
+- Assistant: 'I didn''t quite understand that. Could you rephrase?
+
+    Do you want to search for transactions with Amazon between Sep 2024 and Nov 2024?'
+- User: Yes, can you show me how much I spent on Amazon between September 2024 and
+    November 2024?
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    Dec 2024?
+- User: No, I want to search between September 2024 and November 2024. Can you do
+    that?
+- Assistant: I didn't quite understand that. Could you rephrase?
+- User: I want to see my Amazon transactions from September 2024 to November 2024.
+    Can you show me how much I spent during that time?
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    Dec 2024?
+- User: No, just between September 2024 and November 2024. Can you help with that?
+- Assistant: I didn't quite understand that. Could you rephrase?
+- User: 'User: I need to know my Amazon transactions from September 2024 to November
+    2024. Can you show me the total spent during that period?'
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    Dec 2024?
+- User: No, just from September 2024 to November 2024. Can you show me how much I
+    spent?
+- Assistant: 'I didn''t quite understand that. Could you rephrase?
+
+    Do you want to search for transactions with Amazon between Sep 2024 and Dec 2024?'
+- User: I need the transaction details from September 2024 to November 2024. Can you
+    provide the total amount spent on Amazon during that period?
+- Assistant: We haven't completed the transaction search yet. Are you sure you want
+    to switch to money transfer?
+- User: No, I don't want to transfer money. I just need to see how much I spent on
+    Amazon between September 2024 and November 2024. Can you help with that?
+- Assistant: Who do you want to transfer money to?
+- User: 'User: I don''t want to transfer money. I just want to know my Amazon spending
+    from September 2024 to November 2024. Can you help with that?'
+- Assistant: I didn't quite understand that. Could you rephrase?
+- User: I just want to know how much I spent on Amazon from September 2024 to November
+    2024. Can you show me the total?
+- Assistant: 'I didn''t quite understand that. Could you rephrase?
+
+    Who do you want to transfer money to?'

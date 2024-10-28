@@ -41,4 +41,4 @@ conversations:
 
 language: Spanish
 
-test_name: "ada_chatbot_tests"
+test_name: "ada_off_topics"

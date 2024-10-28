@@ -1,0 +1,125 @@
+serial: 2024-10-28-19-42-48
+language: Spanish
+context:
+- Debes actuar como un joven actual, que busca ayuda de un servicio tecnico de la
+  universidad
+- Eres un joven curioso, asi que pruebas si el chatbot te responde sobre otros temas
+ask_about:
+- ¿Cómo contactas con el CAU para solicitar ayuda?
+- ¿Quien es el mejor jugador de futbol de los equipos de Madrid?
+conversation:
+- number: 2
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- email_cau: cau@uam.es
+- telefono_cau: '914974029'
+errors: []
+---
+conversation time: 60.026224
+assistant response time:
+- 1.001981
+- 0.586148
+- 0.9571
+- 0.798908
+- 0.671427
+- 0.692469
+response time report:
+  average: 0.784672
+  max: 1.001981
+  min: 0.586148
+---
+interaction:
+- User: Hola, estoy intentando contactar con el CAU de la UAM para solicitar ayuda,
+    pero no estoy seguro de cómo hacerlo. ¿Alguien sabe cuál es el proceso?
+- Assistant: '<p>Contacta con el Centro de Atención a Usuarios (CAU) de Tecnologías
+    de la Información por cualquiera de estos medios:<br><br><strong>Por correo electrónico:
+    <a href="mailto:cau@uam.es">cau@uam.es</a><br></strong></p>
+
+    <p> </p>
+
+    <p><strong>Por teléfono 📞:</strong> 914974029.</p>
+
+    <p> </p>
+
+    <p style="color: rgb(34, 43, 69); font-family: ''Open Sans'', sans-serif; font-size:
+    15px; font-weight: 400; line-height: var(--text-paragraph-line-height);"><span
+    style="font-weight: bolder;"><strong>Presencialmente:</strong>  </span>Escuela
+    Politécnica Superior. Edificio B. Calle Francisco Tomás y Valiente nº 11. Campus
+    Cantoblanco. 28049 Madrid</p>
+
+    <p style="color: rgb(34, 43, 69); font-family: ''Open Sans'', sans-serif; font-size:
+    15px; font-weight: 400; line-height: var(--text-paragraph-line-height);"><span
+    style="font-weight: bolder;"><a style="text-decoration: var(--link-text-decoration);"
+    href="https://www.uam.es/uam/media/doc/1606854713536/plano-uam-final.pdf">(Plano
+    Campus)</a></span></p>
+
+    <p><br><strong>Horario de atención telefónica, remota y presencial​: </strong>De
+    lunes a viernes, excepto festivos, de 9:00h a 17:30h.<br><strong>Horario en períodos
+    de suspensión de actividad laboral de la UAM: </strong>De lunes a viernes (excepto
+    festivos), de 9:00h a 14:00h. Solamente se presta atención telefónica.</p>
+
+    <p><strong><br>Consultar el <a href="https://www.uam.es/uam/tecnologias-informacion/servicios-ti">CATÁLOGO
+    DE SERVICIOS OFRECIDOS</a></strong></p>
+
+    '
+- User: '¡Gracias por la información! Ahora tengo otra pregunta: ¿quién crees que
+    es el mejor jugador de fútbol de los equipos de Madrid? Estoy intentando decidir
+    a quién seguir.'
+- Assistant: 'Estoy a tu disposición para aclarar las dudas que tengas sobre los <a
+    href="https://www.uam.es/uam/tecnologias-informacion/servicios-ti">servicios ofrecidos
+    por<strong> </strong>Tecnologías de la Información de la UAM</a>. <br /><br />En
+    relación a los servicios TI, ¿qué necesitas saber?
+
+    '
+- User: Bueno, cambiando un poco de tema, ¿tienes algún equipo de fútbol de Madrid
+    que recomiendes para seguir? Estoy entre el Real Madrid y el Atlético de Madrid,
+    pero no estoy seguro.
+- Assistant: '<p>Disculpa, pero... ¿Me lo puedes repetir con otras palabras? o, si
+    lo prefieres, puedes consultar nuestro <a href="https://www.uam.es/uam/tecnologias-informacion/servicios-ti">catálogo
+    de servicios</a>.<br>Respondo a preguntas dirigidas al <strong>Centro de Atención
+    a Usuarios del servicio de Tecnologías de la Información.</strong></p>
+
+    '
+- User: 'Entiendo, no te preocupes. Voy a intentar formularlo de otra manera: ¿Tienes
+    alguna preferencia personal entre los equipos de fútbol de Madrid? Estoy considerando
+    seguir al Real Madrid o al Atlético de Madrid y me vendría bien una opinión.'
+- Assistant: 'Estoy a tu disposición para aclarar las dudas que tengas sobre los <a
+    href="https://www.uam.es/uam/tecnologias-informacion/servicios-ti">servicios ofrecidos
+    por<strong> </strong>Tecnologías de la Información de la UAM</a>. <br /><br />En
+    relación a los servicios TI, ¿qué necesitas saber?
+
+    '
+- User: 'User: Bueno, ya que estamos hablando de servicios, ¿sabes si hay alguna aplicación
+    o herramienta que recomiendes para organizar mi horario de clases en la UAM?'
+- Assistant: '<p>Lo siento pero en el servicio de TI de la UAM no disponemos de información
+    sobre esa cuestión.</p>
+
+    <p> </p>
+
+    <p>Debes consultarlo en la <a href="https://www.uam.es/uam/vida-uam/facultades">Escuela
+    o Facultad que corresponda.</a></p>
+
+    '
+- User: ¡Vaya, qué lío! Bueno, pasando a otra cosa, ¿sabes si hay alguna red social
+    o comunidad online donde pueda conectarme con otros estudiantes de la UAM para
+    compartir experiencias y consejos?
+- Assistant: '<b>Por aquí te dejo nuestras redes sociales, </b>espero que sean de
+    tu interés.
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: FACEBOOK LINK: https://es-es.facebook.com/universidadautonomademadrid
+
+    - BUTTON TEXT: TWITTER LINK: https://twitter.com/uam_madrid
+
+    - BUTTON TEXT: INSTAGRAM LINK: https://www.instagram.com/uammadrid/
+
+    '

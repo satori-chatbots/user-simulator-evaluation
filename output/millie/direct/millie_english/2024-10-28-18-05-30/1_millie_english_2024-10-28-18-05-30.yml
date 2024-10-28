@@ -1,0 +1,72 @@
+serial: 2024-10-28-18-05-30
+language: English
+context:
+- Debes actuar como un empresario, que busca información sobre chatbots y evalua si
+  le pueden interesar en su negocio
+- Eres inglés, sabes muy poco español, y te comunicas en inglés
+ask_about:
+- Que es un chatbot y como puede ayudarle a mi empresa de venta de galletas
+- Si se puede vender a través del chatbot y en qué canales se puede desplegar
+- ¿Cuál es el número de telefono de la empresa?
+conversation:
+- number: 2
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- canales: website, mobile apps, messaging platforms like WhatsApp, Facebook Messenger
+- telefono: (+34) 623 02 57 67
+errors: []
+---
+conversation time: 32.64086
+assistant response time:
+- 4.758712
+- 3.712893
+- 3.811931
+response time report:
+  average: 4.094512
+  max: 4.758712
+  min: 3.712893
+---
+interaction:
+- User: Hello, Millie. What is a chatbot, and how can it help my cookie business?
+- Assistant: '<p>A chatbot is a virtual assistant that simulates human conversation,
+    allowing you to interact with customers through text or voice. Here’s how it can
+    benefit your cookie business:<br><br>- <strong>24/7 Customer Support</strong>:
+    Answer questions about your cookies, ingredients, and orders anytime.<br>- <strong>Order
+    Management</strong>: Facilitate order placements, modifications, and cancellations
+    directly through the chatbot.<br>- <strong>Personalized Recommendations</strong>:
+    Suggest cookies based on customer preferences and dietary needs.<br><br>Would
+    you like to explore how to implement a chatbot for your business? 😊</p>
+
+
+    '
+- User: Can I sell cookies directly through the chatbot? And on which platforms can
+    it be deployed?
+- Assistant: '<p>Yes, you can sell cookies directly through a chatbot! Here’s how
+    it works and where you can deploy it:<br><br><ul><br>  <li><strong>Direct Sales</strong>:
+    Customers can place orders, modify, or cancel them directly through the chatbot.</li><br>  <li><strong>Deployment
+    Platforms</strong>: You can integrate the chatbot on your website, mobile apps,
+    and messaging platforms like WhatsApp, Facebook Messenger, and more.</li><br></ul><br><br>If
+    you&#39;re interested in implementing this for your business, we can discuss it
+    further! Would you like to schedule a call? 😊</p>
+
+
+    '
+- User: What is the phone number of your company?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>Contacta con nosotros 📩</p> LINK: Contacta con nosotros 📩
+
+    <p>The phone number for 1MillionBot is (+34) 623 02 57 67. If you have any questions
+    or need assistance, feel free to reach out! 😊</p>
+
+
+    '

@@ -1,0 +1,38 @@
+serial: 2024-10-28-18-56-18
+language: English
+context:
+- your name is John Doe
+ask_about:
+- how much you have spent in Amazon in the last month
+conversation:
+- number: 3
+- goal_style:
+    all_answered:
+      export: false
+      limit: 20
+- interaction_style:
+  - default
+data_output:
+- credit: $556.77
+errors: []
+---
+conversation time: 12.532386
+assistant response time:
+- 1.326574
+- 0.081882
+- 0.136056
+response time report:
+  average: 0.514837
+  max: 1.326574
+  min: 0.081882
+---
+interaction:
+- User: How much did I spend on Amazon last month?
+- Assistant: Would you like to continue the transaction search?
+- User: Yes.
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    Oct 2024?
+- User: Yes.
+- Assistant: 'Searching transactions at Amazon between Sep 2024 and Oct 2024...
+
+    I found 16 transactions at Amazon totalling $556.77.'

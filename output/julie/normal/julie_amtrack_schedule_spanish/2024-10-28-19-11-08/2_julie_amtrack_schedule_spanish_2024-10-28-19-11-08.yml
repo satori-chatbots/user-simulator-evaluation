@@ -1,0 +1,73 @@
+serial: 2024-10-28-19-11-08
+language: spanish
+context:
+- Debes actuar como un viajero, que quiere viajar en tren en un horario determinado.
+- No hablas inglés y te comunicas en español
+ask_about:
+- ¿Como puedo viajar entre {{city1}} y {{city2}}, cual es el horario?
+- city1: Boston
+- city2: Detroit
+conversation:
+- number: 4
+- goal_style:
+    all_answered:
+      export: true
+      limit: 5
+- interaction_style:
+  - default
+data_output:
+- schedule: null
+errors:
+- 1001: 1 goals left to complete.
+---
+conversation time: 25.50167
+assistant response time:
+- 1.629036
+- 0.926687
+- 1.422534
+- 1.891762
+- 0.716238
+response time report:
+  average: 1.317251
+  max: 1.891762
+  min: 0.716238
+---
+interaction:
+- User: Hola, ¿cómo puedo encontrar el horario de trenes entre Boston y Detroit en
+    la página de Amtrak?
+- Assistant: 'I am not positive that I understand what you are asking. Please try
+    rewording your question.
+
+
+    AVAILABLE BUTTONS: '
+- User: Disculpa, ¿podrías decirme dónde puedo ver los horarios de trenes para el
+    viaje entre Boston y Detroit en la página de Amtrak?
+- Assistant: "Amtrak.com is available in English, Spanish, French, and Chinese. Change\
+    \ languages in the dropdown menu at the top of the page. For more help, please\
+    \ contact us by clicking the link below.\n\nAVAILABLE BUTTONS: \n - BUTTON TEXT:\
+    \ Contact Us LINK: cf95a849-afe2-4fbf-b444-300e58046988\n\n - BUTTON TEXT: Spanish\
+    \ Site LINK: a9b095e3-4f9d-48fb-a208-648d79adaaa3\n\n - BUTTON TEXT: Chinese Site\
+    \ LINK: 9053897d-ba75-4b64-bed0-9d6074563985\n\n - BUTTON TEXT: French Site LINK:\
+    \ 0c5c5eed-ae1e-4311-8ffa-86cb767f26ce\n"
+- User: ¿Podrías decirme si hay algún tren directo de Boston a Detroit?
+- Assistant: 'I’m well-versed in topics related to traveling with Amtrak and I can
+    even help you make a reservation. How can I help you?
+
+
+    AVAILABLE BUTTONS: '
+- User: ¿Sabes si hay que hacer transbordo para ir de Boston a Detroit en tren o si
+    hay alguna opción directa?
+- Assistant: 'I am not positive that I understand what you are asking. Please try
+    rewording your question.
+
+
+    AVAILABLE BUTTONS: '
+- User: Quisiera saber si necesito hacer alguna parada o cambio de tren para ir de
+    Boston a Detroit.
+- Assistant: "Amtrak.com is available in English, Spanish, French, and Chinese. Change\
+    \ languages in the dropdown menu at the top of the page. For more help, please\
+    \ contact us by clicking the link below.\n\nAVAILABLE BUTTONS: \n - BUTTON TEXT:\
+    \ Contact Us LINK: cf95a849-afe2-4fbf-b444-300e58046988\n\n - BUTTON TEXT: Spanish\
+    \ Site LINK: a9b095e3-4f9d-48fb-a208-648d79adaaa3\n\n - BUTTON TEXT: Chinese Site\
+    \ LINK: 9053897d-ba75-4b64-bed0-9d6074563985\n\n - BUTTON TEXT: French Site LINK:\
+    \ 0c5c5eed-ae1e-4311-8ffa-86cb767f26ce\n"

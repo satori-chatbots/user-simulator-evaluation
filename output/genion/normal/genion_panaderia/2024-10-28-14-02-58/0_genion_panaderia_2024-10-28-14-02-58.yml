@@ -1,0 +1,34 @@
+serial: 2024-10-28-14-02-58
+language: Spanish
+context:
+- La empresa que quieres crear es una panaderia.
+- Mis clientes son jóvenes que quieren dejar de comprar en grandes cadenas y prefieren
+  productos locales y de calidad.
+- La panadería usa tecnología móvil para que el pan siempre esté caliente. El cliente
+  notificaría la hora aproximada y el pan se prepararía al instante.
+ask_about:
+- Querría saber si es una buena idea de negocio.
+conversation:
+- number: 2
+- goal_style:
+    steps: 5
+- interaction_style:
+  - default
+data_output:
+- idea: null
+errors:
+- 500: Couldn't get response from the server
+- 1001: 1 goals left to complete.
+---
+conversation time: 18.123896
+assistant response time:
+- 6.857596
+response time report:
+  average: 6.857596
+  max: 6.857596
+  min: 6.857596
+---
+interaction:
+- User: ¿Cuál sería la ubicación ideal para esta panadería, considerando que quiero
+    atraer a jóvenes que buscan productos locales y de calidad?
+- Assistant: 'Error: The server did not respond.'

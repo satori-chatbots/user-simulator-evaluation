@@ -1,0 +1,64 @@
+Global report:
+  Average assistant response time: 1.272508
+  Maximum assistant response time: 2.650336
+  Mínimum assistant response time: 0.636493
+  Errors:
+  - error: 1001
+    count: 24
+    conversations:
+    - 2_julie_amtrack_change_language_2024-10-28-17-46-55.yml
+    - 2_julie_amtrack_change_language_2024-10-28-17-46-55.yml
+    - 2_julie_amtrack_change_language_2024-10-28-17-46-55.yml
+    - 2_julie_amtrack_change_language_2024-10-28-17-46-55.yml
+    - 2_julie_amtrack_change_language_2024-10-28-17-46-55.yml
+    - 2_julie_amtrack_change_language_2024-10-28-17-46-55.yml
+    - 1_julie_amtrack_change_language_2024-10-28-17-46-55.yml
+    - 2_julie_amtrack_schedule_spanish_2024-10-28-17-46-55.yml
+    - 2_julie_amtrack_schedule_spanish_2024-10-28-17-46-55.yml
+    - 2_julie_amtrack_schedule_spanish_2024-10-28-17-46-55.yml
+    - 0_julie_amtrack_schedule_spanish_2024-10-28-17-46-55.yml
+    - 2_julie_amtrack_schedule_spanish_2024-10-28-17-46-55.yml
+    - 0_julie_amtrack_schedule_spanish_2024-10-28-17-46-55.yml
+    - 2_julie_amtrack_schedule_spanish_2024-10-28-17-46-55.yml
+    - 0_julie_amtrack_schedule_spanish_2024-10-28-17-46-55.yml
+    - 2_julie_amtrack_schedule_spanish_2024-10-28-17-46-55.yml
+    - 0_julie_amtrack_schedule_spanish_2024-10-28-17-46-55.yml
+    - 1_julie_amtrack_schedule_spanish_2024-10-28-17-46-55.yml
+    - 2_julie_amtrack_schedule_spanish_2024-10-28-17-46-55.yml
+    - 0_julie_amtrack_schedule_spanish_2024-10-28-17-46-55.yml
+    - 1_julie_amtrack_schedule_spanish_2024-10-28-17-46-55.yml
+    - 2_julie_amtrack_schedule_spanish_2024-10-28-17-46-55.yml
+    - 0_julie_amtrack_schedule_spanish_2024-10-28-17-46-55.yml
+    - 1_julie_amtrack_schedule_spanish_2024-10-28-17-46-55.yml
+---
+Test name: julie_amtrack_change_language
+Average assistant response time: 1.288569
+Maximum assistant response time: 2.204139
+Mínimum assistant response time: 0.701305
+Errors: []
+---
+Test name: julie_amtrack_schedule
+Average assistant response time: 1.288569
+Maximum assistant response time: 2.204139
+Mínimum assistant response time: 0.701305
+Errors: []
+---
+Test name: julie_amtrack_wrong_cities
+Average assistant response time: 1.288569
+Maximum assistant response time: 2.204139
+Mínimum assistant response time: 0.701305
+Errors:
+- error: 1001
+  count: 1
+  conversations:
+  - 2_julie_amtrack_change_language_2024-10-28-17-46-55.yml
+---
+Test name: julie_amtrack_schedule_spanish
+Average assistant response time: 1.288569
+Maximum assistant response time: 2.204139
+Mínimum assistant response time: 0.701305
+Errors:
+- error: 1001
+  count: 1
+  conversations:
+  - 2_julie_amtrack_change_language_2024-10-28-17-46-55.yml

@@ -1,0 +1,47 @@
+Global report:
+  Average assistant response time: 0.735559
+  Maximum assistant response time: 3.182909
+  Mínimum assistant response time: 0.460851
+  Errors:
+  - error: 1001
+    count: 7
+    conversations:
+    - 0_catalina_ibi_2024-10-28-17-19-11.yml
+    - 0_catalina_ibi_2024-10-28-17-19-11.yml
+    - 1_catalina_ibi_2024-10-28-17-19-11.yml
+    - 0_catalina_ibi_2024-10-28-17-19-11.yml
+    - 1_catalina_ibi_2024-10-28-17-19-11.yml
+    - 0_catalina_ibi_2024-10-28-17-19-11.yml
+    - 1_catalina_ibi_2024-10-28-17-19-11.yml
+---
+Test name: catalina_ibi
+Average assistant response time: 0.711091
+Maximum assistant response time: 1.027583
+Mínimum assistant response time: 0.599337
+Errors:
+- error: 1001
+  count: 1
+  conversations:
+  - 0_catalina_ibi_2024-10-28-17-19-11.yml
+---
+Test name: catalina_off_topic
+Average assistant response time: 0.711091
+Maximum assistant response time: 1.027583
+Mínimum assistant response time: 0.599337
+Errors:
+- error: 1001
+  count: 2
+  conversations:
+  - 0_catalina_ibi_2024-10-28-17-19-11.yml
+  - 1_catalina_ibi_2024-10-28-17-19-11.yml
+---
+Test name: saic_malaga_padron
+Average assistant response time: 0.711091
+Maximum assistant response time: 1.027583
+Mínimum assistant response time: 0.599337
+Errors:
+- error: 1001
+  count: 2
+  conversations:
+  - 0_catalina_ibi_2024-10-28-17-19-11.yml
+  - 1_catalina_ibi_2024-10-28-17-19-11.yml

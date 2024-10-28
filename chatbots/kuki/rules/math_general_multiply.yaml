@@ -1,6 +1,6 @@
-name: multiplication
+name: general_multiplication
 description: Checks the operation
-active: False
+active: True
 conversations: 1
 when: operation[0]=='multiplying'
 oracle: number1[0] * number2[0] == result

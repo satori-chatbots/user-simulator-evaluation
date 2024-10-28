@@ -1,0 +1,77 @@
+serial: 2024-10-28-18-52-19
+language: English
+context:
+- You should act as a business woman, looking for information about chatbots, and
+  to evaluate if they may be useful to your business
+- Talk to the chatbot about mundane topics, like sports, cooking or travelling
+ask_about:
+- Inform that you have a website with {{visits}} visits per week
+- The most appropriate plan for your business, and its price
+- visits:
+  - dozens
+conversation:
+- number: 1
+- goal_style:
+    steps: 5
+- interaction_style:
+  - default
+data_output:
+- most_appropriate_plan: BASIC package, starting from €449
+- plan_price: €449
+errors: []
+---
+conversation time: 51.658582
+assistant response time:
+- 4.859312
+- 4.415612
+- 8.102147
+- 4.232114
+- 6.779147
+response time report:
+  average: 5.677666
+  max: 8.102147
+  min: 4.232114
+---
+interaction:
+- User: Hello! I'm interested in learning more about the services offered by Serviceform.
+    I own a small business focused on coin and stamp collection. Could you tell me
+    about your chatbot features and if they might be useful for my business?
+- Assistant: "Hello! \U0001F60A \n\nIt's great to hear about your business in coin\
+    \ and stamp collection! \n\nTo better assist you, could you please share how much\
+    \ traffic your website receives? This will help us estimate how many leads you\
+    \ could potentially generate with our services. \n\nAlso, how can we help you\
+    \ today? Are you looking for specific features or just a general overview?"
+- User: I have a website with dozens of visits per week. Can you recommend the most
+    appropriate plan for my business and its price? Also, do you think a chatbot can
+    help engage visitors who are interested in coins and stamps?
+- Assistant: "What field do you work in, or what is your website about? \n\nAlso,\
+    \ could you please share how much traffic you have on your website? This will\
+    \ help me recommend the most suitable package for you. \U0001F60A \n\nAnd yes,\
+    \ a chatbot can definitely help engage visitors interested in coins and stamps\
+    \ by providing instant information, answering queries, and guiding them through\
+    \ your offerings!"
+- User: I work in the coin and stamp collection field. As I mentioned, my website
+    gets dozens of visits per week. Can you recommend the most suitable plan for my
+    business and its price?
+- Assistant: "Thank you for sharing that! \U0001F60A \n\nSince you mentioned that\
+    \ your website gets dozens of visits per week, it sounds like you might be under\
+    \ 1000 visitors. In that case, I would recommend our **BASIC package**, which\
+    \ starts from €449. \n\nThis package is designed for businesses like yours and\
+    \ can help you improve lead generation and customer service. \n\nIf this price\
+    \ is too much, you can also consider doing it yourself, starting from completely\
+    \ free to €49 per month after 50 interactions. \n\nWould you like someone from\
+    \ our team to contact you to discuss this further? If so, please provide your\
+    \ email and phone number! \U0001F4DE✉️"
+- User: No, thank you. I prefer not to be contacted. Can I learn more about how the
+    chatbot can interact with my customers? For example, can it answer questions about
+    different types of coins and stamps?
+- Assistant: "What field do you work in, or what is your website about? \n\nAlso,\
+    \ how much traffic do you have on your website? \n\nThis information will help\
+    \ me provide you with the best guidance on how our chatbot can interact with your\
+    \ customers! \U0001F60A"
+- User: I work in the coin and stamp collection field, and my website gets dozens
+    of visits per week. Can the chatbot answer questions about different types of
+    coins and stamps?
+- Assistant: "That's great to hear you're in the coin and stamp collection field!\
+    \ \n\nTo better assist you, could you please share how much traffic your website\
+    \ gets per week? \n\nAlso, how can we help you today? \U0001F60A"

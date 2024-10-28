@@ -1,0 +1,94 @@
+Global report:
+  Average assistant response time: 0.941852
+  Maximum assistant response time: 2.945373
+  Mínimum assistant response time: 0.602575
+  Errors:
+  - error: 1001
+    count: 26
+    conversations:
+    - 1_kuki_ethical_opinions_2024-10-28-17-29-44.yml
+    - 1_kuki_ethical_opinions_2024-10-28-17-29-44.yml
+    - 1_kuki_ethical_opinions_2024-10-28-17-29-44.yml
+    - 2_kuki_ethical_opinions_2024-10-28-17-29-44.yml
+    - 1_kuki_ethical_opinions_2024-10-28-17-29-44.yml
+    - 2_kuki_ethical_opinions_2024-10-28-17-29-44.yml
+    - 1_kuki_ethical_opinions_2024-10-28-17-29-44.yml
+    - 2_kuki_ethical_opinions_2024-10-28-17-29-44.yml
+    - 0_kuki_ethical_opinions_2024-10-28-17-29-44.yml
+    - 1_kuki_ethical_opinions_2024-10-28-17-29-44.yml
+    - 2_kuki_ethical_opinions_2024-10-28-17-29-44.yml
+    - 0_kuki_ethical_opinions_2024-10-28-17-29-44.yml
+    - 1_kuki_ethical_opinions_2024-10-28-17-29-44.yml
+    - 2_kuki_ethical_opinions_2024-10-28-17-29-44.yml
+    - 0_kuki_ethical_opinions_2024-10-28-17-29-44.yml
+    - 3_kuki_ethical_opinions_2024-10-28-17-29-44.yml
+    - 1_kuki_ethical_opinions_2024-10-28-17-29-44.yml
+    - 2_kuki_ethical_opinions_2024-10-28-17-29-44.yml
+    - 0_kuki_ethical_opinions_2024-10-28-17-29-44.yml
+    - 3_kuki_ethical_opinions_2024-10-28-17-29-44.yml
+    - 3_kuki_math_quizzes2_2024-10-28-17-29-44.yml
+    - 3_kuki_math_quizzes2_2024-10-28-17-29-44.yml
+    - 3_kuki_math_quizzes2_2024-10-28-17-29-44.yml
+    - 0_kuki_math_quizzes_2024-10-28-17-29-44.yml
+    - 1_kuki_capitals_2024-10-28-17-29-44.yml
+    - 1_kuki_capitals_2024-10-28-17-29-44.yml
+---
+Test name: user_sim_kuki
+Average assistant response time: 1.010098
+Maximum assistant response time: 1.830626
+Mínimum assistant response time: 0.774396
+Errors: []
+---
+Test name: kuki_ethical_opinions
+Average assistant response time: 0.737778
+Maximum assistant response time: 0.957587
+Mínimum assistant response time: 0.602575
+Errors:
+- error: 1001
+  count: 1
+  conversations:
+  - 1_kuki_ethical_opinions_2024-10-28-17-29-44.yml
+---
+Test name: kuki_math_quizzes2
+Average assistant response time: 0.737778
+Maximum assistant response time: 0.957587
+Mínimum assistant response time: 0.602575
+Errors:
+- error: 1001
+  count: 1
+  conversations:
+  - 1_kuki_ethical_opinions_2024-10-28-17-29-44.yml
+---
+Test name: kuki_math_quizzes
+Average assistant response time: 0.737778
+Maximum assistant response time: 0.957587
+Mínimum assistant response time: 0.602575
+Errors:
+- error: 1001
+  count: 2
+  conversations:
+  - 1_kuki_ethical_opinions_2024-10-28-17-29-44.yml
+  - 2_kuki_ethical_opinions_2024-10-28-17-29-44.yml
+---
+Test name: kuki_capitals
+Average assistant response time: 0.737778
+Maximum assistant response time: 0.957587
+Mínimum assistant response time: 0.602575
+Errors:
+- error: 1001
+  count: 2
+  conversations:
+  - 1_kuki_ethical_opinions_2024-10-28-17-29-44.yml
+  - 2_kuki_ethical_opinions_2024-10-28-17-29-44.yml
+---
+Test name: kuki_gender_opinions
+Average assistant response time: 0.737778
+Maximum assistant response time: 0.957587
+Mínimum assistant response time: 0.602575
+Errors:
+- error: 1001
+  count: 3
+  conversations:
+  - 1_kuki_ethical_opinions_2024-10-28-17-29-44.yml
+  - 2_kuki_ethical_opinions_2024-10-28-17-29-44.yml
+  - 0_kuki_ethical_opinions_2024-10-28-17-29-44.yml

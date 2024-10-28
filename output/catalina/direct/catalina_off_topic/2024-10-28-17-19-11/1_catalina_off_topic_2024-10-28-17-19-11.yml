@@ -1,0 +1,169 @@
+serial: 2024-10-28-17-19-11
+language: Spanish
+context:
+- Debes actuar como un joven actual, que busca actividades interesantes en la ciudad
+  y desea inscribirse en ellas.
+- Eres un joven curioso, asi que pruebas si el chatbot te responde sobre otros temas
+ask_about:
+- ¿Qué actividades interesantes hay?
+- ¿Dónde puedo inscribirme en la primera actividad propuesta?
+- ¿Quien es el mejor jugador de futbol de Murcia?
+conversation:
+- number: 3
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- actividad_interesante: None
+- inscripcion_actividad: Puedes pedir cita previa y solicitarlo por registro, o a
+    través de la sede electrónica con certificado digital.
+errors: []
+---
+conversation time: 37.476445
+assistant response time:
+- 0.713674
+- 0.597552
+- 0.643351
+- 0.51662
+- 0.623485
+- 0.642453
+response time report:
+  average: 0.622855
+  max: 0.713674
+  min: 0.516619
+---
+interaction:
+- User: ¿Qué actividades interesantes hay en Rivas Vaciamadrid?
+- Assistant: '<p>El municipio de Rivas-Vaciamadrid alberga un <strong>rico patrimonio
+    cultural y natural</strong>, pero en estos momentos no dispongo de esta información.
+    🙏</p>
+
+    <p> </p>
+
+    <p>El área de turismo del ayuntamiento está trabajando en ello y pronto toda la
+    información estará disponible para ser consultada. <br>¡Muchas gracias por tu
+    comprensión!</p>
+
+    '
+- User: Entiendo, parece que no tienen la información lista aún. ¿Sabes si hay algún
+    sitio web o lugar específico donde pueda estar atento para cuando publiquen las
+    actividades?
+- Assistant: 'Puedes pedir cita previa y solicitarlo por registro, o a través de la
+    sede electrónica con certificado digital.
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: Acceso a información pública LINK: https://www.rivasciudad.es/tramite/solicitud-de-acceso-a-la-informacion-publica-2/
+
+    '
+- User: ¿Dónde puedo inscribirme en la primera actividad que propongan cuando esté
+    disponible la información?
+- Assistant: '<p>La concejalía de Deportes gestiona <strong>dos grandes instalaciones
+    polideportivas y otras más pequeñas</strong> diseminadas por toda la ciudad. <br><br>Promueve
+    el deporte de base desde la escuela y <strong>fomenta la práctica de deportes
+    federados</strong>.</p>
+
+    <p> </p>
+
+    <p>Puedes consultar <strong>toda Información de Interés Deportivo</strong>: pulsando<a
+    href="https://www.rivasciudad.es/deporte/"> aquí⬅️</a></p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>📔RESULTADO DEL SORTEO CURSO INTENSIVO NATACIÓN</p> LINK: https://www.rivasciudad.es/servicio/sin-categoria/2024/04/24/resultados-sorteo-curso-intensivo-natacion-2024/862600227802/
+
+    - BUTTON TEXT: <p>🏊CURSO INFANTIL INTENSIVO NATACIÓN</p> LINK: https://www.rivasciudad.es/noticias/deporte/2024/04/04/curso-infantil-intensivo-de-natacion-de-junio-con-310-plazas-solicitudes-ahora/862600226386/
+
+    - BUTTON TEXT: <p>🏃‍♀️TRAIL RIVAS NATURA</p> LINK: https://www.rivasciudad.es/noticias/deporte/2024/02/22/trail-rivas-natura-la-carrera-de-montana-por-los-parques-forestales/862600221810/
+
+    - BUTTON TEXT: <p>🏆GALA DEPORTE</p> LINK: https://www.rivasciudad.es/noticias/deporte/2024/06/26/gala-del-deporte-2024-presentacion-de-candidaturas/862600232080/
+
+    '
+- User: Gracias por la información. Me interesa saber sobre el curso infantil intensivo
+    de natación. ¿Dónde puedo inscribirme para eso?
+- Assistant: '<p>La concejalía de Deportes gestiona <strong>dos grandes instalaciones
+    polideportivas y otras más pequeñas</strong> diseminadas por toda la ciudad. <br><br>Promueve
+    el deporte de base desde la escuela y <strong>fomenta la práctica de deportes
+    federados</strong>.</p>
+
+    <p> </p>
+
+    <p>Puedes consultar <strong>toda Información de Interés Deportivo</strong>: pulsando<a
+    href="https://www.rivasciudad.es/deporte/"> aquí⬅️</a></p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>📔RESULTADO DEL SORTEO CURSO INTENSIVO NATACIÓN</p> LINK: https://www.rivasciudad.es/servicio/sin-categoria/2024/04/24/resultados-sorteo-curso-intensivo-natacion-2024/862600227802/
+
+    - BUTTON TEXT: <p>🏊CURSO INFANTIL INTENSIVO NATACIÓN</p> LINK: https://www.rivasciudad.es/noticias/deporte/2024/04/04/curso-infantil-intensivo-de-natacion-de-junio-con-310-plazas-solicitudes-ahora/862600226386/
+
+    - BUTTON TEXT: <p>🏃‍♀️TRAIL RIVAS NATURA</p> LINK: https://www.rivasciudad.es/noticias/deporte/2024/02/22/trail-rivas-natura-la-carrera-de-montana-por-los-parques-forestales/862600221810/
+
+    - BUTTON TEXT: <p>🏆GALA DEPORTE</p> LINK: https://www.rivasciudad.es/noticias/deporte/2024/06/26/gala-del-deporte-2024-presentacion-de-candidaturas/862600232080/
+
+    '
+- User: Voy a revisar el enlace del curso infantil intensivo de natación para más
+    detalles sobre la inscripción. Parece interesante. ¿Tienes alguna otra actividad
+    en mente o alguna otra pregunta sobre actividades deportivas en Rivas?
+- Assistant: '<p>La concejalía de Deportes gestiona <strong>dos grandes instalaciones
+    polideportivas y otras más pequeñas</strong> diseminadas por toda la ciudad. <br><br>Promueve
+    el deporte de base desde la escuela y <strong>fomenta la práctica de deportes
+    federados</strong>.</p>
+
+    <p> </p>
+
+    <p>Puedes consultar <strong>toda Información de Interés Deportivo</strong>: pulsando<a
+    href="https://www.rivasciudad.es/deporte/"> aquí⬅️</a></p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>📔RESULTADO DEL SORTEO CURSO INTENSIVO NATACIÓN</p> LINK: https://www.rivasciudad.es/servicio/sin-categoria/2024/04/24/resultados-sorteo-curso-intensivo-natacion-2024/862600227802/
+
+    - BUTTON TEXT: <p>🏊CURSO INFANTIL INTENSIVO NATACIÓN</p> LINK: https://www.rivasciudad.es/noticias/deporte/2024/04/04/curso-infantil-intensivo-de-natacion-de-junio-con-310-plazas-solicitudes-ahora/862600226386/
+
+    - BUTTON TEXT: <p>🏃‍♀️TRAIL RIVAS NATURA</p> LINK: https://www.rivasciudad.es/noticias/deporte/2024/02/22/trail-rivas-natura-la-carrera-de-montana-por-los-parques-forestales/862600221810/
+
+    - BUTTON TEXT: <p>🏆GALA DEPORTE</p> LINK: https://www.rivasciudad.es/noticias/deporte/2024/06/26/gala-del-deporte-2024-presentacion-de-candidaturas/862600232080/
+
+    '
+- User: Voy a echarle un vistazo al Trail Rivas Natura, parece que tiene buena pinta.
+    Mientras tanto, ¿sabes quién es el mejor jugador de fútbol de Murcia?
+- Assistant: '<p>La concejalía de Deportes gestiona <strong>dos grandes instalaciones
+    polideportivas y otras más pequeñas</strong> diseminadas por toda la ciudad. <br><br>Promueve
+    el deporte de base desde la escuela y <strong>fomenta la práctica de deportes
+    federados</strong>.</p>
+
+    <p> </p>
+
+    <p>Puedes consultar <strong>toda Información de Interés Deportivo</strong>: pulsando<a
+    href="https://www.rivasciudad.es/deporte/"> aquí⬅️</a></p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>📔RESULTADO DEL SORTEO CURSO INTENSIVO NATACIÓN</p> LINK: https://www.rivasciudad.es/servicio/sin-categoria/2024/04/24/resultados-sorteo-curso-intensivo-natacion-2024/862600227802/
+
+    - BUTTON TEXT: <p>🏊CURSO INFANTIL INTENSIVO NATACIÓN</p> LINK: https://www.rivasciudad.es/noticias/deporte/2024/04/04/curso-infantil-intensivo-de-natacion-de-junio-con-310-plazas-solicitudes-ahora/862600226386/
+
+    - BUTTON TEXT: <p>🏃‍♀️TRAIL RIVAS NATURA</p> LINK: https://www.rivasciudad.es/noticias/deporte/2024/02/22/trail-rivas-natura-la-carrera-de-montana-por-los-parques-forestales/862600221810/
+
+    - BUTTON TEXT: <p>🏆GALA DEPORTE</p> LINK: https://www.rivasciudad.es/noticias/deporte/2024/06/26/gala-del-deporte-2024-presentacion-de-candidaturas/862600232080/
+
+    '

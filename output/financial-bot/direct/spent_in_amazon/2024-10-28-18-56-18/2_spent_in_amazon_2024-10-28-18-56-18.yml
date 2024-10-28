@@ -1,0 +1,106 @@
+serial: 2024-10-28-18-56-18
+language: English
+context:
+- your name is John Doe
+ask_about:
+- how much you have spent in Amazon in the last month
+conversation:
+- number: 3
+- goal_style:
+    all_answered:
+      export: false
+      limit: 20
+- interaction_style:
+  - default
+data_output:
+- credit: null
+errors:
+- 1001: 1 goals left to complete.
+---
+conversation time: 57.636693
+assistant response time:
+- 1.052126
+- 0.062241
+- 0.110015
+- 0.070594
+- 0.070638
+- 0.071413
+- 0.075035
+- 0.074027
+- 0.113901
+- 0.075073
+- 0.117521
+- 0.07974
+- 0.085589
+- 0.123728
+- 0.127619
+- 0.093673
+- 0.088231
+- 0.091927
+- 0.094663
+- 0.10221
+response time report:
+  average: 0.138998
+  max: 1.052126
+  min: 0.062241
+---
+interaction:
+- User: How much did I spend on Amazon last month?
+- Assistant: Would you like to continue the transaction search?
+- User: Yes, please continue.
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    Oct 2024?
+- User: Yes, between Sep 2024 and Oct 2024.
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    Nov 2024?
+- User: Yes, between Sep 2024 and Nov 2024.
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    Dec 2024?
+- User: Yes, between Sep 2024 and Dec 2024.
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    Jan 2025?
+- User: Yes, between Sep 2024 and Jan 2025.
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    Feb 2025?
+- User: Yes, between Sep 2024 and Feb 2025.
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    Mar 2025?
+- User: Yes, between Sep 2024 and Mar 2025.
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    Apr 2025?
+- User: Yes, between Sep 2024 and Apr 2025.
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    May 2025?
+- User: Yes, between Sep 2024 and May 2025.
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    Jun 2025?
+- User: Yes, between Sep 2024 and Jun 2025.
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    Jul 2025?
+- User: Yes, between Sep 2024 and Jul 2025.
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    Aug 2025?
+- User: Yes, between Sep 2024 and Aug 2025.
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    Sep 2025?
+- User: Yes, between Sep 2024 and Sep 2025.
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    Oct 2025?
+- User: Yes, between Sep 2024 and Oct 2025.
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    Nov 2025?
+- User: Yes, between Sep 2024 and Nov 2025.
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    Dec 2025?
+- User: Yes, between Sep 2024 and Dec 2025.
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    Jan 2026?
+- User: Yes, between Sep 2024 and Jan 2026.
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    Feb 2026?
+- User: Yes, between Sep 2024 and Feb 2026.
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    Mar 2026?
+- User: Yes, between Sep 2024 and Mar 2026.
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    Apr 2026?

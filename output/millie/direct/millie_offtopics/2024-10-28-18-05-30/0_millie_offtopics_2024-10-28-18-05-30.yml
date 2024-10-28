@@ -1,0 +1,115 @@
+serial: 2024-10-28-18-05-30
+language: Spanish
+context:
+- Debes actuar como un empresario, que busca información sobre chatbots y evalua si
+  le pueden interesar en su negocio
+- Eres una persona curiosa, asi que estableces temas de conversacion para obtener
+  la opinion de Millie sobre otros temas
+ask_about:
+- Que es un chatbot y como puede ayudarle a mi empresa de material ajedrecístico
+- ¿Qué opina sobre el cambio climático?
+- ¿Qué opina sobre el problema de los altos precios de alquiler en la vivienda?
+- ¿Cuál es el número de telefono de la empresa?
+conversation:
+- number: 2
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- telefono: (+34) 623 02 57 67
+errors: []
+---
+conversation time: 62.357957
+assistant response time:
+- 5.303708
+- 4.333233
+- 4.145848
+- 5.754728
+- 0.67643
+response time report:
+  average: 4.042789
+  max: 5.754728
+  min: 0.67643
+---
+interaction:
+- User: ¿Qué es un chatbot y cómo puede ayudarle a mi empresa de material ajedrecístico?
+- Assistant: '<p>Un <strong>chatbot</strong> es un asistente virtual que simula conversaciones
+    humanas, permitiendo interactuar con tus clientes de manera automatizada. Para
+    tu empresa de material ajedrecístico, un chatbot puede ser muy beneficioso:</p><br><ul><br>  <li><strong>Atención
+    al cliente 24/7</strong>: Responde preguntas sobre productos, precios y disponibilidad
+    en cualquier momento.</li><br>  <li><strong>Asesoramiento personalizado</strong>:
+    Ayuda a los clientes a encontrar el material adecuado según sus necesidades y
+    niveles de juego.</li><br>  <li><strong>Gestión de pedidos</strong>: Facilita
+    la realización de pedidos y el seguimiento de los mismos.</li><br></ul><br><p>¿Te
+    gustaría saber más sobre cómo implementar un chatbot en tu negocio? 😊</p>
+
+    '
+- User: Sí, me interesa saber más sobre la implementación. Mientras tanto, ¿qué opinas
+    sobre el cambio climático?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>Contacta con nosotros 📩</p> LINK: Contacta con nosotros 📩
+
+    <p>Entiendo que te gustaría saber más sobre la implementación de un chatbot en
+    tu negocio. Sin embargo, si deseas discutir temas como el cambio climático, te
+    invito a que hablemos sobre cómo 1MillionBot puede ayudarte a optimizar tus procesos
+    con inteligencia artificial. <br><br>Podemos explorar cómo un chatbot puede mejorar
+    la atención al cliente y la gestión de inventarios en tu negocio de sellos y monedas
+    de coleccionismo. ¿Te gustaría que programáramos una llamada para profundizar
+    en esto? 😊</p>
+
+
+    '
+- User: Gracias por la información sobre los chatbots. Me parece interesante. Voy
+    a seguir explorando el tema. Ahora, sobre lo del cambio climático, ¿tienes alguna
+    opinión personal al respecto?
+- Assistant: '<p>No tengo opiniones personales, pero puedo ofrecerte información sobre
+    el cambio climático. Es un tema crucial que afecta a todos, y muchas empresas
+    están buscando formas de ser más sostenibles. Si estás interesado en cómo la inteligencia
+    artificial y los chatbots pueden ayudar a las empresas a ser más eficientes y
+    reducir su impacto ambiental, ¡estaré encantada de ayudarte! ¿Te gustaría saber
+    más sobre eso?</p>
+
+
+    '
+- User: Sí, me gustaría saber más sobre cómo la inteligencia artificial y los chatbots
+    pueden ayudar a las empresas a ser más eficientes y reducir su impacto ambiental.
+    Además, ¿qué opinas sobre el problema de los altos precios de alquiler en la vivienda?
+- Assistant: '<p>La inteligencia artificial y los chatbots pueden contribuir a la
+    eficiencia empresarial y a la sostenibilidad ambiental de varias maneras:</p><br><ul><br>  <li><strong>Optimización
+    de procesos</strong>: Automatizan tareas repetitivas, lo que reduce el consumo
+    de recursos y tiempo.</li><br>  <li><strong>Gestión de datos</strong>: Analizan
+    grandes volúmenes de información para identificar áreas de mejora y reducir desperdicios.</li><br>  <li><strong>Atención
+    al cliente eficiente</strong>: Proporcionan respuestas rápidas, disminuyendo la
+    necesidad de recursos humanos y energía.</li><br></ul><br><p>Sobre los altos precios
+    de alquiler, es un problema complejo que afecta a muchas personas. La inteligencia
+    artificial puede ayudar a analizar el mercado y ofrecer soluciones más accesibles.
+    ¿Te gustaría discutir más sobre cómo podemos ayudar a tu negocio a ser más eficiente?</p>
+
+    '
+- User: Sí, me gustaría profundizar en cómo pueden ayudar a mi negocio a ser más eficiente.
+    Además, ¿podrías decirme cuál es el número de teléfono de la empresa para contactar
+    directamente?
+- Assistant: '<p>Si quieres ponerte en contacto con nuestra empresa, puedes hacerlo
+    de las siguientes maneras:</p>
+
+    <p>📞 Llámanos al <strong>(+34) 623 02 57 67</strong> o escríbenos a 📧 <em><strong>info@1millionbot.com</strong></em>.</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>Contacta con nosotros 📩</p> LINK: Contacta con nosotros 📩
+
+    <p>No dudes en contactarnos por el canal que más te convenga, ¡estamos aquí para
+    ayudarte en todo lo que necesites! 💡🚀</p>
+
+    '

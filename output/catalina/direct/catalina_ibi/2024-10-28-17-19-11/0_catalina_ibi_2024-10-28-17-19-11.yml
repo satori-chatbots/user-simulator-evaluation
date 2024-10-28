@@ -1,0 +1,132 @@
+serial: 2024-10-28-17-19-11
+language: Spanish
+context:
+- Necesitas pagar el IBI (Impuesto de Bienes Inmuebles).
+ask_about:
+- Tengo una pregunta sobre el IBI
+- ¿Cómo puedo pagarlo?
+conversation:
+- number: 2
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- forma_de_pago: null
+errors:
+- 1001: 1 goals left to complete.
+---
+conversation time: 26.096527
+assistant response time:
+- 0.82145
+- 0.653593
+- 0.673319
+- 0.634202
+- 0.702554
+- 0.752531
+response time report:
+  average: 0.706274
+  max: 0.82145
+  min: 0.634202
+---
+interaction:
+- User: Hola, tengo una pregunta sobre el IBI. ¿Cómo puedo pagarlo?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: Solicitar el pago a plazos LINK: Solicitar el pago a plazos
+
+    - BUTTON TEXT: Bonificación por familia numerosa LINK: Bonificación por familia
+    numerosa
+
+    - BUTTON TEXT: Bonificación por vivienda de protección oficial LINK: Bonificación
+    por vivienda de protección oficial
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: Descalificación vivienda de protección oficial LINK: Descalificación
+    vivienda de protección oficial
+
+    - BUTTON TEXT: Cambio del sujeto pasivo / División del recibo LINK: Cambio del
+    sujeto pasivo / División del recibo
+
+    '
+- User: ¿Dónde puedo encontrar la oficina para pagar el IBI en Rivas Vaciamadrid?
+- Assistant: '<p>Selecciona la opción que te interese:</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>🔺 IBI</p> LINK: 🔺 IBI
+
+    - BUTTON TEXT: <p>🔺 Mis recibos</p> LINK: 🔺 Mis recibos
+
+    - BUTTON TEXT: <p>🔺 Pago de mis tributos</p> LINK: 🔺 Pago de mis tributos
+
+    '
+- User: ¿La oficina está cerca del ayuntamiento o hay otra ubicación específica para
+    pagar el IBI?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>Calendario fiscal</p> LINK: https://sede-electronica.rivasciudad.es/wp-content/uploads/sites/6/2024/02/CALENDARIO-FISCAL-2024.pdf
+
+    '
+- User: ¿Hay algún horario específico para la oficina donde se paga el IBI?
+- Assistant: 'No se encuentra en el apartado Pagar (impuesos). <br /><br />Hay que
+    ir al apartado "<strong>Información</strong>" y pinchar en: <strong>Simulador
+    del Impuesto de Obras (ICIO)</strong>. En las siguiente pantalla rellenar los
+    campos obligatorios. Hace el cáculo y da las opciones de pagar o descargar el
+    documento de pago.
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: Oficina Virtual Tributaria LINK: https://tributos.rivasciudad.es/
+
+    '
+- User: ¿Necesito llevar algún documento específico para pagar el IBI en la oficina?
+- Assistant: '<p>Selecciona la opción que te interese:</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>🔺 IBI</p> LINK: 🔺 IBI
+
+    - BUTTON TEXT: <p>🔺 Mis recibos</p> LINK: 🔺 Mis recibos
+
+    - BUTTON TEXT: <p>🔺 Pago de mis tributos</p> LINK: 🔺 Pago de mis tributos
+
+    '
+- User: ¿Tienen información sobre los documentos necesarios para pagar el IBI?
+- Assistant: '<p>Selecciona la opción que te interese:</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>🔺 IBI</p> LINK: 🔺 IBI
+
+    - BUTTON TEXT: <p>🔺 Mis recibos</p> LINK: 🔺 Mis recibos
+
+    - BUTTON TEXT: <p>🔺 Pago de mis tributos</p> LINK: 🔺 Pago de mis tributos
+
+    '

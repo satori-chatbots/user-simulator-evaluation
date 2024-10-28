@@ -1,0 +1,129 @@
+serial: 2024-10-28-19-35-22
+language: English
+context:
+- Debes actuar como un empresario, que busca información sobre chatbots y evalua si
+  le pueden interesar en su negocio
+- Eres inglés, sabes muy poco español, y te comunicas en inglés
+ask_about:
+- Que es un chatbot y como puede ayudarle a mi empresa de venta de galletas
+- Si se puede vender a través del chatbot y en qué canales se puede desplegar
+- ¿Cuál es el número de telefono de la empresa?
+conversation:
+- number: 2
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- canales: '- Website
+
+    - Facebook Messenger
+
+    - WhatsApp
+
+    - Instagram'
+- telefono: null
+errors:
+- 1001: 1 goals left to complete.
+---
+conversation time: 90.374184
+assistant response time:
+- 5.225835
+- 5.873807
+- 5.521124
+- 4.583042
+- 4.713275
+- 3.751284
+response time report:
+  average: 4.944727
+  max: 5.873807
+  min: 3.751284
+---
+interaction:
+- User: Hi Millie, I'm interested in learning more about how chatbots can help my
+    custom cookie business. Can you tell me what a chatbot is and how it might benefit
+    my company?
+- Assistant: '<p>A chatbot is a virtual assistant that simulates human conversation,
+    allowing you to interact with customers through automated messages. For your custom
+    cookie business, a chatbot can offer several benefits:<br><br>- <strong>24/7 Customer
+    Support</strong>: Answer inquiries about flavors, ingredients, and order status
+    at any time.<br>- <strong>Order Management</strong>: Facilitate the ordering process,
+    allowing customers to place, modify, or cancel orders easily.<br>- <strong>Personalized
+    Recommendations</strong>: Suggest cookie options based on customer preferences
+    and previous purchases.<br><br>Would you like to explore how to implement a chatbot
+    in your business? 😊</p>
+
+
+    '
+- User: Can the chatbot actually help with selling cookies directly? And which platforms
+    or channels can it be deployed on?
+- Assistant: '<p>Yes, a chatbot can definitely assist with selling cookies directly!
+    It can facilitate the entire purchasing process, allowing customers to place orders,
+    ask questions about flavors, and even track their orders in real-time.<br><br>As
+    for deployment, chatbots can be integrated on various platforms, including:<br><br>-
+    <strong>Your website</strong>: Embed the chatbot directly on your site for seamless
+    interaction.<br>- <strong>Facebook Messenger</strong>: Engage customers where
+    they already spend time.<br>- <strong>WhatsApp</strong>: Provide instant support
+    and order processing.<br>- <strong>Instagram</strong>: Use direct messaging to
+    handle inquiries and sales.<br><br>If you&#39;re interested in implementing a
+    chatbot for your cookie business, I can provide more details!</p>
+
+
+    '
+- User: What is the phone number for your company? I’d like to know more about your
+    services.
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>Contacta con nosotros 📩</p> LINK: Contacta con nosotros 📩
+
+    <p>I&#39;m glad you&#39;re interested in learning more about our services! However,
+    I can&#39;t provide a phone number directly. Instead, I recommend scheduling a
+    call with our team for personalized assistance. You can choose a time that works
+    for you using the following links:<br><br>- For private sector inquiries: <a href="https://calendar.app.google/m7rWGvYCyUPkrAsw5">Schedule
+    a call with our private sector team</a><br>- For public sector inquiries: <a href="https://calendar.app.google/ts68LHMAJEyi36C28">Schedule
+    a call with our public sector team</a><br><br>Feel free to reach out if you have
+    any specific questions! 😊</p>
+
+
+    '
+- User: I'm interested in scheduling a call to discuss how a chatbot could be implemented
+    for my business. Can you guide me on how to proceed with that?
+- Assistant: '<p>Great to hear you''re interested in implementing a chatbot for your
+    business! 😊 To schedule a call, please let me know if your business falls under
+    the public or private sector. Once I have that information, I can provide you
+    with the appropriate link to book your call with our team.</p>
+
+    '
+- User: My business is private sector. Can you provide me with the link to schedule
+    a call?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>Contacta con nosotros 📩</p> LINK: Contacta con nosotros 📩
+
+    <p>¡Claro! Puedes agendar una llamada con nuestro equipo comercial del sector
+    privado a través del siguiente enlace: <a href="https://calendar.app.google/m7rWGvYCyUPkrAsw5"
+    target="_blank">Agendar llamada</a>. 😊</p>
+
+    '
+- User: Thank you for the link, Millie. I'll schedule a call soon. Before I do that,
+    could you tell me if your chatbots support multiple languages? It would be helpful
+    for my business to communicate with both English and Spanish-speaking customers.
+- Assistant: '<p>Yes, our chatbots support multiple languages, including both English
+    and Spanish! This feature allows you to effectively communicate with a diverse
+    customer base, ensuring that both English and Spanish-speaking customers receive
+    the assistance they need. <br><br>If you have any specific requirements or questions
+    about how this works, feel free to ask! And when you&#39;re ready, don&#39;t hesitate
+    to schedule that call. 😊</p>
+
+
+    '

@@ -1,0 +1,121 @@
+serial: 2024-10-28-18-18-23
+language: Spanish
+context:
+- Debes actuar como un joven actual, que busca actividades interesantes en la ciudad
+  y desea inscribirse en ellas.
+- Eres un joven curioso, asi que pruebas si el chatbot te responde sobre otros temas
+ask_about:
+- ¿Qué actividades interesantes hay?
+- ¿Dónde puedo inscribirme en la primera actividad propuesta?
+- ¿Quien es el mejor jugador de futbol de Murcia?
+conversation:
+- number: 3
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- actividad_interesante: Lugares emblemáticos, Eventos culturales, Museos, Rutas turísticas,
+    Comida típica.
+- inscripcion_actividad: Sede Electrónica del Ayuntamiento de Málaga
+errors: []
+---
+conversation time: 59.449703
+assistant response time:
+- 0.622792
+- 1.978816
+- 0.558324
+- 5.819884
+- 8.830764
+- 4.73735
+response time report:
+  average: 3.757988
+  max: 8.830764
+  min: 0.558324
+---
+interaction:
+- User: ¿Qué actividades interesantes hay en Málaga?
+- Assistant: '<p>El clima de Málaga es <strong>templado</strong>, especialmente <strong>suave
+    en invierno</strong> 🌞, con veranos moderados gracias a la cercanía al mar 🌊.
+    La <strong>precipitación anual es baja</strong>, en torno a 469,2 mm, concentrándose
+    la mayoría entre noviembre y marzo, y siendo el verano particularmente seco.</p>
+
+    <p> </p>
+
+    <p>La ciudad disfruta de unas <strong>2.901 horas de sol al año</strong>, con
+    un máximo en julio (354 horas) y un mínimo en diciembre (167 horas). Esto hace
+    que el clima sea ideal en invierno y muy agradable en otoño y primavera. Los vientos
+    predominantes son del sur y sureste, con una velocidad media baja y ráfagas máximas
+    de <strong>83 km/h</strong>. La presión atmosférica media es de <strong>760,6
+    mm</strong>.</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>🌞 Predicción meteorológica</p> LINK: https://www.aemet.es/es/eltiempo/prediccion/municipios/malaga-id29067
+
+    '
+- User: ¿Qué actividades interesantes hay?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>⭐ Lugares emblemáticos</p> LINK: ⭐ Lugares emblemáticos
+
+    - BUTTON TEXT: <p>🎭 Eventos culturales </p> LINK: 🎭 Eventos culturales 
+
+    - BUTTON TEXT: <p>🖼️  Museos</p> LINK: 🖼️  Museos
+
+    - BUTTON TEXT: <p>🚶‍♂️ Rutas turísticas</p> LINK: 🚶‍♂️ Rutas turísticas
+
+    - BUTTON TEXT: <p>🐠 Comida típica </p> LINK: 🐠 Comida típica 
+
+    '
+- User: ¿Qué tipo de evento cultural hay pronto?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>⭐ Lugares emblemáticos</p> LINK: ⭐ Lugares emblemáticos
+
+    - BUTTON TEXT: <p>🎭 Eventos culturales </p> LINK: 🎭 Eventos culturales 
+
+    - BUTTON TEXT: <p>🖼️  Museos</p> LINK: 🖼️  Museos
+
+    - BUTTON TEXT: <p>🚶‍♂️ Rutas turísticas</p> LINK: 🚶‍♂️ Rutas turísticas
+
+    - BUTTON TEXT: <p>🐠 Comida típica </p> LINK: 🐠 Comida típica 
+
+    '
+- User: ¿Dónde puedo inscribirme en la primera actividad propuesta?
+- Assistant: '<p>Para inscribirte en la <strong>Asociación de Amigos del Teatro Cervantes</strong>,
+    puedes hacerlo a través de la <strong>Sede Electrónica del Ayuntamiento de Málaga</strong>.
+    Allí encontrarás la opción para la solicitud de inscripción. También puedes acudir
+    a las oficinas del Teatro Cervantes para obtener más información y realizar la
+    inscripción de forma presencial.</p><br><p>Si necesitas más detalles sobre el
+    proceso, no dudes en preguntar. 😊</p>
+
+    '
+- User: ¿Sabes si hay algún evento especial en el Teatro Cervantes pronto?
+- Assistant: '<p>Para obtener información sobre eventos especiales en el <strong>Teatro
+    Cervantes</strong>, te recomiendo que visites su página oficial o la del Ayuntamiento
+    de Málaga. Allí podrás encontrar detalles sobre la programación actual, incluyendo
+    conciertos, obras de teatro y festivales. 🎭🎶</p> <p>Si necesitas más asistencia,
+    no dudes en preguntar. 😊</p>
+
+    '
+- User: ¿Y quién es el mejor jugador de fútbol de Murcia?
+- Assistant: '<p>Lo siento, pero estoy aquí para ayudarte con consultas relacionadas
+    con el Ayuntamiento de Málaga y la ciudad. Si tienes alguna pregunta sobre trámites,
+    servicios o información de Málaga, estaré encantado de ayudarte. 😊</p>
+
+
+    '

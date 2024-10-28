@@ -38,4 +38,4 @@ conversations:
 
 language: Spanish
 
-test_name: "lola_chatbot_tests"
+test_name: "lola_off_topics"

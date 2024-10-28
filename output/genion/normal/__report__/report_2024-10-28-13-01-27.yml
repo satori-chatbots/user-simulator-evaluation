@@ -1,0 +1,37 @@
+Global report:
+  Average assistant response time: 19.673655
+  Maximum assistant response time: 25.554715
+  Mínimum assistant response time: 10.079294
+  Errors:
+  - error: 504
+    count: 6
+    conversations:
+    - 0_genion_business_idea_2024-10-28-13-01-27.yml
+    - 0_genion_business_idea_2024-10-28-13-01-27.yml
+    - 0_genion_business_idea_2024-10-28-13-01-27.yml
+    - 1_genion_business_idea_2024-10-28-13-01-27.yml
+    - 0_genion_business_idea_2024-10-28-13-01-27.yml
+    - 1_genion_business_idea_2024-10-28-13-01-27.yml
+  - error: 1001
+    count: 6
+    conversations:
+    - 0_genion_business_idea_2024-10-28-13-01-27.yml
+    - 0_genion_business_idea_2024-10-28-13-01-27.yml
+    - 0_genion_business_idea_2024-10-28-13-01-27.yml
+    - 1_genion_business_idea_2024-10-28-13-01-27.yml
+    - 0_genion_business_idea_2024-10-28-13-01-27.yml
+    - 1_genion_business_idea_2024-10-28-13-01-27.yml
+---
+Test name: genion_business_idea
+Average assistant response time: 19.673655
+Maximum assistant response time: 25.554715
+Mínimum assistant response time: 10.079294
+Errors:
+- error: 504
+  count: 1
+  conversations:
+  - 0_genion_business_idea_2024-10-28-13-01-27.yml
+- error: 1001
+  count: 1
+  conversations:
+  - 0_genion_business_idea_2024-10-28-13-01-27.yml

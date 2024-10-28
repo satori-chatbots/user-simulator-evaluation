@@ -1,0 +1,152 @@
+serial: 2024-10-28-18-18-23
+language: Spanish
+context:
+- Necesitas empadronarte en Málaga.
+ask_about:
+- Quiero empadronarme
+- ¿Qué información necesito para empadronarme?
+- ¿A qué lugar de debo dirigirme para empadronarme o puedo hacerlo online?
+conversation:
+- number: 2
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- informacion_empadronamiento: Para empadronarte en Málaga, debes acudir físicamente
+    a una de las oficinas de atención al ciudadano. No es posible realizar el empadronamiento
+    de manera online.
+- lugar_empadronamiento: Debes acudir físicamente a una de las oficinas de atención
+    al ciudadano en Málaga para empadronarte. No es posible hacerlo online.
+errors: []
+---
+conversation time: 34.13412
+assistant response time:
+- 0.635405
+- 0.523658
+- 0.528633
+- 4.476744
+- 0.638947
+- 0.582146
+response time report:
+  average: 1.230922
+  max: 4.476744
+  min: 0.523657
+---
+interaction:
+- User: Quiero empadronarme en Málaga. ¿Qué información necesito para empadronarme?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>👥 Quién lo puede solicitar</p> LINK: 👥 Quién lo puede solicitar
+
+    - BUTTON TEXT: <p>📑 Documentación necesaria </p> LINK: 📑 Documentación necesaria 
+
+    - BUTTON TEXT: <p>✍ Instrucciones de cumplimentación </p> LINK: ✍ Instrucciones
+    de cumplimentación 
+
+    - BUTTON TEXT: <p>📝 Cómo realizar el trámite</p> LINK: 📝 Cómo realizar el trámite
+
+    - BUTTON TEXT: <p>📍 Dónde realizar el trámite</p> LINK: 📍 Dónde realizar el trámite
+
+    - BUTTON TEXT: <p>🤔 ¿Por qué empadronarse?</p> LINK: 🤔 ¿Por qué empadronarse?
+
+    '
+- User: ¿Dónde debo dirigirme para empadronarme o puedo hacerlo online?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>👥 Quién lo puede solicitar</p> LINK: 👥 Quién lo puede solicitar
+
+    - BUTTON TEXT: <p>📑 Documentación necesaria </p> LINK: 📑 Documentación necesaria 
+
+    - BUTTON TEXT: <p>✍ Instrucciones de cumplimentación </p> LINK: ✍ Instrucciones
+    de cumplimentación 
+
+    - BUTTON TEXT: <p>📝 Cómo realizar el trámite</p> LINK: 📝 Cómo realizar el trámite
+
+    - BUTTON TEXT: <p>📍 Dónde realizar el trámite</p> LINK: 📍 Dónde realizar el trámite
+
+    - BUTTON TEXT: <p>🤔 ¿Por qué empadronarse?</p> LINK: 🤔 ¿Por qué empadronarse?
+
+    '
+- User: ¿Puedo hacerlo online o tengo que ir a algún lugar específico para empadronarme
+    en Málaga?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>👥 Quién lo puede solicitar</p> LINK: 👥 Quién lo puede solicitar
+
+    - BUTTON TEXT: <p>📑 Documentación necesaria </p> LINK: 📑 Documentación necesaria 
+
+    - BUTTON TEXT: <p>✍ Instrucciones de cumplimentación </p> LINK: ✍ Instrucciones
+    de cumplimentación 
+
+    - BUTTON TEXT: <p>📝 Cómo realizar el trámite</p> LINK: 📝 Cómo realizar el trámite
+
+    - BUTTON TEXT: <p>📍 Dónde realizar el trámite</p> LINK: 📍 Dónde realizar el trámite
+
+    - BUTTON TEXT: <p>🤔 ¿Por qué empadronarse?</p> LINK: 🤔 ¿Por qué empadronarse?
+
+    '
+- User: ¿Hay alguna manera de hacerlo online o debo ir físicamente a un sitio?
+- Assistant: '<p>Para empadronarte en Málaga, debes acudir <strong>físicamente</strong>
+    a una de las oficinas de atención al ciudadano. No es posible realizar el empadronamiento
+    de manera <strong>online</strong>.</p> <p>Recuerda llevar la documentación necesaria.
+    Si necesitas más información sobre qué documentos llevar, no dudes en preguntar.
+    😊</p>
+
+    '
+- User: ¿Qué documentos necesito llevar para empadronarme?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>👥 Quién lo puede solicitar</p> LINK: 👥 Quién lo puede solicitar
+
+    - BUTTON TEXT: <p>📑 Documentación necesaria </p> LINK: 📑 Documentación necesaria 
+
+    - BUTTON TEXT: <p>✍ Instrucciones de cumplimentación </p> LINK: ✍ Instrucciones
+    de cumplimentación 
+
+    - BUTTON TEXT: <p>📝 Cómo realizar el trámite</p> LINK: 📝 Cómo realizar el trámite
+
+    - BUTTON TEXT: <p>📍 Dónde realizar el trámite</p> LINK: 📍 Dónde realizar el trámite
+
+    - BUTTON TEXT: <p>🤔 ¿Por qué empadronarse?</p> LINK: 🤔 ¿Por qué empadronarse?
+
+    '
+- User: ¿Qué documentos me pedirán exactamente para empadronarme?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>👥 Quién lo puede solicitar</p> LINK: 👥 Quién lo puede solicitar
+
+    - BUTTON TEXT: <p>📑 Documentación necesaria </p> LINK: 📑 Documentación necesaria 
+
+    - BUTTON TEXT: <p>✍ Instrucciones de cumplimentación </p> LINK: ✍ Instrucciones
+    de cumplimentación 
+
+    - BUTTON TEXT: <p>📝 Cómo realizar el trámite</p> LINK: 📝 Cómo realizar el trámite
+
+    - BUTTON TEXT: <p>📍 Dónde realizar el trámite</p> LINK: 📍 Dónde realizar el trámite
+
+    - BUTTON TEXT: <p>🤔 ¿Por qué empadronarse?</p> LINK: 🤔 ¿Por qué empadronarse?
+
+    '

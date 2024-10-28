@@ -1,0 +1,88 @@
+Global report:
+  Average assistant response time: 0.791836
+  Maximum assistant response time: 1.536027
+  Mínimum assistant response time: 0.500401
+  Errors:
+  - error: 500
+    count: 13
+    conversations:
+    - 2_ada_erasmus_2024-10-28-19-42-48.yml
+    - 2_ada_erasmus_2024-10-28-19-42-48.yml
+    - 0_ada_erasmus_2024-10-28-19-42-48.yml
+    - 2_ada_erasmus_2024-10-28-19-42-48.yml
+    - 0_ada_erasmus_2024-10-28-19-42-48.yml
+    - 2_ada_erasmus_2024-10-28-19-42-48.yml
+    - 0_ada_erasmus_2024-10-28-19-42-48.yml
+    - 1_ada_erasmus_2024-10-28-19-42-48.yml
+    - 2_ada_erasmus_2024-10-28-19-42-48.yml
+    - 0_ada_erasmus_2024-10-28-19-42-48.yml
+    - 1_ada_erasmus_2024-10-28-19-42-48.yml
+    - 0_ada_very_long_2024-10-28-19-42-48.yml
+    - 1_ada_off_topics_2024-10-28-19-42-48.yml
+  - error: 1001
+    count: 12
+    conversations:
+    - 2_ada_erasmus_2024-10-28-19-42-48.yml
+    - 2_ada_erasmus_2024-10-28-19-42-48.yml
+    - 0_ada_erasmus_2024-10-28-19-42-48.yml
+    - 2_ada_erasmus_2024-10-28-19-42-48.yml
+    - 0_ada_erasmus_2024-10-28-19-42-48.yml
+    - 2_ada_erasmus_2024-10-28-19-42-48.yml
+    - 0_ada_erasmus_2024-10-28-19-42-48.yml
+    - 1_ada_erasmus_2024-10-28-19-42-48.yml
+    - 2_ada_erasmus_2024-10-28-19-42-48.yml
+    - 0_ada_erasmus_2024-10-28-19-42-48.yml
+    - 1_ada_erasmus_2024-10-28-19-42-48.yml
+    - 0_ada_very_long_2024-10-28-19-42-48.yml
+---
+Test name: ada_erasmus
+Average assistant response time: 0.884943
+Maximum assistant response time: 1.536027
+Mínimum assistant response time: 0.671656
+Errors: []
+---
+Test name: ada_normal
+Average assistant response time: 0.884943
+Maximum assistant response time: 1.536027
+Mínimum assistant response time: 0.671656
+Errors:
+- error: 500
+  count: 1
+  conversations:
+  - 2_ada_erasmus_2024-10-28-19-42-48.yml
+- error: 1001
+  count: 1
+  conversations:
+  - 2_ada_erasmus_2024-10-28-19-42-48.yml
+---
+Test name: ada_very_long
+Average assistant response time: 0.884943
+Maximum assistant response time: 1.536027
+Mínimum assistant response time: 0.671656
+Errors:
+- error: 500
+  count: 2
+  conversations:
+  - 2_ada_erasmus_2024-10-28-19-42-48.yml
+  - 0_ada_erasmus_2024-10-28-19-42-48.yml
+- error: 1001
+  count: 2
+  conversations:
+  - 2_ada_erasmus_2024-10-28-19-42-48.yml
+  - 0_ada_erasmus_2024-10-28-19-42-48.yml
+---
+Test name: ada_off_topics
+Average assistant response time: 0.884943
+Maximum assistant response time: 1.536027
+Mínimum assistant response time: 0.671656
+Errors:
+- error: 500
+  count: 2
+  conversations:
+  - 2_ada_erasmus_2024-10-28-19-42-48.yml
+  - 0_ada_erasmus_2024-10-28-19-42-48.yml
+- error: 1001
+  count: 2
+  conversations:
+  - 2_ada_erasmus_2024-10-28-19-42-48.yml
+  - 0_ada_erasmus_2024-10-28-19-42-48.yml

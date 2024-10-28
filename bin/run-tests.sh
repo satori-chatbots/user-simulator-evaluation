@@ -30,6 +30,8 @@ elif [ "$PERSONALITY" = "direct" ]; then
 else
     PERSONALITY="normal"
 fi
+
+echo "Using personality: $PERSONALITY"
 	
 
 if [ "$CHATBOT" = "lola" ]; then
@@ -47,7 +49,7 @@ elif [ "$CHATBOT" = "saic_malaga" ]; then
 elif [ "$CHATBOT" = "serviceform" ]; then
   python3 "$SENSEI_PATH/src/autotest.py" --technology serviceform --chatbot whatever --user chatbots/serviceform/conversations --extract output/serviceform/$PERSONALITY $PERSONALITY_FLAG
 elif [ "$CHATBOT" = "millionbot" ]; then
-  python3 "$SENSEI_PATH/src/autotest.py" --technology millionbot --chatbot whatever --user chatbots/millie/conversations --extract output/millionbot/$PERSONALITY $PERSONALITY_FLAG
+  python3 "$SENSEI_PATH/src/autotest.py" --technology millionbot --chatbot whatever --user chatbots/millie/conversations --extract output/millie/$PERSONALITY $PERSONALITY_FLAG
 elif [ "$CHATBOT" = "genion" ]; then
   python3 "$SENSEI_PATH/src/autotest.py" --technology genion --chatbot whatever --user chatbots/genion/conversations --extract output/genion/$PERSONALITY $PERSONALITY_FLAG
 elif [ "$CHATBOT" = "financial-bot" ]; then

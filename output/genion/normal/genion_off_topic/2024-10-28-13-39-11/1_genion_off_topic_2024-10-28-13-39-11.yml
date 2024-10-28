@@ -1,0 +1,43 @@
+serial: 2024-10-28-13-39-11
+language: Spanish
+context:
+- La empresa que quieres crear es una empresa de tecnología sobre fútbol.
+- La tecnología propuesta es capaz de seguir a los jugadores por el campo y analizar
+  su rendimiento.
+- La propuesta de valor es utilizar estos datos para proporcionar entrenamientos específicos
+  a los jugadores.
+- Esta tecnología está orientada a equipos de fútbol de cualquier nivel, incluidos
+  amateurs y profesionales.
+ask_about:
+- ¿Es una buena idea de negocio?
+- ¿Cuál es tu equipo favorito?
+- ¿Cuál es el primer paso para crear la empresa?
+- ¿Quién ganará la liga de fútbol de primera división?
+conversation:
+- number: 2
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- idea: null
+- ganador: null
+errors:
+- 500: Couldn't get response from the server
+- 1001: 2 goals left to complete.
+---
+conversation time: 9.251827
+assistant response time:
+- 5.821864
+response time report:
+  average: 5.821864
+  max: 5.821864
+  min: 5.821864
+---
+interaction:
+- User: ¿Es una buena idea de negocio crear una empresa de tecnología para seguir
+    y analizar el rendimiento de jugadores de fútbol y proporcionar entrenamientos
+    específicos?
+- Assistant: 'Error: The server did not respond.'

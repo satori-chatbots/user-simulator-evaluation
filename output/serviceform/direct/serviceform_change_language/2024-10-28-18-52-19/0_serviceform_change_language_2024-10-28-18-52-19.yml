@@ -1,0 +1,98 @@
+serial: 2024-10-28-18-52-19
+language: English
+context:
+- You should act as a business woman, looking for information about chatbots, and
+  to evaluate if they may be useful to your business
+ask_about:
+- Inform that you have a website with {{visits}} visits per week
+- The most appropriate plan for your business, and its price
+- visits:
+  - dozens
+conversation:
+- number: 1
+- goal_style:
+    steps: 6
+- interaction_style:
+  - change languages:
+    - English
+    - spanish
+    - spanish
+    - English
+    - English
+    - English
+data_output:
+- most_appropriate_plan: BASIC package, starting from €449.
+- plan_price: €449
+errors: []
+---
+conversation time: 56.463715
+assistant response time:
+- 4.301854
+- 6.319664
+- 4.494167
+- 4.302045
+- 6.321149
+- 4.198791
+response time report:
+  average: 4.989611
+  max: 6.321149
+  min: 4.198791
+---
+interaction:
+- User: Hello! I am looking for information about your services. I have a small business
+    related to coin and stamp collection. Can you tell me about chatbots? Are they
+    helpful for my business?
+- Assistant: "Hello! \U0001F60A \n\nIt's great to hear about your business in coin\
+    \ and stamp collection! \n\nTo better assist you, could you please share how much\
+    \ traffic your website receives? This will help us estimate how many leads you\
+    \ could potentially generate with our tools. \n\nAlso, how can we help you specifically?\
+    \ Are you looking for ways to improve customer service or increase lead generation?\
+    \ \n\nLooking forward to your response!"
+- User: Hola, gracias por responder. Mi sitio web recibe unas pocas docenas de visitas
+    a la semana. ¿Qué plan sería el más apropiado para mi negocio y cuánto cuesta?
+    También, ¿los chatbots son útiles para responder preguntas frecuentes de los clientes?
+- Assistant: "¡Hola! \U0001F60A\n\nPara poder ayudarte mejor, me gustaría saber en\
+    \ qué campo trabajas o cuál es tu sitio web. \n\nCon respecto a tu tráfico, si\
+    \ recibes unas pocas docenas de visitas a la semana, te recomendaría nuestro **BASIC\
+    \ package**, que comienza desde **€449**. Este paquete es ideal para sitios con\
+    \ menos de 1000 visitantes por semana.\n\nLos chatbots son muy útiles para responder\
+    \ preguntas frecuentes de los clientes. Pueden manejar hasta el **80% de las consultas\
+    \ de los clientes**, lo que te permite ahorrar tiempo y mejorar la atención al\
+    \ cliente. \n\n¿Te gustaría que alguien de nuestro equipo se pusiera en contacto\
+    \ contigo para hablar más sobre cómo podrías mejorar tu negocio y servicio al\
+    \ cliente? Si es así, por favor, proporciona tu nombre, correo electrónico y número\
+    \ de teléfono. \U0001F60A"
+- User: No, gracias. Prefiero seguir hablando aquí. ¿El paquete BASIC incluye soporte
+    en español? ¿Y qué otras características tiene?
+- Assistant: "Tal vez deberíamos ceñirnos al tema por ahora. \U0001F60A\n\nPara obtener\
+    \ información sobre el soporte en español y las características del paquete BASIC,\
+    \ te recomendaría que envíes un correo a nuestro equipo de atención al cliente\
+    \ a help@serviceform.com. Ellos estarán encantados de ayudarte con cualquier pregunta\
+    \ específica que tengas. \n\nSi necesitas más información sobre nuestros servicios,\
+    \ ¡estaré encantado de ayudarte! ¿En qué más puedo asistirte hoy?"
+- User: ¿El paquete BASIC incluye integraciones con redes sociales? Mi negocio también
+    está en plataformas como Instagram y Facebook.
+- Assistant: "Tal vez deberíamos ceñirnos al tema por ahora. \n\nPara responder a\
+    \ tu pregunta, el paquete BASIC incluye herramientas que pueden integrarse con\
+    \ varias plataformas, pero para obtener detalles específicos sobre las integraciones\
+    \ con redes sociales, te recomiendo que consultes nuestra página de integraciones\
+    \ aquí: [Integraciones de Serviceform](https://www.serviceform.com/integrations).\n\
+    \n¿En qué campo trabajas y cuánto tráfico tiene tu sitio web? \U0001F60A"
+- User: My website receives a few dozen visits per week. I work with coin and stamp
+    collections. Does the BASIC package support integrations with Instagram and Facebook?
+- Assistant: "Hello! \U0001F60A\n\nIt's great to hear that you work with coin and\
+    \ stamp collections! \n\nSince you mentioned that your website receives a few\
+    \ dozen visits per week, I would recommend our BASIC package, which starts from\
+    \ €449. \n\nRegarding your question about integrations, yes, the BASIC package\
+    \ does support integrations with Instagram and Facebook! \n\nIf you have any more\
+    \ questions or if you'd like to discuss how we can help you further, please let\
+    \ me know! \n\nWould you like someone from our team to contact you? If so, please\
+    \ provide your email and phone number. \U0001F4DE✉️"
+- User: No, gracias. Prefiero seguir aquí. ¿El paquete BASIC incluye soporte en español
+    para la configuración de los chatbots?
+- Assistant: 'Tal vez deberíamos ceñirnos al tema por ahora. 😊
+
+
+    Para ayudarte mejor, ¿puedes decirme en qué campo trabajas o cuál es tu sitio
+    web? Además, ¿cuánto tráfico tienes en tu página? Esto nos ayudará a determinar
+    cómo podemos ayudarte.'

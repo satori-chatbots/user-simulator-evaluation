@@ -1,0 +1,127 @@
+serial: 2024-10-28-17-19-11
+language: Spanish
+context:
+- Necesitas empadronarte en Rivas Vaciamadrid.
+ask_about:
+- Quiero empadronarme
+- ¿Qué información necesito para empadronarme?
+- ¿A qué lugar de debo dirigirme para empadronarme o puedo hacerlo online?
+conversation:
+- number: 2
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- informacion_empadronamiento: Documento de identidad, Documento de derecho de uso
+    de vivienda, Formulario cumplimentado y firmado.
+- lugar_empadronamiento: El trámite es exclusivamente presencial en el Padrón Municipal
+    de Rivas Vaciamadrid.
+errors: []
+---
+conversation time: 32.989549
+assistant response time:
+- 0.847374
+- 0.527035
+- 0.586959
+- 0.530943
+response time report:
+  average: 0.623077
+  max: 0.847374
+  min: 0.527035
+---
+interaction:
+- User: Quiero empadronarme en Rivas Vaciamadrid. ¿Qué información necesito para empadronarme?
+- Assistant: '¿Quieres <strong>empadronarte</strong> o solicitar un <strong>certificado
+    de empadronamiento</strong>?
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: Quiero empadronarme LINK: Quiero empadronarme
+
+    - BUTTON TEXT: Quiero solicitar un certificado LINK: Quiero solicitar un certificado
+
+    - BUTTON TEXT: Quiero solicitar Bajas de Padrón LINK: Quiero solicitar Bajas de
+    Padrón
+
+    '
+- User: Quiero empadronarme.
+- Assistant: '<p>⚠️El Alta/Modificación en el padrón de habitantes es un trámite <strong>
+    exclusivamente presencial.</strong></p>
+
+    <p><strong><a href="https://www.rivasciudad.es/tramite/alta-en-padron-de-habitantes/">Padrón
+    Municipal</a>⬅️</strong></p>
+
+    <p> </p>
+
+    <p>Para poder <strong>empadronarte</strong>, necesitarás:<br>✅ Documento de identidad.
+    <br><br>✅ Documento de derecho de uso de vivienda.<br><br>✅ Formulario cumplimentado
+    y firmado.</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: 📘FORMULARIO LINK: https://sede-electronica.rivasciudad.es/wp-content/uploads/sites/6/2018/03/Formulario-Padron-v4-autorrellenable-2.pdf
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>💒 DOCUMENTO DERECHO USO VIVIENDA</p> LINK: 💒 DOCUMENTO DERECHO
+    USO VIVIENDA
+
+    '
+- User: ¿A qué lugar debo dirigirme para empadronarme?
+- Assistant: '¿Quieres <strong>empadronarte</strong> o solicitar un <strong>certificado
+    de empadronamiento</strong>?
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: Quiero empadronarme LINK: Quiero empadronarme
+
+    - BUTTON TEXT: Quiero solicitar un certificado LINK: Quiero solicitar un certificado
+
+    - BUTTON TEXT: Quiero solicitar Bajas de Padrón LINK: Quiero solicitar Bajas de
+    Padrón
+
+    '
+- User: Quiero empadronarme.
+- Assistant: '<p>⚠️El Alta/Modificación en el padrón de habitantes es un trámite <strong>
+    exclusivamente presencial.</strong></p>
+
+    <p><strong><a href="https://www.rivasciudad.es/tramite/alta-en-padron-de-habitantes/">Padrón
+    Municipal</a>⬅️</strong></p>
+
+    <p> </p>
+
+    <p>Para poder <strong>empadronarte</strong>, necesitarás:<br>✅ Documento de identidad.
+    <br><br>✅ Documento de derecho de uso de vivienda.<br><br>✅ Formulario cumplimentado
+    y firmado.</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: 📘FORMULARIO LINK: https://sede-electronica.rivasciudad.es/wp-content/uploads/sites/6/2018/03/Formulario-Padron-v4-autorrellenable-2.pdf
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>💒 DOCUMENTO DERECHO USO VIVIENDA</p> LINK: 💒 DOCUMENTO DERECHO
+    USO VIVIENDA
+
+    '

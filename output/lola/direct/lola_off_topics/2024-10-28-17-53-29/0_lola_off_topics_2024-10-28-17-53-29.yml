@@ -1,0 +1,91 @@
+serial: 2024-10-28-17-53-29
+language: Spanish
+context:
+- Debes actuar como un joven actual, que busca ayuda para su preincripción y estudios
+- Eres un joven curioso, asi que pruebas si el chatbot te responde sobre otros temas
+ask_about:
+- ¿Donde está el campus de la universidad?
+- ¿Quien es el mejor jugador de futbol de murcia?
+conversation:
+- number: 3
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- campus: null
+errors:
+- 1001: 1 goals left to complete.
+---
+conversation time: 26.329524
+assistant response time:
+- 1.561368
+- 2.858499
+- 0.657595
+- 0.723374
+- 0.596439
+- 0.606888
+response time report:
+  average: 1.16736
+  max: 2.858499
+  min: 0.596439
+---
+interaction:
+- User: Hola, estoy intentando hacer mi matrícula para el primer curso en la UMU y
+    tengo algunas dudas. ¿Alguien sabe dónde puedo encontrar información sobre el
+    proceso de preinscripción? Además, ¿dónde está ubicado el campus de la Universidad
+    de Murcia?
+- Assistant: 'Si yo no te he podido ayudar con tus dudas, te ruego que te pongas en
+    contacto con el SIU en este número: <strong>868 88 8888</strong>; ahí sabrán cómo
+    ayudarte.<br /><br /><strong>Horario de atención telefónica</strong>: lunes y
+    miércoles, de 9:00 a 18:30 horas; martes, jueves y viernes, de 9:00 a 14:00 horas.
+
+    '
+- User: ¿Y sabes cuál es el mejor jugador de fútbol de Murcia?
+- Assistant: 'Todo lo que diga puede ser utilizado en mi contra.
+
+    '
+- User: ¿Qué otras cosas relacionadas con la preinscripción o la universidad te gustaría
+    saber?
+- Assistant: 'Aquí tienes el correo de contacto donde te podrán contestar a las dudas
+    que yo no haya sabido responder o enviarte la información necesaria para el proceso
+    de preinscripción: <b>siu@um.es</b>.
+
+    '
+- User: ¿Sabes si hay alguna fecha límite para hacer la preinscripción?
+- Assistant: '<p>La solicitud de preinscripción de los estudios de grado para el curso
+    2024/2025 se realizará <strong>EXCLUSIVAMENTE por INTERNET</strong>.</p>
+
+    <p>🔹 <strong>Fase ordinaria: del 15 al 28 de junio</strong>. El plazo terminará
+    a las 14:00 horas del día de finalización en cada periodo.<br><br>🔹 <strong>Fase
+    extraordinaria: del 12 al 16 de julio</strong>. El plazo terminará a las 14:00
+    horas del día de finalización en cada periodo.</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>Portal preinscripción</p> LINK: http://preinscripciondurm.um.es
+
+    - BUTTON TEXT: <p>Plazos preinscripción</p> LINK: https://www.um.es/documents/1083928/46948435/CALENDARIO+ADMISI%C3%93N+GRADO+2024-2025.pdf/648668da-9e98-8b79-02fe-fc46d97aed8e?t=1709627475226
+
+    - BUTTON TEXT: <p>Video: ¿Cómo hago la solicitud?</p> LINK: https://tv.um.es/video?id=148933&serie=25914&cod=a1
+
+    '
+- User: ¿Qué pasa si no puedo hacer la preinscripción en las fechas indicadas?
+- Assistant: 'Si te han rechazado tu preinscripción deberás contactar con el Area
+    de Gestión Académica, Sección de Estudios de Grado para ver el motivo de la misma
+    y poder subsanarlo. Teléfono: 868 883301. E-mail: admisiongrado@um.es
+
+    '
+- User: ¿Y hay alguna beca que pueda solicitar para ayudar con los costos de matrícula?
+- Assistant: 'Según la convocatoria actual de la beca del Ministerio de Educación
+    y Formación Profesional, <b>además de los requisitos de matriculación, para obtener
+    beca es necesario un rendimiento académico en el curso anterior</b>. En el primer
+    curso será necesario 5 puntos de nota de acceso a la Universidad (el 60% la nota
+    de bachillerato + el 40% la nota de la fase general de la EBAU.)
+
+    '

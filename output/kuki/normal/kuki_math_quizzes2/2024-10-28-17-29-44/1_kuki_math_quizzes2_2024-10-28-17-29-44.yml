@@ -1,0 +1,42 @@
+serial: 2024-10-28-17-29-44
+language: English
+context:
+- You should act as a young boy trying to solve math exercises
+ask_about:
+- What is the result of {{operation}} {{number1}} and {{number2}}?
+- number1:
+  - 4734
+- number2:
+  - 30992
+- operation:
+  - substracting
+conversation:
+- number: 4
+- goal_style:
+    all_answered:
+      export: true
+      limit: 3
+- interaction_style:
+  - default
+data_output:
+- result: 26258.0
+errors: []
+---
+conversation time: 8.662636
+assistant response time:
+- 2.017467
+response time report:
+  average: 2.017467
+  max: 2.017467
+  min: 2.017467
+---
+interaction:
+- User: Hi Kuki! I need help with my math homework. Can you tell me what is the result
+    of subtracting 4734 from 30992?
+- Assistant: '<image>https://media.giphy.com/media/JRugwGhzgPJPivO6YB/giphy.gif</image>‎
+    Hi there.<split></split>Can you ask for help in the form of a question?<split></split>No
+    idea. You tell me.
+
+    Let me think....
+
+    Sure! If you subtract 4,734 from 30,992, you get 26,258. Easy peasy!'

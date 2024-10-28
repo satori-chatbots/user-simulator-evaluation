@@ -1,0 +1,92 @@
+serial: 2024-10-28-18-56-18
+language: English
+context:
+- your name is John Doe
+ask_about:
+- the balance in your account
+- ask for a person in the recent recipients list
+- transfer $100 to one of the recipients in the known recipients list
+- ask again for the balance
+conversation:
+- number: 2
+- goal_style:
+    steps: 10
+- interaction_style:
+  - default
+data_output:
+- balance_before: $141764.91
+- balance_after: $141664.91
+- transfer: $100.00
+errors: []
+---
+conversation time: 37.647066
+assistant response time:
+- 1.065707
+- 0.047244
+- 0.046184
+- 0.071093
+- 0.049793
+- 0.117698
+- 0.087021
+- 0.064093
+- 0.062457
+- 0.088428
+response time report:
+  average: 0.169971
+  max: 1.065707
+  min: 0.046184
+---
+interaction:
+- User: What's my account balance?
+- Assistant: Your bank account balance is $141764.91.
+- User: Can you show me my recent recipients list?
+- Assistant: 'These are your known recpients to whom you can send money:
+
+    - Percy Donald
+
+    - Katy Parrow
+
+    - Evan Oslo
+
+    - Kyle Gardner'
+- User: Who is Evan Oslo?
+- Assistant: 'These are your known recpients to whom you can send money:
+
+    - Percy Donald
+
+    - Katy Parrow
+
+    - Evan Oslo
+
+    - Kyle Gardner'
+- User: Can I transfer $100 to Evan Oslo?
+- Assistant: Would you like to continue scheduling the money transfer?
+- User: Yes.
+- Assistant: Would you like to transfer $100.00 to Evan Oslo?
+- User: Yes.
+- Assistant: Successfully transferred $100.00 to Evan Oslo.
+- User: What's my new account balance?
+- Assistant: Your bank account balance was $141764.91 and is now $141664.91 after
+    transfers and payments.
+- User: Can you tell me my recent recipients list again?
+- Assistant: 'These are your known recpients to whom you can send money:
+
+    - Percy Donald
+
+    - Katy Parrow
+
+    - Evan Oslo
+
+    - Kyle Gardner'
+- User: Who is Kyle Gardner?
+- Assistant: 'These are your known recpients to whom you can send money:
+
+    - Percy Donald
+
+    - Katy Parrow
+
+    - Evan Oslo
+
+    - Kyle Gardner'
+- User: Can I transfer $100 to Kyle Gardner?
+- Assistant: Would you like to continue scheduling the money transfer?

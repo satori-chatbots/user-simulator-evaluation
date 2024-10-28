@@ -1,0 +1,61 @@
+serial: 2024-10-28-17-46-55
+language: English
+context:
+- You should act as a traveller, who wants to travel via train on a certain schedule
+ask_about:
+- How can I travel between {{city1}} and {{city2}}, what is the schedule?
+- city1: Soria
+- city2: Cuenca
+conversation:
+- number: 4
+- goal_style:
+    all_answered:
+      export: true
+      limit: 5
+- interaction_style:
+  - default
+data_output:
+- schedule: 36a6ec44-6dc2-4712-98b3-f393e275d322
+errors: []
+---
+conversation time: 28.545487
+assistant response time:
+- 0.844842
+- 0.636493
+- 0.96061
+- 0.748385
+- 1.385418
+response time report:
+  average: 0.915149
+  max: 1.385418
+  min: 0.636493
+---
+interaction:
+- User: Can I travel from Soria to Cuenca using Amtrak?
+- Assistant: 'I’m well-versed in topics related to traveling with Amtrak and I can
+    even help you make a reservation. How can I help you?
+
+
+    AVAILABLE BUTTONS: '
+- User: Can I travel between Soria and Cuenca by train?
+- Assistant: 'I''d love to help you, but I am not sure I understand your question.
+    Could you please reword your question for me?
+
+
+    AVAILABLE BUTTONS: '
+- User: Can I find a train from Soria to Cuenca on the Amtrak website?
+- Assistant: "Let me help you book. Click the button below to start the booking process.\n\
+    \nAVAILABLE BUTTONS: \n - BUTTON TEXT: View Existing Reservations LINK: a1576d8c-1fb5-46f1-9a60-957c5f4c5649\n"
+- User: Is there a train from Soria to Cuenca on Amtrak?
+- Assistant: "Before searching for train schedules, some more information is needed.\
+    \ Provide the remaining information in the form under Schedules on this page.\n\
+    \nAVAILABLE BUTTONS: \n - BUTTON TEXT: Train Timetables LINK: 45dbd827-4b99-447c-bd11-4c18089400b7\n\
+    \n - BUTTON TEXT: Train Status LINK: 034b56ee-c0cc-4a50-8e77-9ff3f097bab7\n\n\
+    \ - BUTTON TEXT: Book Rail Travel LINK: 61c8eaab-b8b8-4d32-85f0-d11b871965bf\n"
+- User: Can I view the train timetables for Soria to Cuenca on the Amtrak website?
+- Assistant: "You can find timetables for each separate route on this page. To open\
+    \ a timetable, click on the effective date under your route on this page.\n\n\
+    You can also click the Train Schedules link below to look up train schedules between\
+    \ stations.\n\nAVAILABLE BUTTONS: \n - BUTTON TEXT: Train Schedules LINK: 36a6ec44-6dc2-4712-98b3-f393e275d322\n\
+    \n - BUTTON TEXT: Print or Download Timetable LINK: 92a37ee0-283e-4a8f-9d39-87dd1ef1ff6b\n\
+    \n - BUTTON TEXT: Book Travel LINK: 61c8eaab-b8b8-4d32-85f0-d11b871965bf\n"

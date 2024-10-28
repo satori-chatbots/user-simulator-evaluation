@@ -1,0 +1,64 @@
+Global report:
+  Average assistant response time: 1.112342
+  Maximum assistant response time: 5.549841
+  Mínimum assistant response time: 0.510783
+  Errors:
+  - error: 500
+    count: 1
+    conversations:
+    - 0_lola_very_long_2024-10-28-17-53-29.yml
+  - error: 1001
+    count: 12
+    conversations:
+    - 0_lola_very_long_2024-10-28-17-53-29.yml
+    - 1_lola_off_topics_2024-10-28-17-53-29.yml
+    - 1_lola_off_topics_2024-10-28-17-53-29.yml
+    - 1_lola_off_topics_2024-10-28-17-53-29.yml
+    - 1_lola_off_topics_2024-10-28-17-53-29.yml
+    - 1_lola_off_topics_2024-10-28-17-53-29.yml
+    - 1_lola_off_topics_2024-10-28-17-53-29.yml
+    - 0_lola_off_topics_2024-10-28-17-53-29.yml
+    - 1_lola_erasmus_2024-10-28-17-53-29.yml
+    - 1_lola_erasmus_2024-10-28-17-53-29.yml
+    - 0_lola_erasmus_2024-10-28-17-53-29.yml
+    - 0_lola_normal_2024-10-28-17-53-29.yml
+---
+Test name: lola_very_long
+Average assistant response time: 0.677241
+Maximum assistant response time: 0.677241
+Mínimum assistant response time: 0.677241
+Errors: []
+---
+Test name: lola_off_topics
+Average assistant response time: 0.677241
+Maximum assistant response time: 0.677241
+Mínimum assistant response time: 0.677241
+Errors:
+- error: 500
+  count: 1
+  conversations:
+  - 0_lola_very_long_2024-10-28-17-53-29.yml
+- error: 1001
+  count: 1
+  conversations:
+  - 0_lola_very_long_2024-10-28-17-53-29.yml
+---
+Test name: lola_erasmus
+Average assistant response time: 1.331825
+Maximum assistant response time: 5.549841
+Mínimum assistant response time: 0.547855
+Errors:
+- error: 1001
+  count: 1
+  conversations:
+  - 1_lola_off_topics_2024-10-28-17-53-29.yml
+---
+Test name: lola_normal
+Average assistant response time: 1.331825
+Maximum assistant response time: 5.549841
+Mínimum assistant response time: 0.547855
+Errors:
+- error: 1001
+  count: 1
+  conversations:
+  - 1_lola_off_topics_2024-10-28-17-53-29.yml

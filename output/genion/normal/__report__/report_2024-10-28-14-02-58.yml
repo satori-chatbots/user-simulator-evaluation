@@ -1,0 +1,31 @@
+Global report:
+  Average assistant response time: 7.831445
+  Maximum assistant response time: 8.805295
+  Mínimum assistant response time: 6.857596
+  Errors:
+  - error: 500
+    count: 3
+    conversations:
+    - 0_genion_panaderia_2024-10-28-14-02-58.yml
+    - 0_genion_panaderia_2024-10-28-14-02-58.yml
+    - 1_genion_panaderia_2024-10-28-14-02-58.yml
+  - error: 1001
+    count: 3
+    conversations:
+    - 0_genion_panaderia_2024-10-28-14-02-58.yml
+    - 0_genion_panaderia_2024-10-28-14-02-58.yml
+    - 1_genion_panaderia_2024-10-28-14-02-58.yml
+---
+Test name: genion_panaderia
+Average assistant response time: 7.831445
+Maximum assistant response time: 8.805295
+Mínimum assistant response time: 6.857596
+Errors:
+- error: 500
+  count: 1
+  conversations:
+  - 0_genion_panaderia_2024-10-28-14-02-58.yml
+- error: 1001
+  count: 1
+  conversations:
+  - 0_genion_panaderia_2024-10-28-14-02-58.yml

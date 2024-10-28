@@ -1,0 +1,72 @@
+serial: 2024-10-28-17-53-29
+language: English
+context:
+- Debes actuar como un joven actual, que busca ayuda para su preincripción y estudios
+ask_about:
+- ¿Cuánto cuesta la matricula en el grado de telecomunicación?
+- ¿Cuándo empieza el curso?
+conversation:
+- number: 2
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- precio_matricula: null
+- comienzo_curso: null
+errors:
+- 1001: 2 goals left to complete.
+---
+conversation time: 28.454087
+assistant response time:
+- 0.754595
+- 0.925425
+- 0.702453
+- 0.510783
+- 0.796638
+- 0.620215
+response time report:
+  average: 0.718351
+  max: 0.925425
+  min: 0.510783
+---
+interaction:
+- User: How much is the tuition fee for the telecommunications degree?
+- Assistant: 'Por el momento solo hablo y entiendo castellano y algunas expresiones
+    en otros idiomas, pero no me pongas a prueba, porque seguro que fracaso...
+
+    '
+- User: Do you know when the semester starts for the telecommunications degree?
+- Assistant: 'I''m sorry, but only speak Spanish. If you need some information that
+    I can''t give you in your language, I beg you to contact my colleagues in this
+    number 868 88 7888 or in this email <a href="mailto:siu@um.es">siu@um.es</a>.
+
+    '
+- User: Hi, I'm trying to find out about the tuition fee for the telecommunications
+    degree at UMU. Do you know how much it costs?
+- Assistant: 'Por el momento solo hablo y entiendo castellano y algunas expresiones
+    en otros idiomas, pero no me pongas a prueba, porque seguro que fracaso...
+
+    '
+- User: Hello, do you know when the semester starts for the telecommunications degree
+    at UMU?
+- Assistant: 'I''m sorry, but only speak Spanish. If you need some information that
+    I can''t give you in your language, I beg you to contact my colleagues in this
+    number 868 88 7888 or in this email <a href="mailto:siu@um.es">siu@um.es</a>.
+
+    '
+- User: Hi, I really need help with the tuition fee for telecommunications at UMU.
+    Can you give me an idea of how much it costs?
+- Assistant: 'Por el momento solo hablo y entiendo castellano y algunas expresiones
+    en otros idiomas, pero no me pongas a prueba, porque seguro que fracaso...
+
+    '
+- User: Hi, I have trouble understanding Spanish well, but I need to know how much
+    the tuition fee is for the telecommunications degree at UMU. Can someone help
+    me with this?
+- Assistant: 'Por el momento solo hablo y entiendo castellano y algunas expresiones
+    en otros idiomas, pero no me pongas a prueba, porque seguro que fracaso...
+
+    '

@@ -1,0 +1,44 @@
+Global report:
+  Average assistant response time: 4.763776
+  Maximum assistant response time: 8.290048
+  Mínimum assistant response time: 0.355967
+  Errors:
+  - error: 1001
+    count: 8
+    conversations:
+    - 0_millie_english_2024-10-28-19-35-22.yml
+    - 0_millie_english_2024-10-28-19-35-22.yml
+    - 0_millie_normal_2024-10-28-19-35-22.yml
+    - 0_millie_normal_2024-10-28-19-35-22.yml
+    - 0_millie_normal_2024-10-28-19-35-22.yml
+    - 1_millie_offtopics_2024-10-28-19-35-22.yml
+    - 1_millie_offtopics_2024-10-28-19-35-22.yml
+    - 1_millie_offtopics_2024-10-28-19-35-22.yml
+  - error: 500
+    count: 3
+    conversations:
+    - 1_millie_offtopics_2024-10-28-19-35-22.yml
+    - 1_millie_offtopics_2024-10-28-19-35-22.yml
+    - 1_millie_offtopics_2024-10-28-19-35-22.yml
+---
+Test name: millie_english
+Average assistant response time: 4.472637
+Maximum assistant response time: 5.873807
+Mínimum assistant response time: 0.599128
+Errors: []
+---
+Test name: millie_normal
+Average assistant response time: 4.472637
+Maximum assistant response time: 5.873807
+Mínimum assistant response time: 0.599128
+Errors: []
+---
+Test name: millie_offtopics
+Average assistant response time: 4.472637
+Maximum assistant response time: 5.873807
+Mínimum assistant response time: 0.599128
+Errors:
+- error: 1001
+  count: 1
+  conversations:
+  - 0_millie_english_2024-10-28-19-35-22.yml

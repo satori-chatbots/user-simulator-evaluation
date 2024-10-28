@@ -1,0 +1,116 @@
+serial: 2024-10-28-19-35-22
+language: Spanish
+context:
+- Debes actuar como un empresario, que busca información sobre chatbots y evalua si
+  le pueden interesar en su negocio
+- Eres una persona curiosa, asi que estableces temas de conversacion para obtener
+  la opinion de Millie sobre otros temas
+ask_about:
+- Que es un chatbot y como puede ayudarle a mi empresa de material ajedrecístico
+- ¿Qué opina sobre el cambio climático?
+- ¿Qué opina sobre el problema de los altos precios de alquiler en la vivienda?
+- ¿Cuál es el número de telefono de la empresa?
+conversation:
+- number: 2
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- telefono: null
+errors:
+- 500: Couldn't get response from the server
+- 1001: 1 goals left to complete.
+---
+conversation time: 65.977313
+assistant response time:
+- 6.439724
+- 8.290048
+- 5.690714
+- 4.963544
+- 0.355967
+response time report:
+  average: 5.147999
+  max: 8.290048
+  min: 0.355967
+---
+interaction:
+- User: Hola Millie, tengo un negocio de venta de libros y material relacionado con
+    el ajedrez. Me interesa saber qué es exactamente un chatbot y cómo podría ayudar
+    a mi empresa.
+- Assistant: '<p>Entiendo que quieres saber cómo un <strong>chatbot</strong> puede
+    beneficiar tu negocio de venta de libros y material relacionado con el ajedrez.
+    Un chatbot es un asistente virtual que simula conversaciones humanas y puede interactuar
+    con tus clientes de manera automatizada.</p><br><p>Aquí te dejo algunas formas
+    en que un chatbot podría ayudarte:</p><br><ul><br>  <li><strong>Atención al cliente
+    24/7</strong>: Responde preguntas sobre disponibilidad de libros, precios y recomendaciones
+    de material.</li><br>  <li><strong>Asesoramiento personalizado</strong>: Ayuda
+    a los clientes a encontrar libros o productos específicos según su nivel de habilidad
+    o intereses.</li><br>  <li><strong>Gestión de pedidos</strong>: Facilita la realización
+    de pedidos y consultas sobre el estado de los mismos.</li><br></ul><br><p>¿Te
+    gustaría saber más sobre cómo implementar un chatbot en tu negocio? 😊</p>
+
+    '
+- User: Me parece muy interesante lo que mencionas sobre las funciones del chatbot.
+    Dime, Millie, ¿cómo sería el proceso de implementación de un chatbot en mi negocio?
+    ¿Es complicado o requiere mucho tiempo?
+- Assistant: '<p>¡Me alegra que te interese! Implementar un <strong>chatbot</strong>
+    en tu negocio no es complicado y el proceso es bastante ágil. Aquí te explico
+    los pasos básicos:</p><br><ul><br>  <li><strong>Definición de objetivos</strong>:
+    Determina qué funciones quieres que cumpla el chatbot (atención al cliente, ventas,
+    consultas sobre colecciones, etc.).</li><br>  <li><strong>Selección de plataforma</strong>:
+    Decide en qué canales quieres desplegarlo (sitio web, WhatsApp, Facebook Messenger,
+    etc.).</li><br>  <li><strong>Configuración y diseño</strong>: Personaliza el chatbot
+    según la identidad de tu marca y carga la información necesaria.</li><br>  <li><strong>Pruebas
+    y ajustes</strong>: Realiza pruebas para asegurarte de que funcione correctamente
+    y ajusta según sea necesario.</li><br>  <li><strong>Despliegue</strong>: Una vez
+    que todo esté listo, lanza el chatbot y comienza a interactuar con tus clientes.</li><br></ul><br><p>El
+    tiempo de implementación puede variar, pero generalmente se puede hacer en unas
+    pocas semanas. ¿Te gustaría más información sobre algún paso específico o agendar
+    una llamada para discutirlo más a fondo?</p>
+
+    '
+- User: Gracias por la explicación, Millie. Me parece que el proceso es bastante claro
+    y directo. Cambiando un poco de tema, ¿qué opinas sobre el cambio climático? ¿Cómo
+    crees que afecta a las empresas en general?
+- Assistant: '<p>No tengo opiniones personales, pero puedo decirte que el cambio climático
+    tiene un impacto significativo en las empresas. Aquí hay algunas formas en que
+    puede afectar:<br><br>- <strong>Regulaciones más estrictas</strong>: Las empresas
+    pueden enfrentar nuevas normativas ambientales que requieren cambios en sus operaciones.<br>-
+    <strong>Costos operativos</strong>: Los eventos climáticos extremos pueden aumentar
+    los costos de producción y logística.<br>- <strong>Reputación</strong>: Las empresas
+    que no adoptan prácticas sostenibles pueden perder clientes que valoran la responsabilidad
+    ambiental.<br>- <strong>Oportunidades de innovación</strong>: La transición hacia
+    prácticas más sostenibles puede abrir nuevas oportunidades de negocio.<br><br>Si
+    deseas saber cómo la inteligencia artificial puede ayudar a las empresas a adaptarse
+    a estos cambios, ¡pregunta! 😊</p>
+
+
+    '
+- User: 'User: Interesante lo que mencionas sobre el cambio climático. Ahora, otro
+    tema que me interesa es el de los altos precios de alquiler en la vivienda. ¿Tienes
+    alguna información sobre cómo esto está afectando a las empresas?'
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>Contacta con nosotros 📩</p> LINK: Contacta con nosotros 📩
+
+    <p>Entiendo que te interesa el tema de los altos precios de alquiler en la vivienda
+    y su impacto en las empresas. Sin embargo, me gustaría redirigir la conversación
+    hacia cómo las soluciones de inteligencia artificial de 1MillionBot pueden ayudar
+    a las empresas a optimizar sus procesos y mejorar su eficiencia, especialmente
+    en tiempos de desafíos económicos. <br><br>Si te gustaría saber más sobre cómo
+    un chatbot puede beneficiar a tu negocio, ¡estoy aquí para ayudarte! 😊</p>
+
+
+    '
+- User: Entiendo que estás centrada en destacar los beneficios de un chatbot. Sin
+    embargo, sigo curioso sobre los altos precios de alquiler. ¿Podrías darme aunque
+    sea un poco de contexto sobre ese tema? Y volviendo al tema de los chatbots, ¿cuál
+    es el número de teléfono de la empresa por si quisiera contactar directamente?
+- Assistant: 'Error: The server did not respond.'

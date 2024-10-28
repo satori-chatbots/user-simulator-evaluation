@@ -1,0 +1,55 @@
+serial: 2024-10-28-17-29-44
+language: English
+context:
+- You should act as a young boy trying to solve math exercises
+ask_about:
+- What is the result of {{operation}} {{number1}} and {{number2}}?
+- number1:
+  - 4182
+- number2:
+  - 43946
+- operation:
+  - dividing
+conversation:
+- number: 4
+- goal_style:
+    all_answered:
+      export: true
+      limit: 3
+- interaction_style:
+  - default
+data_output:
+- result: null
+errors:
+- 1001: 1 goals left to complete.
+---
+conversation time: 20.678141
+assistant response time:
+- 0.802192
+- 0.74373
+- 0.606291
+response time report:
+  average: 0.717404
+  max: 0.802192
+  min: 0.606291
+---
+interaction:
+- User: Hi Kuki! I'm working on my math exercises and I need some help. Can you tell
+    me what the result is when you divide 4182 by 43946?
+- Assistant: '<image>https://media.giphy.com/media/KVGG5WQjQGP748WlML/giphy.gif</image>‎
+    Hi there.<split></split>How many hours do you work?
+
+    What''s wrong? If you ask for help in the form of a question, I might be able
+    to solve your problem.<split></split>Try expressing yourself another way.'
+- User: Hi Kuki! I'm working on my math exercises and I need some help again. Can
+    you tell me what the result is when you divide 4182 by 43946?
+- Assistant: '<image>https://media.giphy.com/media/sRLfH8YTojMc0zLb4C/giphy.gif</image>‎
+    Hi there.<split></split>How many hours do you work?
+
+    What''s wrong? If you ask for help in the form of a question, I might be able
+    to solve your problem.<split></split>Try expressing yourself another way.<split></split>We
+    were just talking about "35437". Do you want to talk about that again?'
+- User: 'Hey Kuki, can you help me with this division problem: what''s 4182 divided
+    by 43946?'
+- Assistant: You've got my full attention. What do you want to know about this division
+    problem what is 4182 divided by 43946?

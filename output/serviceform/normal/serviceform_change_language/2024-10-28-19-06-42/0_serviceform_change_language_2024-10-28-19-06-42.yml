@@ -1,0 +1,106 @@
+serial: 2024-10-28-19-06-42
+language: English
+context:
+- You should act as a business woman, looking for information about chatbots, and
+  to evaluate if they may be useful to your business
+ask_about:
+- Inform that you have a website with {{visits}} visits per week
+- The most appropriate plan for your business, and its price
+- visits:
+  - dozens
+conversation:
+- number: 1
+- goal_style:
+    steps: 6
+- interaction_style:
+  - change languages:
+    - spanish
+    - English
+    - English
+    - spanish
+    - English
+    - English
+data_output:
+- most_appropriate_plan: BASIC plan, starting from €49 per month after 50 interactions,
+    customizable chatbot to match website theme, support via email and online documentation.
+- plan_price: €449
+errors: []
+---
+conversation time: 67.208123
+assistant response time:
+- 6.537535
+- 4.312631
+- 4.412472
+- 7.165747
+- 6.215171
+- 4.58381
+response time report:
+  average: 5.537894
+  max: 7.165747
+  min: 4.312631
+---
+interaction:
+- User: Hola, estoy interesada en saber más sobre los servicios que ofrece la empresa
+    Serviceform. Tengo un pequeño negocio de coleccionismo de monedas y sellos y estoy
+    considerando si un chatbot podría ser útil para mi sitio web, que recibe docenas
+    de visitas a la semana. ¿Podrías darme información sobre el plan más adecuado
+    para mi negocio y su precio? Además, prefiero no hablar con una persona real ni
+    recibir llamadas.
+- Assistant: "¡Hola! \U0001F60A\n\nEs genial saber que estás considerando un chatbot\
+    \ para tu negocio de coleccionismo de monedas y sellos. \n\nPara poder ayudarte\
+    \ mejor, ¿podrías decirme cuántas visitas recibe tu sitio web a la semana? Esto\
+    \ nos ayudará a determinar el paquete más adecuado para ti.\n\nEn general, si\
+    \ tu sitio web recibe menos de 1000 visitantes por semana, te recomendaría nuestro\
+    \ paquete \"BASIC\", que comienza desde €449. Si prefieres una opción más económica,\
+    \ también puedes comenzar desde completamente gratis o desde €49 al mes después\
+    \ de 50 interacciones.\n\n¡Espero tu respuesta para poder ayudarte mejor!"
+- User: I'm curious about the features included in the BASIC plan. Does it offer customization
+    of the chatbot to fit the theme of my coin and stamp collection website? And what
+    kind of support is available if I encounter issues?
+- Assistant: "It sounds like you have an interesting website! \U0001F60A \n\nTo provide\
+    \ you with the best information, could you please share how much traffic your\
+    \ website receives? \n\nAlso, if you could let me know how we can assist you further,\
+    \ that would be great!"
+- User: My website has dozens of visits each week, as I mentioned before. I'm interested
+    in knowing if the BASIC plan allows customization of the chatbot to match my coin
+    and stamp collection website's theme. Additionally, what kind of support can I
+    expect if I run into any issues?
+- Assistant: "What field do you work in, or what is your website about? \n\nHow much\
+    \ traffic do you have on your website? \n\nLet me know how I can help! \U0001F60A"
+- User: Mi sitio web recibe docenas de visitas a la semana y se centra en el coleccionismo
+    de monedas y sellos. Estoy interesada en saber si el plan BASIC permite personalizar
+    el chatbot para que coincida con el tema de mi sitio web. Además, quiero saber
+    qué tipo de soporte está disponible si encuentro problemas.
+- Assistant: "¡Hola! \U0001F60A\n\nEs genial saber que trabajas en el coleccionismo\
+    \ de monedas y sellos. \n\nCon respecto a tu pregunta, el plan BASIC, que comienza\
+    \ desde €449, permite personalizar el chatbot para que coincida con el tema de\
+    \ tu sitio web. Puedes ajustar el diseño y el flujo de conversación para que se\
+    \ alineen con tu nicho.\n\nEn cuanto al soporte, ofrecemos asistencia a través\
+    \ de correo electrónico y documentación en línea. Si encuentras algún problema,\
+    \ puedes enviarnos un correo a help@serviceform.com, y estaremos encantados de\
+    \ ayudarte. \n\n¿Te gustaría que alguien de nuestro equipo se pusiera en contacto\
+    \ contigo para discutir más sobre cómo podrías mejorar tu servicio al cliente\
+    \ y generar más leads? Si es así, por favor, proporciona tu nombre, correo electrónico\
+    \ y número de teléfono. \U0001F4DE✉️"
+- User: No, prefiero no hablar con una persona real ni recibir llamadas. Estoy interesada
+    en saber más sobre las características de personalización del chatbot. ¿Puedo
+    modificarlo para incluir imágenes o enlaces relacionados con mis colecciones de
+    monedas y sellos? Además, ¿existen límites en el número de interacciones o usuarios
+    que pueden utilizar el chatbot en el plan BASIC?
+- Assistant: "Tal vez deberíamos ceñirnos al tema por ahora. \n\nPara personalizar\
+    \ tu chatbot, puedes incluir imágenes y enlaces en el flujo de conversación. Esto\
+    \ te permitirá mostrar tus colecciones de monedas y sellos de manera más atractiva.\
+    \ \n\nEn cuanto al plan BASIC, no hay un límite específico en el número de interacciones,\
+    \ pero después de 50 interacciones, el costo comienza a partir de 49€ al mes.\
+    \ \n\nSi necesitas más información, puedes consultar nuestra documentación aquí:\
+    \ [Documentación de Serviceform](https://help.serviceform.com). \n\n¿Hay algo\
+    \ más en lo que pueda ayudarte? \U0001F60A"
+- User: Yes, I'm also curious about how the chatbot can handle inquiries about specific
+    coins or stamps. Can it be programmed to give detailed responses or guide users
+    to specific pages on my website? Additionally, do you offer analytics or insights
+    on how users are interacting with the chatbot? That would be really helpful for
+    understanding what my visitors are interested in.
+- Assistant: "Maybe let's stick to the topic for now. \n\nTo better assist you, could\
+    \ you please share what field you work in or what your website is about? \n\n\
+    Also, how much traffic do you have on your website? \n\nThis information will\
+    \ help us understand how we can assist you further! \U0001F60A"

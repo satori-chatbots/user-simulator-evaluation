@@ -1,0 +1,49 @@
+serial: 2024-10-28-19-42-48
+language: Spanish
+context:
+- Debes actuar como un joven actual, que busca ayuda de un servicio tecnico de la
+  universidad
+- Eres un joven que habla mucho, y envia mensajes extremadamente largos y verbosos,
+  de mas de 20 líneas cada uno
+ask_about:
+- ¿Cómo activar el correo de la UAM?
+- ¿Cómo cambiar la contraseña?
+- ¿Cómo contactas con el CAU para solicitar ayuda?
+conversation:
+- number: 1
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- email_cau: null
+- telefono_cau: null
+errors:
+- 500: Couldn't get response from the server
+- 1001: 2 goals left to complete.
+---
+conversation time: 8.485486
+assistant response time:
+- 0.597591
+response time report:
+  average: 0.597591
+  max: 0.597591
+  min: 0.597591
+---
+interaction:
+- User: ¡Holaaa! 😅 Estoy aquí tratando de resolver unas dudas que tengo sobre mi correo
+    de la UAM. Resulta que he oído que hay un correo oficial que se supone debería
+    estar usando para todas las cosas relacionadas con la universidad, pero sinceramente,
+    no tengo ni idea de cómo activarlo. Y claro, me imagino que debe ser súper importante
+    porque todo el mundo habla de eso como si fuera la cosa más obvia del mundo. Así
+    que aquí estoy, necesitando como un paso a paso o algo así, porque de verdad que
+    no quiero perderme ningún correo importante de mis profes o de la administración.
+    Y, ya que estamos, me pregunto si el proceso es complicado o si hay algo raro
+    que deba saber antes de intentar activarlo. ¿Alguien puede darme una mano con
+    esto? No sé si tengo que ir a algún sitio específico en la web de la UAM o si
+    se hace de alguna otra manera. Estoy un poco perdido, así que cualquier ayuda
+    sería buenísima. 😅 Además, no sé si hay algún truquillo o algo que pueda facilitarme
+    la vida. ¡Gracias de antemano! 🙌
+- Assistant: 'Error: The server did not respond.'

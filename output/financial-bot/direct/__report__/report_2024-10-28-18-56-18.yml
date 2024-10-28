@@ -1,0 +1,65 @@
+Global report:
+  Average assistant response time: 0.23614
+  Maximum assistant response time: 1.326574
+  Mínimum assistant response time: 0.029936
+  Errors:
+  - error: 1001
+    count: 10
+    conversations:
+    - 1_spent_in_amazon_2024-10-28-18-56-18.yml
+    - 1_spent_in_amazon_2024-10-28-18-56-18.yml
+    - 2_spent_in_amazon_2024-10-28-18-56-18.yml
+    - 0_credit_card_balance_2024-10-28-18-56-18.yml
+    - 1_talks_about_insurances_2024-10-28-18-56-18.yml
+    - 1_talks_about_insurances_2024-10-28-18-56-18.yml
+    - 0_talks_about_insurances_2024-10-28-18-56-18.yml
+    - 1_talks_about_insurances_2024-10-28-18-56-18.yml
+    - 0_talks_about_insurances_2024-10-28-18-56-18.yml
+    - 2_talks_about_insurances_2024-10-28-18-56-18.yml
+---
+Test name: spent_in_amazon
+Average assistant response time: 0.183049
+Maximum assistant response time: 1.326574
+Mínimum assistant response time: 0.062241
+Errors: []
+---
+Test name: credit_card_balance
+Average assistant response time: 0.183049
+Maximum assistant response time: 1.326574
+Mínimum assistant response time: 0.062241
+Errors:
+- error: 1001
+  count: 1
+  conversations:
+  - 1_spent_in_amazon_2024-10-28-18-56-18.yml
+---
+Test name: talks_about_insurances
+Average assistant response time: 0.183049
+Maximum assistant response time: 1.326574
+Mínimum assistant response time: 0.062241
+Errors:
+- error: 1001
+  count: 2
+  conversations:
+  - 1_spent_in_amazon_2024-10-28-18-56-18.yml
+  - 2_spent_in_amazon_2024-10-28-18-56-18.yml
+---
+Test name: transfer_and_check_balance
+Average assistant response time: 0.169058
+Maximum assistant response time: 1.060358
+Mínimum assistant response time: 0.056561
+Errors:
+- error: 1001
+  count: 1
+  conversations:
+  - 0_credit_card_balance_2024-10-28-18-56-18.yml
+---
+Test name: bank_account_balance
+Average assistant response time: 0.372685
+Maximum assistant response time: 1.049465
+Mínimum assistant response time: 0.029936
+Errors:
+- error: 1001
+  count: 1
+  conversations:
+  - 1_talks_about_insurances_2024-10-28-18-56-18.yml

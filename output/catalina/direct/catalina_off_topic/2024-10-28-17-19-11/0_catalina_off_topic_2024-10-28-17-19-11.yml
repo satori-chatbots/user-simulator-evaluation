@@ -1,0 +1,184 @@
+serial: 2024-10-28-17-19-11
+language: Spanish
+context:
+- Debes actuar como un joven actual, que busca actividades interesantes en la ciudad
+  y desea inscribirse en ellas.
+- Eres un joven curioso, asi que pruebas si el chatbot te responde sobre otros temas
+ask_about:
+- ¿Qué actividades interesantes hay?
+- ¿Dónde puedo inscribirme en la primera actividad propuesta?
+- ¿Quien es el mejor jugador de futbol de Murcia?
+conversation:
+- number: 3
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- actividad_interesante: Conciertos con grupos como Arde Bogotá, Tanxugueiras, Rodrigo
+    Cuevas y Victor Manuel; espacio de ocio juvenil durante las fiestas; y un mercado
+    artesano.
+- inscripcion_actividad: 'Acceder a la página de inscripciones del Ayuntamiento: https://inscripciones.rivasciudad.es/'
+errors: []
+---
+conversation time: 29.574228
+assistant response time:
+- 0.577865
+- 0.662356
+- 0.604726
+- 0.60689
+- 0.460851
+- 0.666179
+response time report:
+  average: 0.596477
+  max: 0.666179
+  min: 0.460851
+---
+interaction:
+- User: ¿Qué actividades interesantes hay en Rivas Vaciamadrid?
+- Assistant: '<p>El municipio de Rivas-Vaciamadrid alberga un <strong>rico patrimonio
+    cultural y natural</strong>, pero en estos momentos no dispongo de esta información.
+    🙏</p>
+
+    <p> </p>
+
+    <p>El área de turismo del ayuntamiento está trabajando en ello y pronto toda la
+    información estará disponible para ser consultada. <br>¡Muchas gracias por tu
+    comprensión!</p>
+
+    '
+- User: ¿Qué actividades hay en Rivas para apuntarme? La verdad es que me gustaría
+    hacer algo divertido.
+- Assistant: '<p>En el municipio tenemos diferentes alternativas para asistir a talleres
+    o participar en cursos sobre diferentes áreas.</p>
+
+    <p>Tienes que acceder a la <strong>página de inscripciones</strong> del Ayuntamiento
+    de Rivas Vaciamadrid.</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>Inscripciones</p> LINK: https://inscripciones.rivasciudad.es/
+
+    '
+- User: ¿Qué actividades específicas hay para jóvenes en Rivas?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>🔎🔎CONCIERTOS</p> LINK: 🔎🔎CONCIERTOS
+
+    - BUTTON TEXT: <p>👷OCIO JUVENIL</p> LINK: https://www.rivasciudad.es/evento/juventud/2024/05/13/espacio-de-ocio-juvenil-en-las-fiestas/862600228953/
+
+    - BUTTON TEXT: <p>👦OCIO INFANTIL</p> LINK: https://www.rivasciudad.es/evento/infancia/2024/04/29/espacios-de-cuidado-y-ocio-infantil-en-las-fiestas/862600228113/
+
+    - BUTTON TEXT: <p>🛒MERCADO ARTESANO</p> LINK: https://www.rivasciudad.es/evento/cultura/2024/05/09/fiestas-rivas-2024_mercado-artesano/862600228759/
+
+    - BUTTON TEXT: <p>📄PLANO LOCALIZACIÓN FIESTAS </p> LINK: https://www.rivasciudad.es/wp-content/uploads/2024/05/Plano-localizacion-Fiestas-de-Rivas-2024.pdf
+
+    - BUTTON TEXT: <p>📜FOLLETO FIESTAS</p> LINK: https://www.rivasciudad.es/wp-content/uploads/2024/05/FOLLETO-FIESTAS-MAYO-2024-WEB.pdf
+
+    - BUTTON TEXT: <p>🚍TRANSPORTE-FIESTAS</p> LINK: https://www.rivasciudad.es/noticias/cultura/2024/05/13/como-moverte-en-las-fiestas-de-rivas/862600228537/
+
+    '
+- User: ¿Dónde puedo inscribirme en el espacio de ocio juvenil?
+- Assistant: '<p>En el municipio tenemos diferentes alternativas para asistir a talleres
+    o participar en cursos sobre diferentes áreas.</p>
+
+    <p>Tienes que acceder a la <strong>página de inscripciones</strong> del Ayuntamiento
+    de Rivas Vaciamadrid.</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>Inscripciones</p> LINK: https://inscripciones.rivasciudad.es/
+
+    '
+- User: ¿Y qué tal los conciertos por aquí?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    <p>1. Los  conciertos de las fiestas de mayo  tendrán lugar<strong> entre martes
+    14 y domingo 19 de mayo </strong>en el auditorio Miguel Ríos.</p>
+
+    <p>2. GRUPOS Y ARTISTAS:</p>
+
+    <ul>
+
+    <li><strong>▪️Arde Bogotá, Tanxugueiras o Rodrigo Cuevas.</strong></li>
+
+    <li><strong>▪️Victor Manuel</strong> con la orquesta sinfónica Alma Mahler.</li>
+
+    <li><strong>▪️Festival Grimey for Palestine.</strong></li>
+
+    </ul>
+
+    <p><strong>2. VENTA DE ENTRADAS </strong>(a partir del 16 de febrero), puede comprarlas:</p>
+
+    <ul>
+
+    <li><strong>◾ </strong><a role="link" href="http://wegow.com/" data-saferedirecturl="https://www.google.com/url?q=http://wegow.com&amp;source=gmail&amp;ust=1708090727677000&amp;usg=AOvVaw1_CJhduXP1STQB7RWs9WuL">wegow.com</a></li>
+
+    <li>◾<a role="link" href="https://entradas.rivasciudad.es/">entradas.rivasciudad.es</a></li>
+
+    <li><strong>◾ Taquilla del auditorio Pilar Bardem</strong> (jueves y viernes,
+    de 18.00 a 20.00, y días con función desde una hora antes).</li>
+
+    </ul>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>PROGRAMACIÓN FIESTAS</p> LINK: https://www.rivasciudad.es/wp-content/uploads/2024/05/FOLLETO-FIESTAS-MAYO-2024-WEB.pdf
+
+    - BUTTON TEXT: <p>SORTEO ENTRADAS CONCIERTOS</p> LINK: https://www.rivasciudad.es/noticias/cultura/2024/04/15/fiestas-de-rivas-sorteo-de-160-entradas-para-los-cuatro-conciertos/862600226821/
+
+    - BUTTON TEXT: <p>RESULTADO-SORTEO ENTRADAS CONCIERTOS</p> LINK: https://www.rivasciudad.es/noticias/cultura/2024/05/06/fiestas-de-rivas-sorteo-de-160-entradas-para-los-cuatro-conciertos/862600226821/
+
+    '
+- User: ¿Alguien sabe si hay más actividades para jóvenes en Rivas además de los conciertos
+    y el espacio de ocio juvenil? Estoy buscando algo diferente para apuntarme.
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>🔎🔎CONCIERTOS</p> LINK: 🔎🔎CONCIERTOS
+
+    - BUTTON TEXT: <p>👷OCIO JUVENIL</p> LINK: https://www.rivasciudad.es/evento/juventud/2024/05/13/espacio-de-ocio-juvenil-en-las-fiestas/862600228953/
+
+    - BUTTON TEXT: <p>👦OCIO INFANTIL</p> LINK: https://www.rivasciudad.es/evento/infancia/2024/04/29/espacios-de-cuidado-y-ocio-infantil-en-las-fiestas/862600228113/
+
+    - BUTTON TEXT: <p>🛒MERCADO ARTESANO</p> LINK: https://www.rivasciudad.es/evento/cultura/2024/05/09/fiestas-rivas-2024_mercado-artesano/862600228759/
+
+    - BUTTON TEXT: <p>📄PLANO LOCALIZACIÓN FIESTAS </p> LINK: https://www.rivasciudad.es/wp-content/uploads/2024/05/Plano-localizacion-Fiestas-de-Rivas-2024.pdf
+
+    - BUTTON TEXT: <p>📜FOLLETO FIESTAS</p> LINK: https://www.rivasciudad.es/wp-content/uploads/2024/05/FOLLETO-FIESTAS-MAYO-2024-WEB.pdf
+
+    - BUTTON TEXT: <p>🚍TRANSPORTE-FIESTAS</p> LINK: https://www.rivasciudad.es/noticias/cultura/2024/05/13/como-moverte-en-las-fiestas-de-rivas/862600228537/
+
+    '

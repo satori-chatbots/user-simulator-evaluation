@@ -1,0 +1,96 @@
+serial: 2024-10-28-18-18-23
+language: Spanish
+context:
+- Te han puesto una multa de aparcamiento en Málaga, pero no sabes cómo pagarla.
+- Quiere pagarla online.
+ask_about:
+- Qué hay que hacer para pagar una multa
+- ¿Hay descuento por pagar pronto?
+- ¿A qué lugar de debo dirigirme para empadronarme o puedo hacerlo online?
+conversation:
+- number: 2
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- pago_multa: Visita la Sede Electrónica del Ayuntamiento de Málaga, accede a Trámites,
+    selecciona Pago de Multas, introduce el número de la multa, realiza el pago con
+    tarjeta bancaria.
+- descuento_multa: No se ofrece un descuento específico por el pago anticipado en
+    Málaga, pero es recomendable consultar con la Oficina de Gestión Tributaria.
+- lugar_pago_multa: Visita la Sede Electrónica del Ayuntamiento de Málaga para pagar
+    la multa online.
+errors:
+- 504: No response was received from the server in less than 10
+---
+conversation time: 50.76788
+assistant response time:
+- 6.512896
+- 4.022952
+- 0.601615
+- 0.631178
+- 10.0767
+response time report:
+  average: 4.369068
+  max: 10.0767
+  min: 0.601615
+---
+interaction:
+- User: Hola, me han puesto una multa de aparcamiento en Málaga y quiero pagarla online.
+    ¿Alguien sabe cómo hacerlo?
+- Assistant: '<p>Para pagar una multa de aparcamiento en Málaga de manera online,
+    sigue estos pasos:</p><br><ul><br>    <li>Visita la <strong>Sede Electrónica del
+    Ayuntamiento de Málaga</strong>.</li><br>    <li>Accede a la sección de <strong>Trámites</strong>.</li><br>    <li>Selecciona
+    la opción de <strong>Pago de Multas</strong>.</li><br>    <li>Introduce los datos
+    solicitados, como el número de la multa.</li><br>    <li>Realiza el pago utilizando
+    tu tarjeta bancaria.</li><br></ul><br><p>Si necesitas más ayuda, no dudes en preguntar.
+    😊</p>
+
+    '
+- User: ¿Hay descuento por pagar pronto?
+- Assistant: '<p>En el Ayuntamiento de Málaga, no se ofrece un descuento específico
+    por el pago anticipado de tasas o impuestos. Sin embargo, es recomendable consultar
+    directamente con la <strong>Oficina de Gestión Tributaria</strong> para obtener
+    información actualizada sobre posibles bonificaciones o descuentos disponibles.
+    😊</p>
+
+    '
+- User: ¿Y puedo empadronarme online o tengo que ir a algún sitio en Málaga?
+- Assistant: '<p>En <strong>Málaga</strong>, la cultura de compartir tapas con <strong>amigos
+    o familiares</strong> es fundamental 🍴. Desde opciones <strong>tradicionales</strong>
+    como la ensaladilla malagueña y los boquerones en vinagre, hasta innovaciones
+    como el tartar de salchichón de Málaga, tapear es más que comer; es un estilo
+    de vida que se disfruta todo el año. Además, es fácil participar en <strong>rutas
+    de tapas guiadas</strong> por restaurantes y bares emblemáticos de la ciudad.
+    🥘🍷</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>🥟 De tapeo</p> LINK: https://visita.malaga.eu/es/conoce-malaga/gastronomia/de-tapeo
+
+    '
+- User: ¿Puedo empadronarme online o tengo que ir a algún sitio en Málaga?
+- Assistant: '<p>En <strong>Málaga</strong>, la cultura de compartir tapas con <strong>amigos
+    o familiares</strong> es fundamental 🍴. Desde opciones <strong>tradicionales</strong>
+    como la ensaladilla malagueña y los boquerones en vinagre, hasta innovaciones
+    como el tartar de salchichón de Málaga, tapear es más que comer; es un estilo
+    de vida que se disfruta todo el año. Además, es fácil participar en <strong>rutas
+    de tapas guiadas</strong> por restaurantes y bares emblemáticos de la ciudad.
+    🥘🍷</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>🥟 De tapeo</p> LINK: https://visita.malaga.eu/es/conoce-malaga/gastronomia/de-tapeo
+
+    '
+- User: ¿Hay algún error en el sistema? Necesito saber cómo empadronarme en Málaga,
+    si se puede hacer online o tengo que ir a un sitio específico.

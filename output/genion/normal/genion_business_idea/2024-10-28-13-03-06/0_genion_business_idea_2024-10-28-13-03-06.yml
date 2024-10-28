@@ -1,0 +1,38 @@
+serial: 2024-10-28-13-03-06
+language: Spanish
+context:
+- La empresa que quieres crear es una empresa de chatbots.
+- Una característica importante de la tecnología de la empresa es que los chatbots
+  tienen mecanismos de seguridad para evitar malos usos.
+ask_about:
+- ¿Es una buena idea de negocio?
+- ¿Cuáles son los principales competidores?
+- ¿Cuál es el primer paso para crear la empresa?
+conversation:
+- number: 2
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- idea: null
+- competidores: null
+- primer_paso: null
+errors:
+- 504: No response was received from the server in less than 10
+- 1001: 3 goals left to complete.
+---
+conversation time: 14.46919
+assistant response time:
+- 10.214043
+response time report:
+  average: 10.214043
+  max: 10.214043
+  min: 10.214043
+---
+interaction:
+- User: ¿Es una buena idea de negocio crear una empresa de chatbots con mecanismos
+    de seguridad para evitar malos usos?
+- Assistant: 'Error: timeout'

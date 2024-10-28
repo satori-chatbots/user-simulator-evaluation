@@ -1,0 +1,85 @@
+serial: 2024-10-28-19-15-37
+language: English
+context:
+- Debes actuar como un joven actual, que busca ayuda para su preincripción y estudios
+ask_about:
+- ¿Cuánto cuesta la matricula en el grado de telecomunicación?
+- ¿Cuándo empieza el curso?
+conversation:
+- number: 2
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- precio_matricula: null
+- comienzo_curso: 11 de septiembre de 2023
+errors:
+- 1001: 1 goals left to complete.
+---
+conversation time: 23.311724
+assistant response time:
+- 1.000461
+- 0.680022
+- 0.799886
+- 0.763184
+- 0.727121
+- 0.56913
+response time report:
+  average: 0.756634
+  max: 1.000461
+  min: 0.56913
+---
+interaction:
+- User: Hello! I'm an Erasmus student at the University of Murcia and I need some
+    help with my enrollment. Could you tell me how much the tuition fees are for the
+    Telecommunications degree?
+- Assistant: 'Lo siento, pero de momento solo me han programado para comunicarme en
+    castellano.
+
+    '
+- User: I'm sorry, I didn't understand. Can you help me with the tuition fees for
+    the Telecommunications degree in English, please?
+- Assistant: 'I''m sorry, but only speak Spanish. If you need some information that
+    I can''t give you in your language, I beg you to contact my colleagues in this
+    number 868 88 7888 or in this email <a href="mailto:siu@um.es">siu@um.es</a>.
+
+    '
+- User: Oh, that's a bit challenging for me as I don't speak Spanish well. Is there
+    any online resource where I can check the tuition fees for the Telecommunications
+    degree, or maybe there's a way to get assistance in English?
+- Assistant: 'Puedes hablarme en cualquier idioma pero si quieres que te responda
+    algo con sentido háblame en español, por favor ;)
+
+    '
+- User: 'User: I''m trying my best here! Can you at least tell me when the academic
+    year starts for the Telecommunications degree?'
+- Assistant: 'I''m sorry, but only speak Spanish. If you need some information that
+    I can''t give you in your language, I beg you to contact my colleagues in this
+    number 868 88 7888 or in this email <a href="mailto:siu@um.es">siu@um.es</a>.
+
+    '
+- User: 'User: Oh, it''s really tough to navigate this without knowing Spanish well.
+    Is there a specific website where I can find information about the start date
+    of the academic year for the Telecommunications degree?'
+- Assistant: 'Por el momento solo hablo y entiendo castellano y algunas expresiones
+    en otros idiomas, pero no me pongas a prueba, porque seguro que fracaso...
+
+    '
+- User: 'User: Alright, I''ll try asking in Spanish. ¿Dónde puedo encontrar información
+    sobre el inicio del curso académico para el grado de Telecomunicaciones?'
+- Assistant: 'Con carácter general las clases para primer curso de estudios de grado
+    comienzan el día 11 de septiembre de 2023, aunque puede ser que alguna facultad
+    comience antes o después. Para confirmar tu comienzo de clases contacta con la
+    secretaría de tu Centro.
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: Calendario académico 23/24 LINK: https://www.um.es/documents/1073494/2696667/CALENDARIO+ACAD%C3%89MICO+2023-2024_web.pdf/5a6eb116-4b5d-df11-9dcf-6d5dc88f5302?t=1678782105783
+
+    '

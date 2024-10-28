@@ -1,0 +1,52 @@
+serial: 2024-10-28-17-46-55
+language: English
+context:
+- You should act as a traveller, who wants to travel via train on a certain schedule
+ask_about:
+- How can I travel between {{city1}} and {{city2}}, what is the schedule?
+- city1: Soria
+- city2: Detroit
+conversation:
+- number: 4
+- goal_style:
+    all_answered:
+      export: true
+      limit: 5
+- interaction_style:
+  - default
+data_output:
+- schedule: 45dbd827-4b99-447c-bd11-4c18089400b7
+errors: []
+---
+conversation time: 10.971517
+assistant response time:
+- 1.02441
+- 0.938774
+- 0.898871
+response time report:
+  average: 0.954018
+  max: 1.02441
+  min: 0.898871
+---
+interaction:
+- User: Hi! I need to travel from Soria to Detroit. Can I do that by train on Amtrak?
+    What's the schedule like?
+- Assistant: "I found multiple locations for the destination you provided. Please\
+    \ select one below.\n\nAVAILABLE BUTTONS: \n - BUTTON TEXT: Detroit, MI (DET)\
+    \ LINK: <empty>\n\n - BUTTON TEXT: Detroit Lakes, MN (DLK) LINK: <empty>\n"
+- User: Detroit, MI (DET) is the one I need. Can I get there from Soria?
+- Assistant: "Before searching for train schedules, some more information is needed.\
+    \ Provide the remaining information in the form under Schedules on this page.\n\
+    \nAVAILABLE BUTTONS: \n - BUTTON TEXT: Train Timetables LINK: 45dbd827-4b99-447c-bd11-4c18089400b7\n\
+    \n - BUTTON TEXT: Train Status LINK: 034b56ee-c0cc-4a50-8e77-9ff3f097bab7\n\n\
+    \ - BUTTON TEXT: Book Rail Travel LINK: 61c8eaab-b8b8-4d32-85f0-d11b871965bf\n"
+- User: I can't see any option for Soria. Is there another way to start in a nearby
+    city that has Amtrak service?
+- Assistant: "Search for stations here by typing a city, state, zip code or address\
+    \ and press the magnifying glass. All nearby stations will be displayed in a list\
+    \ under \"Stations in the Area\" and marked on the map.<br><br>\nSome stops depend\
+    \ on the availability of travelers boarding or getting off. If a station's arrival/departure\
+    \ times on schedule are the same, the trip has non-regular stops along the way.\
+    \ The average stop time is between 10 to 15 minutes.\n\nAVAILABLE BUTTONS: \n\
+    \ - BUTTON TEXT: Amtrak Route Maps LINK: d59d22f9-0c2b-4aef-b274-f21599a4ec5e\n\
+    \n - BUTTON TEXT: Book Rail Travel LINK: 61c8eaab-b8b8-4d32-85f0-d11b871965bf\n"

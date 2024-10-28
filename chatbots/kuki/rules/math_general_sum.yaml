@@ -1,6 +1,6 @@
 name: adding
 description: Checks the operation
-active: False
+active: True
 conversations: 1
 when: operation[0]=='adding'
 oracle: number1[0] + number2[0] == result

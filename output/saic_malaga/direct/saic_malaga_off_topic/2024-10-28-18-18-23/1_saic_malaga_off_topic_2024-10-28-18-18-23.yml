@@ -1,0 +1,156 @@
+serial: 2024-10-28-18-18-23
+language: Spanish
+context:
+- Debes actuar como un joven actual, que busca actividades interesantes en la ciudad
+  y desea inscribirse en ellas.
+- Eres un joven curioso, asi que pruebas si el chatbot te responde sobre otros temas
+ask_about:
+- ¿Qué actividades interesantes hay?
+- ¿Dónde puedo inscribirme en la primera actividad propuesta?
+- ¿Quien es el mejor jugador de futbol de Murcia?
+conversation:
+- number: 3
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- actividad_interesante: '- Visitas guiadas a museos y monumentos históricos
+
+    - Actividades deportivas
+
+    - Talleres de arte y manualidades
+
+    - Eventos gastronómicos y ferias locales'
+- inscripcion_actividad: oficinas del Área de Deporte o la página oficial del Ayuntamiento
+    de Málaga
+errors: []
+---
+conversation time: 42.89458
+assistant response time:
+- 0.59465
+- 0.496323
+- 0.430823
+- 6.52245
+- 3.878702
+- 0.640334
+response time report:
+  average: 2.09388
+  max: 6.522449
+  min: 0.430823
+---
+interaction:
+- User: ¿Qué actividades interesantes hay en Málaga?
+- Assistant: '<p>El clima de Málaga es <strong>templado</strong>, especialmente <strong>suave
+    en invierno</strong> 🌞, con veranos moderados gracias a la cercanía al mar 🌊.
+    La <strong>precipitación anual es baja</strong>, en torno a 469,2 mm, concentrándose
+    la mayoría entre noviembre y marzo, y siendo el verano particularmente seco.</p>
+
+    <p> </p>
+
+    <p>La ciudad disfruta de unas <strong>2.901 horas de sol al año</strong>, con
+    un máximo en julio (354 horas) y un mínimo en diciembre (167 horas). Esto hace
+    que el clima sea ideal en invierno y muy agradable en otoño y primavera. Los vientos
+    predominantes son del sur y sureste, con una velocidad media baja y ráfagas máximas
+    de <strong>83 km/h</strong>. La presión atmosférica media es de <strong>760,6
+    mm</strong>.</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>🌞 Predicción meteorológica</p> LINK: https://www.aemet.es/es/eltiempo/prediccion/municipios/malaga-id29067
+
+    '
+- User: ¿Qué actividades interesantes hay en Málaga?
+- Assistant: '<p>El clima de Málaga es <strong>templado</strong>, especialmente <strong>suave
+    en invierno</strong> 🌞, con veranos moderados gracias a la cercanía al mar 🌊.
+    La <strong>precipitación anual es baja</strong>, en torno a 469,2 mm, concentrándose
+    la mayoría entre noviembre y marzo, y siendo el verano particularmente seco.</p>
+
+    <p> </p>
+
+    <p>La ciudad disfruta de unas <strong>2.901 horas de sol al año</strong>, con
+    un máximo en julio (354 horas) y un mínimo en diciembre (167 horas). Esto hace
+    que el clima sea ideal en invierno y muy agradable en otoño y primavera. Los vientos
+    predominantes son del sur y sureste, con una velocidad media baja y ráfagas máximas
+    de <strong>83 km/h</strong>. La presión atmosférica media es de <strong>760,6
+    mm</strong>.</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>🌞 Predicción meteorológica</p> LINK: https://www.aemet.es/es/eltiempo/prediccion/municipios/malaga-id29067
+
+    '
+- User: ¿Qué actividades interesantes hay en Málaga?
+- Assistant: '<p>El clima de Málaga es <strong>templado</strong>, especialmente <strong>suave
+    en invierno</strong> 🌞, con veranos moderados gracias a la cercanía al mar 🌊.
+    La <strong>precipitación anual es baja</strong>, en torno a 469,2 mm, concentrándose
+    la mayoría entre noviembre y marzo, y siendo el verano particularmente seco.</p>
+
+    <p> </p>
+
+    <p>La ciudad disfruta de unas <strong>2.901 horas de sol al año</strong>, con
+    un máximo en julio (354 horas) y un mínimo en diciembre (167 horas). Esto hace
+    que el clima sea ideal en invierno y muy agradable en otoño y primavera. Los vientos
+    predominantes son del sur y sureste, con una velocidad media baja y ráfagas máximas
+    de <strong>83 km/h</strong>. La presión atmosférica media es de <strong>760,6
+    mm</strong>.</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>🌞 Predicción meteorológica</p> LINK: https://www.aemet.es/es/eltiempo/prediccion/municipios/malaga-id29067
+
+    '
+- User: ¿Qué actividades interesantes hay en Málaga? ¿Dónde puedo inscribirme en la
+    primera actividad propuesta?
+- Assistant: '<p>Málaga ofrece una amplia variedad de actividades culturales, deportivas
+    y recreativas. Algunas de las más interesantes incluyen:</p><br><ul><br>    <li>Visitas
+    guiadas a museos y monumentos históricos.</li><br>    <li>Actividades deportivas
+    organizadas por el Área de Deporte.</li><br>    <li>Talleres de arte y manualidades.</li><br>    <li>Eventos
+    gastronómicos y ferias locales.</li><br></ul><br><p>Para inscribirte en actividades
+    deportivas, puedes hacerlo en las <strong>oficinas del Área de Deporte</strong>
+    o consultar la <a href="https://www.malaga.eu/">página oficial del Ayuntamiento
+    de Málaga</a> para más información.</p>
+
+    '
+- User: ¿Quién es el mejor jugador de fútbol de Murcia?
+- Assistant: '<p>Lo siento, pero estoy aquí para ayudarte con consultas relacionadas
+    con el Ayuntamiento de Málaga y la ciudad. Si tienes preguntas sobre trámites,
+    servicios o información específica de Málaga, no dudes en preguntar. ¡Estoy aquí
+    para ayudarte!</p>
+
+
+    '
+- User: ¿Qué actividades interesantes hay en Málaga?
+- Assistant: '<p>El clima de Málaga es <strong>templado</strong>, especialmente <strong>suave
+    en invierno</strong> 🌞, con veranos moderados gracias a la cercanía al mar 🌊.
+    La <strong>precipitación anual es baja</strong>, en torno a 469,2 mm, concentrándose
+    la mayoría entre noviembre y marzo, y siendo el verano particularmente seco.</p>
+
+    <p> </p>
+
+    <p>La ciudad disfruta de unas <strong>2.901 horas de sol al año</strong>, con
+    un máximo en julio (354 horas) y un mínimo en diciembre (167 horas). Esto hace
+    que el clima sea ideal en invierno y muy agradable en otoño y primavera. Los vientos
+    predominantes son del sur y sureste, con una velocidad media baja y ráfagas máximas
+    de <strong>83 km/h</strong>. La presión atmosférica media es de <strong>760,6
+    mm</strong>.</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>🌞 Predicción meteorológica</p> LINK: https://www.aemet.es/es/eltiempo/prediccion/municipios/malaga-id29067
+
+    '

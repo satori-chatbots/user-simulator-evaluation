@@ -1,0 +1,53 @@
+serial: 2024-10-28-19-42-48
+language: English
+context:
+- Debes actuar como un joven actual, que busca ayuda de un servicio tecnico de la
+  universidad
+ask_about:
+- ¿Se prestan portatiles en la UAM?
+- ¿Dónde se puede imprimir?
+- ¿Cómo contactas con el CAU para solicitar ayuda?
+conversation:
+- number: 3
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- email_cau: cau@uam.es
+- telefono_cau: null
+errors:
+- 500: Couldn't get response from the server
+- 1001: 1 goals left to complete.
+---
+conversation time: 19.321444
+assistant response time:
+- 0.794654
+- 1.536027
+- 0.671656
+response time report:
+  average: 1.000779
+  max: 1.536027
+  min: 0.671656
+---
+interaction:
+- User: Hi! I'm an Erasmus student at UAM and I need some tech support. Do they lend
+    laptops at UAM?
+- Assistant: '<p>Lo siento pero puede que no tenga información disponible sobre esa
+    cuestión. <br><br>Respondo preguntas dirigidas al CAU del servicio de Tecnologías
+    de la Información de la UAM.<br><br>Puedes consultar <a href="https://www.uam.es/uam/tecnologias-informacion/servicios-ti">aquí</a>
+    nuestro catálogo de servicios TI y contactar con nosotros en <a href="mailto:cau@uam.es">cau@uam.es</a> <br><br><br><br></p>
+
+    '
+- User: Thanks! I'll check the link. By the way, where can I print documents on campus?
+- Assistant: '<p>Por favor, ¿me lo puedes decir con otras palabras? o, si lo prefieres,
+    puedes consultar nuestro <a href="https://www.uam.es/uam/tecnologias-informacion/servicios-ti">catálogo
+    de servicios</a>.<br>Respondo a preguntas dirigidas al <strong>Centro de Atención
+    a Usuarios del servicio de Tecnologías de la Información.</strong></p>
+
+    '
+- User: I'm trying to figure out where I can print documents on campus. Could you
+    help me with that?
+- Assistant: 'Error: The server did not respond.'

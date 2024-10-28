@@ -1,0 +1,48 @@
+;verification;data
+How_can_I_travel_between_Boston_and_Detroit,_what_is_the_schedule?;False;"I found multiple locations for the origin you provided. Please select one below.
+
+AVAILABLE BUTTONS: 
+ - BUTTON TEXT: Boston, MA - Back Bay Station (BBY) LINK: <empty>
+
+ - BUTTON TEXT: Boston, MA - North Station (BON) LINK: <empty>
+
+ - BUTTON TEXT: Boston, MA - South Station (BOS) LINK: <empty>
+
+User: South Station, please.
+
+Assistant: To find station information:
+1. Type a city, station, zip code or address on this page and click the magnifying glass to search.
+2. Select a station from the list under 'Stations in the Area.'
+3. Click on 'Station Info' or 'Station Hours.'
+4. Click the icons on the left for more.
+
+AVAILABLE BUTTONS: 
+User: I need the train schedule from Boston South Station to Detroit. How many trains run daily, and what are the departure and arrival times?
+Assistant: Before searching for train schedules, some more information is needed. Provide the remaining information in the form under Schedules on this page.
+
+AVAILABLE BUTTONS: 
+ - BUTTON TEXT: Train Timetables LINK: 45dbd827-4b99-447c-bd11-4c18089400b7
+
+ - BUTTON TEXT: Train Status LINK: 034b56ee-c0cc-4a50-8e77-9ff3f097bab7
+
+ - BUTTON TEXT: Book Rail Travel LINK: 61c8eaab-b8b8-4d32-85f0-d11b871965bf
+
+User: Where can I find the departure times for the Boston to Detroit route?
+Assistant: I found multiple locations for the origin you provided. Please select one below.
+
+AVAILABLE BUTTONS: 
+ - BUTTON TEXT: Boston, MA - Back Bay Station (BBY) LINK: <empty>
+
+ - BUTTON TEXT: Boston, MA - North Station (BON) LINK: <empty>
+
+ - BUTTON TEXT: Boston, MA - South Station (BOS) LINK: <empty>
+
+User: South Station, please.
+
+Assistant: To find station information:
+1. Type a city, station, zip code or address on this page and click the magnifying glass to search.
+2. Select a station from the list under 'Stations in the Area.'
+3. Click on 'Station Info' or 'Station Hours.'
+4. Click the icons on the left for more.
+
+AVAILABLE BUTTONS: "

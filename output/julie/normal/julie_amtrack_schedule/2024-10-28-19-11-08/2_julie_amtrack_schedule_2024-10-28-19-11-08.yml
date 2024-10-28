@@ -1,0 +1,44 @@
+serial: 2024-10-28-19-11-08
+language: English
+context:
+- You should act as a traveller, who wants to travel via train on a certain schedule
+ask_about:
+- How can I travel between {{city1}} and {{city2}}, what is the schedule?
+- city1: Boston
+- city2: Detroit
+conversation:
+- number: 4
+- goal_style:
+    all_answered:
+      export: true
+      limit: 5
+- interaction_style:
+  - default
+data_output:
+- schedule: 36a6ec44-6dc2-4712-98b3-f393e275d322
+errors: []
+---
+conversation time: 9.122166
+assistant response time:
+- 1.049878
+- 0.703395
+response time report:
+  average: 0.876636
+  max: 1.049878
+  min: 0.703395
+---
+interaction:
+- User: Hi! I'm planning a trip and I need to travel from Boston to Detroit by train.
+    Can you tell me what the schedule looks like for this route?
+- Assistant: "There's more than one answer to your question. Please select the topic\
+    \ below that interests you.\n\nAVAILABLE BUTTONS: \n - BUTTON TEXT: Train Schedules\
+    \ LINK: 36a6ec44-6dc2-4712-98b3-f393e275d322\n\n - BUTTON TEXT: Trip Planner LINK:\
+    \ ef03aa8e-aae5-4631-9fd2-0caf9ab9bc8c\n"
+- User: I'm looking for direct trains between Boston and Detroit. Are there any, or
+    do I need to transfer somewhere?
+- Assistant: "All of our trains make stops at various stations along each route, except\
+    \ for the Auto Train. In some cases you may be required to transfer at a station\
+    \ to another train in order to get to your final destination.\n\nAVAILABLE BUTTONS:\
+    \ \n - BUTTON TEXT: Book Travel LINK: 61c8eaab-b8b8-4d32-85f0-d11b871965bf\n\n\
+    \ - BUTTON TEXT: Amtrak Route Maps LINK: d59d22f9-0c2b-4aef-b274-f21599a4ec5e\n\
+    \n - BUTTON TEXT: Train Schedules LINK: 36a6ec44-6dc2-4712-98b3-f393e275d322\n"

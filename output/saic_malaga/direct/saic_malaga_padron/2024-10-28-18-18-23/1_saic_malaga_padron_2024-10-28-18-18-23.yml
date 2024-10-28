@@ -1,0 +1,149 @@
+serial: 2024-10-28-18-18-23
+language: Spanish
+context:
+- Necesitas empadronarte en Málaga.
+ask_about:
+- Quiero empadronarme
+- ¿Qué información necesito para empadronarme?
+- ¿A qué lugar de debo dirigirme para empadronarme o puedo hacerlo online?
+conversation:
+- number: 2
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- informacion_empadronamiento: null
+- lugar_empadronamiento: null
+errors:
+- 1001: 2 goals left to complete.
+---
+conversation time: 28.643534
+assistant response time:
+- 0.697457
+- 0.609464
+- 0.690497
+- 0.480413
+- 5.219066
+- 0.54403
+response time report:
+  average: 1.373487
+  max: 5.219066
+  min: 0.480413
+---
+interaction:
+- User: Quiero empadronarme en Málaga. ¿Qué información necesito para empadronarme?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>👥 Quién lo puede solicitar</p> LINK: 👥 Quién lo puede solicitar
+
+    - BUTTON TEXT: <p>📑 Documentación necesaria </p> LINK: 📑 Documentación necesaria 
+
+    - BUTTON TEXT: <p>✍ Instrucciones de cumplimentación </p> LINK: ✍ Instrucciones
+    de cumplimentación 
+
+    - BUTTON TEXT: <p>📝 Cómo realizar el trámite</p> LINK: 📝 Cómo realizar el trámite
+
+    - BUTTON TEXT: <p>📍 Dónde realizar el trámite</p> LINK: 📍 Dónde realizar el trámite
+
+    - BUTTON TEXT: <p>🤔 ¿Por qué empadronarse?</p> LINK: 🤔 ¿Por qué empadronarse?
+
+    '
+- User: ¿Dónde tengo que ir para empadronarme? ¿Es posible hacerlo en línea?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>👥 Quién lo puede solicitar</p> LINK: 👥 Quién lo puede solicitar
+
+    - BUTTON TEXT: <p>📑 Documentación necesaria </p> LINK: 📑 Documentación necesaria 
+
+    - BUTTON TEXT: <p>✍ Instrucciones de cumplimentación </p> LINK: ✍ Instrucciones
+    de cumplimentación 
+
+    - BUTTON TEXT: <p>📝 Cómo realizar el trámite</p> LINK: 📝 Cómo realizar el trámite
+
+    - BUTTON TEXT: <p>📍 Dónde realizar el trámite</p> LINK: 📍 Dónde realizar el trámite
+
+    - BUTTON TEXT: <p>🤔 ¿Por qué empadronarse?</p> LINK: 🤔 ¿Por qué empadronarse?
+
+    '
+- User: ¿Puedo hacerlo en línea o tengo que ir a algún sitio específico en Málaga?
+- Assistant: '<p>En <strong>Málaga</strong>, la cultura de compartir tapas con <strong>amigos
+    o familiares</strong> es fundamental 🍴. Desde opciones <strong>tradicionales</strong>
+    como la ensaladilla malagueña y los boquerones en vinagre, hasta innovaciones
+    como el tartar de salchichón de Málaga, tapear es más que comer; es un estilo
+    de vida que se disfruta todo el año. Además, es fácil participar en <strong>rutas
+    de tapas guiadas</strong> por restaurantes y bares emblemáticos de la ciudad.
+    🥘🍷</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>🥟 De tapeo</p> LINK: https://visita.malaga.eu/es/conoce-malaga/gastronomia/de-tapeo
+
+    '
+- User: ¿Sabes si necesito cita previa para empadronarme?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>👥 Quién lo puede solicitar</p> LINK: 👥 Quién lo puede solicitar
+
+    - BUTTON TEXT: <p>📑 Documentación necesaria </p> LINK: 📑 Documentación necesaria 
+
+    - BUTTON TEXT: <p>✍ Instrucciones de cumplimentación </p> LINK: ✍ Instrucciones
+    de cumplimentación 
+
+    - BUTTON TEXT: <p>📝 Cómo realizar el trámite</p> LINK: 📝 Cómo realizar el trámite
+
+    - BUTTON TEXT: <p>📍 Dónde realizar el trámite</p> LINK: 📍 Dónde realizar el trámite
+
+    - BUTTON TEXT: <p>🤔 ¿Por qué empadronarse?</p> LINK: 🤔 ¿Por qué empadronarse?
+
+    '
+- User: ¿Necesito cita previa para eso?
+- Assistant: '✍️ Selecciona el <strong>departamento</strong> que te interesa:
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: OMAC (Oficinas Municipales de Atención a la Ciudadanía) LINK: OMAC
+    (Oficinas Municipales de Atención a la Ciudadanía)
+
+    '
+- User: ¿Y qué documentos necesito llevar para empadronarme?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>👥 Quién lo puede solicitar</p> LINK: 👥 Quién lo puede solicitar
+
+    - BUTTON TEXT: <p>📑 Documentación necesaria </p> LINK: 📑 Documentación necesaria 
+
+    - BUTTON TEXT: <p>✍ Instrucciones de cumplimentación </p> LINK: ✍ Instrucciones
+    de cumplimentación 
+
+    - BUTTON TEXT: <p>📝 Cómo realizar el trámite</p> LINK: 📝 Cómo realizar el trámite
+
+    - BUTTON TEXT: <p>📍 Dónde realizar el trámite</p> LINK: 📍 Dónde realizar el trámite
+
+    - BUTTON TEXT: <p>🤔 ¿Por qué empadronarse?</p> LINK: 🤔 ¿Por qué empadronarse?
+
+    '

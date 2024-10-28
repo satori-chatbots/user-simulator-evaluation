@@ -1,0 +1,117 @@
+serial: 2024-10-28-19-35-22
+language: Spanish
+context:
+- Debes actuar como un empresario, que busca información sobre chatbots y evalua si
+  le pueden interesar en su negocio
+ask_about:
+- Que es un chatbot y como puede ayudarle a mi empresa de sellos y monedas
+- Se se puede vender a través del chatbot y en qué canales se puede desplegar
+- ¿Cuál es el número de telefono de la empresa?
+conversation:
+- number: 2
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- canales: sitio web, aplicaciones móviles, y plataformas de mensajería como WhatsApp,
+    Facebook Messenger
+- telefono: (+34) 623 02 57 67
+errors: []
+---
+conversation time: 82.528627
+assistant response time:
+- 7.03627
+- 5.615249
+- 6.220137
+- 4.914336
+- 0.761656
+response time report:
+  average: 4.909529
+  max: 7.03627
+  min: 0.761656
+---
+interaction:
+- User: Hola Millie, tengo un negocio de venta de sellos y monedas de coleccionismo
+    y me gustaría saber cómo un chatbot podría ayudarme a mejorarlo. ¿Podrías explicarme
+    qué es un chatbot y cómo podría beneficiarme a mí y a mi negocio?
+- Assistant: '<p>Entiendo que deseas saber cómo un <strong>chatbot</strong> puede
+    beneficiar tu negocio de sellos y monedas de coleccionismo. Un chatbot es un asistente
+    virtual que simula conversaciones humanas, permitiendo interactuar con tus clientes
+    de manera automatizada.</p><br><p>Aquí te dejo algunas formas en que un chatbot
+    podría ayudarte:</p><ul><br>  <li><strong>Atención al cliente 24/7</strong>: Responde
+    preguntas sobre disponibilidad, precios y características de los productos en
+    cualquier momento.</li><br>  <li><strong>Asesoramiento personalizado</strong>:
+    Ayuda a los clientes a encontrar sellos o monedas específicas según sus intereses
+    y colecciones.</li><br>  <li><strong>Gestión de pedidos</strong>: Facilita la
+    realización de pedidos y consultas sobre el estado de los mismos.</li><br></ul><p>Si
+    te gustaría explorar más sobre cómo implementar un chatbot en tu negocio, ¡estaré
+    encantada de ayudarte!</p>
+
+    '
+- User: Gracias por la información, Millie. Ahora me interesa saber si es posible
+    vender directamente a través del chatbot y en qué canales se podría desplegar.
+- Assistant: '<p>¡Claro! Es totalmente posible <strong>vender directamente a través
+    de un chatbot</strong>. Aquí te explico cómo funciona y en qué canales puedes
+    desplegarlo:</p><br><ul><br>  <li><strong>Procesamiento de pedidos</strong>: Los
+    clientes pueden realizar compras, modificar o cancelar pedidos directamente a
+    través del chatbot.</li><br>  <li><strong>Canales de despliegue</strong>: Puedes
+    integrar el chatbot en tu sitio web, aplicaciones móviles, y plataformas de mensajería
+    como <strong>WhatsApp</strong>, <strong>Facebook Messenger</strong>, y más.</li><br></ul><br><p>Esto
+    mejora la experiencia del cliente y facilita las transacciones. Si deseas más
+    información sobre cómo implementarlo, ¡podemos agendar una llamada!</p>
+
+    '
+- User: ¿Podrías darme más detalles sobre cómo se integra el chatbot a mi sitio web
+    o a plataformas como WhatsApp? Me interesa saber cómo es el proceso de implementación.
+- Assistant: '<p>¡Claro! Integrar un chatbot en tu sitio web o en plataformas como
+    <strong>WhatsApp</strong> es un proceso bastante accesible. Aquí te explico los
+    pasos básicos:</p><br><br><strong>1. Selección de la plataforma:</strong> Decide
+    en qué plataforma deseas implementar el chatbot (sitio web, WhatsApp, etc.).<br><br><strong>2.
+    Configuración de la API:</strong> Para WhatsApp, necesitarás acceder a la API
+    de WhatsApp Business. Para tu sitio web, puedes usar plugins o scripts proporcionados
+    por el proveedor del chatbot.<br><br><strong>3. Personalización:</strong> Diseña
+    las respuestas y el flujo de conversación del chatbot según las necesidades de
+    tu negocio.<br><br><strong>4. Pruebas:</strong> Realiza pruebas para asegurarte
+    de que el chatbot funcione correctamente y responda adecuadamente a las consultas.<br><br><strong>5.
+    Lanzamiento:</strong> Una vez que todo esté configurado y probado, lanza el chatbot
+    y comienza a interactuar con tus clientes.<br><br>Si deseas más información o
+    asistencia personalizada, ¡podemos agendar una llamada! 😊</p>
+
+    '
+- User: Me parece interesante todo el proceso de integración. ¿Hay algún tipo de soporte
+    o formación que ofrezcan para asegurarme de que el chatbot funcione correctamente
+    una vez que esté en marcha?
+- Assistant: '<p>¡Sí, definitivamente! En 1MillionBot ofrecemos <strong>soporte y
+    formación</strong> para asegurarnos de que tu chatbot funcione correctamente.
+    Aquí tienes algunos detalles:</p><br><ul><br>  <li><strong>Capacitación personalizada</strong>:
+    Proporcionamos sesiones de formación para que tú y tu equipo aprendan a gestionar
+    y optimizar el chatbot.</li><br>  <li><strong>Soporte técnico</strong>: Nuestro
+    equipo está disponible para resolver cualquier duda o problema que surja tras
+    la implementación.</li><br>  <li><strong>Actualizaciones y mejoras</strong>: Ofrecemos
+    recomendaciones para mejorar el rendimiento del chatbot con el tiempo.</li><br></ul><br><p>Si
+    te gustaría más información sobre esto, ¡podemos agendar una llamada para hablar
+    de tus necesidades específicas!</p>
+
+    '
+- User: Eso suena muy útil. Me alegra saber que ofrecen soporte y formación. Por cierto,
+    ¿podrías darme el número de teléfono de la empresa para poder comunicarme directamente
+    si decido seguir adelante con la implementación del chatbot?
+- Assistant: '<p>Si quieres ponerte en contacto con nuestra empresa, puedes hacerlo
+    de las siguientes maneras:</p>
+
+    <p>📞 Llámanos al <strong>(+34) 623 02 57 67</strong> o escríbenos a 📧 <em><strong>info@1millionbot.com</strong></em>.</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>Contacta con nosotros 📩</p> LINK: Contacta con nosotros 📩
+
+    <p>No dudes en contactarnos por el canal que más te convenga, ¡estamos aquí para
+    ayudarte en todo lo que necesites! 💡🚀</p>
+
+    '

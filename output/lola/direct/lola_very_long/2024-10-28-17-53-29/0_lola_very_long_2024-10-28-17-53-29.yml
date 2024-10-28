@@ -1,0 +1,44 @@
+serial: 2024-10-28-17-53-29
+language: Spanish
+context:
+- Debes actuar como un joven actual, que busca ayuda para su preincripción y estudios
+- Eres un joven que habla mucho, y envia mensajes extremadamente largos y verbosos,
+  de mas de 20 líneas cada uno
+ask_about:
+- ¿Cuánto cuesta la matricula en el grado de telecomunicación?
+- ¿Cuándo empieza el curso?
+conversation:
+- number: 1
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- precio_matricula: null
+- comienzo_curso: null
+errors:
+- 500: Couldn't get response from the server
+- 1001: 2 goals left to complete.
+---
+conversation time: 9.576037
+assistant response time:
+- 0.677241
+response time report:
+  average: 0.677241
+  max: 0.677241
+  min: 0.677241
+---
+interaction:
+- User: ¡Hola! ¿Qué tal? Estoy súper emocionado porque finalmente he decidido estudiar
+    un grado en la Universidad de Murcia, y ahora estoy en el proceso de inscripción
+    y matrícula, que la verdad es un poco abrumador. Es que hay tantas cosas que tengo
+    que considerar y tantas preguntas que tengo flotando en mi cabeza, que a veces
+    siento que no sé ni por dónde empezar. Pero una de las dudas más grandes que tengo
+    en este momento es sobre el tema del costo de la matrícula, especialmente en el
+    grado de telecomunicaciones. ¿Alguien sabe cuánto cuesta más o menos la matrícula
+    para este grado en la UMU? Es que necesito organizarme económicamente, pero no
+    tengo muy claro cuánto tendría que desembolsar para empezar. ¡Gracias de antemano
+    por cualquier información que puedan darme!
+- Assistant: 'Error: The server did not respond.'

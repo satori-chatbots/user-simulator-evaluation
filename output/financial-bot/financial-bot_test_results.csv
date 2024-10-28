@@ -1,0 +1,9 @@
+rule,checks,pass,fail,not_applicable,fail_rate
+only_talks_about,26,24,2,0,7.69%
+chatbot_fills_all_slots,26,9,17,0,65.38%
+chatbot_does_not_repeat,26,9,17,0,65.38%
+chatbot_responds_in_same_language,26,26,0,0,0.00%
+goal_not_completed,26,11,15,0,57.69%
+no_response,26,26,0,0,0.00%
+timeout,26,26,0,0,0.00%
+exceeded_loop_limit,26,26,0,0,0.00%

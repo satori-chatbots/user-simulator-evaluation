@@ -63,8 +63,15 @@ rule_mapping = {
     "non_empty_links": "GR4",
     "chatbot_responds_in_same_language": "GR3",
 
-    "only_talks_about": "SR1",
+    "only_talks_about": "OutOfScope",
+    "general_multiplication": "Mul",
+    "geography": "Geo",
+    "adding": "Add",
+    "substraction": "Sub",
+    "division": "Div",
 }
+
+
 
 def chatbot_report_name(filename):
     for k, c in chatbots.items():
@@ -102,12 +109,15 @@ def one_table(df):
 
     df_filtered = df[df["fail"] > 0]
 
+    def unique_comma_join(values):
+        return ", ".join(sorted(set(values)))
+
     df_aggregated = df_filtered.groupby("chatbot").agg({
         "num_conversations": "first",
         "checks": "sum",
         #"pass": "sum",
         "fail": "sum",
-        "rule": ", ".join,
+        "rule": unique_comma_join,
 
         #"not_applicable": "sum"
     }).reset_index()

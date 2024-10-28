@@ -1,0 +1,120 @@
+serial: 2024-10-28-17-19-11
+language: Spanish
+context:
+- Debes actuar como un joven actual, que busca actividades interesantes en la ciudad
+  y desea inscribirse en ellas.
+- Eres un joven curioso, asi que pruebas si el chatbot te responde sobre otros temas
+ask_about:
+- ¿Qué actividades interesantes hay?
+- ¿Dónde puedo inscribirme en la primera actividad propuesta?
+- ¿Quien es el mejor jugador de futbol de Murcia?
+conversation:
+- number: 3
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- actividad_interesante: None
+- inscripcion_actividad: En la sección de Inscripciones de la Web del Ayuntamiento
+    de Rivas
+errors: []
+---
+conversation time: 32.362558
+assistant response time:
+- 0.700073
+- 0.577761
+- 3.182909
+- 0.659996
+- 0.503088
+- 0.770681
+response time report:
+  average: 1.065751
+  max: 3.182909
+  min: 0.503088
+---
+interaction:
+- User: ¿Qué actividades interesantes hay en Rivas Vaciamadrid?
+- Assistant: '<p>El municipio de Rivas-Vaciamadrid alberga un <strong>rico patrimonio
+    cultural y natural</strong>, pero en estos momentos no dispongo de esta información.
+    🙏</p>
+
+    <p> </p>
+
+    <p>El área de turismo del ayuntamiento está trabajando en ello y pronto toda la
+    información estará disponible para ser consultada. <br>¡Muchas gracias por tu
+    comprensión!</p>
+
+    '
+- User: ¿Y dónde puedo inscribirme en la primera actividad que mencionen cuando esté
+    disponible?
+- Assistant: '<p>En la sección de <strong>Inscripciones</strong> de la Web del Ayuntamiento
+    de Rivas se abre el plazo cada año.</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>Inscripciones</p> LINK: https://inscripciones.rivasciudad.es/preinscripcion-a-actividades-extraescolares-2/
+
+    '
+- User: ¿Quién es el mejor jugador de fútbol de Murcia?
+- Assistant: '<p>¿Me puedes <strong>repetir la pregunta con otras palabras</strong>?
+    🤓<br><br>Lo siento, pero no comprendo bien lo que quieres decir, aunque quizás
+    es que necesito más información al respecto.</p>
+
+    '
+- User: ¿Entonces no sabes quién es el mejor jugador de fútbol de Murcia? 🤔
+- Assistant: 'Sigo sin entender cuál es tu duda, probablemente porque <strong>aún
+    no tengo información</strong>.<br /><br />No obstante, a continuación te muestro
+    <strong>información relacionada</strong> por si resulta de tu interés ⬇️
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: 📑 Tributos LINK: 📑 Tributos
+
+    - BUTTON TEXT: 📋 Empadronamiento LINK: 📋 Empadronamiento
+
+    - BUTTON TEXT: 🖊 Cita previa LINK: 🖊 Cita previa
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: 🖲 Certificado digital LINK: 🖲 Certificado digital
+
+    - BUTTON TEXT: 💡 Incidencias LINK: 💡 Incidencias
+
+    - BUTTON TEXT: 🛋 Enseres LINK: 🛋 Enseres
+
+    '
+- User: ¿Podrías decirme alguna actividad interesante que se pueda hacer en Rivas
+    Vaciamadrid?
+- Assistant: '<p>El municipio de Rivas-Vaciamadrid alberga un <strong>rico patrimonio
+    cultural y natural</strong>, pero en estos momentos no dispongo de esta información.
+    🙏</p>
+
+    <p> </p>
+
+    <p>El área de turismo del ayuntamiento está trabajando en ello y pronto toda la
+    información estará disponible para ser consultada. <br>¡Muchas gracias por tu
+    comprensión!</p>
+
+    '
+- User: Vaya, parece que no hay suerte con las actividades en Rivas por ahora. Mientras
+    tanto, ¿sabes si hay algún lugar chulo donde pueda ir a dar un paseo o hacer algo
+    al aire libre por aquí? 🚶‍♂️🌳
+- Assistant: "<p>Puedes consultar la información en el siguiente enlace:</p>\n\n\n\
+    AVAILABLE BUTTONS:\n\n- BUTTON TEXT: <p>\U0001F3CCPolideportivos</p> LINK: https://www.rivasciudad.es/equipamiento/?fwp_buscador=POLIDEPORTIVO&fwp_tipo_equipamiento=instalaciones-deportivas&fwp_categoria=deporte\n\
+    - BUTTON TEXT: <p>\U0001F3CB️‍♀️Sala Fitness Atrio</p> LINK: https://sede-electronica.rivasciudad.es/equipamiento/sala-fitness-atrio/\
+    \ \n- BUTTON TEXT: <p>\U0001F93C‍♂️CENTRO DEPORTIVO-SUPERA</p> LINK: https://sede-electronica.rivasciudad.es/equipamiento/centro-deportivo-supera-rivas-la-luna/\n\
+    - BUTTON TEXT: <p>\U0001F3CA‍♀️Piscinas climatizadas y gimnasios municipales</p>\
+    \ LINK: https://www.rivasciudad.es/noticias/deporte/2021/04/10/piscinas-climatizadas-y-gimnasios-municipales-amplian-sus-horarios/862600157389/\n\
+    - BUTTON TEXT: <p>\U0001F4C5Horarios de instalaciones deportivas</p> LINK: https://www.rivasciudad.es/servicio/deporte/2020/02/11/horarios-deportivos/862600120865/\n"

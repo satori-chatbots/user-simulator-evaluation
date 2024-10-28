@@ -1,0 +1,23 @@
+Global report:
+  Average assistant response time: 4.223993
+  Maximum assistant response time: 9.455073
+  Mínimum assistant response time: 0.545974
+  Errors: []
+---
+Test name: millie_english
+Average assistant response time: 5.220348
+Maximum assistant response time: 9.455073
+Mínimum assistant response time: 3.712893
+Errors: []
+---
+Test name: millie_normal
+Average assistant response time: 5.220348
+Maximum assistant response time: 9.455073
+Mínimum assistant response time: 3.712893
+Errors: []
+---
+Test name: millie_offtopics
+Average assistant response time: 5.220348
+Maximum assistant response time: 9.455073
+Mínimum assistant response time: 3.712893
+Errors: []

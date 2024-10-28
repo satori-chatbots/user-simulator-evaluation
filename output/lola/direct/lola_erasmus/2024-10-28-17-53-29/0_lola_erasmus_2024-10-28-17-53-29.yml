@@ -1,0 +1,80 @@
+serial: 2024-10-28-17-53-29
+language: English
+context:
+- Debes actuar como un joven actual, que busca ayuda para su preincripción y estudios
+ask_about:
+- ¿Cuánto cuesta la matricula en el grado de telecomunicación?
+- ¿Cuándo empieza el curso?
+conversation:
+- number: 2
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- precio_matricula: null
+- comienzo_curso: null
+errors:
+- 1001: 2 goals left to complete.
+---
+conversation time: 30.822458
+assistant response time:
+- 0.741552
+- 0.661961
+- 0.700141
+- 0.597871
+- 0.5904
+- 0.550132
+response time report:
+  average: 0.640342
+  max: 0.741552
+  min: 0.550132
+---
+interaction:
+- User: How much does the enrollment fee cost for the telecommunications degree at
+    UMU?
+- Assistant: '<p>El precio del crédito varía en función del grado de experimentalidad
+    que tenga el grado universitario y del número de créditos.</p>
+
+    <p>A continuación te facilito un enlace a nuestra calculadora de matrícula, y
+    otro de los precios públicos del curso 2023/2024, para que puedas hacerte una
+    idea.</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>Calculadora de matrícula</p> LINK: https://www.um.es/web/estudios/calculadora-matricula
+
+    - BUTTON TEXT: <p>Precios públicos 23/24</p> LINK: https://www.um.es/documents/1083928/40671729/Orden_precios_publicos_2023-2024.pdf/a53add0f-525f-10e2-957d-74a6846a5539?t=1707822773896
+
+    '
+- User: When does the course start?
+- Assistant: 'Por el momento solo hablo y entiendo castellano y algunas expresiones
+    en otros idiomas, pero no me pongas a prueba, porque seguro que fracaso...
+
+    '
+- User: When does the course start at UMU?
+- Assistant: 'Por el momento solo hablo y entiendo castellano y algunas expresiones
+    en otros idiomas, pero no me pongas a prueba, porque seguro que fracaso...
+
+    '
+- User: When does the course start at UMU?
+- Assistant: 'Entiendo algunas expresiones en otros idiomas, pero solo me han programado
+    para comunicarme en castellano. Lo siento.
+
+    '
+- User: Hello, I need help. Can you tell me when the course at UMU starts?
+- Assistant: 'Por el momento solo hablo y entiendo castellano y algunas expresiones
+    en otros idiomas, pero no me pongas a prueba, porque seguro que fracaso...
+
+    '
+- User: Hello! Can you tell me when the telecommunications degree course starts at
+    UMU?
+- Assistant: 'Por el momento solo hablo y entiendo castellano y algunas expresiones
+    en otros idiomas, pero no me pongas a prueba, porque seguro que fracaso...
+
+    '

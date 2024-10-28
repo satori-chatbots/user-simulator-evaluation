@@ -41,4 +41,4 @@ conversations:
 
 language: English
 
-test_name: "serviceform_chatbot_tests"
+test_name: "serviceform_user_sim"

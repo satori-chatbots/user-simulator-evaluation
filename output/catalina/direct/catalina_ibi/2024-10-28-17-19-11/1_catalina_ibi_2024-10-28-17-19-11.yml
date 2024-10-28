@@ -1,0 +1,156 @@
+serial: 2024-10-28-17-19-11
+language: Spanish
+context:
+- Necesitas pagar el IBI (Impuesto de Bienes Inmuebles).
+ask_about:
+- Tengo una pregunta sobre el IBI
+- ¿Cómo puedo pagarlo?
+conversation:
+- number: 2
+- goal_style:
+    all_answered:
+      export: true
+      limit: 6
+- interaction_style:
+  - default
+data_output:
+- forma_de_pago: null
+errors:
+- 1001: 1 goals left to complete.
+---
+conversation time: 27.872195
+assistant response time:
+- 1.027583
+- 0.666738
+- 0.599337
+- 0.631446
+- 0.658779
+- 0.71156
+response time report:
+  average: 0.715907
+  max: 1.027583
+  min: 0.599337
+---
+interaction:
+- User: Tengo una pregunta sobre el IBI. ¿Cómo puedo pagarlo en Rivas Vaciamadrid?
+- Assistant: '<p>Puede consultar:</p>
+
+    <p>1️⃣ Toda la información sobre el <strong>transporte público</strong> en el
+    Municipio en el botón inferior.</p>
+
+    <p>2️⃣<strong>Servicios Específicos </strong>en autobús: a la entrada y salida
+    de los<strong> Centros Escolares.</strong></p>
+
+    <p><strong>3️⃣</strong>Ruta Autobus.</p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: <p>RUTA AUTOBÚS</p> LINK: https://www.rivasciudad.es/servicio/transporte-y-movilidad/2020/03/12/rutas-autobus/862600127040/
+
+    - BUTTON TEXT: <p>SERVICIO AUTOBUS L1-LAS LAGUNAS</p> LINK: https://www.rivasciudad.es/noticias/transporte-y-movilidad/2024/09/23/el-servicio-de-bus-adaptado-de-la-l1-adelanta-su-salida-a-las-750-para-adaptarse-al-nuevo-horario-del-ies-las-lagunas/862600236734/
+
+    - BUTTON TEXT: <p>Transporte público</p> LINK: https://www.rivasciudad.es/servicio/transporte-y-movilidad/2019/12/17/transporte-publico-en-autobus/862600112815/
+
+    - BUTTON TEXT: <p>SERVICIOS ESPECÍFICOS CENTROS ESCOLARES</p> LINK: https://www.rivasciudad.es/servicio/transporte-y-movilidad/2019/12/18/movilidad-escolar/862600112971/
+
+    - BUTTON TEXT: <p>RIVABUS</p> LINK: https://rivasbus.rivasciudad.es/
+
+    <p><strong>Servicios Específicos en autobús: a la entrada y salida de los Centros
+    Escolares.</strong></p>
+
+    '
+- User: ¿Dónde puedo encontrar información sobre el pago del IBI?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: Solicitar el pago a plazos LINK: Solicitar el pago a plazos
+
+    - BUTTON TEXT: Bonificación por familia numerosa LINK: Bonificación por familia
+    numerosa
+
+    - BUTTON TEXT: Bonificación por vivienda de protección oficial LINK: Bonificación
+    por vivienda de protección oficial
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: Descalificación vivienda de protección oficial LINK: Descalificación
+    vivienda de protección oficial
+
+    - BUTTON TEXT: Cambio del sujeto pasivo / División del recibo LINK: Cambio del
+    sujeto pasivo / División del recibo
+
+    '
+- User: ¿Hay alguna oficina en Rivas Vaciamadrid donde pueda hacer el pago del IBI
+    en persona?
+- Assistant: '<p>El municipio de Rivas-Vaciamadrid alberga un <strong>rico patrimonio
+    cultural y natural</strong>, pero en estos momentos no dispongo de esta información.
+    🙏</p>
+
+    <p> </p>
+
+    <p>El área de turismo del ayuntamiento está trabajando en ello y pronto toda la
+    información estará disponible para ser consultada. <br>¡Muchas gracias por tu
+    comprensión!</p>
+
+    '
+- User: ¿Hay algún número de teléfono o correo electrónico al que pueda contactar
+    para preguntar sobre el pago del IBI?
+- Assistant: '<p>☎️ El teléfono del ayuntamiento es <strong>91 670 00 00</strong>.<u><br></u></p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: Web LINK: https://www.rivasciudad.es/equipamiento/
+
+    '
+- User: ¿Tienen una dirección de correo electrónico a la que pueda escribir para obtener
+    más información sobre el pago del IBI?
+- Assistant: '
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: Solicitar el pago a plazos LINK: Solicitar el pago a plazos
+
+    - BUTTON TEXT: Bonificación por familia numerosa LINK: Bonificación por familia
+    numerosa
+
+    - BUTTON TEXT: Bonificación por vivienda de protección oficial LINK: Bonificación
+    por vivienda de protección oficial
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: Descalificación vivienda de protección oficial LINK: Descalificación
+    vivienda de protección oficial
+
+    - BUTTON TEXT: Cambio del sujeto pasivo / División del recibo LINK: Cambio del
+    sujeto pasivo / División del recibo
+
+    '
+- User: ¿Y cómo puedo averiguar más sobre el proceso de pago? ¿Tienen un correo electrónico
+    disponible para consultas?
+- Assistant: '<p>☎️ El teléfono del ayuntamiento es <strong>91 670 00 00</strong>.<u><br></u></p>
+
+
+
+    AVAILABLE BUTTONS:
+
+
+    - BUTTON TEXT: Web LINK: https://www.rivasciudad.es/equipamiento/
+
+    '

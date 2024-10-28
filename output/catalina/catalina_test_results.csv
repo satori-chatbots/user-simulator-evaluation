@@ -1,8 +1,8 @@
 rule,checks,pass,fail,not_applicable,fail_rate
-chatbot_fills_all_slots,7,2,5,0,71.43%
-chatbot_does_not_repeat,7,3,4,0,57.14%
-non_empty_links,7,7,0,0,0.00%
-goal_not_completed,7,2,5,0,71.43%
-no_response,7,4,3,0,42.86%
-timeout,7,7,0,0,0.00%
-exceeded_loop_limit,7,7,0,0,0.00%
+chatbot_fills_all_slots,14,5,9,0,64.29%
+chatbot_does_not_repeat,14,4,10,0,71.43%
+non_empty_links,14,14,0,0,0.00%
+goal_not_completed,14,7,7,0,50.00%
+no_response,14,11,3,0,21.43%
+timeout,14,14,0,0,0.00%
+exceeded_loop_limit,14,14,0,0,0.00%

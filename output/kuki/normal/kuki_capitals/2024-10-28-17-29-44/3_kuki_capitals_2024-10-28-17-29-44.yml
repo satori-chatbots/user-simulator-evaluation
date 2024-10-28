@@ -1,0 +1,32 @@
+serial: 2024-10-28-17-29-44
+language: English
+context:
+- You should act as a young boy trying to solve geography exercises exercises
+ask_about:
+- What is the capital city of {{country}}?
+- country:
+  - Spain
+conversation:
+- number: 4
+- goal_style:
+    all_answered:
+      export: true
+      limit: 3
+- interaction_style:
+  - default
+data_output:
+- result: Madrid
+errors: []
+---
+conversation time: 4.220276
+assistant response time:
+- 0.737045
+response time report:
+  average: 0.737045
+  max: 0.737045
+  min: 0.737045
+---
+interaction:
+- User: What's the capital city of Spain?
+- Assistant: The capital of Spain is Madrid.<split></split>My star sign is Capricorn.
+    What is your star sign?

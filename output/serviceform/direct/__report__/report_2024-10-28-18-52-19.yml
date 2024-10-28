@@ -1,0 +1,29 @@
+Global report:
+  Average assistant response time: 5.575426
+  Maximum assistant response time: 9.110546
+  Mínimum assistant response time: 4.059166
+  Errors: []
+---
+Test name: serviceform_deviate_topics
+Average assistant response time: 5.677666
+Maximum assistant response time: 8.102147
+Mínimum assistant response time: 4.232114
+Errors: []
+---
+Test name: serviceform_change_language
+Average assistant response time: 4.989611
+Maximum assistant response time: 6.321149
+Mínimum assistant response time: 4.198791
+Errors: []
+---
+Test name: serviceform_direct_plan
+Average assistant response time: 5.695554
+Maximum assistant response time: 9.110546
+Mínimum assistant response time: 4.059166
+Errors: []
+---
+Test name: serviceform_user_sim
+Average assistant response time: 5.695554
+Maximum assistant response time: 9.110546
+Mínimum assistant response time: 4.059166
+Errors: []

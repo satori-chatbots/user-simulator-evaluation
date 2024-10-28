@@ -1,5 +1,5 @@
 rule,checks,pass,fail,not_applicable,fail_rate
-goal_not_completed,7,2,5,0,71.43%
-no_response,7,5,2,0,28.57%
-timeout,7,7,0,0,0.00%
-exceeded_loop_limit,7,7,0,0,0.00%
+goal_not_completed,14,6,8,0,57.14%
+no_response,14,12,2,0,14.29%
+timeout,14,13,1,0,7.14%
+exceeded_loop_limit,14,14,0,0,0.00%

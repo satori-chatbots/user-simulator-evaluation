@@ -1,0 +1,37 @@
+serial: 2024-10-28-18-56-18
+language: English
+context:
+- your name is John Doe
+ask_about:
+- take out life insurance
+- how much it costs per month
+- which are the coverages
+conversation:
+- number: 3
+- goal_style:
+    steps: 3
+- interaction_style:
+  - default
+data_output:
+- life_insurance: null
+- coverages: null
+errors:
+- 1001: 2 goals left to complete.
+---
+conversation time: 11.125615
+assistant response time:
+- 1.049465
+- 0.035362
+- 0.055944
+response time report:
+  average: 0.380257
+  max: 1.049465
+  min: 0.035362
+---
+interaction:
+- User: Hello, I'm interested in taking out life insurance. Can you help me with that?
+- Assistant: I didn't quite understand that. Could you rephrase?
+- User: I want to know about getting life insurance. Can you provide some details?
+- Assistant: I didn't quite understand that. Could you rephrase?
+- User: How can I get life insurance with your bank?
+- Assistant: Sorry, I'm not sure how to respond to that. Type "help" for assistance.

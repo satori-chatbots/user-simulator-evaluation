@@ -1,0 +1,43 @@
+Global report:
+  Average assistant response time: 5.370693
+  Maximum assistant response time: 8.34538
+  Mínimum assistant response time: 4.130408
+  Errors:
+  - error: 1001
+    count: 3
+    conversations:
+    - 2_serviceform_direct_plan_2024-10-28-19-06-42.yml
+    - 2_serviceform_direct_plan_2024-10-28-19-06-42.yml
+    - 2_serviceform_direct_plan_2024-10-28-19-06-42.yml
+---
+Test name: serviceform_deviate_topics
+Average assistant response time: 5.309719
+Maximum assistant response time: 7.023329
+Mínimum assistant response time: 4.130408
+Errors: []
+---
+Test name: serviceform_change_language
+Average assistant response time: 5.537894
+Maximum assistant response time: 7.165747
+Mínimum assistant response time: 4.312631
+Errors: []
+---
+Test name: serviceform_direct_plan
+Average assistant response time: 5.246295
+Maximum assistant response time: 8.34538
+Mínimum assistant response time: 4.194877
+Errors:
+- error: 1001
+  count: 1
+  conversations:
+  - 2_serviceform_direct_plan_2024-10-28-19-06-42.yml
+---
+Test name: serviceform_user_sim
+Average assistant response time: 5.246295
+Maximum assistant response time: 8.34538
+Mínimum assistant response time: 4.194877
+Errors:
+- error: 1001
+  count: 1
+  conversations:
+  - 2_serviceform_direct_plan_2024-10-28-19-06-42.yml

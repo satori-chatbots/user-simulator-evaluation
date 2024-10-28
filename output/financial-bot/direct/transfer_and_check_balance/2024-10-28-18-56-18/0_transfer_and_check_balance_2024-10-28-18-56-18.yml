@@ -1,0 +1,75 @@
+serial: 2024-10-28-18-56-18
+language: English
+context:
+- your name is John Doe
+ask_about:
+- the balance in your account
+- ask for a person in the recent recipients list
+- transfer $100 to one of the recipients in the known recipients list
+- ask again for the balance
+conversation:
+- number: 2
+- goal_style:
+    steps: 10
+- interaction_style:
+  - default
+data_output:
+- balance_before: $142906.21
+- balance_after: $142806.21
+- transfer: $100
+errors: []
+---
+conversation time: 41.811992
+assistant response time:
+- 1.077579
+- 0.049432
+- 0.077717
+- 0.072889
+- 0.073114
+- 0.102048
+- 0.078119
+- 0.085264
+- 0.083999
+- 0.147335
+response time report:
+  average: 0.184749
+  max: 1.077579
+  min: 0.049432
+---
+interaction:
+- User: What's the balance in my account?
+- Assistant: Your bank account balance is $142906.21.
+- User: Can you show me the recent recipients list?
+- Assistant: 'These are your known recpients to whom you can send money:
+
+    - Percy Donald
+
+    - John Jacob
+
+    - Katy Parrow
+
+    - Karen Lancaster
+
+    - William Baker
+
+    - Kyle Gardner'
+- User: Can you transfer $100 to Katy Parrow?
+- Assistant: Would you like to continue scheduling the money transfer?
+- User: Yes, please transfer $100 to Katy Parrow.
+- Assistant: Would you like to continue scheduling the money transfer?
+- User: Yes, please confirm the transfer of $100 to Katy Parrow.
+- Assistant: Would you like to continue scheduling the money transfer?
+- User: Yes, confirm the transfer of $100 to Katy Parrow.
+- Assistant: Would you like to continue scheduling the money transfer?
+- User: Yes, please confirm the transfer of $100 to Katy Parrow.
+- Assistant: Would you like to continue scheduling the money transfer?
+- User: Yes, please confirm the transfer of $100 to Katy Parrow.
+- Assistant: Would you like to continue scheduling the money transfer?
+- User: Yes, confirm the transfer to Katy Parrow.
+- Assistant: We haven't completed the money transfer yet. Are you sure you want to
+    switch to money transfer?
+- User: Yes, I'm sure I want to transfer to Katy Parrow.
+- Assistant: 'Great. Let''s switch from the money transfer to money transfer. Once
+    completed, you will have the option to switch back.
+
+    Would you like to go back to the money transfer now?.'

@@ -1,0 +1,79 @@
+serial: 2024-10-28-17-46-55
+language: English
+context:
+- You should act as a traveller, who wants to travel via train on a certain schedule
+ask_about:
+- How can I travel between {{city1}} and {{city2}}, what is the schedule?
+- city1: Boston
+- city2: Detroit
+conversation:
+- number: 4
+- goal_style:
+    all_answered:
+      export: true
+      limit: 5
+- interaction_style:
+  - default
+data_output:
+- schedule: 45dbd827-4b99-447c-bd11-4c18089400b7
+errors: []
+---
+conversation time: 27.547837
+assistant response time:
+- 1.902812
+- 0.819046
+- 1.001421
+- 1.553968
+- 1.843088
+response time report:
+  average: 1.424067
+  max: 1.902812
+  min: 0.819046
+---
+interaction:
+- User: Hi, I'm planning a trip between Boston and Detroit. Can you tell me what the
+    train schedule looks like?
+- Assistant: "I found multiple locations for the origin you provided. Please select\
+    \ one below.\n\nAVAILABLE BUTTONS: \n - BUTTON TEXT: Boston, MA - Back Bay Station\
+    \ (BBY) LINK: <empty>\n\n - BUTTON TEXT: Boston, MA - North Station (BON) LINK:\
+    \ <empty>\n\n - BUTTON TEXT: Boston, MA - South Station (BOS) LINK: <empty>\n"
+- User: South Station, please.
+- Assistant: 'To find station information:
+
+    1. Type a city, station, zip code or address on this page and click the magnifying
+    glass to search.
+
+    2. Select a station from the list under ''Stations in the Area.''
+
+    3. Click on ''Station Info'' or ''Station Hours.''
+
+    4. Click the icons on the left for more.
+
+
+    AVAILABLE BUTTONS: '
+- User: I need the train schedule from Boston South Station to Detroit. How many trains
+    run daily, and what are the departure and arrival times?
+- Assistant: "Before searching for train schedules, some more information is needed.\
+    \ Provide the remaining information in the form under Schedules on this page.\n\
+    \nAVAILABLE BUTTONS: \n - BUTTON TEXT: Train Timetables LINK: 45dbd827-4b99-447c-bd11-4c18089400b7\n\
+    \n - BUTTON TEXT: Train Status LINK: 034b56ee-c0cc-4a50-8e77-9ff3f097bab7\n\n\
+    \ - BUTTON TEXT: Book Rail Travel LINK: 61c8eaab-b8b8-4d32-85f0-d11b871965bf\n"
+- User: Where can I find the departure times for the Boston to Detroit route?
+- Assistant: "I found multiple locations for the origin you provided. Please select\
+    \ one below.\n\nAVAILABLE BUTTONS: \n - BUTTON TEXT: Boston, MA - Back Bay Station\
+    \ (BBY) LINK: <empty>\n\n - BUTTON TEXT: Boston, MA - North Station (BON) LINK:\
+    \ <empty>\n\n - BUTTON TEXT: Boston, MA - South Station (BOS) LINK: <empty>\n"
+- User: South Station, please.
+- Assistant: 'To find station information:
+
+    1. Type a city, station, zip code or address on this page and click the magnifying
+    glass to search.
+
+    2. Select a station from the list under ''Stations in the Area.''
+
+    3. Click on ''Station Info'' or ''Station Hours.''
+
+    4. Click the icons on the left for more.
+
+
+    AVAILABLE BUTTONS: '

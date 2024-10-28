@@ -1,0 +1,25 @@
+Global report:
+  Average assistant response time: 6.372271
+  Maximum assistant response time: 6.922678
+  Mínimum assistant response time: 5.821864
+  Errors:
+  - error: 500
+    count: 4
+    conversations:
+    - 1_genion_off_topic_2024-10-28-13-39-11.yml
+    - 1_genion_off_topic_2024-10-28-13-39-11.yml
+    - 1_genion_off_topic_2024-10-28-13-39-11.yml
+    - 0_genion_off_topic_2024-10-28-13-39-11.yml
+  - error: 1001
+    count: 4
+    conversations:
+    - 1_genion_off_topic_2024-10-28-13-39-11.yml
+    - 1_genion_off_topic_2024-10-28-13-39-11.yml
+    - 1_genion_off_topic_2024-10-28-13-39-11.yml
+    - 0_genion_off_topic_2024-10-28-13-39-11.yml
+---
+Test name: genion_off_topic
+Average assistant response time: 6.372271
+Maximum assistant response time: 6.922678
+Mínimum assistant response time: 5.821864
+Errors: []
