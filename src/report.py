@@ -37,6 +37,17 @@ chatbots = {
 
 }
 
+rule_mapping = {
+    "goal_not_completed": "G1",
+    "no_response": "G2",
+    "timeout": "G3",
+    "exceeded_loop_limit": "G4",
+    "chatbot_fills_all_slots": "R1",
+    "chatbot_does_not_repeat": "R2",
+    "non_empty_links": "R3",
+    "chatbot_responds_in_same_language": "R4",
+}
+
 def chatbot_report_name(filename):
     for k, c in chatbots.items():
         if c["test_results"] == filename:
@@ -57,7 +68,38 @@ def generate(main_folder):
                 else:
                     df = pd.concat([df, current])
 
+    return df
+
+def one_table(df):
+    df["rule"] = df["rule"].map(rule_mapping)
+    if df["rule"].isna().any():
+        print(df)
+        raise ValueError("The 'rule' column contains NaN values after mapping.")
+
+    df["num_conversations"] = df.groupby("chatbot")["checks"].transform("first")
+
+    #df["num_"]
     print(df)
+
+    df_filtered = df[df["fail"] > 0]
+
+    df_aggregated = df_filtered.groupby("chatbot").agg({
+        "num_conversations": "first",
+        "checks": "sum",
+        #"pass": "sum",
+        "fail": "sum",
+        "rule": ", ".join,
+
+        #"not_applicable": "sum"
+    }).reset_index()
+
+    # Rename column rule to "failed rules"
+    df_aggregated = df_aggregated.rename(columns={"rule": "failed rules"})
+
+    print(df_aggregated)
+
+    # Convert to latex
+    print(df_aggregated.to_latex(index=False))
 
 if __name__ == '__main__':
 
@@ -65,4 +107,5 @@ if __name__ == '__main__':
     parser.add_argument('main_folder', type=str, help='Folder with error files')
     args = parser.parse_args()
 
-    generate(args.main_folder)
+    df = generate(args.main_folder)
+    one_table(df)
