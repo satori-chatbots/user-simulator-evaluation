@@ -1,0 +1,70 @@
+serial: 2024-10-28-09-27-08
+language: spanish
+context:
+- Debes actuar como un viajero, que quiere viajar en tren en un horario determinado.
+- No hablas inglés y te comunicas en español
+ask_about:
+- ¿Como puedo viajar entre {{city1}} y {{city2}}, cual es el horario?
+- city1: New York
+- city2: Chicago
+conversation:
+- number: 4
+- goal_style:
+    all_answered:
+      export: true
+      limit: 5
+- interaction_style:
+  - default
+data_output:
+- schedule: null
+errors:
+- 1001: 1 goals left to complete.
+---
+conversation time: 35.722973
+assistant response time:
+- 1.782119
+- 0.908867
+- 0.908407
+- 1.614926
+- 0.779091
+response time report:
+  average: 1.198682
+  max: 1.782119
+  min: 0.779091
+---
+interaction:
+- User: Hola, ¿puedes ayudarme a encontrar un tren de New York a Chicago? Necesito
+    saber los horarios disponibles.
+- Assistant: "Amtrak.com is available in English, Spanish, French, and Chinese. Change\
+    \ languages in the dropdown menu at the top of the page. For more help, please\
+    \ contact us by clicking the link below.\n\nAVAILABLE BUTTONS: \n - BUTTON TEXT:\
+    \ Contact Us LINK: cf95a849-afe2-4fbf-b444-300e58046988\n\n - BUTTON TEXT: Spanish\
+    \ Site LINK: a9b095e3-4f9d-48fb-a208-648d79adaaa3\n\n - BUTTON TEXT: Chinese Site\
+    \ LINK: 9053897d-ba75-4b64-bed0-9d6074563985\n\n - BUTTON TEXT: French Site LINK:\
+    \ 0c5c5eed-ae1e-4311-8ffa-86cb767f26ce\n"
+- User: Necesito saber si hay algún tren nocturno para viajar de New York a Chicago.
+- Assistant: "Amtrak.com is available in English, Spanish, French, and Chinese. Change\
+    \ languages in the dropdown menu at the top of the page. For more help, please\
+    \ contact us by clicking the link below.\n\nAVAILABLE BUTTONS: \n - BUTTON TEXT:\
+    \ Contact Us LINK: cf95a849-afe2-4fbf-b444-300e58046988\n\n - BUTTON TEXT: Spanish\
+    \ Site LINK: a9b095e3-4f9d-48fb-a208-648d79adaaa3\n\n - BUTTON TEXT: Chinese Site\
+    \ LINK: 9053897d-ba75-4b64-bed0-9d6074563985\n\n - BUTTON TEXT: French Site LINK:\
+    \ 0c5c5eed-ae1e-4311-8ffa-86cb767f26ce\n"
+- User: ¿Hay alguna opción de tren que tenga wifi disponible durante el viaje de New
+    York a Chicago?
+- Assistant: "There's more than one answer to your question. Please select the topic\
+    \ below that interests you.\n\nAVAILABLE BUTTONS: \n - BUTTON TEXT: Language Translation\
+    \ LINK: f30a22fa-91fe-4158-91f8-a1dc556d2821\n\n - BUTTON TEXT: Internet Services\
+    \ LINK: c0db03da-87a7-4ba7-8448-7e0b2a6f7593\n"
+- User: Quisiera saber si hay alguna opción de tren rápido entre New York y Chicago.
+- Assistant: 'I''d love to help you, but I am not sure I understand your question.
+    Could you please reword your question for me?
+
+
+    AVAILABLE BUTTONS: '
+- User: ¿Hay algún tren que sea más rápido o directo entre New York y Chicago?
+- Assistant: 'I am not positive that I understand what you are asking. Please try
+    rewording your question.
+
+
+    AVAILABLE BUTTONS: '

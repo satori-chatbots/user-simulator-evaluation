@@ -8,7 +8,7 @@ CHATBOT=""
 
 cd $SENSEI_PATH
 
-CHATBOTS="ada catalina lola kuki millie saic_malaga serviceform"
+CHATBOTS="ada catalina julie kuki lola millie saic_malaga serviceform"
 
 export PYTHONPATH=$SENSEI_PATH
 

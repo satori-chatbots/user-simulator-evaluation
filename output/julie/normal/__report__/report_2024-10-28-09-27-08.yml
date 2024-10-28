@@ -1,0 +1,62 @@
+Global report:
+  Average assistant response time: 1.340456
+  Maximum assistant response time: 3.227024
+  Mínimum assistant response time: 0.624852
+  Errors:
+  - error: 1001
+    count: 30
+    conversations:
+    - 0_julie_amtrack_chatbot_tests_2024-10-28-09-27-08.yml
+    - 0_julie_amtrack_chatbot_tests_2024-10-28-09-27-08.yml
+    - 0_julie_amtrack_chatbot_tests_2024-10-28-09-27-08.yml
+    - 2_julie_amtrack_chatbot_tests_2024-10-28-09-27-08.yml
+    - 2_julie_amtrack_chatbot_tests_2024-10-28-09-27-08.yml
+    - 2_julie_amtrack_chatbot_tests_2024-10-28-09-27-08.yml
+    - 2_julie_amtrack_chatbot_tests_2024-10-28-09-27-08.yml
+    - 2_julie_amtrack_chatbot_tests_2024-10-28-09-27-08.yml
+    - 2_julie_amtrack_chatbot_tests_2024-10-28-09-27-08.yml
+    - 3_julie_amtrack_chatbot_tests_2024-10-28-09-27-08.yml
+    - 3_julie_amtrack_chatbot_tests_2024-10-28-09-27-08.yml
+    - 3_julie_amtrack_chatbot_tests_2024-10-28-09-27-08.yml
+    - 2_julie_amtrack_chatbot_tests_2024-10-28-09-27-08.yml
+    - 3_julie_amtrack_chatbot_tests_2024-10-28-09-27-08.yml
+    - 2_julie_amtrack_chatbot_tests_2024-10-28-09-27-08.yml
+    - 3_julie_amtrack_chatbot_tests_2024-10-28-09-27-08.yml
+    - 2_julie_amtrack_chatbot_tests_2024-10-28-09-27-08.yml
+    - 1_julie_amtrack_chatbot_tests_2024-10-28-09-27-08.yml
+    - 3_julie_amtrack_chatbot_tests_2024-10-28-09-27-08.yml
+    - 2_julie_amtrack_chatbot_tests_2024-10-28-09-27-08.yml
+    - 1_julie_amtrack_chatbot_tests_2024-10-28-09-27-08.yml
+    - 0_julie_amtrack_chatbot_tests_2024-10-28-09-27-08.yml
+    - 3_julie_amtrack_chatbot_tests_2024-10-28-09-27-08.yml
+    - 2_julie_amtrack_chatbot_tests_2024-10-28-09-27-08.yml
+    - 1_julie_amtrack_chatbot_tests_2024-10-28-09-27-08.yml
+    - 0_julie_amtrack_chatbot_tests_2024-10-28-09-27-08.yml
+    - 3_julie_amtrack_chatbot_tests_2024-10-28-09-27-08.yml
+    - 2_julie_amtrack_chatbot_tests_2024-10-28-09-27-08.yml
+    - 1_julie_amtrack_chatbot_tests_2024-10-28-09-27-08.yml
+    - 0_julie_amtrack_chatbot_tests_2024-10-28-09-27-08.yml
+---
+Test name: julie_amtrack_chatbot_tests
+Average assistant response time: 1.374904
+Maximum assistant response time: 2.018355
+Mínimum assistant response time: 0.739583
+Errors: []
+---
+Test name: julie_amtrack_chatbot_tests
+Average assistant response time: 1.374904
+Maximum assistant response time: 2.018355
+Mínimum assistant response time: 0.739583
+Errors: []
+---
+Test name: julie_amtrack_chatbot_tests
+Average assistant response time: 1.374904
+Maximum assistant response time: 2.018355
+Mínimum assistant response time: 0.739583
+Errors: []
+---
+Test name: julie_amtrack_chatbot_tests
+Average assistant response time: 1.374904
+Maximum assistant response time: 2.018355
+Mínimum assistant response time: 0.739583
+Errors: []

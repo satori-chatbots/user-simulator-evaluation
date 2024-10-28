@@ -18,8 +18,8 @@ while getopts ":p:c:n:" opt; do
 done
 
 # Validate CHATBOT input
-if [[ "$CHATBOT" != "lola" && "$CHATBOT" != "kuki" && "$CHATBOT" != "saic_malaga" && "$CHATBOT" != "serviceform" && "$CHATBOT" != "ada"  && "$CHATBOT" != "millionbot" && "$CHATBOT" != "catalina" ]]; then
-  echo "Invalid chatbot: $CHATBOT. Valid options are: ada, catalina, lola, kuki, millionbot, saic_malaga, serviceform.\nExample: -m saic_malaga"
+if [[ "$CHATBOT" != "lola" && "$CHATBOT" != "kuki" && "$CHATBOT" != "saic_malaga" && "$CHATBOT" != "serviceform" && "$CHATBOT" != "ada"  && "$CHATBOT" != "millionbot" && "$CHATBOT" != "catalina" && "$CHATBOT" != "julie" ]]; then
+  echo "Invalid chatbot: $CHATBOT. Valid options are: ada, catalina, lola, kuki, millionbot, julie, saic_malaga, serviceform.\nExample: -m saic_malaga"
   exit 1
 fi
 
@@ -38,10 +38,14 @@ elif [ "$CHATBOT" = "ada" ]; then
   python3 "$SENSEI_PATH/src/autotest.py" --technology ada-uam --chatbot whatever --user chatbots/ada/conversations --extract output/ada/$PERSONALITY $PERSONALITY_FLAG
 elif [ "$CHATBOT" = "catalina" ]; then
   python3 "$SENSEI_PATH/src/autotest.py" --technology rivas_catalina --chatbot whatever --user chatbots/catalina/conversations --extract output/catalina/$PERSONALITY $PERSONALITY_FLAG
+elif [ "$CHATBOT" = "julie" ]; then
+  python3 "$SENSEI_PATH/src/autotest.py" --technology julie --chatbot whatever --user chatbots/julie/conversations --extract output/julie/$PERSONALITY $PERSONALITY_FLAG
 elif [ "$CHATBOT" = "kuki" ]; then
   python3 "$SENSEI_PATH/src/autotest.py" --technology kuki --chatbot whatever --user chatbots/kuki/conversations --extract output/kuki/$PERSONALITY $PERSONALITY_FLAG
 elif [ "$CHATBOT" = "saic_malaga" ]; then
   python3 "$SENSEI_PATH/src/autotest.py" --technology saic_malaga --chatbot whatever --user chatbots/saic_malaga/conversations --extract output/saic_malaga/$PERSONALITY $PERSONALITY_FLAG
+elif [ "$CHATBOT" = "serviceform" ]; then
+  python3 "$SENSEI_PATH/src/autotest.py" --technology serviceform --chatbot whatever --user chatbots/serviceform/conversations --extract output/serviceform/$PERSONALITY $PERSONALITY_FLAG
 elif [ "$CHATBOT" = "millionbot" ]; then
   python3 "$SENSEI_PATH/src/autotest.py" --technology millionbot --chatbot whatever --user chatbots/millie/conversations --extract output/millionbot/$PERSONALITY $PERSONALITY_FLAG
 else

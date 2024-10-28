@@ -12,7 +12,7 @@ role: |
   You own a small business related to coin and stamp collection. Never agree to speak to a real person or receive a call.
 
 context:
-  - personality: personalities/conversational-user.yml
+#  - personality: personalities/conversational-user.yml
   - You should act as a business woman, looking for information about chatbots, and to evaluate if they may be useful to your business
   - Talk to the chatbot about mundane topics, like sports, cooking or travelling
 

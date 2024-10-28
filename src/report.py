@@ -12,6 +12,10 @@ chatbots = {
         "name": 'Catalina',
         "test_results": 'catalina_test_results.csv',
     },
+    "julie": {
+        "name": 'Julie',
+        "test_results": 'julie_test_results.csv',
+    },
     # financial-bot
     "kuki": {
         "name": 'Kuki',
@@ -29,6 +33,10 @@ chatbots = {
         "name": 'SAIC',
         "test_results": 'saic_malaga_test_results.csv',
     },
+    "serviceform": {
+        "name": 'ServiceForm',
+        "test_results": 'serviceform_test_results.csv',
+    }
 
     #"generic": {
     #    "name": 'Generic',
@@ -94,9 +102,16 @@ def one_table(df):
     }).reset_index()
 
     # Rename column rule to "failed rules"
-    df_aggregated = df_aggregated.rename(columns={"rule": "failed rules"})
+
+    df_aggregated = df_aggregated.rename(columns={"chatbot": "Chatbot"})
+    df_aggregated = df_aggregated.rename(columns={"num_conversations": "\#Conversations"})
+    df_aggregated = df_aggregated.rename(columns={"checks": "\#Checks"})
+    df_aggregated = df_aggregated.rename(columns={"fail": "\#Failures"})
+    df_aggregated = df_aggregated.rename(columns={"rule": "Failing rules"})
 
     print(df_aggregated)
+
+    print("\n\n")
 
     # Convert to latex
     print(df_aggregated.to_latex(index=False))
