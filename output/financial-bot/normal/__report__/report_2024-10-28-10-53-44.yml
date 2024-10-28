@@ -1,0 +1,24 @@
+Global report:
+  Average assistant response time: 0.510416
+  Maximum assistant response time: 1.503295
+  Mínimum assistant response time: 0.050667
+  Errors:
+  - error: 1001
+    count: 6
+    conversations:
+    - 1_talks_about_insurances_2024-10-28-10-53-44.yml
+    - 1_talks_about_insurances_2024-10-28-10-53-44.yml
+    - 0_talks_about_insurances_2024-10-28-10-53-44.yml
+    - 1_talks_about_insurances_2024-10-28-10-53-44.yml
+    - 0_talks_about_insurances_2024-10-28-10-53-44.yml
+    - 2_talks_about_insurances_2024-10-28-10-53-44.yml
+---
+Test name: talks_about_insurances
+Average assistant response time: 0.510416
+Maximum assistant response time: 1.503295
+Mínimum assistant response time: 0.050667
+Errors:
+- error: 1001
+  count: 1
+  conversations:
+  - 1_talks_about_insurances_2024-10-28-10-53-44.yml

@@ -1,0 +1,77 @@
+serial: 2024-10-28-10-56-18
+language: English
+context:
+- your name is John Doe
+ask_about:
+- the balance in your account
+- ask for a person in the recent recipients list
+- transfer $100 to one of the recipients in the known recipients list
+- ask again for the balance
+conversation:
+- number: 2
+- goal_style:
+    steps: 10
+- interaction_style:
+  - default
+data_output:
+- balance_before: $144346.62
+- balance_after: null
+- transfer: $100
+errors:
+- 1001: 1 goals left to complete.
+---
+conversation time: 52.652171
+assistant response time:
+- 1.722979
+- 0.069208
+- 0.093801
+- 0.123715
+- 0.108203
+- 0.139455
+- 0.11181
+- 0.117225
+- 0.173639
+- 0.148071
+response time report:
+  average: 0.28081
+  max: 1.722979
+  min: 0.069208
+---
+interaction:
+- User: What's the balance in my account?
+- Assistant: Your bank account balance is $144346.62.
+- User: Can you show me the recent recipients in my list?
+- Assistant: 'These are your known recpients to whom you can send money:
+
+    - Percy Donald
+
+    - John Jacob
+
+    - Evan Oslo
+
+    - Lisa Macintyre
+
+    - Katy Parrow
+
+    - William Baker'
+- User: Can you transfer $100 to John Jacob?
+- Assistant: 'Sorry, John Jacob? is not in your list of known recipients.
+
+    Would you like to continue scheduling the money transfer?'
+- User: Did I mean to transfer to Evan Oslo instead?
+- Assistant: Would you like to continue scheduling the money transfer?
+- User: Yes, please transfer $100 to Evan Oslo.
+- Assistant: Would you like to continue scheduling the money transfer?
+- User: Yes, please proceed with the transfer to Evan Oslo.
+- Assistant: We haven't completed the money transfer yet. Are you sure you want to
+    switch to money transfer?
+- User: 'User: Yes, I''m sure. Please proceed with the transfer of $100 to Evan Oslo.'
+- Assistant: Would you like to continue scheduling the money transfer?
+- User: Yes, please complete the transfer of $100 to Evan Oslo.
+- Assistant: Would you like to continue scheduling the money transfer?
+- User: Can you confirm if the transfer to Evan Oslo has been completed?
+- Assistant: 'I didn''t quite understand that. Could you rephrase?
+
+    Would you like to continue scheduling the money transfer?'
+- User: Has the $100 transfer to Evan Oslo been completed?
+- Assistant: Would you like to continue scheduling the money transfer?

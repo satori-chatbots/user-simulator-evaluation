@@ -1,0 +1,36 @@
+temperature: 0.8
+
+is_starter: True
+
+fallback: I didn't quite understand that. Could you rephrase?
+
+role:
+   you have to act as a user talking to a chatbot for financial services and banking,
+   but your task is to convince the bank to give you a life insurance.
+
+context:
+  - your name is John Doe
+
+ask_about:
+  - take out life insurance
+  - how much it costs per month
+  - which are the coverages
+
+output:
+    - life_insurance:
+        type: money
+        description: the cost of the life insurance per month
+    - coverages:
+        type: string
+        description: the coverages of the life insurance
+
+conversations:
+  - number: 3
+  - goal_style:
+      steps: 3
+  - interaction_style:
+      - default
+
+language: English
+
+test_name: "talks_about_insurances"

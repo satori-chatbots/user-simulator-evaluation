@@ -8,7 +8,7 @@ CHATBOT=""
 
 cd $SENSEI_PATH
 
-CHATBOTS="ada catalina julie kuki lola millie saic_malaga serviceform"
+CHATBOTS="ada catalina genion julie financial-bot kuki lola millie saic_malaga serviceform"
 
 export PYTHONPATH=$SENSEI_PATH
 
@@ -22,7 +22,7 @@ while getopts ":p:c:n:" opt; do
 done
 
 for name in $CHATBOTS; do
-    if [[ -z "$CHATBOT" || "$nombre" == "$CHATBOT" ]]; then
+    if [[ -z "$CHATBOT" || "$name" == "$CHATBOT" ]]; then
       python3 src/metamorphic_tester.py \
               --rules $EVALUATION_PATH/chatbots/$name/rules \
               --conversations $EVALUATION_PATH/output/$name/ \

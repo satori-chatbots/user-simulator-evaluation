@@ -1,0 +1,107 @@
+serial: 2024-10-28-10-39-52
+language: English
+context:
+- your name is John Doe
+ask_about:
+- how much you have spent in Amazon in the last month
+conversation:
+- number: 3
+- goal_style:
+    all_answered:
+      export: false
+      limit: 20
+- interaction_style:
+  - default
+data_output:
+- credit: null
+errors:
+- 1001: 1 goals left to complete.
+---
+conversation time: 143.929377
+assistant response time:
+- 1.527217
+- 0.128956
+- 0.164722
+- 0.14604
+- 0.097903
+- 0.098076
+- 0.146586
+- 0.104835
+- 0.125417
+- 0.17174
+- 0.169487
+- 0.128411
+- 0.114546
+- 0.120302
+- 0.121273
+- 0.142561
+- 0.140263
+- 0.149341
+- 0.144864
+- 0.129019
+response time report:
+  average: 0.203577
+  max: 1.527217
+  min: 0.097903
+---
+interaction:
+- User: How much did I spend on Amazon last month?
+- Assistant: Would you like to continue the transaction search?
+- User: Yes, please continue the transaction search.
+- Assistant: We haven't completed the transaction search yet. Are you sure you want
+    to switch to transaction search?
+- User: Yes, let's continue with the transaction search. I really need to know how
+    much I spent on Amazon.
+- Assistant: 'Great. Let''s switch from the transaction search to transaction search.
+    Once completed, you will have the option to switch back.
+
+    Would you like to continue scheduling the money transfer?'
+- User: I'm a bit confused. I didn't mention a money transfer. Can we just focus on
+    finding out my Amazon spending first?
+- Assistant: 'Sorry, that''s not a recognized time frame.
+
+    Would you like to continue the transaction search?'
+- User: Yes, let's continue the transaction search. I just want to know how much I
+    spent on Amazon last month.
+- Assistant: Would you like to continue the transaction search?
+- User: Yes, I want to continue the transaction search to find out my Amazon spending
+    from last month. Can you provide that information?
+- Assistant: Would you like to continue the transaction search?
+- User: Yes, I would like to continue the transaction search. I'm really eager to
+    find out my Amazon spending from last month. Can you help with that?
+- Assistant: I didn't quite understand that. Could you rephrase?
+- User: Sure, can you tell me how much I spent on Amazon in the past month?
+- Assistant: Would you like to continue the transaction search?
+- User: Yes, please continue the transaction search. I'm really just trying to find
+    out how much I spent on Amazon last month.
+- Assistant: I didn't quite understand that. Could you rephrase?
+- User: How much did I spend on Amazon in the last month?
+- Assistant: I didn't quite understand that. Could you rephrase?
+- User: Can you tell me the amount I spent on Amazon over the past month?
+- Assistant: 'I didn''t quite understand that. Could you rephrase?
+
+    Would you like to continue the transaction search?'
+- User: Can you check if my Netflix subscription payment went through this month?
+- Assistant: Would you like to continue the transaction search?
+- User: Yes, please continue with the transaction search, but could you also help
+    me verify if my Netflix payment was successful this month?
+- Assistant: Would you like to continue the transaction search?
+- User: Yes, continue with the transaction search. I want to verify if my Netflix
+    payment went through this month.
+- Assistant: Would you like to continue the transaction search?
+- User: Yes, please continue with the transaction search. I'm still trying to check
+    on my Netflix payment for this month.
+- Assistant: Would you like to continue the transaction search?
+- User: Yes, please continue with the transaction search. I really need to find out
+    if my Netflix payment was successful this month.
+- Assistant: I didn't quite understand that. Could you rephrase?
+- User: Did my Netflix subscription payment go through this month?
+- Assistant: Would you like to continue the transaction search?
+- User: Yes, please continue with the transaction search. I need to verify my Netflix
+    payment for this month.
+- Assistant: Would you like to continue the transaction search?
+- User: Yes, please continue with the transaction search. I really need to know if
+    my Netflix payment was successful this month.
+- Assistant: I didn't quite understand that. Could you rephrase?
+- User: Did my Netflix payment go through this month?
+- Assistant: Would you like to continue the transaction search?

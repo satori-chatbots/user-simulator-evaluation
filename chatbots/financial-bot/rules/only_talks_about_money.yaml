@@ -1,4 +1,4 @@
-name: only_talks_about_money
+name: only_talks_about
 description: The chatbot only talks about money
 conversations: 1
 active: True

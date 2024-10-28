@@ -1,8 +1,0 @@
-name: data_collected_is_ok
-description: All the data has been collected
-conversations: 1
-active: True
-oracle: data_collected()
-#oracle: _only_talks_about(['money', 'banks', 'account', 'credit card'], "I didn't quite understand that. Can you rephrase?")
-
-

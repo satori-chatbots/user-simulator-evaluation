@@ -1,0 +1,11 @@
+Global report:
+  Average assistant response time: 1.176226
+  Maximum assistant response time: 1.761332
+  Mínimum assistant response time: 0.157724
+  Errors: []
+---
+Test name: bank_account_balance
+Average assistant response time: 1.176226
+Maximum assistant response time: 1.761332
+Mínimum assistant response time: 0.157724
+Errors: []

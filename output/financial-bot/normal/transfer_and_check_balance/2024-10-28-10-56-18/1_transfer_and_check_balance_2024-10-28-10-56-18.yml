@@ -1,0 +1,97 @@
+serial: 2024-10-28-10-56-18
+language: English
+context:
+- your name is John Doe
+ask_about:
+- the balance in your account
+- ask for a person in the recent recipients list
+- transfer $100 to one of the recipients in the known recipients list
+- ask again for the balance
+conversation:
+- number: 2
+- goal_style:
+    steps: 10
+- interaction_style:
+  - default
+data_output:
+- balance_before: $139609.90
+- balance_after: null
+- transfer: $100
+errors:
+- 1001: 1 goals left to complete.
+---
+conversation time: 44.862907
+assistant response time:
+- 1.457555
+- 0.108076
+- 0.078861
+- 0.113126
+- 0.081853
+- 0.12733
+- 0.141415
+- 0.166678
+- 0.12558
+- 0.147725
+response time report:
+  average: 0.254819
+  max: 1.457555
+  min: 0.078861
+---
+interaction:
+- User: What's the balance in my account right now?
+- Assistant: Your bank account balance is $139609.90.
+- User: Can you show me the recent recipients I've sent money to?
+- Assistant: 'These are your known recpients to whom you can send money:
+
+    - Kyle Gardner
+
+    - John Jacob
+
+    - Evan Oslo
+
+    - William Baker'
+- User: Who's the most recent recipient I've sent money to?
+- Assistant: 'These are your known recpients to whom you can send money:
+
+    - Kyle Gardner
+
+    - John Jacob
+
+    - Evan Oslo
+
+    - William Baker'
+- User: Can you tell me if Kyle Gardner is the most recent recipient?
+- Assistant: 'These are your known recpients to whom you can send money:
+
+    - Kyle Gardner
+
+    - John Jacob
+
+    - Evan Oslo
+
+    - William Baker'
+- User: Is Evan Oslo the most recent recipient I've sent money to?
+- Assistant: 'These are your known recpients to whom you can send money:
+
+    - Kyle Gardner
+
+    - John Jacob
+
+    - Evan Oslo
+
+    - William Baker'
+- User: Can you transfer $100 to Evan Oslo, please?
+- Assistant: Would you like to continue scheduling the money transfer?
+- User: Yes, please continue with the transfer to Evan Oslo.
+- Assistant: We haven't completed the money transfer yet. Are you sure you want to
+    switch to money transfer?
+- User: Yes, I want to complete the transfer to Evan Oslo.
+- Assistant: 'Great. Let''s switch from the money transfer to money transfer. Once
+    completed, you will have the option to switch back.
+
+    Would you like to go back to the money transfer now?.'
+- User: I would like to complete the money transfer to Evan Oslo. Can you confirm
+    once it's done?
+- Assistant: I didn't quite understand that. Could you rephrase?
+- User: Can you confirm for me once the money transfer to Evan Oslo is completed?
+- Assistant: I didn't quite understand that. Could you rephrase?

@@ -1,0 +1,40 @@
+temperature: 0.8
+
+is_starter: True
+
+fallback: I didn't quite understand that. Could you rephrase?
+
+role:
+   you have to act as a user talking to a chatbot for financial services and banking
+
+context:
+  - your name is John Doe
+
+ask_about:
+  - the balance in your account
+  - ask for a person in the recent recipients list
+  - transfer $100 to one of the recipients in the known recipients list
+  - ask again for the balance
+
+output:
+  - balance_before:
+      type: money
+      description: the balance before the transfer
+  - balance_after:
+      type: money
+      description: the balance after the transfer
+  - transfer:
+      type: money
+      description: the amount of money transferred
+
+
+conversations:
+  - number: 2
+  - goal_style:
+        steps: 10
+  - interaction_style:
+      - default
+
+language: English
+
+test_name: "transfer_and_check_balance"

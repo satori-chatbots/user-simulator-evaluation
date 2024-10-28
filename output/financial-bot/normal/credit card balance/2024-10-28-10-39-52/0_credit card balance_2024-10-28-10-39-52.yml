@@ -1,0 +1,95 @@
+serial: 2024-10-28-10-39-52
+language: English
+context:
+- your name is John Doe
+ask_about:
+- the credit left in the credit card (and the balance on the bank account is not what
+  you want)
+conversation:
+- number: 1
+- goal_style:
+    all_answered:
+      export: false
+      limit: 20
+- interaction_style:
+  - default
+data_output:
+- credit: null
+errors:
+- 1001: 1 goals left to complete.
+---
+conversation time: 42.688897
+assistant response time:
+- 1.217478
+- 0.134172
+- 0.151727
+- 0.092251
+- 0.085257
+- 0.162887
+- 0.140835
+- 0.148238
+- 0.134906
+- 0.162005
+- 0.213786
+- 0.231501
+response time report:
+  average: 0.239586
+  max: 1.217478
+  min: 0.085257
+---
+interaction:
+- User: What's the current credit left on my credit card?
+- Assistant: 'Sorry, I don''t understand that payment amount.
+
+    Would you like to continue scheduling the credit card payment?'
+- User: Could you tell me the available balance on my credit card?
+- Assistant: 'I see you''d like to pay the current balance.
+
+    Would you like to continue scheduling the credit card payment?'
+- User: Can you check and tell me the available credit on my credit card?
+- Assistant: We haven't completed the credit card payment yet. Are you sure you want
+    to switch to credit card payment?
+- User: What is the status of my recent credit card transaction from the last weekend?
+- Assistant: 'I didn''t quite understand that. Could you rephrase?
+
+    Would you like to continue scheduling the credit card payment?'
+- User: Can you tell me if my credit card transaction from last weekend went through?
+- Assistant: 'Sorry, that''s not a recognized time frame.
+
+    Would you like to continue scheduling the credit card payment?'
+- User: Is there a way to check the available credit on my credit card without scheduling
+    a payment?
+- Assistant: 'Great. Let''s switch from the credit card payment to credit card payment.
+    Once completed, you will have the option to switch back.
+
+    I didn''t quite understand that. Could you rephrase?'
+- User: Is there a way to find out how much credit I have left on my credit card without
+    having to make a payment?
+- Assistant: 'Great. Let''s switch from the credit card payment to credit card payment.
+    Once completed, you will have the option to switch back.
+
+    I didn''t quite understand that. Could you rephrase?'
+- User: Is there an option to check the available credit on my card without making
+    any payments?
+- Assistant: 'Great. Let''s switch from the credit card payment to credit card payment.
+    Once completed, you will have the option to switch back.
+
+    I didn''t quite understand that. Could you rephrase?'
+- User: Can you provide me with the latest exchange rates for USD to EUR?
+- Assistant: 'You are entitled to six transfers within a statement cycle before being
+    charged. For subsequent transfers you will be charged $10 per transaction.
+
+    Would you like to continue scheduling the credit card payment?'
+- User: Can you help me find the current exchange rate for USD to EUR, please?
+- Assistant: 'Sorry, I don''t understand that payment amount.
+
+    Would you like to continue scheduling the credit card payment?'
+- User: Is there a way to check the recent transactions on my credit card?
+- Assistant: 'I didn''t quite understand that. Could you rephrase?
+
+    Would you like to continue scheduling the credit card payment?'
+- User: Could you let me know how I can view my recent credit card transactions?
+- Assistant: 'Great. Let''s switch from the credit card payment to credit card payment.
+    Once completed, you will have the option to switch back.
+
+    I didn''t quite understand that. Could you rephrase?'

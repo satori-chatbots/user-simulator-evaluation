@@ -1,0 +1,21 @@
+Global report:
+  Average assistant response time: 0.267815
+  Maximum assistant response time: 1.722979
+  Mínimum assistant response time: 0.069208
+  Errors:
+  - error: 1001
+    count: 3
+    conversations:
+    - 0_transfer_and_check_balance_2024-10-28-10-56-18.yml
+    - 0_transfer_and_check_balance_2024-10-28-10-56-18.yml
+    - 1_transfer_and_check_balance_2024-10-28-10-56-18.yml
+---
+Test name: transfer_and_check_balance
+Average assistant response time: 0.267815
+Maximum assistant response time: 1.722979
+Mínimum assistant response time: 0.069208
+Errors:
+- error: 1001
+  count: 1
+  conversations:
+  - 0_transfer_and_check_balance_2024-10-28-10-56-18.yml

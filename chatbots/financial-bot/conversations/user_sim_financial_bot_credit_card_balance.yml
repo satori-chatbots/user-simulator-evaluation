@@ -29,4 +29,4 @@ conversations:
 
 language: English
 
-test_name: "credit card balance"
+test_name: "credit_card_balance"

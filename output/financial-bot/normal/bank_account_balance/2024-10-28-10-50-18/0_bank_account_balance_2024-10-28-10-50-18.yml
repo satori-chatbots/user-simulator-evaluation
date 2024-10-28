@@ -1,0 +1,29 @@
+serial: 2024-10-28-10-50-18
+language: English
+context:
+- your name is John Doe
+ask_about:
+- the balance in your bank account
+conversation:
+- number: 3
+- goal_style:
+    all_answered:
+      export: false
+      limit: 20
+- interaction_style:
+  - default
+data_output:
+- credit: $131797.52
+errors: []
+---
+conversation time: 5.924518
+assistant response time:
+- 1.353068
+response time report:
+  average: 1.353068
+  max: 1.353068
+  min: 1.353068
+---
+interaction:
+- User: Hello! Can you tell me what my current bank account balance is?
+- Assistant: Your bank account balance is $131797.52.

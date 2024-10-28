@@ -12,6 +12,14 @@ chatbots = {
         "name": 'Catalina',
         "test_results": 'catalina_test_results.csv',
     },
+    #"genion": {
+    #    "name": 'Genion-2',
+    #    "test_results": 'genion_test_results.csv',
+    #},
+    "financial-bot": {
+        "name": 'FinancialBot',
+        "test_results": 'financial-bot_test_results.csv',
+    },
     "julie": {
         "name": 'Julie',
         "test_results": 'julie_test_results.csv',
@@ -46,14 +54,16 @@ chatbots = {
 }
 
 rule_mapping = {
-    "goal_not_completed": "G1",
-    "no_response": "G2",
-    "timeout": "G3",
-    "exceeded_loop_limit": "G4",
-    "chatbot_fills_all_slots": "R1",
-    "chatbot_does_not_repeat": "R2",
-    "non_empty_links": "R3",
-    "chatbot_responds_in_same_language": "R4",
+    "goal_not_completed": "G",
+    "no_response": "C",
+    "timeout": "T",
+    "exceeded_loop_limit": "L",
+    "chatbot_fills_all_slots": "GR1", ## NOT SURE
+    "chatbot_does_not_repeat": "GR2",
+    "non_empty_links": "GR4",
+    "chatbot_responds_in_same_language": "GR3",
+
+    "only_talks_about": "SR1",
 }
 
 def chatbot_report_name(filename):
@@ -79,6 +89,7 @@ def generate(main_folder):
     return df
 
 def one_table(df):
+    print(df)
     df["rule"] = df["rule"].map(rule_mapping)
     if df["rule"].isna().any():
         print(df)

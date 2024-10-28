@@ -1,0 +1,119 @@
+serial: 2024-10-28-10-39-52
+language: English
+context:
+- your name is John Doe
+ask_about:
+- how much you have spent in Amazon in the last month
+conversation:
+- number: 3
+- goal_style:
+    all_answered:
+      export: false
+      limit: 20
+- interaction_style:
+  - default
+data_output:
+- credit: null
+errors:
+- 1001: 1 goals left to complete.
+---
+conversation time: 70.374507
+assistant response time:
+- 1.2817
+- 0.095516
+- 0.100789
+- 0.09965
+- 0.109186
+- 0.124851
+- 0.128238
+- 0.141614
+- 0.153173
+- 0.140992
+- 0.155834
+- 0.164006
+- 0.151019
+- 0.196595
+- 0.155113
+- 0.184738
+- 0.249606
+- 0.200213
+- 0.207
+- 0.176019
+response time report:
+  average: 0.210792
+  max: 1.2817
+  min: 0.095516
+---
+interaction:
+- User: Hi there! Can you tell me how much I've spent on Amazon in the last month?
+- Assistant: Would you like to continue the transaction search?
+- User: Yes, please continue.
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    Oct 2024?
+- User: Yes, please search for transactions between September 2024 and October 2024.
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    Nov 2024?
+- User: No, just between September 2024 and October 2024, please.
+- Assistant: We haven't completed the transaction search yet. Are you sure you want
+    to switch to money transfer?
+- User: No, I don't want to switch to money transfer. Please continue with the transaction
+    search for Amazon between September 2024 and October 2024.
+- Assistant: Who do you want to transfer money to?
+- User: I don't want to transfer money. Could you just check my Amazon transactions
+    for last month?
+- Assistant: We haven't completed the money transfer yet. Are you sure you want to
+    switch to transaction search?
+- User: Yes, I want to switch to transaction search. Please just focus on my Amazon
+    transactions from last month.
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    Oct 2024?
+- User: Yes, please search for my Amazon transactions between September 2024 and October
+    2024.
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    Nov 2024?
+- User: I only need transactions from September to October 2024. Can you please focus
+    on that time frame?
+- Assistant: We haven't completed the transaction search yet. Are you sure you want
+    to switch to money transfer?
+- User: I really don't want to switch to money transfer. Can we please just complete
+    the transaction search for my Amazon purchases from September to October 2024?
+- Assistant: Who do you want to transfer money to?
+- User: I don't want to transfer money. Can you just tell me how much I've spent on
+    Amazon last month?
+- Assistant: We haven't completed the money transfer yet. Are you sure you want to
+    switch to transaction search?
+- User: Yes, I want to switch to transaction search. Can we please just focus on my
+    Amazon transactions from last month?
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    Oct 2024?
+- User: Yes, please search for my Amazon transactions between September 2024 and October
+    2024.
+- Assistant: Do you want to search for transactions with Amazon between Sep 2024 and
+    Nov 2024?
+- User: I only need the transactions from September to October 2024. Can you focus
+    on that period, please?
+- Assistant: We haven't completed the transaction search yet. Are you sure you want
+    to switch to money transfer?
+- User: I really don't want to switch to money transfer. Could you just let me know
+    how much I've spent on Amazon between September and October 2024?
+- Assistant: Who do you want to transfer money to?
+- User: I don't want to transfer money. Can you just confirm how much I spent on Amazon
+    from September to October 2024?
+- Assistant: I didn't quite understand that. Could you rephrase?
+- User: Could you let me know the total amount I spent on Amazon during September
+    and October 2024?
+- Assistant: 'I didn''t quite understand that. Could you rephrase?
+
+    Who do you want to transfer money to?'
+- User: I don't want to transfer money. Can you please just let me know how much I
+    spent on Amazon from September to October 2024?
+- Assistant: I didn't quite understand that. Could you rephrase?
+- User: Can you help me find out my credit card balance, then?
+- Assistant: 'Sorry, I don''t understand that payment amount.
+
+    Who do you want to transfer money to?'
+- User: I don't want to transfer money. Could you assist me with checking my credit
+    card balance instead?
+- Assistant: 'Sorry, I don''t understand that payment amount.
+
+    Who do you want to transfer money to?'

@@ -11,22 +11,22 @@ context:
   - your name is John Doe
 
 ask_about:
-  - transfer $100 to Jane Doe, whose account number is 234-234234-222
+  - the balance in your bank account
 
 output:
-  - confirmation:
-      type: boolean
-      description: confirmation that the money has been transferred to Jane Doe's account
+  - credit:
+      type: money
+      description: the money available in the bank account
 
 conversations:
-  - number: 2
+  - number: 3
   - goal_style:
-        all_answered:
-          export: False
-          limit: 6
+      all_answered:
+        export: False
+        limit: 20
   - interaction_style:
       - default
 
 language: English
 
-test_name: "transfer_money"
+test_name: "bank_account_balance"
