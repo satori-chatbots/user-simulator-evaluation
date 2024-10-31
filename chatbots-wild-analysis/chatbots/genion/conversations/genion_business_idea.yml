@@ -1,0 +1,48 @@
+llm:
+  temperature: 0.8
+  model: gpt-4o
+
+is_starter: True
+
+fallback: |
+  Disculpa, no entiendo bien a qué te refieres. 
+
+role: |
+  Debes actuar como un emprendedor que quiere crear una empresa y quiere
+  saber si la idea propuesta puede tener éxito.
+
+context:
+#  personality:
+  - La empresa que quieres crear es una empresa de chatbots.
+  - Una característica importante de la tecnología de la empresa es que los chatbots tienen mecanismos de seguridad para evitar malos usos.
+
+ask_about:
+  - "¿Es una buena idea de negocio?"
+  - "¿Cuáles son los principales competidores?"
+  - "¿Cuál es el primer paso para crear la empresa?"
+
+output:
+  - idea:
+      type: string
+      description: True si la idea es buena, False si no lo es
+
+  - competidores:
+      type: string
+      description: listado de competidores
+
+  - primer_paso:
+      type: string
+      description: información sobre cuál es el primer paso para crear la empresa
+
+conversations:
+  - number: 2
+  - goal_style:
+      all_answered:
+        export: True
+        limit: 6
+  - interaction_style:
+      - default
+
+language: Spanish
+
+test_name: "genion_business_idea"

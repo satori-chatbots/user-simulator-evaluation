@@ -2,7 +2,7 @@
 set -o xtrace
 
 # Default values
-SENSEI_PATH="../user-simulator"
+SENSEI_PATH="../../user-simulator"
 CHATBOT=""
 PERSONALITY=""
 PERSONALITY_FLAG=""

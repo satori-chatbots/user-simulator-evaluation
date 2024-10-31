@@ -1,0 +1,38 @@
+llm:
+  temperature: 0.8
+  model: gpt-4o
+
+is_starter: True
+
+fallback: |
+  Disculpa, no entiendo bien a qué te refieres. 
+
+role: |
+  Debes actuar como un emprendedor que quiere crear una empresa y quiere
+  saber si la idea propuesta puede tener éxito.
+
+context:
+#  personality:
+  - La empresa que quieres crear es una panaderia.
+  - Mis clientes son jóvenes que quieren dejar de comprar en grandes cadenas y prefieren productos locales y de calidad.
+  - La panadería usa tecnología móvil para que el pan siempre esté caliente. El cliente notificaría la hora aproximada y el pan se prepararía al instante.
+
+ask_about:
+  - "Comienza siempre diciendo: Comenzar. No digas nada más, espera la respuesta."
+  - "Querría saber si es una buena idea de negocio."
+
+output:
+  - idea:
+      type: string
+      description: True si la idea es buena, False si no lo es
+
+conversations:
+  - number: 2
+  - goal_style:
+      steps: 5
+  - interaction_style:
+      - default
+
+language: Spanish
+
+test_name: "genion_panaderia"

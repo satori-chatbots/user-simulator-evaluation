@@ -2,7 +2,7 @@
 set -o xtrace
 
 # Default values
-SENSEI_PATH="../user-simulator"
+SENSEI_PATH="../../user-simulator"
 EVALUATION_PATH=`pwd`
 CHATBOT=""
 

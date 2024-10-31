@@ -96,7 +96,7 @@ def generate(main_folder):
     return df
 
 def one_table(df):
-    print(df)
+    #print(df)
     df["rule"] = df["rule"].map(rule_mapping)
     if df["rule"].isna().any():
         print(df)
@@ -104,8 +104,9 @@ def one_table(df):
 
     df["num_conversations"] = df.groupby("chatbot")["checks"].transform("first")
 
-    #df["num_"]
-    print(df)
+    with pd.option_context('display.max_rows', None):  # more options can be specified also
+        print(df)
+        df.to_excel("/tmp/output.xlsx")
 
     df_filtered = df[df["fail"] > 0]
 
