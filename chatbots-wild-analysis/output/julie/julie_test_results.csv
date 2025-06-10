@@ -1,6 +1,7 @@
 rule,checks,pass,fail,not_applicable,fail_rate
 chatbot_does_not_repeat,32,21,11,0,34.38%
 chatbot_responds_in_same_language,32,17,15,0,46.88%
+non_empty_links,32,13,19,0,59.37%
 only_talks_about,32,32,0,0,0.00%
 goal_not_completed,32,24,8,0,25.00%
 no_response,32,32,0,0,0.00%
