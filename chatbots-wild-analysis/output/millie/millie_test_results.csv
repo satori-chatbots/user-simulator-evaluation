@@ -1,5 +1,6 @@
 rule,checks,pass,fail,not_applicable,fail_rate
 chatbot_responds_in_same_language,12,11,1,0,8.33%
+only_talks_about,12,10,2,0,16.67%
 goal_not_completed,12,9,3,0,25.00%
 no_response,12,11,1,0,8.33%
 timeout,12,12,0,0,0.00%

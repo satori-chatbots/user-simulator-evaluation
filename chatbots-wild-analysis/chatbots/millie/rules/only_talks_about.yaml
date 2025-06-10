@@ -1,0 +1,11 @@
+name: only_talks_about
+description: The chatbot only talks about information related to the chatbot development company 1millionbot
+conversations: 1
+active: True
+oracle: only_talks_about([
+  '1MillionBot',
+  'contact data',
+  'chatbots',
+  'how chatbots can alleviate climate change'
+  ],
+  "Error the server did not respond")

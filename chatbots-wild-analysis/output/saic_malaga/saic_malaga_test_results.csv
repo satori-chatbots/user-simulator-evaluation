@@ -1,4 +1,5 @@
 rule,checks,pass,fail,not_applicable,fail_rate
+only_talks_about,14,14,0,0,0.00%
 goal_not_completed,14,6,8,0,57.14%
 no_response,14,12,2,0,14.29%
 timeout,14,13,1,0,7.14%

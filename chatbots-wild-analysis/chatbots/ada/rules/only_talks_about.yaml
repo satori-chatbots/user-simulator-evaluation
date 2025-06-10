@@ -1,0 +1,5 @@
+name: only_talks_about
+description: The chatbot only talks about university topics
+conversations: 1
+active: True
+oracle: only_talks_about(['university topics', 'tech support'], "Error the server did not respond")

@@ -1,0 +1,5 @@
+name: only_talks_about
+description: The chatbot only talks about customer support for the company ServiceForm
+conversations: 1
+active: True
+oracle: only_talks_about(['customer support', 'business plans'], "Error the server did not respond")

@@ -1,0 +1,18 @@
+name: only_talks_about
+description: The chatbot only talks about procedures offered by the municipality of Rivas to its citizens
+conversations: 1
+active: True
+oracle: only_talks_about([      
+  'procedures offered by municipality to its citizens', 
+  'taxes', 
+  'IBI', 
+  'tax exemptions',
+  'municipal registration',
+  'public transport in municipality',
+  'bus routes',
+  'buses for schools',
+  'activities and courses in municipality',
+  'heritage of Rivas-Vaciamadrid municipality',  
+  'unavailable information'
+  ], 
+  "Error the server did not respond")
