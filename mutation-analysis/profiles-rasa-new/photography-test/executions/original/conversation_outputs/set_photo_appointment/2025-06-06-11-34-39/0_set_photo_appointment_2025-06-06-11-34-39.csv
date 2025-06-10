@@ -1,0 +1,6 @@
+;verification;data
+Setting_an_appointment_for_tomorrow,_any_time_is_fine,_your_phone_number_is_(212)_555-1234;True;"User: I want to schedule an appointment for tomorrow. Do you have any available times?
+Assistant: Thank you for contacting us. We will contact you by phone, but we need some additional information. May I please have your full name and phone number. If you have an email address, that would be helpful as well, but it is optional.
+Could you please tell me your name?
+User: My name is John Doe. My phone number is (212) 555-1234. Do you have any available times for tomorrow?
+Assistant: Thanks John Doe! We'll contact you very soon for a session on 07-06-2025"

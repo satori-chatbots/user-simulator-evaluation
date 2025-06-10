@@ -1,0 +1,46 @@
+serial: 2025-06-09-22-42-29
+language: English
+context:
+- your name is Maria Smith, and you own an art gallery.
+- you want an estimate to get some work done in your gallery, be direct and do not
+  ask for other details, you are just interested in the price.
+ask_about:
+- Provide an estimate to {{media}} {{number_artworks}} {{artworks}}
+- number_artworks: 4
+- media: photograph
+- artworks: ceramic objects
+conversation:
+- interaction_style:
+  - default
+- number: 9
+- all_answered:
+    export: true
+    limit: 5
+data_output:
+- price: The shop is at SoHo, 14 Wooster Street
+errors: []
+total_cost($): 0.0
+---
+conversation time: 11.644019
+assistant response time:
+- 0.015036
+- 0.013781
+- 0.032367
+- 0.059671
+- 0.018305
+response time report:
+  average: 0.027832
+  max: 0.059671
+  min: 0.013781
+---
+interaction:
+- User: I need an estimate to photograph 4 ceramic objects. What would that cost?
+- Assistant: The shop is at SoHo, 14 Wooster Street
+- User: What is the price for photographing 4 ceramic objects?
+- Assistant: The shop is at SoHo, 14 Wooster Street
+- User: What is the price for photographing 4 ceramic objects?
+- Assistant: The shop is at SoHo, 14 Wooster Street
+- User: What is the price for photographing 4 ceramic objects?
+- Assistant: The shop is at SoHo, 14 Wooster Street
+- User: What is the price for photographing 4 ceramic objects?
+- Assistant: The shop is at SoHo, 14 Wooster Street

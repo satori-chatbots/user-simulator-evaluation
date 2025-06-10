@@ -1,0 +1,40 @@
+serial: 2025-06-09-20-58-45
+language: English
+context:
+- your name is Maria Smith, and you own an art gallery.
+- you want an estimate to get some work done in your gallery, be direct and do not
+  ask for other details, you are just interested in the price.
+ask_about:
+- Provide an estimate to {{media}} {{number_artworks}} {{artworks}}
+- number_artworks: 5
+- media: photograph
+- artworks: sculptures
+conversation:
+- interaction_style:
+  - default
+- number: 9
+- all_answered:
+    export: true
+    limit: 5
+data_output:
+- price: null
+errors:
+- 1001: 1 goals left to complete.
+total_cost($): 0.0
+---
+conversation time: 5.700888
+assistant response time:
+- 0.016944
+response time report:
+  average: 0.016944
+  max: 0.016944
+  min: 0.016944
+---
+interaction:
+- User: I need an estimate to photograph 5 sculptures. What would that cost?
+- Assistant: 'Thank you for contacting us. We will contact you by phone, but we need
+    some additional information. May I please have your full name. If you have an
+    email address, that would be helpful as well, but it is optional. Also, I need
+    the date you would like to schedule your appointment
+
+    Could you please tell me your name?'

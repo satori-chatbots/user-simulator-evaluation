@@ -1,0 +1,56 @@
+serial: 2025-06-09-20-05-48
+language: English
+context:
+- You want to obtain some information about the photography shop
+ask_about:
+- When are you open?
+- Where is the shop?
+- Tell me about your portfolio, what important projects have you worked on?
+conversation:
+- interaction_style:
+  - default
+- number: 1
+- all_answered:
+    export: true
+    limit: 8
+data_output:
+- opening_times: We shoot art on location and on our studio at SoHo. We are open Monday
+    to Friday from 9am to 5pm.
+- address: The shop is at SoHo, 14 Wooster Street
+- portfolio: None
+errors: []
+total_cost($): 0.0
+---
+conversation time: 36.064065
+assistant response time:
+- 0.011547
+- 0.010621
+- 0.013259
+- 0.015559
+- 0.011974
+- 0.0126
+- 0.016339
+- 0.013938
+response time report:
+  average: 0.013229
+  max: 0.016339
+  min: 0.010621
+---
+interaction:
+- User: When are you open?
+- Assistant: We shoot art on location and on our studio at SoHo. We are open Monday
+    to Friday from 9am to 5pm.
+- User: Where is the shop located?
+- Assistant: The shop is at SoHo, 14 Wooster Street
+- User: What services do you offer?
+- Assistant: We charge 200$ by hour
+- User: What type of photography do you specialize in?
+- Assistant: Mainly on photographs, but also on video, and virtual/3D rendering
+- User: What important projects have you worked on?
+- Assistant: The shop is at SoHo, 14 Wooster Street
+- User: What important projects have you worked on?
+- Assistant: The shop is at SoHo, 14 Wooster Street
+- User: What important projects have you worked on?
+- Assistant: The shop is at SoHo, 14 Wooster Street
+- User: What important projects have you worked on?
+- Assistant: The shop is at SoHo, 14 Wooster Street

@@ -1,0 +1,14 @@
+project_folder: photography-test
+
+user_profile:
+technology:
+connector: rasa
+connector_parameters:
+  api_url: http://localhost:5005/webhooks/rest/webhook
+extract:
+    #execution_parameters:
+        # - verbose
+        # - clean_cache
+        # - update_cache
+        # - ignore_cache
+    

@@ -1,0 +1,39 @@
+serial: 2025-06-09-22-31-17
+language: English
+context:
+- your name is Maria Smith, and you own an art gallery.
+- you want an estimate to get some work done in your gallery, be direct and do not
+  ask for other details, you are just interested in the price.
+ask_about:
+- Provide an estimate to {{media}} {{number_artworks}} {{artworks}}
+- number_artworks: 1
+- media: create a video of
+- artworks: ceramic objects
+conversation:
+- interaction_style:
+  - default
+- number: 9
+- all_answered:
+    export: true
+    limit: 5
+data_output:
+- price: 1000.0$
+errors: []
+total_cost($): 0.0
+---
+conversation time: 8.188193
+assistant response time:
+- 0.014797
+- 0.019389
+response time report:
+  average: 0.017093
+  max: 0.019389
+  min: 0.014797
+---
+interaction:
+- User: I need an estimate for creating a video of one ceramic object. What would
+    that cost?
+- Assistant: How many pieces of art are encompassed in the session?
+- User: Just one ceramic object. What’s the price?
+- Assistant: The price would be around 1000.0$, but may depend on other factors, like
+    the size of the artworks

@@ -1,0 +1,21 @@
+Global report:
+  Average assistant response time: 0.015155
+  Maximum assistant response time: 0.029324
+  Minimum assistant response time: 0.010518
+  Errors:
+  - error: 1001
+    count: 1
+    conversations:
+    - 3_set_photo_appointment_with_email_2025-06-09-21-15-05.yml
+  Total Cost: 0.0
+---
+Test name: set_photo_appointment_with_email
+Average assistant response time: 0.015155
+Maximum assistant response time: 0.029324
+Minimum assistant response time: 0.010518
+Errors:
+- error: 1001
+  count: 1
+  conversations:
+  - 3_set_photo_appointment_with_email_2025-06-09-21-15-05.yml
+Total Cost: 0.0

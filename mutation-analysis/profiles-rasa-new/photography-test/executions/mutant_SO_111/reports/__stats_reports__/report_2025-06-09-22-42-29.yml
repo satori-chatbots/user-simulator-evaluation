@@ -1,0 +1,21 @@
+Global report:
+  Average assistant response time: 0.030737
+  Maximum assistant response time: 0.309769
+  Minimum assistant response time: 0.012661
+  Errors:
+  - error: 1001
+    count: 1
+    conversations:
+    - 0_provide_estimates_2025-06-09-22-42-29.yml
+  Total Cost: 0.0
+---
+Test name: provide_estimates
+Average assistant response time: 0.030737
+Maximum assistant response time: 0.309769
+Minimum assistant response time: 0.012661
+Errors:
+- error: 1001
+  count: 1
+  conversations:
+  - 0_provide_estimates_2025-06-09-22-42-29.yml
+Total Cost: 0.0

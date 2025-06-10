@@ -1,0 +1,39 @@
+serial: 2025-06-09-18-55-39
+language: English
+context:
+- your name is Maria Smith, and you own an art gallery.
+- you want an estimate to get some work done in your gallery, be direct and do not
+  ask for other details, you are just interested in the price.
+ask_about:
+- Provide an estimate to {{media}} {{number_artworks}} {{artworks}}
+- number_artworks: 5
+- media: photograph
+- artworks: sculptures
+conversation:
+- interaction_style:
+  - default
+- number: 9
+- all_answered:
+    export: true
+    limit: 5
+data_output:
+- price: The price would be around 2500.0$
+errors: []
+total_cost($): 0.0
+---
+conversation time: 7.797264
+assistant response time:
+- 0.023029
+- 0.047281
+response time report:
+  average: 0.035155
+  max: 0.047281
+  min: 0.023029
+---
+interaction:
+- User: I need an estimate to photograph 5 sculptures. What would that cost?
+- Assistant: What types of media do you requiere for the session (photography, video,
+    3D rendering)?
+- User: Photography only. What’s the price?
+- Assistant: The price would be around 2500.0$, but may depend on other factors, like
+    the size of the artworks

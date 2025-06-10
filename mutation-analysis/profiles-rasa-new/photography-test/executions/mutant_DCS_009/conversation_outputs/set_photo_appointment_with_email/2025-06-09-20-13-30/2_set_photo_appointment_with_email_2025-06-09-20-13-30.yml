@@ -1,0 +1,56 @@
+serial: 2025-06-09-20-13-30
+language: English
+context:
+- your name is Ann Clark, and you own an art gallery. Your email is ann@artgal.com
+ask_about:
+- Setting an appointment for {{ap_date}}, any time is fine, your phone number is {{phone_no}}
+- ap_date: November 8th, 2025
+- phone_no: (212) 555-1734
+conversation:
+- interaction_style:
+  - default
+- number: 4
+- all_answered:
+    export: true
+    limit: 7
+data_output:
+- confirmed_appointment: 2025-11-08
+errors: []
+total_cost($): 0.0
+---
+conversation time: 22.164852
+assistant response time:
+- 0.013486
+- 0.014321
+- 0.021174
+- 0.017145
+- 0.017891
+- 0.018885
+- 0.019993
+response time report:
+  average: 0.017556
+  max: 0.021174
+  min: 0.013486
+---
+interaction:
+- User: I’d like to schedule an appointment for November 8th, 2025. Is that available?
+- Assistant: What types of media do you requiere for the session (photography, video,
+    3D rendering)?
+- User: Photography. What time do you have available?
+- Assistant: What types of media do you requiere for the session (photography, video,
+    3D rendering)?
+- User: I already said photography. What time do you have available on November 8th,
+    2025?
+- Assistant: What is the type of artwork (picture, sculpture or ceramic)?
+- User: I own an art gallery, so I need photography for my artwork. What time can
+    I book for November 8th, 2025?
+- Assistant: What is the type of artwork (picture, sculpture or ceramic)?
+- User: I need photography for my artwork. Can you tell me the available times for
+    November 8th, 2025?
+- Assistant: What is the type of artwork (picture, sculpture or ceramic)?
+- User: I need photography for my artwork. Can you please provide the available times
+    for November 8th, 2025?
+- Assistant: What is the type of artwork (picture, sculpture or ceramic)?
+- User: I need photography for my artwork. Can you please provide the available times
+    for November 8th, 2025?
+- Assistant: What is the type of artwork (picture, sculpture or ceramic)?

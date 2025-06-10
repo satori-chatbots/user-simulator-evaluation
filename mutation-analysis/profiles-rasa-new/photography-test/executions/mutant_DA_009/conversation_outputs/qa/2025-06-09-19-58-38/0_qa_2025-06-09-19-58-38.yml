@@ -1,0 +1,61 @@
+serial: 2025-06-09-19-58-38
+language: English
+context:
+- You want to obtain some information about the photography shop
+ask_about:
+- When are you open?
+- Where is the shop?
+- Tell me about your portfolio, what important projects have you worked on?
+conversation:
+- interaction_style:
+  - default
+- number: 1
+- all_answered:
+    export: true
+    limit: 8
+data_output:
+- opening_times: We shoot art on location and on our studio at SoHo. We are open Monday
+    to Friday from 9am to 5pm.
+- address: The shop is at SoHo, 14 Wooster Street
+- portfolio: I'm sorry, I can help you to set an appointment for a session, provide
+    price estimates, and answer on issues related to our shop
+errors: []
+total_cost($): 0.0
+---
+conversation time: 32.118346
+assistant response time:
+- 0.009566
+- 0.010349
+- 0.012392
+- 0.011704
+- 0.012541
+- 0.011684
+- 0.013321
+- 0.012464
+response time report:
+  average: 0.011752
+  max: 0.013321
+  min: 0.009566
+---
+interaction:
+- User: When are you open?
+- Assistant: We shoot art on location and on our studio at SoHo. We are open Monday
+    to Friday from 9am to 5pm.
+- User: Where is the shop located?
+- Assistant: The shop is at SoHo, 14 Wooster Street
+- User: What services do you offer?
+- Assistant: We charge 200$ by hour
+- User: What type of photography do you specialize in?
+- Assistant: Mainly on photographs, but also on video, and virtual/3D rendering
+- User: What important projects have you worked on?
+- Assistant: I'm sorry, I can help you to set an appointment for a session, provide
+    price estimates, and answer on issues related to our shop
+- User: Can you tell me more about your portfolio?
+- Assistant: I'm sorry, I can help you to set an appointment for a session, provide
+    price estimates, and answer on issues related to our shop
+- User: What types of photography do you have examples of in your portfolio?
+- Assistant: I'm sorry, I can help you to set an appointment for a session, provide
+    price estimates, and answer on issues related to our shop
+- User: Can you tell me about your studio?
+- Assistant: I'm sorry, I can help you to set an appointment for a session, provide
+    price estimates, and answer on issues related to our shop

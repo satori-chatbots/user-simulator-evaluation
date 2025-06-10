@@ -1,0 +1,13 @@
+Global report:
+  Average assistant response time: 0.024994
+  Maximum assistant response time: 0.047416
+  Minimum assistant response time: 0.017216
+  Errors: []
+  Total Cost: 0.0
+---
+Test name: set_photo_appointment
+Average assistant response time: 0.024994
+Maximum assistant response time: 0.047416
+Minimum assistant response time: 0.017216
+Errors: []
+Total Cost: 0.0

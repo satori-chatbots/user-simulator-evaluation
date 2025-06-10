@@ -1,0 +1,13 @@
+Global report:
+  Average assistant response time: 0.030394
+  Maximum assistant response time: 0.217456
+  Minimum assistant response time: 0.013341
+  Errors: []
+  Total Cost: 0.0
+---
+Test name: provide_estimates
+Average assistant response time: 0.030394
+Maximum assistant response time: 0.217456
+Minimum assistant response time: 0.013341
+Errors: []
+Total Cost: 0.0

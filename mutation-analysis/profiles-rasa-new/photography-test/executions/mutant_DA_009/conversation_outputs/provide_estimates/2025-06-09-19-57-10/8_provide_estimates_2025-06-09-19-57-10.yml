@@ -1,0 +1,36 @@
+serial: 2025-06-09-19-57-10
+language: English
+context:
+- your name is Maria Smith, and you own an art gallery.
+- you want an estimate to get some work done in your gallery, be direct and do not
+  ask for other details, you are just interested in the price.
+ask_about:
+- Provide an estimate to {{media}} {{number_artworks}} {{artworks}}
+- number_artworks: 1
+- media: create 3D rendering of
+- artworks: ceramic objects
+conversation:
+- interaction_style:
+  - default
+- number: 9
+- all_answered:
+    export: true
+    limit: 5
+data_output:
+- price: The price would be around 1450.0$
+errors: []
+total_cost($): 0.0
+---
+conversation time: 6.024412
+assistant response time:
+- 0.017146
+response time report:
+  average: 0.017146
+  max: 0.017146
+  min: 0.017146
+---
+interaction:
+- User: I need an estimate for creating a 3D rendering of 1 ceramic object. What would
+    that cost?
+- Assistant: The price would be around 1450.0$, but may depend on other factors, like
+    the size of the artworks

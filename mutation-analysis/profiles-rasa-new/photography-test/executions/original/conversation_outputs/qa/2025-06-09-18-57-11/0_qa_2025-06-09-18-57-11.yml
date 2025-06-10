@@ -1,0 +1,34 @@
+serial: 2025-06-09-18-57-11
+language: English
+context:
+- You want to obtain some information about the photography shop
+ask_about:
+- When are you open?
+- Where is the shop?
+- Tell me about your portfolio, what important projects have you worked on?
+conversation:
+- interaction_style:
+  - default
+- number: 1
+- all_answered:
+    export: true
+    limit: 8
+data_output:
+- opening_times: We are open Monday to Friday from 9am to 5pm.
+- address: We shoot art on location and on our studio at SoHo.
+- portfolio: None
+errors: []
+total_cost($): 0.0
+---
+conversation time: 7.30014
+assistant response time:
+- 0.014497
+response time report:
+  average: 0.014497
+  max: 0.014497
+  min: 0.014497
+---
+interaction:
+- User: When are you open?
+- Assistant: We shoot art on location and on our studio at SoHo. We are open Monday
+    to Friday from 9am to 5pm.

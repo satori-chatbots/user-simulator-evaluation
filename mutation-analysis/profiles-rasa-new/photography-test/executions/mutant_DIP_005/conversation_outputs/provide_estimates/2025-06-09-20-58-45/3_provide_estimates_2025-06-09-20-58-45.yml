@@ -1,0 +1,52 @@
+serial: 2025-06-09-20-58-45
+language: English
+context:
+- your name is Maria Smith, and you own an art gallery.
+- you want an estimate to get some work done in your gallery, be direct and do not
+  ask for other details, you are just interested in the price.
+ask_about:
+- Provide an estimate to {{media}} {{number_artworks}} {{artworks}}
+- number_artworks: 4
+- media: create a video of
+- artworks: pictures
+conversation:
+- interaction_style:
+  - default
+- number: 9
+- all_answered:
+    export: true
+    limit: 5
+data_output:
+- price: I'm sorry, I can help you to set an appointment for a session, provide price
+    estimates, and answer on issues related to our shop
+errors: []
+total_cost($): 0.0
+---
+conversation time: 11.054351
+assistant response time:
+- 0.012524
+- 0.013118
+- 0.019409
+- 0.013116
+- 0.013411
+response time report:
+  average: 0.014315
+  max: 0.019409
+  min: 0.012524
+---
+interaction:
+- User: I need an estimate for creating a video of 4 pictures. What would that cost?
+- Assistant: I'm sorry, I can help you to set an appointment for a session, provide
+    price estimates, and answer on issues related to our shop
+- User: What is the price for creating a video of 4 pictures?
+- Assistant: I'm sorry, I can help you to set an appointment for a session, provide
+    price estimates, and answer on issues related to our shop
+- User: What is the cost to create a video using 4 pictures?
+- Assistant: I'm sorry, I can help you to set an appointment for a session, provide
+    price estimates, and answer on issues related to our shop
+- User: I need the cost for creating a video of 4 pictures. Can you provide that?
+- Assistant: I'm sorry, I can help you to set an appointment for a session, provide
+    price estimates, and answer on issues related to our shop
+- User: I need the price for making a video with 4 pictures. Can you tell me that?
+- Assistant: I'm sorry, I can help you to set an appointment for a session, provide
+    price estimates, and answer on issues related to our shop

@@ -1,0 +1,55 @@
+serial: 2025-06-09-20-13-30
+language: English
+context:
+- your name is Ann Clark, and you own an art gallery. Your email is ann@artgal.com
+ask_about:
+- Setting an appointment for {{ap_date}}, any time is fine, your phone number is {{phone_no}}
+- ap_date: November 8th, 2025
+- phone_no: (617) 545-1356
+conversation:
+- interaction_style:
+  - default
+- number: 4
+- all_answered:
+    export: true
+    limit: 7
+data_output:
+- confirmed_appointment: None
+errors: []
+total_cost($): 0.0
+---
+conversation time: 20.834606
+assistant response time:
+- 0.015975
+- 0.014476
+- 0.016881
+- 0.017083
+- 0.021159
+- 0.019544
+- 0.019477
+response time report:
+  average: 0.017799
+  max: 0.021159
+  min: 0.014476
+---
+interaction:
+- User: I’d like to schedule an appointment for November 8th, 2025. Is that available?
+- Assistant: What types of media do you requiere for the session (photography, video,
+    3D rendering)?
+- User: Photography. What time do you have available?
+- Assistant: What types of media do you requiere for the session (photography, video,
+    3D rendering)?
+- User: I just need photography. What time do you have available on November 8th,
+    2025?
+- Assistant: What is the type of artwork (picture, sculpture or ceramic)?
+- User: I need photography for my art gallery. What time do you have available on
+    November 8th, 2025?
+- Assistant: What is the type of artwork (picture, sculpture or ceramic)?
+- User: I need photography for my art gallery. Can you tell me the available times?
+- Assistant: What is the type of artwork (picture, sculpture or ceramic)?
+- User: I need photography for my art gallery. Can you please provide the available
+    times for November 8th, 2025?
+- Assistant: What is the type of artwork (picture, sculpture or ceramic)?
+- User: I need photography for my art gallery. Can you please provide the available
+    times for November 8th, 2025?
+- Assistant: What is the type of artwork (picture, sculpture or ceramic)?

@@ -1,0 +1,52 @@
+serial: 2025-06-09-20-03-47
+language: English
+context:
+- your name is Maria Smith, and you own an art gallery.
+- you want an estimate to get some work done in your gallery, be direct and do not
+  ask for other details, you are just interested in the price.
+ask_about:
+- Provide an estimate to {{media}} {{number_artworks}} {{artworks}}
+- number_artworks: 2
+- media: photograph
+- artworks: pictures
+conversation:
+- interaction_style:
+  - default
+- number: 9
+- all_answered:
+    export: true
+    limit: 5
+data_output:
+- price: None
+errors: []
+total_cost($): 0.0
+---
+conversation time: 12.371524
+assistant response time:
+- 0.209216
+- 0.015176
+- 0.016097
+- 0.015168
+- 0.016595
+response time report:
+  average: 0.05445
+  max: 0.209216
+  min: 0.015168
+---
+interaction:
+- User: I need an estimate to photograph 2 pictures in my gallery. What would that
+    cost?
+- Assistant: What types of media do you requiere for the session (photography, video,
+    3D rendering)?
+- User: Photography only. What’s the price?
+- Assistant: What types of media do you requiere for the session (photography, video,
+    3D rendering)?
+- User: I just need photography. Can you give me a price for that?
+- Assistant: What types of media do you requiere for the session (photography, video,
+    3D rendering)?
+- User: I need a price for photographing 2 pictures. Can you provide that?
+- Assistant: What types of media do you requiere for the session (photography, video,
+    3D rendering)?
+- User: I need a price for photographing 2 pictures. Can you provide that?
+- Assistant: What types of media do you requiere for the session (photography, video,
+    3D rendering)?

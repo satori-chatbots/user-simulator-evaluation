@@ -1,0 +1,50 @@
+serial: 2025-06-09-20-58-45
+language: English
+context:
+- your name is Maria Smith, and you own an art gallery.
+- you want an estimate to get some work done in your gallery, be direct and do not
+  ask for other details, you are just interested in the price.
+ask_about:
+- Provide an estimate to {{media}} {{number_artworks}} {{artworks}}
+- number_artworks: 2
+- media: photograph
+- artworks: pictures
+conversation:
+- interaction_style:
+  - default
+- number: 9
+- all_answered:
+    export: true
+    limit: 5
+data_output:
+- price: $300
+errors: []
+total_cost($): 0.0
+---
+conversation time: 23.66081
+assistant response time:
+- 0.19349
+- 0.015304
+- 0.092947
+- 0.017939
+response time report:
+  average: 0.07992
+  max: 0.19349
+  min: 0.015304
+---
+interaction:
+- User: I need an estimate to photograph 2 pictures for my gallery. What would that
+    cost?
+- Assistant: 'Thank you for contacting us. We will contact you by phone, but we need
+    some additional information. May I please have your full name. If you have an
+    email address, that would be helpful as well, but it is optional. Also, I need
+    the date you would like to schedule your appointment
+
+    Could you please tell me your name?'
+- User: Maria Smith. What is the price to photograph 2 pictures?
+- Assistant: What day do you want the appointment?
+- User: What is the price for photographing 2 pictures?
+- Assistant: ''
+- User: The price for photographing 2 pictures is $300. Would you like to schedule
+    an appointment?
+- Assistant: ''

@@ -1,0 +1,56 @@
+serial: 2025-06-09-20-11-56
+language: English
+context:
+- your name is John Doe, and you own an art gallery. You do not have an email address
+ask_about:
+- Setting an appointment for {{ap_date}}, any time is fine, your phone number is {{phone_no}}
+- ap_date: November 6th, 2025
+- phone_no: (212) 555-1234
+conversation:
+- interaction_style:
+  - default
+- number: 4
+- all_answered:
+    export: true
+    limit: 7
+data_output:
+- confirmed_appointment: None
+errors: []
+total_cost($): 0.0
+---
+conversation time: 21.166719
+assistant response time:
+- 0.01601
+- 0.015714
+- 0.017178
+- 0.038463
+- 0.018449
+- 0.017524
+- 0.018451
+response time report:
+  average: 0.020255
+  max: 0.038463
+  min: 0.015713
+---
+interaction:
+- User: I'd like to schedule an appointment for November 6th, 2025. Is that available?
+- Assistant: What types of media do you requiere for the session (photography, video,
+    3D rendering)?
+- User: Photography. What time do you have available?
+- Assistant: What types of media do you requiere for the session (photography, video,
+    3D rendering)?
+- User: I'd like to know what time slots you have available for photography on November
+    6th, 2025.
+- Assistant: What is the type of artwork (picture, sculpture or ceramic)?
+- User: I'd like to schedule a photography session for my art gallery. What time slots
+    do you have available on November 6th, 2025?
+- Assistant: What is the type of artwork (picture, sculpture or ceramic)?
+- User: I'd like to schedule a photography session for my art gallery. Can you tell
+    me the available time slots for that day?
+- Assistant: What is the type of artwork (picture, sculpture or ceramic)?
+- User: I'd like to know the available time slots for photography on November 6th,
+    2025.
+- Assistant: What is the type of artwork (picture, sculpture or ceramic)?
+- User: I'd like to know the available time slots for photography on November 6th,
+    2025.
+- Assistant: What is the type of artwork (picture, sculpture or ceramic)?

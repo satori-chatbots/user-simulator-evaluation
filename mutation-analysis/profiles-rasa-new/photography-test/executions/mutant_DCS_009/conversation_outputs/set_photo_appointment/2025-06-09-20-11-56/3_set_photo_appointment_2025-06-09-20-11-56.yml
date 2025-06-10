@@ -1,0 +1,56 @@
+serial: 2025-06-09-20-11-56
+language: English
+context:
+- your name is John Doe, and you own an art gallery. You do not have an email address
+ask_about:
+- Setting an appointment for {{ap_date}}, any time is fine, your phone number is {{phone_no}}
+- ap_date: November 6th, 2025
+- phone_no: (617) 545-1336
+conversation:
+- interaction_style:
+  - default
+- number: 4
+- all_answered:
+    export: true
+    limit: 7
+data_output:
+- confirmed_appointment: None
+errors: []
+total_cost($): 0.0
+---
+conversation time: 26.140456
+assistant response time:
+- 0.013869
+- 0.062457
+- 0.015198
+- 0.016303
+- 0.06487
+- 0.019663
+- 0.019931
+response time report:
+  average: 0.030327
+  max: 0.06487
+  min: 0.013869
+---
+interaction:
+- User: I'd like to schedule an appointment for November 6th, 2025. Is that possible?
+- Assistant: What types of media do you requiere for the session (photography, video,
+    3D rendering)?
+- User: I need photography for the session. Can you confirm the appointment for November
+    6th, 2025?
+- Assistant: What is the type of artwork (picture, sculpture or ceramic)?
+- User: I have paintings in my gallery. Can you confirm the appointment for photography
+    on November 6th, 2025?
+- Assistant: What is the type of artwork (picture, sculpture or ceramic)?
+- User: I have paintings in my gallery. Can you confirm the appointment for photography
+    on November 6th, 2025?
+- Assistant: What is the type of artwork (picture, sculpture or ceramic)?
+- User: I have paintings in my gallery. Can you confirm the appointment for photography
+    on November 6th, 2025?
+- Assistant: What is the type of artwork (picture, sculpture or ceramic)?
+- User: I have paintings in my gallery. Can you confirm the appointment for photography
+    on November 6th, 2025?
+- Assistant: What is the type of artwork (picture, sculpture or ceramic)?
+- User: I have paintings in my gallery. Can you confirm the appointment for photography
+    on November 6th, 2025?
+- Assistant: What is the type of artwork (picture, sculpture or ceramic)?

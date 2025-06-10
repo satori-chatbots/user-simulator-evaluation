@@ -1,0 +1,50 @@
+serial: 2025-06-09-19-40-26
+language: English
+context:
+- your name is John Doe, and you own an art gallery. You do not have an email address
+ask_about:
+- Setting an appointment for {{ap_date}}, any time is fine, your phone number is {{phone_no}}
+- ap_date: November 6th, 2025
+- phone_no: (212) 555-1234
+conversation:
+- interaction_style:
+  - default
+- number: 4
+- all_answered:
+    export: true
+    limit: 7
+data_output:
+- confirmed_appointment: None
+errors: []
+total_cost($): 0.0
+---
+conversation time: 26.597413
+assistant response time:
+- 0.014181
+- 0.013421
+- 0.014305
+- 0.017478
+- 0.016151
+- 0.018308
+- 0.018981
+response time report:
+  average: 0.016117
+  max: 0.018981
+  min: 0.013421
+---
+interaction:
+- User: I'd like to schedule an appointment for November 6th, 2025. Is that available?
+- Assistant: What types of media do you requiere for the session (photography, video,
+    3D rendering)?
+- User: Photography. What time do you have available?
+- Assistant: What is the type of artwork (picture, sculpture or ceramic)?
+- User: Photography. Can I schedule any time on that date?
+- Assistant: What is the type of artwork (picture, sculpture or ceramic)?
+- User: Photography. Can I just book any time on November 6th?
+- Assistant: What is the type of artwork (picture, sculpture or ceramic)?
+- User: Photography. Can I book any time on November 6th?
+- Assistant: What is the type of artwork (picture, sculpture or ceramic)?
+- User: Photography. Can I just get a time for November 6th?
+- Assistant: What is the type of artwork (picture, sculpture or ceramic)?
+- User: Photography. Can I get a specific time for November 6th?
+- Assistant: What is the type of artwork (picture, sculpture or ceramic)?

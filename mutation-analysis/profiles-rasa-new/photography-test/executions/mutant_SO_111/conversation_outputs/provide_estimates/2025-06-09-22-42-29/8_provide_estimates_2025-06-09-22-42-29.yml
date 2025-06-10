@@ -1,0 +1,47 @@
+serial: 2025-06-09-22-42-29
+language: English
+context:
+- your name is Maria Smith, and you own an art gallery.
+- you want an estimate to get some work done in your gallery, be direct and do not
+  ask for other details, you are just interested in the price.
+ask_about:
+- Provide an estimate to {{media}} {{number_artworks}} {{artworks}}
+- number_artworks: 6
+- media: create 3D rendering of
+- artworks: ceramic objects
+conversation:
+- interaction_style:
+  - default
+- number: 9
+- all_answered:
+    export: true
+    limit: 5
+data_output:
+- price: The shop is at SoHo, 14 Wooster Street
+errors: []
+total_cost($): 0.0
+---
+conversation time: 12.83683
+assistant response time:
+- 0.014162
+- 0.015639
+- 0.015249
+- 0.017227
+- 0.016778
+response time report:
+  average: 0.015811
+  max: 0.017227
+  min: 0.014162
+---
+interaction:
+- User: I need an estimate for creating 3D renderings of 6 ceramic objects. What would
+    that cost?
+- Assistant: The shop is at SoHo, 14 Wooster Street
+- User: What is the price for creating 3D renderings of 6 ceramic objects?
+- Assistant: The shop is at SoHo, 14 Wooster Street
+- User: What is the price for creating 3D renderings of 6 ceramic objects?
+- Assistant: The shop is at SoHo, 14 Wooster Street
+- User: What is the price for creating 3D renderings of 6 ceramic objects?
+- Assistant: The shop is at SoHo, 14 Wooster Street
+- User: What is the price for creating 3D renderings of 6 ceramic objects?
+- Assistant: The shop is at SoHo, 14 Wooster Street

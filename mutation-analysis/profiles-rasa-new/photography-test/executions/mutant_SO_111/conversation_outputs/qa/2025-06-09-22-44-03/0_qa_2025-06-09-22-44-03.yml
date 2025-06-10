@@ -1,0 +1,64 @@
+serial: 2025-06-09-22-44-03
+language: English
+context:
+- You want to obtain some information about the photography shop
+ask_about:
+- When are you open?
+- Where is the shop?
+- Tell me about your portfolio, what important projects have you worked on?
+conversation:
+- interaction_style:
+  - default
+- number: 1
+- all_answered:
+    export: true
+    limit: 8
+data_output:
+- opening_times: We shoot art on location and on our studio at SoHo. We are open Monday
+    to Friday from 9am to 5pm.
+- address: null
+- portfolio: None
+errors:
+- 1001: 1 goals left to complete.
+total_cost($): 0.0
+---
+conversation time: 25.581564
+assistant response time:
+- 0.011565
+- 0.010294
+- 0.011011
+- 0.016386
+- 0.011468
+- 0.01069
+- 0.017544
+- 0.017441
+response time report:
+  average: 0.013299
+  max: 0.017544
+  min: 0.010294
+---
+interaction:
+- User: When are you open?
+- Assistant: We shoot art on location and on our studio at SoHo. We are open Monday
+    to Friday from 9am to 5pm.
+- User: Where is the shop located?
+- Assistant: What types of media do you requiere for the session (photography, video,
+    3D rendering)?
+- User: Is the shop in SoHo?
+- Assistant: What types of media do you requiere for the session (photography, video,
+    3D rendering)?
+- User: Is the shop in SoHo?
+- Assistant: What types of media do you requiere for the session (photography, video,
+    3D rendering)?
+- User: Is the shop in SoHo?
+- Assistant: What types of media do you requiere for the session (photography, video,
+    3D rendering)?
+- User: Is the shop in SoHo?
+- Assistant: What types of media do you requiere for the session (photography, video,
+    3D rendering)?
+- User: Is the shop in SoHo?
+- Assistant: What types of media do you requiere for the session (photography, video,
+    3D rendering)?
+- User: Is the shop in SoHo?
+- Assistant: What types of media do you requiere for the session (photography, video,
+    3D rendering)?

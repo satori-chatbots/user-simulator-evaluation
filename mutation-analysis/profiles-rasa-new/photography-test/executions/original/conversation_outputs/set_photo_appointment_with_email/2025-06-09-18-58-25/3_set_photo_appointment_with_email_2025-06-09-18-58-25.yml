@@ -1,0 +1,44 @@
+serial: 2025-06-09-18-58-25
+language: English
+context:
+- your name is Ann Clark, and you own an art gallery. Your email is ann@artgal.com
+ask_about:
+- Setting an appointment for {{ap_date}}, any time is fine, your phone number is {{phone_no}}
+- ap_date: November 8th, 2025
+- phone_no: (617) 545-1356
+conversation:
+- interaction_style:
+  - default
+- number: 4
+- all_answered:
+    export: true
+    limit: 7
+data_output:
+- confirmed_appointment: Thanks available! We'll contact you very soon for a session
+    on 08-11-2025
+errors: []
+total_cost($): 0.0
+---
+conversation time: 13.825452
+assistant response time:
+- 0.031144
+- 0.02502
+- 0.044557
+response time report:
+  average: 0.033573
+  max: 0.044557
+  min: 0.02502
+---
+interaction:
+- User: I want to schedule an appointment for November 8th, 2025. Is that available?
+- Assistant: 'Hello available. Thank you for contacting us. We will contact you by
+    phone, but we need some additional information. May I please have your phone number.
+    If you have an email address, that would be helpful as well, but it is optional.
+    Also, I need the date you would like to schedule your appointment
+
+    Could you share the phone number where we can contact you?'
+- User: My phone number is (617) 545-1356. Can I also provide my email? It's ann@artgal.com.
+    Is November 8th, 2025 available?
+- Assistant: What day do you want the appointment?
+- User: I want the appointment on November 8th, 2025. Is that available?
+- Assistant: Thanks available! We'll contact you very soon for a session on 08-11-2025

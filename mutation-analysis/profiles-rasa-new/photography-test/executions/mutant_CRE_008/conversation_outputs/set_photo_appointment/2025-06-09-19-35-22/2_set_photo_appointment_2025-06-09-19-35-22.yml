@@ -1,0 +1,44 @@
+serial: 2025-06-09-19-35-22
+language: English
+context:
+- your name is John Doe, and you own an art gallery. You do not have an email address
+ask_about:
+- Setting an appointment for {{ap_date}}, any time is fine, your phone number is {{phone_no}}
+- ap_date: November 6th, 2025
+- phone_no: (212) 555-1234
+conversation:
+- interaction_style:
+  - default
+- number: 4
+- all_answered:
+    export: true
+    limit: 7
+data_output:
+- confirmed_appointment: Thanks available! We'll contact you very soon for a session
+    on 06-11-2025
+errors: []
+total_cost($): 0.0
+---
+conversation time: 9.732201
+assistant response time:
+- 0.01715
+- 0.015709
+- 0.026582
+response time report:
+  average: 0.019813
+  max: 0.026582
+  min: 0.015709
+---
+interaction:
+- User: I'd like to schedule an appointment for November 6th, 2025. Is that available?
+- Assistant: 'Hello available. Thank you for contacting us. We will contact you by
+    phone, but we need some additional information. May I please have your phone number.
+    If you have an email address, that would be helpful as well, but it is optional.
+    Also, I need the date you would like to schedule your appointment
+
+    Could you share the phone number where we can contact you?'
+- User: My phone number is (212) 555-1234. Can I schedule the appointment for any
+    time on November 6th, 2025?
+- Assistant: What day do you want the appointment?
+- User: I want the appointment on November 6th, 2025. Can you confirm that?
+- Assistant: Thanks available! We'll contact you very soon for a session on 06-11-2025

@@ -1,0 +1,49 @@
+serial: 2025-06-09-21-07-36
+language: English
+context:
+- your name is John Doe, and you own an art gallery. You do not have an email address
+ask_about:
+- Setting an appointment for {{ap_date}}, any time is fine, your phone number is {{phone_no}}
+- ap_date: tomorrow
+- phone_no: (212) 555-1234
+conversation:
+- interaction_style:
+  - default
+- number: 4
+- all_answered:
+    export: true
+    limit: 7
+data_output:
+- confirmed_appointment: null
+errors:
+- 1001: 1 goals left to complete.
+total_cost($): 0.0
+---
+conversation time: 28.321956
+assistant response time:
+- 0.018223
+- 0.048941
+- 0.012303
+- 0.015694
+response time report:
+  average: 0.02379
+  max: 0.048941
+  min: 0.012303
+---
+interaction:
+- User: I want to schedule an appointment for tomorrow. Do you have any available
+    times?
+- Assistant: 'Thank you for contacting us. We will contact you by phone, but we need
+    some additional information. May I please have your full name and phone number.
+    If you have an email address, that would be helpful as well, but it is optional.
+
+    Could you please tell me your name?'
+- User: My name is John Doe. My phone number is (212) 555-1234. Do you have any available
+    times for tomorrow?
+- Assistant: Thanks ! We'll contact you very soon for a session on
+- User: tomorrow. What time works best for you?
+- Assistant: I'm sorry, I can help you to set an appointment for a session, provide
+    price estimates, and answer on issues related to our shop
+- User: Can you tell me what times are available for tomorrow?
+- Assistant: I'm sorry, I can help you to set an appointment for a session, provide
+    price estimates, and answer on issues related to our shop

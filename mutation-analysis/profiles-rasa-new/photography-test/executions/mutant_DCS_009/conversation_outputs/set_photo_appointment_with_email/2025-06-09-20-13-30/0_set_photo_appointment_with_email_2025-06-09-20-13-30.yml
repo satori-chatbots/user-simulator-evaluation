@@ -1,0 +1,57 @@
+serial: 2025-06-09-20-13-30
+language: English
+context:
+- your name is Ann Clark, and you own an art gallery. Your email is ann@artgal.com
+ask_about:
+- Setting an appointment for {{ap_date}}, any time is fine, your phone number is {{phone_no}}
+- ap_date: tomorrow
+- phone_no: (212) 555-1734
+conversation:
+- interaction_style:
+  - default
+- number: 4
+- all_answered:
+    export: true
+    limit: 7
+data_output:
+- confirmed_appointment: null
+errors:
+- 1001: 1 goals left to complete.
+total_cost($): 0.0
+---
+conversation time: 17.268466
+assistant response time:
+- 0.017472
+- 0.049708
+- 0.012155
+- 0.016579
+- 0.018833
+- 0.013465
+- 0.013491
+response time report:
+  average: 0.020243
+  max: 0.049708
+  min: 0.012155
+---
+interaction:
+- User: I'd like to set an appointment for tomorrow. What times do you have available?
+- Assistant: I'm sorry, I can help you to set an appointment for a session, provide
+    price estimates, and answer on issues related to our shop
+- User: Can you tell me what times are available for an appointment tomorrow?
+- Assistant: The shop is at SoHo, 14 Wooster Street
+- User: Can you tell me what times are available for an appointment tomorrow?
+- Assistant: I'm sorry, I can help you to set an appointment for a session, provide
+    price estimates, and answer on issues related to our shop
+- User: Can you tell me the available times for an appointment tomorrow?
+- Assistant: I'm sorry, I can help you to set an appointment for a session, provide
+    price estimates, and answer on issues related to our shop
+- User: Can you help me set an appointment for tomorrow? What times do you have?
+- Assistant: I'm sorry, I can help you to set an appointment for a session, provide
+    price estimates, and answer on issues related to our shop
+- User: I’d like to set an appointment for tomorrow. Can you help me with that?
+- Assistant: I'm sorry, I can help you to set an appointment for a session, provide
+    price estimates, and answer on issues related to our shop
+- User: I’d like to set an appointment for tomorrow. Can you tell me what times are
+    available?
+- Assistant: I'm sorry, I can help you to set an appointment for a session, provide
+    price estimates, and answer on issues related to our shop

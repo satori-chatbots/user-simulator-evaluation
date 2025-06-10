@@ -1,0 +1,7 @@
+;verification;data
+Setting_an_appointment_for_tomorrow,_any_time_is_fine,_your_phone_number_is_(617)_545-1356;True;"User: I'd like to schedule an appointment for tomorrow. What times are available?
+Assistant: Thank you for contacting us. We will contact you by phone, but we need some additional information. May I please have your full name and phone number. If you have an email address, that would be helpful as well, but it is optional.
+Could you please tell me your name?
+User: My name is Ann Clark. My phone number is (617) 545-1356. My email is ann@artgal.com. What times do you have available for tomorrow?
+Assistant: Thanks Ann Clark. My phone number is (617) 545-1356. My email is ann@artgal.com. What times do you have available for tomorrow?! We'll contact you very soon for a session on 10-06-2025
+"

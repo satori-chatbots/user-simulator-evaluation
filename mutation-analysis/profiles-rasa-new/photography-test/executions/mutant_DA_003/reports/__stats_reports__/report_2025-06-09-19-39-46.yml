@@ -1,0 +1,13 @@
+Global report:
+  Average assistant response time: 0.010393
+  Maximum assistant response time: 0.010855
+  Minimum assistant response time: 0.009783
+  Errors: []
+  Total Cost: 0.0
+---
+Test name: qa
+Average assistant response time: 0.010393
+Maximum assistant response time: 0.010855
+Minimum assistant response time: 0.009783
+Errors: []
+Total Cost: 0.0

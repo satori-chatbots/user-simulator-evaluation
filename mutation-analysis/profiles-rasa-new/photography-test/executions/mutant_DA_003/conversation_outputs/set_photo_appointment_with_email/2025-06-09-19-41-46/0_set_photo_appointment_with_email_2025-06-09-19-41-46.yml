@@ -1,0 +1,60 @@
+serial: 2025-06-09-19-41-46
+language: English
+context:
+- your name is Ann Clark, and you own an art gallery. Your email is ann@artgal.com
+ask_about:
+- Setting an appointment for {{ap_date}}, any time is fine, your phone number is {{phone_no}}
+- ap_date: tomorrow
+- phone_no: (212) 555-1734
+conversation:
+- interaction_style:
+  - default
+- number: 4
+- all_answered:
+    export: true
+    limit: 7
+data_output:
+- confirmed_appointment: null
+errors:
+- 1001: 1 goals left to complete.
+total_cost($): 0.0
+---
+conversation time: 21.000394
+assistant response time:
+- 0.018497
+- 0.020775
+- 0.012767
+- 0.012174
+- 0.01239
+- 0.013334
+- 0.013166
+response time report:
+  average: 0.014729
+  max: 0.020775
+  min: 0.012174
+---
+interaction:
+- User: I'd like to set an appointment for tomorrow. What times do you have available?
+- Assistant: 'Thank you for contacting us. We will contact you by phone, but we need
+    some additional information. May I please have your full name and phone number.
+    If you have an email address, that would be helpful as well, but it is optional.
+
+    Could you please tell me your name?'
+- User: My name is Ann Clark. My phone number is (212) 555-1734. My email is ann@artgal.com.
+    What times do you have available for tomorrow?
+- Assistant: ''
+- User: We have openings at 10 AM, 1 PM, and 3 PM. Which time works for you?
+- Assistant: I'm sorry, I can help you to set an appointment for a session, provide
+    price estimates, and answer on issues related to our shop
+- User: Can I book an appointment for 10 AM tomorrow?
+- Assistant: I'm sorry, I can help you to set an appointment for a session, provide
+    price estimates, and answer on issues related to our shop
+- User: Can I book the 10 AM appointment for tomorrow?
+- Assistant: I'm sorry, I can help you to set an appointment for a session, provide
+    price estimates, and answer on issues related to our shop
+- User: Can you confirm if the 10 AM appointment is available for tomorrow?
+- Assistant: I'm sorry, I can help you to set an appointment for a session, provide
+    price estimates, and answer on issues related to our shop
+- User: Can you tell me if the 10 AM appointment is open for tomorrow?
+- Assistant: I'm sorry, I can help you to set an appointment for a session, provide
+    price estimates, and answer on issues related to our shop

@@ -1,0 +1,32 @@
+serial: 2025-06-09-21-13-56
+language: English
+context:
+- You want to obtain some information about the photography shop (charge and media).
+  Only focus on those two items.
+ask_about:
+- Do you charge per hour or by number of photos?
+- What media do you work on?
+conversation:
+- interaction_style:
+  - default
+- number: 1
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- charge: 200$ by hour
+- media_work: We charge 200$ by hour
+errors: []
+total_cost($): 0.0
+---
+conversation time: 4.946567
+assistant response time:
+- 0.012057
+response time report:
+  average: 0.012057
+  max: 0.012057
+  min: 0.012057
+---
+interaction:
+- User: Do you charge per hour or by number of photos?
+- Assistant: We charge 200$ by hour

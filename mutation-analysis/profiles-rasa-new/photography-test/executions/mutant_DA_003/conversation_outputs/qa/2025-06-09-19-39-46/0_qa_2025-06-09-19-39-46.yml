@@ -1,0 +1,51 @@
+serial: 2025-06-09-19-39-46
+language: English
+context:
+- You want to obtain some information about the photography shop
+ask_about:
+- When are you open?
+- Where is the shop?
+- Tell me about your portfolio, what important projects have you worked on?
+conversation:
+- interaction_style:
+  - default
+- number: 1
+- all_answered:
+    export: true
+    limit: 8
+data_output:
+- opening_times: We shoot art on location and on our studio at SoHo. We are open Monday
+    to Friday from 9am to 5pm.
+- address: The shop is at SoHo, 14 Wooster Street
+- portfolio: We have recently worked on large on-site digitization projects for the
+    Taller del Prado, Madrid, Spain, and the Centro Cultural Eduardo Leon Jimenez
+    Art Museum, Santiago, Dominican Republic
+errors: []
+total_cost($): 0.0
+---
+conversation time: 23.814688
+assistant response time:
+- 0.010126
+- 0.009783
+- 0.01036
+- 0.010855
+- 0.010845
+response time report:
+  average: 0.010393
+  max: 0.010855
+  min: 0.009783
+---
+interaction:
+- User: When are you open?
+- Assistant: We shoot art on location and on our studio at SoHo. We are open Monday
+    to Friday from 9am to 5pm.
+- User: Where is the shop located?
+- Assistant: The shop is at SoHo, 14 Wooster Street
+- User: What services do you offer?
+- Assistant: We charge 200$ by hour
+- User: What type of photography do you specialize in?
+- Assistant: Mainly on photographs, but also on video, and virtual/3D rendering
+- User: What important projects have you worked on?
+- Assistant: We have recently worked on large on-site digitization projects for the
+    Taller del Prado, Madrid, Spain, and the Centro Cultural Eduardo Leon Jimenez
+    Art Museum, Santiago, Dominican Republic
