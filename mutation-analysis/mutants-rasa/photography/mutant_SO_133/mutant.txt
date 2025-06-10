@@ -1,0 +1,1 @@
+Swapped response text between 'utter_ask_session_details_num' and 'utter_media_response'

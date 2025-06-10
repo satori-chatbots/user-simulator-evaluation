@@ -1,0 +1,1 @@
+Swapped response text between 'utter_ask_session_details_media' and 'utter_open_hour_response'

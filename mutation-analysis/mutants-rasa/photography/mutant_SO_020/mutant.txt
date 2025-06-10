@@ -1,0 +1,1 @@
+Swapped response text between 'utter_wrong_call_appointment_day' and 'utter_ask_call_appointment_followUp_name'

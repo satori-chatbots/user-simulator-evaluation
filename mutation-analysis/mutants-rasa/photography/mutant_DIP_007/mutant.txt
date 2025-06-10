@@ -1,0 +1,1 @@
+Deleted parameter 'session_details_artwork' from intents: session_details

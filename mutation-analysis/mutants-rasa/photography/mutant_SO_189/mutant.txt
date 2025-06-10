@@ -1,0 +1,1 @@
+Swapped response text between 'utter_media_response' and 'utter_fallback_action'

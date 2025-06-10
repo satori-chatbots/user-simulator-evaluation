@@ -1,0 +1,1 @@
+Swapped response text between 'utter_wrong_session_details_num' and 'utter_location_response'

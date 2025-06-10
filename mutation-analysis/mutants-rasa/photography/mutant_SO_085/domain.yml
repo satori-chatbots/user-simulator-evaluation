@@ -1,0 +1,101 @@
+session_config:
+  session_expiration_time: 60
+intents:
+- greetings
+- call_appointment
+- estimate_price
+- session_details
+- open_hours
+- portfolio
+- price
+- media
+- location
+entities:
+- call_appointment_day
+- call_appointment_followUp_name
+- call_appointment_followUp_phone
+- call_appointment_followUp_email
+- session_details_media
+- session_details_num
+- session_details_artwork
+slots:
+  call_appointment_day:
+    type: unfeaturized
+  call_appointment_followUp_name:
+    type: unfeaturized
+  call_appointment_followUp_phone:
+    type: unfeaturized
+  call_appointment_followUp_email:
+    type: unfeaturized
+  session_details_media:
+    type: unfeaturized
+  session_details_num:
+    type: unfeaturized
+  session_details_artwork:
+    type: unfeaturized
+responses:
+  utter_ask_call_appointment_day:
+  - text: What day do you want the appointment?
+  utter_wrong_call_appointment_day:
+  - text: I can not understand the day, please try again
+  utter_ask_call_appointment_followUp_name:
+  - text: Could you please tell me your name?
+  utter_wrong_call_appointment_followUp_name:
+  - text: I can not understand the name, please try again
+  utter_ask_call_appointment_followUp_phone:
+  - text: I'm sorry, I can help you to set an appointment for a session, provide price
+      estimates, and answer on issues related to our shop
+  utter_wrong_call_appointment_followUp_phone:
+  - text: I can not understand the phone, please try again
+  utter_ask_session_details_media:
+  - text: What types of media do you requiere for the session (photography, video,
+      3D rendering)?
+  utter_wrong_session_details_media:
+  - text: I can not understand the media, please try again
+  utter_ask_session_details_num:
+  - text: How many pieces of art are encompassed in the session?
+  utter_wrong_session_details_num:
+  - text: I can not understand the num, please try again
+  utter_ask_session_details_artwork:
+  - text: What is the type of artwork (picture, sculpture or ceramic)?
+  utter_wrong_session_details_artwork:
+  - text: I can not understand the artwork, please try again
+  utter_welcome_response:
+  - text: Welcome to ArtClicks, we are specialized in photographs for art galleries.
+      What can I do for you?
+  utter_call_appointment_followUp_response:
+  - text: Thanks {call_appointment_followUp_name}! We'll contact you very soon for
+      a session on {call_appointment_day}
+  utter_open_hour_response:
+  - text: We shoot art on location and on our studio at SoHo. We are open Monday to
+      Friday from 9am to 5pm.
+  utter_portfolio_response:
+  - text: We have recently worked on large on-site digitization projects for the Taller
+      del Prado, Madrid, Spain, and the Centro Cultural Eduardo Leon Jimenez Art Museum,
+      Santiago, Dominican Republic
+  utter_price_response:
+  - text: We charge 200$ by hour
+  utter_media_response:
+  - text: Mainly on photographs, but also on video, and virtual/3D rendering
+  utter_location_response:
+  - text: The shop is at SoHo, 14 Wooster Street
+  utter_fallback_action:
+  - text: Could you share the phone number where we can contact you?
+actions:
+- utter_welcome_response
+- call_appointment_response
+- utter_call_appointment_followUp_response
+- call_appointment_followUp_form_clean
+- estimate_price_response
+- action_session_details_request
+- action_session_details_response
+- utter_open_hour_response
+- utter_portfolio_response
+- utter_price_response
+- utter_media_response
+- utter_fallback_action
+- action_greetings
+forms:
+- call_appointment_followUp_form
+- session_details_form
+- welcome_form

@@ -1,0 +1,1 @@
+Swapped response text between 'utter_price_response' and 'utter_location_response'

@@ -1,0 +1,1 @@
+Swapped response text between 'utter_open_hour_response' and 'utter_location_response'

@@ -1,0 +1,1 @@
+Swapped response text between 'utter_portfolio_response' and 'utter_media_response'

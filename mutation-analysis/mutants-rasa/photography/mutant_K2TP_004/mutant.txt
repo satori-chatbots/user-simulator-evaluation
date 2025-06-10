@@ -1,0 +1,1 @@
+Reduced intent 'session_details' to 2 training phrases

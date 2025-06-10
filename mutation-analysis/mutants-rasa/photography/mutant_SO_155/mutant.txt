@@ -1,0 +1,1 @@
+Swapped response text between 'utter_wrong_session_details_artwork' and 'utter_welcome_response'

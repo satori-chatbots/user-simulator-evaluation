@@ -1,0 +1,1 @@
+Swapped response text between 'utter_wrong_call_appointment_followUp_phone' and 'utter_ask_session_details_media'

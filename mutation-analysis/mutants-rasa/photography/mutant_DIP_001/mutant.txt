@@ -1,0 +1,1 @@
+Deleted parameter 'call_appointment_day' from intents: call_appointment

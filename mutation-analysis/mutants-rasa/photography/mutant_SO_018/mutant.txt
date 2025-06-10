@@ -1,0 +1,1 @@
+Swapped response text between 'utter_ask_call_appointment_day' and 'utter_location_response'

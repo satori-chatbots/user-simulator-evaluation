@@ -1,0 +1,37 @@
+mutant_CRE_001 - Done - No errors
+mutant_CRE_005
+mutant_CRE_006
+mutant_CRE_008 - Done - To check
+mutant_CRE_010
+mutant_DA_001 
+mutant_DA_003 - Done - To check
+mutant_DA_006
+mutant_DA_009 - Done - To check
+mutant_DA_012
+mutant_DCS_001
+mutant_DCS_005 - Done
+mutant_DCS_006
+mutant_DCS_008
+mutant_DCS_009 - Done
+mutant_DF_001  - Done - arreglado mezcla con el anterior
+mutant_DIP_001
+mutant_DIP_003 
+mutant_DIP_004 - Done
+mutant_DIP_005 - Done
+mutant_DIP_007
+mutant_DPR_001 - Done
+mutant_DSYN_001 - Done
+mutant_DSYN_002
+mutant_DSYN_003
+mutant_DSYN_004 - Done
+mutant_DSYN_006
+mutant_K2TP_001
+mutant_K2TP_002
+mutant_K2TP_004
+mutant_K2TP_006 - Done
+mutant_K2TP_007 - Done
+mutant_SO_030
+mutant_SO_042 
+mutant_SO_111 -Done
+mutant_SO_116
+mutant_SO_165 - Done

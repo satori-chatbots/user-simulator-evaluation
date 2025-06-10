@@ -1,0 +1,1 @@
+Reduced intent 'location' to 2 training phrases

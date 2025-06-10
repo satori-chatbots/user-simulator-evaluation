@@ -1,0 +1,1 @@
+Swapped response text between 'utter_ask_call_appointment_followUp_phone' and 'utter_portfolio_response'

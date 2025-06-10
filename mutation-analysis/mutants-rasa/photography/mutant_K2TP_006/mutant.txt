@@ -1,0 +1,1 @@
+Reduced intent 'open_hours' to 2 training phrases

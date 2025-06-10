@@ -1,0 +1,1 @@
+Swapped response text between 'utter_ask_call_appointment_followUp_name' and 'utter_ask_session_details_artwork'

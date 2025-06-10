@@ -1,0 +1,1 @@
+Reduced intent 'portfolio' to 2 training phrases
