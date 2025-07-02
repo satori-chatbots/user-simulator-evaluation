@@ -1,0 +1,11 @@
+ToppingsInfo
+What toppings do you have? 
+Which are the toppings? 
+What toppings can I choose? 
+What toppings do you offer for pizzas? 
+Could you please tell me about the different toppings available? 
+What kind of toppings can I choose from for my pizza? 
+Do you have a list of toppings I can add to my pizza? 
+Can you provide information about the available pizza toppings? 
+Could you tell me what options I have for pizza toppings? 
+What are the topping choices for your pizzas? 

@@ -1,0 +1,1 @@
+Reduced intent 'Toppings' to 2 training phrases

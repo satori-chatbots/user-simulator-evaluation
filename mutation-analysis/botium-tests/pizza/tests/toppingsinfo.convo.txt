@@ -1,0 +1,7 @@
+ToppingsInfo
+
+#me
+ToppingsInfo
+
+#bot
+INTENT ToppingsInfo

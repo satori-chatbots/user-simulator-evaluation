@@ -1,0 +1,14 @@
+{
+  "botium": {
+    "Capabilities": {
+      "PROJECTNAME": "Pizza",
+      "CONTAINERMODE": "rasa",
+      "RASA_ENDPOINT_URL": "http://localhost:5005",
+      "RASA_PROJECT": "",
+      "RASA_TOKEN": "",
+      "RASA_USERMDL": "",
+      "RASA_REST_CUSTOM_ENDPOINT": "/webhooks/rest/webhook",
+      "RASA_USE_SSL": false
+    }
+  }
+}

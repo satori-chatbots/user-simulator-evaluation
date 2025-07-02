@@ -1,0 +1,7 @@
+EndOrder
+
+#me
+EndOrder
+
+#bot
+INTENT EndOrder

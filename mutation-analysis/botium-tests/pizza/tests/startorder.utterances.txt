@@ -1,0 +1,9 @@
+StartOrder
+I want to order a pizza 
+Big pizza 
+One small pizza, please 
+Can I get a medium pizza, please? 
+Could I order a  large pizza, please? 
+I'd like to order a  large pizza. 
+I'll take a  medium pizza. 
+May I have a  small pizza, please? 

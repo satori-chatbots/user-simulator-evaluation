@@ -1,0 +1,1 @@
+Changed response text in 'utter_orderDrink' from 'Ok, I have received your order for this drink: {OrderDrinks_drink}. Enjoy your drink!' to 'Ok, I have received your order for this drink: . Enjoy your drink!'

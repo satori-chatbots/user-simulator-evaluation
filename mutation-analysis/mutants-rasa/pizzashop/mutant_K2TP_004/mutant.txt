@@ -1,0 +1,1 @@
+Reduced intent 'ToppingsInfo' to 2 training phrases

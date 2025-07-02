@@ -1,0 +1,7 @@
+OrderDrinks
+
+#me
+OrderDrinks
+
+#bot
+INTENT OrderDrinks

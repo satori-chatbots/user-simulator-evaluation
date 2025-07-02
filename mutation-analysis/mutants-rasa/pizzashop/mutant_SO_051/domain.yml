@@ -1,0 +1,64 @@
+session_config:
+  session_expiration_time: 60
+intents:
+- StartOrder
+- Toppings
+- EndOrder
+- ToppingsInfo
+- OrderDrinks
+- fallback
+entities:
+- StartOrder_size
+- Toppings_toppings
+- OrderDrinks_drink
+slots:
+  StartOrder_size:
+    type: unfeaturized
+  StartOrder_address:
+    type: unfeaturized
+  Toppings_toppings:
+    type: unfeaturized
+  OrderDrinks_drink:
+    type: unfeaturized
+responses:
+  utter_ask_StartOrder_size:
+  - text: Could you please specify the size of the pizza you'd like? We offer small,
+      medium, and big sizes.
+  utter_wrong_StartOrder_size:
+  - text: I can not understand the size, please try again
+  utter_ask_Toppings_toppings:
+  - text: What topping do you want?
+  utter_wrong_Toppings_toppings:
+  - text: I can not understand the toppings, please try again
+  utter_ask_OrderDrinks_drink:
+  - text: What drink do you want?
+  utter_wrong_OrderDrinks_drink:
+  - text: I can not understand the drink, please try again
+  utter_askingForToppings:
+  - text: Could you please tell me what toppings you would like on your {StartOrder_size}
+      pizza? You can choose from cheese, mushrooms, pepper, ham, bacon, pepperoni,
+      olives, corn, or chicken.
+  utter_info:
+  - text: 'Ok, I have received your order for this drink: {OrderDrinks_drink}. Enjoy
+      your drink!'
+  utter_fallbackResponse:
+  - text: I'm sorry it's a little loud in my pizza shop, can you say that again?
+  utter_orderDrink:
+  - text: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn,
+      onion and chicken
+  utter_askDrink:
+  - text: Could you please let me know what drink you would like with your pizza?
+      The options are coke, sprite, or water.
+actions:
+- utter_askingForToppings
+- action_orderPizza
+- action_noteTopping
+- utter_info
+- utter_fallbackResponse
+- utter_orderDrink
+- action_askingMoreToppings
+- action_NoToppings
+forms:
+- StartOrder_form
+- Toppings_form
+- OrderDrinks_form
