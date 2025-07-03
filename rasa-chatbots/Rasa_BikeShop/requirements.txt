@@ -1,0 +1,5 @@
+tensorflow-addons
+tensorflow=>2.1.0
+rasa==1.10.0
+JPype1==0.6.3
+duckling==1.8.0

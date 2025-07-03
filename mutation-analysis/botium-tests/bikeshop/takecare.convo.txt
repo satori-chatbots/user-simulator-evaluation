@@ -1,0 +1,7 @@
+take_care
+
+#me
+take_care
+
+#bot
+INTENT take_care
