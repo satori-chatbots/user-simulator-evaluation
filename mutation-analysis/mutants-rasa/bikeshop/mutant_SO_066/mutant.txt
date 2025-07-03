@@ -1,0 +1,1 @@
+Swapped response text between 'utter_Welcome_Intent' and 'utter_take_care'

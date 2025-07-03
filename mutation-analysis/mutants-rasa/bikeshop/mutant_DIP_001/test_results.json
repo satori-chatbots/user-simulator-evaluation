@@ -1,0 +1,1159 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 70,
+    "passes": 65,
+    "pending": 0,
+    "failures": 5,
+    "start": "2025-07-03T14:40:27.533Z",
+    "end": "2025-07-03T14:41:55.238Z",
+    "duration": 87705
+  },
+  "tests": [
+    {
+      "title": "Hours/Hours-L01",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L01",
+      "duration": 292,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L02",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L02",
+      "duration": 41,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L03",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L03",
+      "duration": 55,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L04",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L04",
+      "duration": 43,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L05",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L05",
+      "duration": 41,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L06",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L06",
+      "duration": 29,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L07",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L07",
+      "duration": 38,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L08",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L08",
+      "duration": 44,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L09",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L09",
+      "duration": 29,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L10",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L10",
+      "duration": 45,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L11",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L11",
+      "duration": 26,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L12",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L12",
+      "duration": 29,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L13",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L13",
+      "duration": 26,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L01",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L01",
+      "duration": 4184,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L02",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L02",
+      "duration": 4154,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L03",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L03",
+      "duration": 2091,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Make_Appointment/Make_Appointment-L03/Line 6: assertion error - Line 6: Expected intent \"Make_Appointment\" but found price\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Make_Appointment\"  - Actual: \"price\"\r\nINPUT: Can I schedule service for  9am   next monday ?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Can I schedule service for  9am   next monday ?\r\n#bot: Of course! I can tell you the price of tune-up, new tire and new seat\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Make_Appointment/Make_Appointment-L03/Line 6: assertion error - Line 6: Expected intent \"Make_Appointment\" but found price\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Make_Appointment\"  - Actual: \"price\"\r\nINPUT: Can I schedule service for  9am   next monday ?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Can I schedule service for  9am   next monday ?\r\n#bot: Of course! I can tell you the price of tune-up, new tire and new seat"
+      }
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L04",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L04",
+      "duration": 4172,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L05",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L05",
+      "duration": 4133,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L06",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L06",
+      "duration": 4128,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L07",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L07",
+      "duration": 48,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Make_Appointment/Make_Appointment-L07/Line 6: assertion error - Line 6: Expected intent \"Make_Appointment\" but found Welcome_Intent\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Make_Appointment\"  - Actual: \"Welcome_Intent\"\r\nINPUT: 26th January 11am\r\n------------ TRANSCRIPT ----------------------------\r\n#me: 26th January 11am\r\n#bot: Welcome to my bike shop. I'm the owner and I'm happy to help you. What can I do for you?\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Make_Appointment/Make_Appointment-L07/Line 6: assertion error - Line 6: Expected intent \"Make_Appointment\" but found Welcome_Intent\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Make_Appointment\"  - Actual: \"Welcome_Intent\"\r\nINPUT: 26th January 11am\r\n------------ TRANSCRIPT ----------------------------\r\n#me: 26th January 11am\r\n#bot: Welcome to my bike shop. I'm the owner and I'm happy to help you. What can I do for you?"
+      }
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L08",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L08",
+      "duration": 27,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Make_Appointment/Make_Appointment-L08/Line 6: assertion error - Line 6: Expected intent \"Make_Appointment\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Make_Appointment\"  - Actual: \"take_care\"\r\nINPUT: first day of october 12:00\r\n------------ TRANSCRIPT ----------------------------\r\n#me: first day of october 12:00\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Make_Appointment/Make_Appointment-L08/Line 6: assertion error - Line 6: Expected intent \"Make_Appointment\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Make_Appointment\"  - Actual: \"take_care\"\r\nINPUT: first day of october 12:00\r\n------------ TRANSCRIPT ----------------------------\r\n#me: first day of october 12:00\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain."
+      }
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L09",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L09",
+      "duration": 4139,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L10",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L10",
+      "duration": 4144,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L11",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L11",
+      "duration": 4154,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L12",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L12",
+      "duration": 2072,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Make_Appointment/Make_Appointment-L12/Line 6: assertion error - Line 6: Expected intent \"Make_Appointment\" but found price\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Make_Appointment\"  - Actual: \"price\"\r\nINPUT: Can I schedule service for  9am   29th of June ?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Can I schedule service for  9am   29th of June ?\r\n#bot: Of course! I can tell you the price of tune-up, new tire and new seat\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Make_Appointment/Make_Appointment-L12/Line 6: assertion error - Line 6: Expected intent \"Make_Appointment\" but found price\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Make_Appointment\"  - Actual: \"price\"\r\nINPUT: Can I schedule service for  9am   29th of June ?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Can I schedule service for  9am   29th of June ?\r\n#bot: Of course! I can tell you the price of tune-up, new tire and new seat"
+      }
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L13",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L13",
+      "duration": 4153,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L14",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L14",
+      "duration": 52,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Make_Appointment/Make_Appointment-L14/Line 6: assertion error - Line 6: Expected intent \"Make_Appointment\" but found Welcome_Intent\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Make_Appointment\"  - Actual: \"Welcome_Intent\"\r\nINPUT: 2 Feb\r\n------------ TRANSCRIPT ----------------------------\r\n#me: 2 Feb\r\n#bot: Welcome to my bike shop. I'm the owner and I'm happy to help you. What can I do for you?\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Make_Appointment/Make_Appointment-L14/Line 6: assertion error - Line 6: Expected intent \"Make_Appointment\" but found Welcome_Intent\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Make_Appointment\"  - Actual: \"Welcome_Intent\"\r\nINPUT: 2 Feb\r\n------------ TRANSCRIPT ----------------------------\r\n#me: 2 Feb\r\n#bot: Welcome to my bike shop. I'm the owner and I'm happy to help you. What can I do for you?"
+      }
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L15",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L15",
+      "duration": 4139,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L16",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L16",
+      "duration": 4155,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L01",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L01",
+      "duration": 33,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L02",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L02",
+      "duration": 28,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L03",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L03",
+      "duration": 40,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L04",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L04",
+      "duration": 23,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L05",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L05",
+      "duration": 26,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L06",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L06",
+      "duration": 53,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L07",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L07",
+      "duration": 30,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L08",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L08",
+      "duration": 65,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L09",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L09",
+      "duration": 28,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L10",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L10",
+      "duration": 28,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L11",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L11",
+      "duration": 41,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L12",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L12",
+      "duration": 24,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L13",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L13",
+      "duration": 21,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "price/price-L01",
+      "fullTitle": "Botium Test-Suite price/price-L01",
+      "duration": 2093,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L02",
+      "fullTitle": "Botium Test-Suite price/price-L02",
+      "duration": 2093,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L03",
+      "fullTitle": "Botium Test-Suite price/price-L03",
+      "duration": 2080,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L04",
+      "fullTitle": "Botium Test-Suite price/price-L04",
+      "duration": 2077,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L05",
+      "fullTitle": "Botium Test-Suite price/price-L05",
+      "duration": 2103,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L06",
+      "fullTitle": "Botium Test-Suite price/price-L06",
+      "duration": 2084,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L07",
+      "fullTitle": "Botium Test-Suite price/price-L07",
+      "duration": 2089,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L08",
+      "fullTitle": "Botium Test-Suite price/price-L08",
+      "duration": 2090,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L09",
+      "fullTitle": "Botium Test-Suite price/price-L09",
+      "duration": 2090,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L10",
+      "fullTitle": "Botium Test-Suite price/price-L10",
+      "duration": 2093,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L11",
+      "fullTitle": "Botium Test-Suite price/price-L11",
+      "duration": 2083,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L12",
+      "fullTitle": "Botium Test-Suite price/price-L12",
+      "duration": 2095,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L13",
+      "fullTitle": "Botium Test-Suite price/price-L13",
+      "duration": 2094,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L14",
+      "fullTitle": "Botium Test-Suite price/price-L14",
+      "duration": 2115,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L15",
+      "fullTitle": "Botium Test-Suite price/price-L15",
+      "duration": 2103,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L16",
+      "fullTitle": "Botium Test-Suite price/price-L16",
+      "duration": 2112,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L17",
+      "fullTitle": "Botium Test-Suite price/price-L17",
+      "duration": 2118,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L01",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L01",
+      "duration": 46,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L02",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L02",
+      "duration": 43,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L03",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L03",
+      "duration": 50,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L04",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L04",
+      "duration": 28,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L05",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L05",
+      "duration": 28,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L06",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L06",
+      "duration": 43,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L07",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L07",
+      "duration": 28,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L08",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L08",
+      "duration": 46,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L09",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L09",
+      "duration": 24,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L10",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L10",
+      "duration": 22,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L11",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L11",
+      "duration": 30,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "Make_Appointment/Make_Appointment-L03",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L03",
+      "duration": 2091,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Make_Appointment/Make_Appointment-L03/Line 6: assertion error - Line 6: Expected intent \"Make_Appointment\" but found price\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Make_Appointment\"  - Actual: \"price\"\r\nINPUT: Can I schedule service for  9am   next monday ?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Can I schedule service for  9am   next monday ?\r\n#bot: Of course! I can tell you the price of tune-up, new tire and new seat\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Make_Appointment/Make_Appointment-L03/Line 6: assertion error - Line 6: Expected intent \"Make_Appointment\" but found price\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Make_Appointment\"  - Actual: \"price\"\r\nINPUT: Can I schedule service for  9am   next monday ?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Can I schedule service for  9am   next monday ?\r\n#bot: Of course! I can tell you the price of tune-up, new tire and new seat"
+      }
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L07",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L07",
+      "duration": 48,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Make_Appointment/Make_Appointment-L07/Line 6: assertion error - Line 6: Expected intent \"Make_Appointment\" but found Welcome_Intent\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Make_Appointment\"  - Actual: \"Welcome_Intent\"\r\nINPUT: 26th January 11am\r\n------------ TRANSCRIPT ----------------------------\r\n#me: 26th January 11am\r\n#bot: Welcome to my bike shop. I'm the owner and I'm happy to help you. What can I do for you?\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Make_Appointment/Make_Appointment-L07/Line 6: assertion error - Line 6: Expected intent \"Make_Appointment\" but found Welcome_Intent\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Make_Appointment\"  - Actual: \"Welcome_Intent\"\r\nINPUT: 26th January 11am\r\n------------ TRANSCRIPT ----------------------------\r\n#me: 26th January 11am\r\n#bot: Welcome to my bike shop. I'm the owner and I'm happy to help you. What can I do for you?"
+      }
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L08",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L08",
+      "duration": 27,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Make_Appointment/Make_Appointment-L08/Line 6: assertion error - Line 6: Expected intent \"Make_Appointment\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Make_Appointment\"  - Actual: \"take_care\"\r\nINPUT: first day of october 12:00\r\n------------ TRANSCRIPT ----------------------------\r\n#me: first day of october 12:00\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Make_Appointment/Make_Appointment-L08/Line 6: assertion error - Line 6: Expected intent \"Make_Appointment\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Make_Appointment\"  - Actual: \"take_care\"\r\nINPUT: first day of october 12:00\r\n------------ TRANSCRIPT ----------------------------\r\n#me: first day of october 12:00\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain."
+      }
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L12",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L12",
+      "duration": 2072,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Make_Appointment/Make_Appointment-L12/Line 6: assertion error - Line 6: Expected intent \"Make_Appointment\" but found price\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Make_Appointment\"  - Actual: \"price\"\r\nINPUT: Can I schedule service for  9am   29th of June ?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Can I schedule service for  9am   29th of June ?\r\n#bot: Of course! I can tell you the price of tune-up, new tire and new seat\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Make_Appointment/Make_Appointment-L12/Line 6: assertion error - Line 6: Expected intent \"Make_Appointment\" but found price\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Make_Appointment\"  - Actual: \"price\"\r\nINPUT: Can I schedule service for  9am   29th of June ?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Can I schedule service for  9am   29th of June ?\r\n#bot: Of course! I can tell you the price of tune-up, new tire and new seat"
+      }
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L14",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L14",
+      "duration": 52,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Make_Appointment/Make_Appointment-L14/Line 6: assertion error - Line 6: Expected intent \"Make_Appointment\" but found Welcome_Intent\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Make_Appointment\"  - Actual: \"Welcome_Intent\"\r\nINPUT: 2 Feb\r\n------------ TRANSCRIPT ----------------------------\r\n#me: 2 Feb\r\n#bot: Welcome to my bike shop. I'm the owner and I'm happy to help you. What can I do for you?\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Make_Appointment/Make_Appointment-L14/Line 6: assertion error - Line 6: Expected intent \"Make_Appointment\" but found Welcome_Intent\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Make_Appointment\"  - Actual: \"Welcome_Intent\"\r\nINPUT: 2 Feb\r\n------------ TRANSCRIPT ----------------------------\r\n#me: 2 Feb\r\n#bot: Welcome to my bike shop. I'm the owner and I'm happy to help you. What can I do for you?"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "Hours/Hours-L01",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L01",
+      "duration": 292,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L02",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L02",
+      "duration": 41,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L03",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L03",
+      "duration": 55,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L04",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L04",
+      "duration": 43,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L05",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L05",
+      "duration": 41,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L06",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L06",
+      "duration": 29,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L07",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L07",
+      "duration": 38,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L08",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L08",
+      "duration": 44,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L09",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L09",
+      "duration": 29,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L10",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L10",
+      "duration": 45,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L11",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L11",
+      "duration": 26,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L12",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L12",
+      "duration": 29,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L13",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L13",
+      "duration": 26,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L01",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L01",
+      "duration": 4184,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L02",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L02",
+      "duration": 4154,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L04",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L04",
+      "duration": 4172,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L05",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L05",
+      "duration": 4133,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L06",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L06",
+      "duration": 4128,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L09",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L09",
+      "duration": 4139,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L10",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L10",
+      "duration": 4144,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L11",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L11",
+      "duration": 4154,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L13",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L13",
+      "duration": 4153,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L15",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L15",
+      "duration": 4139,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L16",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L16",
+      "duration": 4155,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L01",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L01",
+      "duration": 33,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L02",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L02",
+      "duration": 28,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L03",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L03",
+      "duration": 40,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L04",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L04",
+      "duration": 23,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L05",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L05",
+      "duration": 26,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L06",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L06",
+      "duration": 53,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L07",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L07",
+      "duration": 30,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L08",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L08",
+      "duration": 65,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L09",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L09",
+      "duration": 28,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L10",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L10",
+      "duration": 28,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L11",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L11",
+      "duration": 41,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L12",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L12",
+      "duration": 24,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L13",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L13",
+      "duration": 21,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "price/price-L01",
+      "fullTitle": "Botium Test-Suite price/price-L01",
+      "duration": 2093,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L02",
+      "fullTitle": "Botium Test-Suite price/price-L02",
+      "duration": 2093,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L03",
+      "fullTitle": "Botium Test-Suite price/price-L03",
+      "duration": 2080,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L04",
+      "fullTitle": "Botium Test-Suite price/price-L04",
+      "duration": 2077,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L05",
+      "fullTitle": "Botium Test-Suite price/price-L05",
+      "duration": 2103,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L06",
+      "fullTitle": "Botium Test-Suite price/price-L06",
+      "duration": 2084,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L07",
+      "fullTitle": "Botium Test-Suite price/price-L07",
+      "duration": 2089,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L08",
+      "fullTitle": "Botium Test-Suite price/price-L08",
+      "duration": 2090,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L09",
+      "fullTitle": "Botium Test-Suite price/price-L09",
+      "duration": 2090,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L10",
+      "fullTitle": "Botium Test-Suite price/price-L10",
+      "duration": 2093,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L11",
+      "fullTitle": "Botium Test-Suite price/price-L11",
+      "duration": 2083,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L12",
+      "fullTitle": "Botium Test-Suite price/price-L12",
+      "duration": 2095,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L13",
+      "fullTitle": "Botium Test-Suite price/price-L13",
+      "duration": 2094,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L14",
+      "fullTitle": "Botium Test-Suite price/price-L14",
+      "duration": 2115,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L15",
+      "fullTitle": "Botium Test-Suite price/price-L15",
+      "duration": 2103,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L16",
+      "fullTitle": "Botium Test-Suite price/price-L16",
+      "duration": 2112,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L17",
+      "fullTitle": "Botium Test-Suite price/price-L17",
+      "duration": 2118,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L01",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L01",
+      "duration": 46,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L02",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L02",
+      "duration": 43,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L03",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L03",
+      "duration": 50,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L04",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L04",
+      "duration": 28,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L05",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L05",
+      "duration": 28,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L06",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L06",
+      "duration": 43,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L07",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L07",
+      "duration": 28,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L08",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L08",
+      "duration": 46,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L09",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L09",
+      "duration": 24,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L10",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L10",
+      "duration": 22,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L11",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L11",
+      "duration": 30,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ]
+}

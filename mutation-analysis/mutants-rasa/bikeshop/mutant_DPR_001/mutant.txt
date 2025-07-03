@@ -1,0 +1,1 @@
+Changed response text in 'utter_Make_Appointment' from 'Ok, I have scheduled your appointment for {date} at {time} for {appointmentType}. See you then. ' to 'Ok, I have scheduled your appointment for  at  for . See you then. '

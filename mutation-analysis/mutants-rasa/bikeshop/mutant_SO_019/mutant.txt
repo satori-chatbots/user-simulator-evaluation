@@ -1,0 +1,1 @@
+Swapped response text between 'utter_ask_costElement' and 'utter_Make_Appointment'

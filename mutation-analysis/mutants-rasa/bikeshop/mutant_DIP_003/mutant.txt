@@ -1,0 +1,1 @@
+Deleted parameter 'appointmentType' from intents: Make_Appointment

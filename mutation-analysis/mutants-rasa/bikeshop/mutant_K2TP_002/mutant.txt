@@ -1,0 +1,1 @@
+Reduced intent 'Make_Appointment' to 2 training phrases

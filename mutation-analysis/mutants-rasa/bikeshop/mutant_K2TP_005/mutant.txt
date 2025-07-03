@@ -1,0 +1,1 @@
+Reduced intent 'Welcome_Intent' to 2 training phrases

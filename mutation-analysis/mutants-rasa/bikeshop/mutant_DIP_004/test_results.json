@@ -1,0 +1,1207 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 70,
+    "passes": 53,
+    "pending": 0,
+    "failures": 17,
+    "start": "2025-07-03T14:44:33.252Z",
+    "end": "2025-07-03T14:45:38.026Z",
+    "duration": 64774
+  },
+  "tests": [
+    {
+      "title": "Hours/Hours-L01",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L01",
+      "duration": 268,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L02",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L02",
+      "duration": 26,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L03",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L03",
+      "duration": 26,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L04",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L04",
+      "duration": 38,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L05",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L05",
+      "duration": 32,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L06",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L06",
+      "duration": 31,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L07",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L07",
+      "duration": 52,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L08",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L08",
+      "duration": 29,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L09",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L09",
+      "duration": 50,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L10",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L10",
+      "duration": 28,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L11",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L11",
+      "duration": 31,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L12",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L12",
+      "duration": 41,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L13",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L13",
+      "duration": 27,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L01",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L01",
+      "duration": 29,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L02",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L02",
+      "duration": 4189,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L03",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L03",
+      "duration": 30,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L04",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L04",
+      "duration": 4139,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L05",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L05",
+      "duration": 4121,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L06",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L06",
+      "duration": 40,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L07",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L07",
+      "duration": 37,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L08",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L08",
+      "duration": 55,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L09",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L09",
+      "duration": 4145,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L10",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L10",
+      "duration": 4155,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L11",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L11",
+      "duration": 4144,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L12",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L12",
+      "duration": 32,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L13",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L13",
+      "duration": 4130,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L14",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L14",
+      "duration": 4138,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L15",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L15",
+      "duration": 30,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L16",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L16",
+      "duration": 4116,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L01",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L01",
+      "duration": 24,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L02",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L02",
+      "duration": 25,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L03",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L03",
+      "duration": 29,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L04",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L04",
+      "duration": 36,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L05",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L05",
+      "duration": 21,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L06",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L06",
+      "duration": 35,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L07",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L07",
+      "duration": 35,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L08",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L08",
+      "duration": 45,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L09",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L09",
+      "duration": 47,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L10",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L10",
+      "duration": 21,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L11",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L11",
+      "duration": 30,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L12",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L12",
+      "duration": 43,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L13",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L13",
+      "duration": 45,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "price/price-L01",
+      "fullTitle": "Botium Test-Suite price/price-L01",
+      "duration": 43,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L01/Line 6: assertion error - Line 6: Expected intent \"price\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"take_care\"\r\nINPUT: How much does a new tire cost?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: How much does a new tire cost?\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L01/Line 6: assertion error - Line 6: Expected intent \"price\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"take_care\"\r\nINPUT: How much does a new tire cost?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: How much does a new tire cost?\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain."
+      }
+    },
+    {
+      "title": "price/price-L02",
+      "fullTitle": "Botium Test-Suite price/price-L02",
+      "duration": 4093,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L02/Line 6: assertion error - Line 6: Expected intent \"price\" but found Make_Appointment\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Make_Appointment\"\r\nINPUT: What is the price of a brand new tire?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: What is the price of a brand new tire?\r\n#bot: Thank you for contact us. I can schedule you an appointment in our bike shop for tune-up or repair your bike. And could you please tell me the date and time you'd like to bring your bike in?\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L02/Line 6: assertion error - Line 6: Expected intent \"price\" but found Make_Appointment\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Make_Appointment\"\r\nINPUT: What is the price of a brand new tire?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: What is the price of a brand new tire?\r\n#bot: Thank you for contact us. I can schedule you an appointment in our bike shop for tune-up or repair your bike. And could you please tell me the date and time you'd like to bring your bike in?"
+      }
+    },
+    {
+      "title": "price/price-L03",
+      "fullTitle": "Botium Test-Suite price/price-L03",
+      "duration": 36,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L03/Line 6: assertion error - Line 6: Expected intent \"price\" but found Hours\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Hours\"\r\nINPUT: Can you provide me with the pricing for a new tire?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Can you provide me with the pricing for a new tire?\r\n#bot: We are open every weekday from 9am to 5:30pm\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L03/Line 6: assertion error - Line 6: Expected intent \"price\" but found Hours\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Hours\"\r\nINPUT: Can you provide me with the pricing for a new tire?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Can you provide me with the pricing for a new tire?\r\n#bot: We are open every weekday from 9am to 5:30pm"
+      }
+    },
+    {
+      "title": "price/price-L04",
+      "fullTitle": "Botium Test-Suite price/price-L04",
+      "duration": 52,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L04/Line 6: assertion error - Line 6: Expected intent \"price\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"take_care\"\r\nINPUT: How expensive is it to purchase a new tire?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: How expensive is it to purchase a new tire?\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L04/Line 6: assertion error - Line 6: Expected intent \"price\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"take_care\"\r\nINPUT: How expensive is it to purchase a new tire?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: How expensive is it to purchase a new tire?\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain."
+      }
+    },
+    {
+      "title": "price/price-L05",
+      "fullTitle": "Botium Test-Suite price/price-L05",
+      "duration": 32,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L05/Line 6: assertion error - Line 6: Expected intent \"price\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"take_care\"\r\nINPUT: What's the cost of getting a new tire?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: What's the cost of getting a new tire?\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L05/Line 6: assertion error - Line 6: Expected intent \"price\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"take_care\"\r\nINPUT: What's the cost of getting a new tire?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: What's the cost of getting a new tire?\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain."
+      }
+    },
+    {
+      "title": "price/price-L06",
+      "fullTitle": "Botium Test-Suite price/price-L06",
+      "duration": 34,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L06/Line 6: assertion error - Line 6: Expected intent \"price\" but found Hours\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Hours\"\r\nINPUT: Could you tell me the price for a new tire?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Could you tell me the price for a new tire?\r\n#bot: We are open every weekday from 9am to 5:30pm\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L06/Line 6: assertion error - Line 6: Expected intent \"price\" but found Hours\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Hours\"\r\nINPUT: Could you tell me the price for a new tire?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Could you tell me the price for a new tire?\r\n#bot: We are open every weekday from 9am to 5:30pm"
+      }
+    },
+    {
+      "title": "price/price-L07",
+      "fullTitle": "Botium Test-Suite price/price-L07",
+      "duration": 4116,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L07/Line 6: assertion error - Line 6: Expected intent \"price\" but found Make_Appointment\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Make_Appointment\"\r\nINPUT: What's the pricing like for fix my bike?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: What's the pricing like for fix my bike?\r\n#bot: Thank you for contact us. I can schedule you an appointment in our bike shop for repair your bike. Could you please provide the date and time you would like to bring in your bike?\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L07/Line 6: assertion error - Line 6: Expected intent \"price\" but found Make_Appointment\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Make_Appointment\"\r\nINPUT: What's the pricing like for fix my bike?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: What's the pricing like for fix my bike?\r\n#bot: Thank you for contact us. I can schedule you an appointment in our bike shop for repair your bike. Could you please provide the date and time you would like to bring in your bike?"
+      }
+    },
+    {
+      "title": "price/price-L08",
+      "fullTitle": "Botium Test-Suite price/price-L08",
+      "duration": 54,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L08/Line 6: assertion error - Line 6: Expected intent \"price\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"take_care\"\r\nINPUT: I'm curious about the cost of a new tire. Could you provide that information?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: I'm curious about the cost of a new tire. Could you provide that information?\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L08/Line 6: assertion error - Line 6: Expected intent \"price\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"take_care\"\r\nINPUT: I'm curious about the cost of a new tire. Could you provide that information?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: I'm curious about the cost of a new tire. Could you provide that information?\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain."
+      }
+    },
+    {
+      "title": "price/price-L09",
+      "fullTitle": "Botium Test-Suite price/price-L09",
+      "duration": 35,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L09/Line 6: assertion error - Line 6: Expected intent \"price\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"take_care\"\r\nINPUT: What's the rate for a new tire?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: What's the rate for a new tire?\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L09/Line 6: assertion error - Line 6: Expected intent \"price\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"take_care\"\r\nINPUT: What's the rate for a new tire?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: What's the rate for a new tire?\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain."
+      }
+    },
+    {
+      "title": "price/price-L10",
+      "fullTitle": "Botium Test-Suite price/price-L10",
+      "duration": 4127,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L10/Line 6: assertion error - Line 6: Expected intent \"price\" but found Make_Appointment\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Make_Appointment\"\r\nINPUT: How much am I looking at spending for a new tire?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: How much am I looking at spending for a new tire?\r\n#bot: Thank you for contact us. I can schedule you an appointment in our bike shop for tune-up or repair your bike. And could you please tell me the date and time you'd like to bring your bike in?\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L10/Line 6: assertion error - Line 6: Expected intent \"price\" but found Make_Appointment\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Make_Appointment\"\r\nINPUT: How much am I looking at spending for a new tire?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: How much am I looking at spending for a new tire?\r\n#bot: Thank you for contact us. I can schedule you an appointment in our bike shop for tune-up or repair your bike. And could you please tell me the date and time you'd like to bring your bike in?"
+      }
+    },
+    {
+      "title": "price/price-L11",
+      "fullTitle": "Botium Test-Suite price/price-L11",
+      "duration": 4094,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L11/Line 6: assertion error - Line 6: Expected intent \"price\" but found Make_Appointment\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Make_Appointment\"\r\nINPUT: How much does a tune-up\r\n------------ TRANSCRIPT ----------------------------\r\n#me: How much does a tune-up\r\n#bot: Thank you for contact us. I can schedule you an appointment in our bike shop for tune-up or repair your bike. And could you please tell me the date and time you'd like to bring your bike in?\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L11/Line 6: assertion error - Line 6: Expected intent \"price\" but found Make_Appointment\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Make_Appointment\"\r\nINPUT: How much does a tune-up\r\n------------ TRANSCRIPT ----------------------------\r\n#me: How much does a tune-up\r\n#bot: Thank you for contact us. I can schedule you an appointment in our bike shop for tune-up or repair your bike. And could you please tell me the date and time you'd like to bring your bike in?"
+      }
+    },
+    {
+      "title": "price/price-L12",
+      "fullTitle": "Botium Test-Suite price/price-L12",
+      "duration": 4095,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L12/Line 6: assertion error - Line 6: Expected intent \"price\" but found Make_Appointment\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Make_Appointment\"\r\nINPUT: What is the price for a service\r\n------------ TRANSCRIPT ----------------------------\r\n#me: What is the price for a service\r\n#bot: Thank you for contact us. I can schedule you an appointment in our bike shop for tune-up your bike. Could you please provide the date and time you would like to bring in your bike?\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L12/Line 6: assertion error - Line 6: Expected intent \"price\" but found Make_Appointment\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Make_Appointment\"\r\nINPUT: What is the price for a service\r\n------------ TRANSCRIPT ----------------------------\r\n#me: What is the price for a service\r\n#bot: Thank you for contact us. I can schedule you an appointment in our bike shop for tune-up your bike. Could you please provide the date and time you would like to bring in your bike?"
+      }
+    },
+    {
+      "title": "price/price-L13",
+      "fullTitle": "Botium Test-Suite price/price-L13",
+      "duration": 60,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L13/Line 6: assertion error - Line 6: Expected intent \"price\" but found Hours\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Hours\"\r\nINPUT: Can you provide me with the pricing for a new seat ?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Can you provide me with the pricing for a new seat ?\r\n#bot: I'm sorry it's a little loud in my shop, can you say that again?\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L13/Line 6: assertion error - Line 6: Expected intent \"price\" but found Hours\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Hours\"\r\nINPUT: Can you provide me with the pricing for a new seat ?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Can you provide me with the pricing for a new seat ?\r\n#bot: I'm sorry it's a little loud in my shop, can you say that again?"
+      }
+    },
+    {
+      "title": "price/price-L14",
+      "fullTitle": "Botium Test-Suite price/price-L14",
+      "duration": 39,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L14/Line 6: assertion error - Line 6: Expected intent \"price\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"take_care\"\r\nINPUT: How expensive is it to get a new seat?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: How expensive is it to get a new seat?\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L14/Line 6: assertion error - Line 6: Expected intent \"price\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"take_care\"\r\nINPUT: How expensive is it to get a new seat?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: How expensive is it to get a new seat?\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain."
+      }
+    },
+    {
+      "title": "price/price-L15",
+      "fullTitle": "Botium Test-Suite price/price-L15",
+      "duration": 32,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L15/Line 6: assertion error - Line 6: Expected intent \"price\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"take_care\"\r\nINPUT: What's the cost of a new seat?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: What's the cost of a new seat?\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L15/Line 6: assertion error - Line 6: Expected intent \"price\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"take_care\"\r\nINPUT: What's the cost of a new seat?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: What's the cost of a new seat?\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain."
+      }
+    },
+    {
+      "title": "price/price-L16",
+      "fullTitle": "Botium Test-Suite price/price-L16",
+      "duration": 37,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L16/Line 6: assertion error - Line 6: Expected intent \"price\" but found Hours\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Hours\"\r\nINPUT: Could you tell me the price for servicing\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Could you tell me the price for servicing\r\n#bot: I'm sorry it's a little loud in my shop, can you say that again?\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L16/Line 6: assertion error - Line 6: Expected intent \"price\" but found Hours\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Hours\"\r\nINPUT: Could you tell me the price for servicing\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Could you tell me the price for servicing\r\n#bot: I'm sorry it's a little loud in my shop, can you say that again?"
+      }
+    },
+    {
+      "title": "price/price-L17",
+      "fullTitle": "Botium Test-Suite price/price-L17",
+      "duration": 4166,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L17/Line 6: assertion error - Line 6: Expected intent \"price\" but found Make_Appointment\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Make_Appointment\"\r\nINPUT: Which is the cost of the repair?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Which is the cost of the repair?\r\n#bot: Thank you for contact us. I can schedule you an appointment in our bike shop for repair your bike. Could you please provide the date and time you would like to bring in your bike?\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L17/Line 6: assertion error - Line 6: Expected intent \"price\" but found Make_Appointment\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Make_Appointment\"\r\nINPUT: Which is the cost of the repair?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Which is the cost of the repair?\r\n#bot: Thank you for contact us. I can schedule you an appointment in our bike shop for repair your bike. Could you please provide the date and time you would like to bring in your bike?"
+      }
+    },
+    {
+      "title": "take_care/take_care-L01",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L01",
+      "duration": 42,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L02",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L02",
+      "duration": 49,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L03",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L03",
+      "duration": 37,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L04",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L04",
+      "duration": 56,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L05",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L05",
+      "duration": 34,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L06",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L06",
+      "duration": 54,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L07",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L07",
+      "duration": 28,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L08",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L08",
+      "duration": 26,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L09",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L09",
+      "duration": 42,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L10",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L10",
+      "duration": 29,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L11",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L11",
+      "duration": 50,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "price/price-L01",
+      "fullTitle": "Botium Test-Suite price/price-L01",
+      "duration": 43,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L01/Line 6: assertion error - Line 6: Expected intent \"price\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"take_care\"\r\nINPUT: How much does a new tire cost?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: How much does a new tire cost?\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L01/Line 6: assertion error - Line 6: Expected intent \"price\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"take_care\"\r\nINPUT: How much does a new tire cost?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: How much does a new tire cost?\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain."
+      }
+    },
+    {
+      "title": "price/price-L02",
+      "fullTitle": "Botium Test-Suite price/price-L02",
+      "duration": 4093,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L02/Line 6: assertion error - Line 6: Expected intent \"price\" but found Make_Appointment\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Make_Appointment\"\r\nINPUT: What is the price of a brand new tire?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: What is the price of a brand new tire?\r\n#bot: Thank you for contact us. I can schedule you an appointment in our bike shop for tune-up or repair your bike. And could you please tell me the date and time you'd like to bring your bike in?\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L02/Line 6: assertion error - Line 6: Expected intent \"price\" but found Make_Appointment\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Make_Appointment\"\r\nINPUT: What is the price of a brand new tire?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: What is the price of a brand new tire?\r\n#bot: Thank you for contact us. I can schedule you an appointment in our bike shop for tune-up or repair your bike. And could you please tell me the date and time you'd like to bring your bike in?"
+      }
+    },
+    {
+      "title": "price/price-L03",
+      "fullTitle": "Botium Test-Suite price/price-L03",
+      "duration": 36,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L03/Line 6: assertion error - Line 6: Expected intent \"price\" but found Hours\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Hours\"\r\nINPUT: Can you provide me with the pricing for a new tire?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Can you provide me with the pricing for a new tire?\r\n#bot: We are open every weekday from 9am to 5:30pm\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L03/Line 6: assertion error - Line 6: Expected intent \"price\" but found Hours\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Hours\"\r\nINPUT: Can you provide me with the pricing for a new tire?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Can you provide me with the pricing for a new tire?\r\n#bot: We are open every weekday from 9am to 5:30pm"
+      }
+    },
+    {
+      "title": "price/price-L04",
+      "fullTitle": "Botium Test-Suite price/price-L04",
+      "duration": 52,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L04/Line 6: assertion error - Line 6: Expected intent \"price\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"take_care\"\r\nINPUT: How expensive is it to purchase a new tire?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: How expensive is it to purchase a new tire?\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L04/Line 6: assertion error - Line 6: Expected intent \"price\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"take_care\"\r\nINPUT: How expensive is it to purchase a new tire?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: How expensive is it to purchase a new tire?\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain."
+      }
+    },
+    {
+      "title": "price/price-L05",
+      "fullTitle": "Botium Test-Suite price/price-L05",
+      "duration": 32,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L05/Line 6: assertion error - Line 6: Expected intent \"price\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"take_care\"\r\nINPUT: What's the cost of getting a new tire?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: What's the cost of getting a new tire?\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L05/Line 6: assertion error - Line 6: Expected intent \"price\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"take_care\"\r\nINPUT: What's the cost of getting a new tire?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: What's the cost of getting a new tire?\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain."
+      }
+    },
+    {
+      "title": "price/price-L06",
+      "fullTitle": "Botium Test-Suite price/price-L06",
+      "duration": 34,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L06/Line 6: assertion error - Line 6: Expected intent \"price\" but found Hours\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Hours\"\r\nINPUT: Could you tell me the price for a new tire?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Could you tell me the price for a new tire?\r\n#bot: We are open every weekday from 9am to 5:30pm\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L06/Line 6: assertion error - Line 6: Expected intent \"price\" but found Hours\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Hours\"\r\nINPUT: Could you tell me the price for a new tire?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Could you tell me the price for a new tire?\r\n#bot: We are open every weekday from 9am to 5:30pm"
+      }
+    },
+    {
+      "title": "price/price-L07",
+      "fullTitle": "Botium Test-Suite price/price-L07",
+      "duration": 4116,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L07/Line 6: assertion error - Line 6: Expected intent \"price\" but found Make_Appointment\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Make_Appointment\"\r\nINPUT: What's the pricing like for fix my bike?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: What's the pricing like for fix my bike?\r\n#bot: Thank you for contact us. I can schedule you an appointment in our bike shop for repair your bike. Could you please provide the date and time you would like to bring in your bike?\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L07/Line 6: assertion error - Line 6: Expected intent \"price\" but found Make_Appointment\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Make_Appointment\"\r\nINPUT: What's the pricing like for fix my bike?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: What's the pricing like for fix my bike?\r\n#bot: Thank you for contact us. I can schedule you an appointment in our bike shop for repair your bike. Could you please provide the date and time you would like to bring in your bike?"
+      }
+    },
+    {
+      "title": "price/price-L08",
+      "fullTitle": "Botium Test-Suite price/price-L08",
+      "duration": 54,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L08/Line 6: assertion error - Line 6: Expected intent \"price\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"take_care\"\r\nINPUT: I'm curious about the cost of a new tire. Could you provide that information?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: I'm curious about the cost of a new tire. Could you provide that information?\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L08/Line 6: assertion error - Line 6: Expected intent \"price\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"take_care\"\r\nINPUT: I'm curious about the cost of a new tire. Could you provide that information?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: I'm curious about the cost of a new tire. Could you provide that information?\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain."
+      }
+    },
+    {
+      "title": "price/price-L09",
+      "fullTitle": "Botium Test-Suite price/price-L09",
+      "duration": 35,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L09/Line 6: assertion error - Line 6: Expected intent \"price\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"take_care\"\r\nINPUT: What's the rate for a new tire?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: What's the rate for a new tire?\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L09/Line 6: assertion error - Line 6: Expected intent \"price\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"take_care\"\r\nINPUT: What's the rate for a new tire?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: What's the rate for a new tire?\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain."
+      }
+    },
+    {
+      "title": "price/price-L10",
+      "fullTitle": "Botium Test-Suite price/price-L10",
+      "duration": 4127,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L10/Line 6: assertion error - Line 6: Expected intent \"price\" but found Make_Appointment\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Make_Appointment\"\r\nINPUT: How much am I looking at spending for a new tire?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: How much am I looking at spending for a new tire?\r\n#bot: Thank you for contact us. I can schedule you an appointment in our bike shop for tune-up or repair your bike. And could you please tell me the date and time you'd like to bring your bike in?\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L10/Line 6: assertion error - Line 6: Expected intent \"price\" but found Make_Appointment\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Make_Appointment\"\r\nINPUT: How much am I looking at spending for a new tire?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: How much am I looking at spending for a new tire?\r\n#bot: Thank you for contact us. I can schedule you an appointment in our bike shop for tune-up or repair your bike. And could you please tell me the date and time you'd like to bring your bike in?"
+      }
+    },
+    {
+      "title": "price/price-L11",
+      "fullTitle": "Botium Test-Suite price/price-L11",
+      "duration": 4094,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L11/Line 6: assertion error - Line 6: Expected intent \"price\" but found Make_Appointment\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Make_Appointment\"\r\nINPUT: How much does a tune-up\r\n------------ TRANSCRIPT ----------------------------\r\n#me: How much does a tune-up\r\n#bot: Thank you for contact us. I can schedule you an appointment in our bike shop for tune-up or repair your bike. And could you please tell me the date and time you'd like to bring your bike in?\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L11/Line 6: assertion error - Line 6: Expected intent \"price\" but found Make_Appointment\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Make_Appointment\"\r\nINPUT: How much does a tune-up\r\n------------ TRANSCRIPT ----------------------------\r\n#me: How much does a tune-up\r\n#bot: Thank you for contact us. I can schedule you an appointment in our bike shop for tune-up or repair your bike. And could you please tell me the date and time you'd like to bring your bike in?"
+      }
+    },
+    {
+      "title": "price/price-L12",
+      "fullTitle": "Botium Test-Suite price/price-L12",
+      "duration": 4095,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L12/Line 6: assertion error - Line 6: Expected intent \"price\" but found Make_Appointment\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Make_Appointment\"\r\nINPUT: What is the price for a service\r\n------------ TRANSCRIPT ----------------------------\r\n#me: What is the price for a service\r\n#bot: Thank you for contact us. I can schedule you an appointment in our bike shop for tune-up your bike. Could you please provide the date and time you would like to bring in your bike?\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L12/Line 6: assertion error - Line 6: Expected intent \"price\" but found Make_Appointment\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Make_Appointment\"\r\nINPUT: What is the price for a service\r\n------------ TRANSCRIPT ----------------------------\r\n#me: What is the price for a service\r\n#bot: Thank you for contact us. I can schedule you an appointment in our bike shop for tune-up your bike. Could you please provide the date and time you would like to bring in your bike?"
+      }
+    },
+    {
+      "title": "price/price-L13",
+      "fullTitle": "Botium Test-Suite price/price-L13",
+      "duration": 60,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L13/Line 6: assertion error - Line 6: Expected intent \"price\" but found Hours\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Hours\"\r\nINPUT: Can you provide me with the pricing for a new seat ?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Can you provide me with the pricing for a new seat ?\r\n#bot: I'm sorry it's a little loud in my shop, can you say that again?\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L13/Line 6: assertion error - Line 6: Expected intent \"price\" but found Hours\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Hours\"\r\nINPUT: Can you provide me with the pricing for a new seat ?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Can you provide me with the pricing for a new seat ?\r\n#bot: I'm sorry it's a little loud in my shop, can you say that again?"
+      }
+    },
+    {
+      "title": "price/price-L14",
+      "fullTitle": "Botium Test-Suite price/price-L14",
+      "duration": 39,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L14/Line 6: assertion error - Line 6: Expected intent \"price\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"take_care\"\r\nINPUT: How expensive is it to get a new seat?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: How expensive is it to get a new seat?\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L14/Line 6: assertion error - Line 6: Expected intent \"price\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"take_care\"\r\nINPUT: How expensive is it to get a new seat?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: How expensive is it to get a new seat?\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain."
+      }
+    },
+    {
+      "title": "price/price-L15",
+      "fullTitle": "Botium Test-Suite price/price-L15",
+      "duration": 32,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L15/Line 6: assertion error - Line 6: Expected intent \"price\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"take_care\"\r\nINPUT: What's the cost of a new seat?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: What's the cost of a new seat?\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L15/Line 6: assertion error - Line 6: Expected intent \"price\" but found take_care\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"take_care\"\r\nINPUT: What's the cost of a new seat?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: What's the cost of a new seat?\r\n#bot: You should clean it regularly, check the tire pressure, and lubricate the chain."
+      }
+    },
+    {
+      "title": "price/price-L16",
+      "fullTitle": "Botium Test-Suite price/price-L16",
+      "duration": 37,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L16/Line 6: assertion error - Line 6: Expected intent \"price\" but found Hours\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Hours\"\r\nINPUT: Could you tell me the price for servicing\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Could you tell me the price for servicing\r\n#bot: I'm sorry it's a little loud in my shop, can you say that again?\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L16/Line 6: assertion error - Line 6: Expected intent \"price\" but found Hours\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Hours\"\r\nINPUT: Could you tell me the price for servicing\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Could you tell me the price for servicing\r\n#bot: I'm sorry it's a little loud in my shop, can you say that again?"
+      }
+    },
+    {
+      "title": "price/price-L17",
+      "fullTitle": "Botium Test-Suite price/price-L17",
+      "duration": 4166,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: price/price-L17/Line 6: assertion error - Line 6: Expected intent \"price\" but found Make_Appointment\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Make_Appointment\"\r\nINPUT: Which is the cost of the repair?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Which is the cost of the repair?\r\n#bot: Thank you for contact us. I can schedule you an appointment in our bike shop for repair your bike. Could you please provide the date and time you would like to bring in your bike?\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "price/price-L17/Line 6: assertion error - Line 6: Expected intent \"price\" but found Make_Appointment\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"price\"  - Actual: \"Make_Appointment\"\r\nINPUT: Which is the cost of the repair?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Which is the cost of the repair?\r\n#bot: Thank you for contact us. I can schedule you an appointment in our bike shop for repair your bike. Could you please provide the date and time you would like to bring in your bike?"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "Hours/Hours-L01",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L01",
+      "duration": 268,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L02",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L02",
+      "duration": 26,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L03",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L03",
+      "duration": 26,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L04",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L04",
+      "duration": 38,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L05",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L05",
+      "duration": 32,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L06",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L06",
+      "duration": 31,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L07",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L07",
+      "duration": 52,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L08",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L08",
+      "duration": 29,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L09",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L09",
+      "duration": 50,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L10",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L10",
+      "duration": 28,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L11",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L11",
+      "duration": 31,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L12",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L12",
+      "duration": 41,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Hours/Hours-L13",
+      "fullTitle": "Botium Test-Suite Hours/Hours-L13",
+      "duration": 27,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L01",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L01",
+      "duration": 29,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L02",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L02",
+      "duration": 4189,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L03",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L03",
+      "duration": 30,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L04",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L04",
+      "duration": 4139,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L05",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L05",
+      "duration": 4121,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L06",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L06",
+      "duration": 40,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L07",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L07",
+      "duration": 37,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L08",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L08",
+      "duration": 55,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L09",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L09",
+      "duration": 4145,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L10",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L10",
+      "duration": 4155,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L11",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L11",
+      "duration": 4144,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L12",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L12",
+      "duration": 32,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L13",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L13",
+      "duration": 4130,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L14",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L14",
+      "duration": 4138,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L15",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L15",
+      "duration": 30,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Make_Appointment/Make_Appointment-L16",
+      "fullTitle": "Botium Test-Suite Make_Appointment/Make_Appointment-L16",
+      "duration": 4116,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L01",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L01",
+      "duration": 24,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L02",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L02",
+      "duration": 25,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L03",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L03",
+      "duration": 29,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L04",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L04",
+      "duration": 36,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L05",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L05",
+      "duration": 21,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L06",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L06",
+      "duration": 35,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L07",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L07",
+      "duration": 35,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L08",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L08",
+      "duration": 45,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L09",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L09",
+      "duration": 47,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L10",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L10",
+      "duration": 21,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L11",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L11",
+      "duration": 30,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L12",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L12",
+      "duration": 43,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Welcome_Intent/Welcome_Intent-L13",
+      "fullTitle": "Botium Test-Suite Welcome_Intent/Welcome_Intent-L13",
+      "duration": 45,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L01",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L01",
+      "duration": 42,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L02",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L02",
+      "duration": 49,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L03",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L03",
+      "duration": 37,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L04",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L04",
+      "duration": 56,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L05",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L05",
+      "duration": 34,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L06",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L06",
+      "duration": 54,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L07",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L07",
+      "duration": 28,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L08",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L08",
+      "duration": 26,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L09",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L09",
+      "duration": 42,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L10",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L10",
+      "duration": 29,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "take_care/take_care-L11",
+      "fullTitle": "Botium Test-Suite take_care/take_care-L11",
+      "duration": 50,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    }
+  ]
+}

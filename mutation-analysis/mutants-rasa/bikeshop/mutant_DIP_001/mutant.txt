@@ -1,0 +1,1 @@
+Deleted parameter 'date' from intents: Make_Appointment

@@ -1,0 +1,1 @@
+Swapped response text between 'utter_Make_Appointment' and 'utter_Welcome_Intent'

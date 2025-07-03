@@ -1,0 +1,55 @@
+session_config:
+  session_expiration_time: 60
+intents:
+- Hours
+- Make_Appointment
+- Welcome_Intent
+- price
+- take_care
+entities:
+- date
+- appointmentType
+- costElement
+slots:
+  date:
+    type: unfeaturized
+  time:
+    type: unfeaturized
+  appointmentType:
+    type: unfeaturized
+  costElement:
+    type: unfeaturized
+responses:
+  utter_ask_date:
+  - text: What day do you want to come in?
+  utter_ask_costElement:
+  - text: Of course! I can tell you the price of tune-up, new tire and new seat
+  utter_wrong_date:
+  - text: I can not understand the date, please try again
+  utter_ask_time:
+  - text: What time works for you?
+  utter_wrong_time:
+  - text: I can not understand the time, please try again
+  utter_ask_appointmentType:
+  - text: We can service or repair your bike.  Which one would you like?
+  utter_wrong_appointmentType:
+  - text: I can not understand the AppointmentType, please try again
+  utter_Hours:
+  - text: 'We are open every weekday from 9am to 5:30pm '
+  utter_Fallback:
+  - text: 'I''m sorry it''s a little loud in my shop, can you say that again? '
+  utter_Make_Appointment:
+  - text: 'Ok, I have scheduled your appointment for {date} at {time} for {appointmentType}.
+      See you then. '
+  utter_Welcome_Intent:
+  - text: 'Welcome to my bike shop. I''m the owner and I''m happy to help you. What
+      can I do for you? '
+  utter_take_care:
+  - text: You should clean it regularly, check the tire pressure, and lubricate the
+      chain.
+actions:
+- Make_Appointment_ask
+- action_appointmentclean
+forms:
+- Make_Appointment_form
+- cost_form
