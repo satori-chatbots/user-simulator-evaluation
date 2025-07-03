@@ -1,0 +1,899 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 52,
+    "passes": 40,
+    "pending": 0,
+    "failures": 12,
+    "start": "2025-07-03T13:13:06.127Z",
+    "end": "2025-07-03T13:14:22.335Z",
+    "duration": 76208
+  },
+  "tests": [
+    {
+      "title": "EndOrder/EndOrder-L01",
+      "fullTitle": "Botium Test-Suite EndOrder/EndOrder-L01",
+      "duration": 2378,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "EndOrder/EndOrder-L02",
+      "fullTitle": "Botium Test-Suite EndOrder/EndOrder-L02",
+      "duration": 2076,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "EndOrder/EndOrder-L03",
+      "fullTitle": "Botium Test-Suite EndOrder/EndOrder-L03",
+      "duration": 2102,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "EndOrder/EndOrder-L04",
+      "fullTitle": "Botium Test-Suite EndOrder/EndOrder-L04",
+      "duration": 2085,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "EndOrder/EndOrder-L05",
+      "fullTitle": "Botium Test-Suite EndOrder/EndOrder-L05",
+      "duration": 2109,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "EndOrder/EndOrder-L06",
+      "fullTitle": "Botium Test-Suite EndOrder/EndOrder-L06",
+      "duration": 2101,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "EndOrder/EndOrder-L07",
+      "fullTitle": "Botium Test-Suite EndOrder/EndOrder-L07",
+      "duration": 2073,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "EndOrder/EndOrder-L08",
+      "fullTitle": "Botium Test-Suite EndOrder/EndOrder-L08",
+      "duration": 2102,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "EndOrder/EndOrder-L09",
+      "fullTitle": "Botium Test-Suite EndOrder/EndOrder-L09",
+      "duration": 2067,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "EndOrder/EndOrder-L10",
+      "fullTitle": "Botium Test-Suite EndOrder/EndOrder-L10",
+      "duration": 2062,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "OrderDrinks/OrderDrinks-L1",
+      "fullTitle": "Botium Test-Suite OrderDrinks/OrderDrinks-L1",
+      "duration": 2093,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "OrderDrinks/OrderDrinks-L2",
+      "fullTitle": "Botium Test-Suite OrderDrinks/OrderDrinks-L2",
+      "duration": 2054,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "OrderDrinks/OrderDrinks-L3",
+      "fullTitle": "Botium Test-Suite OrderDrinks/OrderDrinks-L3",
+      "duration": 2075,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "OrderDrinks/OrderDrinks-L4",
+      "fullTitle": "Botium Test-Suite OrderDrinks/OrderDrinks-L4",
+      "duration": 2102,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "StartOrder/StartOrder-L1",
+      "fullTitle": "Botium Test-Suite StartOrder/StartOrder-L1",
+      "duration": 2058,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "StartOrder/StartOrder-L2",
+      "fullTitle": "Botium Test-Suite StartOrder/StartOrder-L2",
+      "duration": 2096,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "StartOrder/StartOrder-L3",
+      "fullTitle": "Botium Test-Suite StartOrder/StartOrder-L3",
+      "duration": 2082,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "StartOrder/StartOrder-L4",
+      "fullTitle": "Botium Test-Suite StartOrder/StartOrder-L4",
+      "duration": 2059,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "StartOrder/StartOrder-L5",
+      "fullTitle": "Botium Test-Suite StartOrder/StartOrder-L5",
+      "duration": 2073,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "StartOrder/StartOrder-L6",
+      "fullTitle": "Botium Test-Suite StartOrder/StartOrder-L6",
+      "duration": 2095,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "StartOrder/StartOrder-L7",
+      "fullTitle": "Botium Test-Suite StartOrder/StartOrder-L7",
+      "duration": 2060,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "StartOrder/StartOrder-L8",
+      "fullTitle": "Botium Test-Suite StartOrder/StartOrder-L8",
+      "duration": 2087,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Toppings/Toppings-L01",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L01",
+      "duration": 2061,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Toppings/Toppings-L01/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found OrderDrinks\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"OrderDrinks\"\r\nINPUT: extra cheese , please\r\n------------ TRANSCRIPT ----------------------------\r\n#me: extra cheese , please\r\n#bot: Could you please specify the size of the pizza you'd like? We offer small, medium, and big sizes.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Toppings/Toppings-L01/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found OrderDrinks\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"OrderDrinks\"\r\nINPUT: extra cheese , please\r\n------------ TRANSCRIPT ----------------------------\r\n#me: extra cheese , please\r\n#bot: Could you please specify the size of the pizza you'd like? We offer small, medium, and big sizes."
+      }
+    },
+    {
+      "title": "Toppings/Toppings-L02",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L02",
+      "duration": 2083,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Toppings/Toppings-L03",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L03",
+      "duration": 2058,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Toppings/Toppings-L04",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L04",
+      "duration": 30,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Toppings/Toppings-L04/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found ToppingsInfo\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"ToppingsInfo\"\r\nINPUT: a lot of  chicken\r\n------------ TRANSCRIPT ----------------------------\r\n#me: a lot of  chicken\r\n#bot: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn, onion and chicken\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Toppings/Toppings-L04/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found ToppingsInfo\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"ToppingsInfo\"\r\nINPUT: a lot of  chicken\r\n------------ TRANSCRIPT ----------------------------\r\n#me: a lot of  chicken\r\n#bot: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn, onion and chicken"
+      }
+    },
+    {
+      "title": "Toppings/Toppings-L05",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L05",
+      "duration": 2082,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Toppings/Toppings-L05/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found StartOrder\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"StartOrder\"\r\nINPUT: Can I get my pizza with mushrooms\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Can I get my pizza with mushrooms\r\n#bot: Could you please specify the size of the pizza you'd like? We offer small, medium, and big sizes.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Toppings/Toppings-L05/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found StartOrder\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"StartOrder\"\r\nINPUT: Can I get my pizza with mushrooms\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Can I get my pizza with mushrooms\r\n#bot: Could you please specify the size of the pizza you'd like? We offer small, medium, and big sizes."
+      }
+    },
+    {
+      "title": "Toppings/Toppings-L06",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L06",
+      "duration": 2075,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Toppings/Toppings-L06/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found StartOrder\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"StartOrder\"\r\nINPUT: I'd like to customize my pizza with pepperoni\r\n------------ TRANSCRIPT ----------------------------\r\n#me: I'd like to customize my pizza with pepperoni\r\n#bot: Could you please specify the size of the pizza you'd like? We offer small, medium, and big sizes.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Toppings/Toppings-L06/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found StartOrder\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"StartOrder\"\r\nINPUT: I'd like to customize my pizza with pepperoni\r\n------------ TRANSCRIPT ----------------------------\r\n#me: I'd like to customize my pizza with pepperoni\r\n#bot: Could you please specify the size of the pizza you'd like? We offer small, medium, and big sizes."
+      }
+    },
+    {
+      "title": "Toppings/Toppings-L07",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L07",
+      "duration": 2073,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Toppings/Toppings-L07/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found StartOrder\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"StartOrder\"\r\nINPUT: Can I get my pizza with extra  pepper\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Can I get my pizza with extra  pepper\r\n#bot: Could you please specify the size of the pizza you'd like? We offer small, medium, and big sizes.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Toppings/Toppings-L07/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found StartOrder\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"StartOrder\"\r\nINPUT: Can I get my pizza with extra  pepper\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Can I get my pizza with extra  pepper\r\n#bot: Could you please specify the size of the pizza you'd like? We offer small, medium, and big sizes."
+      }
+    },
+    {
+      "title": "Toppings/Toppings-L08",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L08",
+      "duration": 32,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Toppings/Toppings-L08/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found ToppingsInfo\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"ToppingsInfo\"\r\nINPUT: Could you add some olives\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Could you add some olives\r\n#bot: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn, onion and chicken\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Toppings/Toppings-L08/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found ToppingsInfo\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"ToppingsInfo\"\r\nINPUT: Could you add some olives\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Could you add some olives\r\n#bot: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn, onion and chicken"
+      }
+    },
+    {
+      "title": "Toppings/Toppings-L09",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L09",
+      "duration": 2058,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Toppings/Toppings-L09/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found StartOrder\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"StartOrder\"\r\nINPUT: I'd like to top my pizza with  corn\r\n------------ TRANSCRIPT ----------------------------\r\n#me: I'd like to top my pizza with  corn\r\n#bot: Could you please specify the size of the pizza you'd like? We offer small, medium, and big sizes.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Toppings/Toppings-L09/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found StartOrder\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"StartOrder\"\r\nINPUT: I'd like to top my pizza with  corn\r\n------------ TRANSCRIPT ----------------------------\r\n#me: I'd like to top my pizza with  corn\r\n#bot: Could you please specify the size of the pizza you'd like? We offer small, medium, and big sizes."
+      }
+    },
+    {
+      "title": "Toppings/Toppings-L10",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L10",
+      "duration": 30,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Toppings/Toppings-L10/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found ToppingsInfo\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"ToppingsInfo\"\r\nINPUT: cheese\r\n------------ TRANSCRIPT ----------------------------\r\n#me: cheese\r\n#bot: I'm sorry it's a little loud in my pizza shop, can you say that again?\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Toppings/Toppings-L10/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found ToppingsInfo\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"ToppingsInfo\"\r\nINPUT: cheese\r\n------------ TRANSCRIPT ----------------------------\r\n#me: cheese\r\n#bot: I'm sorry it's a little loud in my pizza shop, can you say that again?"
+      }
+    },
+    {
+      "title": "Toppings/Toppings-L11",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L11",
+      "duration": 2080,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Toppings/Toppings-L12",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L12",
+      "duration": 2084,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Toppings/Toppings-L13",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L13",
+      "duration": 2104,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Toppings/Toppings-L13/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found EndOrder\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"EndOrder\"\r\nINPUT: mushrooms . Thank you!\r\n------------ TRANSCRIPT ----------------------------\r\n#me: mushrooms . Thank you!\r\n#bot: Could you please let me know what drink you would like with your pizza? The options are coke, sprite, or water.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Toppings/Toppings-L13/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found EndOrder\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"EndOrder\"\r\nINPUT: mushrooms . Thank you!\r\n------------ TRANSCRIPT ----------------------------\r\n#me: mushrooms . Thank you!\r\n#bot: Could you please let me know what drink you would like with your pizza? The options are coke, sprite, or water."
+      }
+    },
+    {
+      "title": "Toppings/Toppings-L14",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L14",
+      "duration": 2074,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Toppings/Toppings-L15",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L15",
+      "duration": 39,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Toppings/Toppings-L16",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L16",
+      "duration": 20,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Toppings/Toppings-L17",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L17",
+      "duration": 42,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Toppings/Toppings-L17/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found ToppingsInfo\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"ToppingsInfo\"\r\nINPUT: chicken\r\n------------ TRANSCRIPT ----------------------------\r\n#me: chicken\r\n#bot: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn, onion and chicken\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Toppings/Toppings-L17/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found ToppingsInfo\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"ToppingsInfo\"\r\nINPUT: chicken\r\n------------ TRANSCRIPT ----------------------------\r\n#me: chicken\r\n#bot: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn, onion and chicken"
+      }
+    },
+    {
+      "title": "Toppings/Toppings-L18",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L18",
+      "duration": 2075,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Toppings/Toppings-L19",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L19",
+      "duration": 2090,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Toppings/Toppings-L19/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found OrderDrinks\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"OrderDrinks\"\r\nINPUT: chicken and cheese , please\r\n------------ TRANSCRIPT ----------------------------\r\n#me: chicken and cheese , please\r\n#bot: Could you please specify the size of the pizza you'd like? We offer small, medium, and big sizes.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Toppings/Toppings-L19/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found OrderDrinks\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"OrderDrinks\"\r\nINPUT: chicken and cheese , please\r\n------------ TRANSCRIPT ----------------------------\r\n#me: chicken and cheese , please\r\n#bot: Could you please specify the size of the pizza you'd like? We offer small, medium, and big sizes."
+      }
+    },
+    {
+      "title": "Toppings/Toppings-L20",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L20",
+      "duration": 2111,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Toppings/Toppings-L20/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found StartOrder\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"StartOrder\"\r\nINPUT: I want a pizza with corn, bacon and olives\r\n------------ TRANSCRIPT ----------------------------\r\n#me: I want a pizza with corn, bacon and olives\r\n#bot: Could you please specify the size of the pizza you'd like? We offer small, medium, and big sizes.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Toppings/Toppings-L20/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found StartOrder\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"StartOrder\"\r\nINPUT: I want a pizza with corn, bacon and olives\r\n------------ TRANSCRIPT ----------------------------\r\n#me: I want a pizza with corn, bacon and olives\r\n#bot: Could you please specify the size of the pizza you'd like? We offer small, medium, and big sizes."
+      }
+    },
+    {
+      "title": "ToppingsInfo/ToppingsInfo-L01",
+      "fullTitle": "Botium Test-Suite ToppingsInfo/ToppingsInfo-L01",
+      "duration": 59,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "ToppingsInfo/ToppingsInfo-L02",
+      "fullTitle": "Botium Test-Suite ToppingsInfo/ToppingsInfo-L02",
+      "duration": 27,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "ToppingsInfo/ToppingsInfo-L03",
+      "fullTitle": "Botium Test-Suite ToppingsInfo/ToppingsInfo-L03",
+      "duration": 42,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "ToppingsInfo/ToppingsInfo-L04",
+      "fullTitle": "Botium Test-Suite ToppingsInfo/ToppingsInfo-L04",
+      "duration": 42,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "ToppingsInfo/ToppingsInfo-L05",
+      "fullTitle": "Botium Test-Suite ToppingsInfo/ToppingsInfo-L05",
+      "duration": 28,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "ToppingsInfo/ToppingsInfo-L06",
+      "fullTitle": "Botium Test-Suite ToppingsInfo/ToppingsInfo-L06",
+      "duration": 48,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "ToppingsInfo/ToppingsInfo-L07",
+      "fullTitle": "Botium Test-Suite ToppingsInfo/ToppingsInfo-L07",
+      "duration": 29,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "ToppingsInfo/ToppingsInfo-L08",
+      "fullTitle": "Botium Test-Suite ToppingsInfo/ToppingsInfo-L08",
+      "duration": 62,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "ToppingsInfo/ToppingsInfo-L09",
+      "fullTitle": "Botium Test-Suite ToppingsInfo/ToppingsInfo-L09",
+      "duration": 24,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "ToppingsInfo/ToppingsInfo-L10",
+      "fullTitle": "Botium Test-Suite ToppingsInfo/ToppingsInfo-L10",
+      "duration": 30,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "Toppings/Toppings-L01",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L01",
+      "duration": 2061,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Toppings/Toppings-L01/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found OrderDrinks\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"OrderDrinks\"\r\nINPUT: extra cheese , please\r\n------------ TRANSCRIPT ----------------------------\r\n#me: extra cheese , please\r\n#bot: Could you please specify the size of the pizza you'd like? We offer small, medium, and big sizes.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Toppings/Toppings-L01/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found OrderDrinks\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"OrderDrinks\"\r\nINPUT: extra cheese , please\r\n------------ TRANSCRIPT ----------------------------\r\n#me: extra cheese , please\r\n#bot: Could you please specify the size of the pizza you'd like? We offer small, medium, and big sizes."
+      }
+    },
+    {
+      "title": "Toppings/Toppings-L04",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L04",
+      "duration": 30,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Toppings/Toppings-L04/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found ToppingsInfo\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"ToppingsInfo\"\r\nINPUT: a lot of  chicken\r\n------------ TRANSCRIPT ----------------------------\r\n#me: a lot of  chicken\r\n#bot: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn, onion and chicken\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Toppings/Toppings-L04/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found ToppingsInfo\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"ToppingsInfo\"\r\nINPUT: a lot of  chicken\r\n------------ TRANSCRIPT ----------------------------\r\n#me: a lot of  chicken\r\n#bot: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn, onion and chicken"
+      }
+    },
+    {
+      "title": "Toppings/Toppings-L05",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L05",
+      "duration": 2082,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Toppings/Toppings-L05/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found StartOrder\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"StartOrder\"\r\nINPUT: Can I get my pizza with mushrooms\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Can I get my pizza with mushrooms\r\n#bot: Could you please specify the size of the pizza you'd like? We offer small, medium, and big sizes.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Toppings/Toppings-L05/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found StartOrder\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"StartOrder\"\r\nINPUT: Can I get my pizza with mushrooms\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Can I get my pizza with mushrooms\r\n#bot: Could you please specify the size of the pizza you'd like? We offer small, medium, and big sizes."
+      }
+    },
+    {
+      "title": "Toppings/Toppings-L06",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L06",
+      "duration": 2075,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Toppings/Toppings-L06/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found StartOrder\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"StartOrder\"\r\nINPUT: I'd like to customize my pizza with pepperoni\r\n------------ TRANSCRIPT ----------------------------\r\n#me: I'd like to customize my pizza with pepperoni\r\n#bot: Could you please specify the size of the pizza you'd like? We offer small, medium, and big sizes.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Toppings/Toppings-L06/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found StartOrder\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"StartOrder\"\r\nINPUT: I'd like to customize my pizza with pepperoni\r\n------------ TRANSCRIPT ----------------------------\r\n#me: I'd like to customize my pizza with pepperoni\r\n#bot: Could you please specify the size of the pizza you'd like? We offer small, medium, and big sizes."
+      }
+    },
+    {
+      "title": "Toppings/Toppings-L07",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L07",
+      "duration": 2073,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Toppings/Toppings-L07/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found StartOrder\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"StartOrder\"\r\nINPUT: Can I get my pizza with extra  pepper\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Can I get my pizza with extra  pepper\r\n#bot: Could you please specify the size of the pizza you'd like? We offer small, medium, and big sizes.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Toppings/Toppings-L07/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found StartOrder\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"StartOrder\"\r\nINPUT: Can I get my pizza with extra  pepper\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Can I get my pizza with extra  pepper\r\n#bot: Could you please specify the size of the pizza you'd like? We offer small, medium, and big sizes."
+      }
+    },
+    {
+      "title": "Toppings/Toppings-L08",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L08",
+      "duration": 32,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Toppings/Toppings-L08/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found ToppingsInfo\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"ToppingsInfo\"\r\nINPUT: Could you add some olives\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Could you add some olives\r\n#bot: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn, onion and chicken\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Toppings/Toppings-L08/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found ToppingsInfo\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"ToppingsInfo\"\r\nINPUT: Could you add some olives\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Could you add some olives\r\n#bot: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn, onion and chicken"
+      }
+    },
+    {
+      "title": "Toppings/Toppings-L09",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L09",
+      "duration": 2058,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Toppings/Toppings-L09/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found StartOrder\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"StartOrder\"\r\nINPUT: I'd like to top my pizza with  corn\r\n------------ TRANSCRIPT ----------------------------\r\n#me: I'd like to top my pizza with  corn\r\n#bot: Could you please specify the size of the pizza you'd like? We offer small, medium, and big sizes.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Toppings/Toppings-L09/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found StartOrder\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"StartOrder\"\r\nINPUT: I'd like to top my pizza with  corn\r\n------------ TRANSCRIPT ----------------------------\r\n#me: I'd like to top my pizza with  corn\r\n#bot: Could you please specify the size of the pizza you'd like? We offer small, medium, and big sizes."
+      }
+    },
+    {
+      "title": "Toppings/Toppings-L10",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L10",
+      "duration": 30,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Toppings/Toppings-L10/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found ToppingsInfo\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"ToppingsInfo\"\r\nINPUT: cheese\r\n------------ TRANSCRIPT ----------------------------\r\n#me: cheese\r\n#bot: I'm sorry it's a little loud in my pizza shop, can you say that again?\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Toppings/Toppings-L10/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found ToppingsInfo\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"ToppingsInfo\"\r\nINPUT: cheese\r\n------------ TRANSCRIPT ----------------------------\r\n#me: cheese\r\n#bot: I'm sorry it's a little loud in my pizza shop, can you say that again?"
+      }
+    },
+    {
+      "title": "Toppings/Toppings-L13",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L13",
+      "duration": 2104,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Toppings/Toppings-L13/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found EndOrder\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"EndOrder\"\r\nINPUT: mushrooms . Thank you!\r\n------------ TRANSCRIPT ----------------------------\r\n#me: mushrooms . Thank you!\r\n#bot: Could you please let me know what drink you would like with your pizza? The options are coke, sprite, or water.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Toppings/Toppings-L13/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found EndOrder\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"EndOrder\"\r\nINPUT: mushrooms . Thank you!\r\n------------ TRANSCRIPT ----------------------------\r\n#me: mushrooms . Thank you!\r\n#bot: Could you please let me know what drink you would like with your pizza? The options are coke, sprite, or water."
+      }
+    },
+    {
+      "title": "Toppings/Toppings-L17",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L17",
+      "duration": 42,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Toppings/Toppings-L17/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found ToppingsInfo\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"ToppingsInfo\"\r\nINPUT: chicken\r\n------------ TRANSCRIPT ----------------------------\r\n#me: chicken\r\n#bot: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn, onion and chicken\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Toppings/Toppings-L17/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found ToppingsInfo\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"ToppingsInfo\"\r\nINPUT: chicken\r\n------------ TRANSCRIPT ----------------------------\r\n#me: chicken\r\n#bot: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn, onion and chicken"
+      }
+    },
+    {
+      "title": "Toppings/Toppings-L19",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L19",
+      "duration": 2090,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Toppings/Toppings-L19/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found OrderDrinks\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"OrderDrinks\"\r\nINPUT: chicken and cheese , please\r\n------------ TRANSCRIPT ----------------------------\r\n#me: chicken and cheese , please\r\n#bot: Could you please specify the size of the pizza you'd like? We offer small, medium, and big sizes.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Toppings/Toppings-L19/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found OrderDrinks\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"OrderDrinks\"\r\nINPUT: chicken and cheese , please\r\n------------ TRANSCRIPT ----------------------------\r\n#me: chicken and cheese , please\r\n#bot: Could you please specify the size of the pizza you'd like? We offer small, medium, and big sizes."
+      }
+    },
+    {
+      "title": "Toppings/Toppings-L20",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L20",
+      "duration": 2111,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Toppings/Toppings-L20/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found StartOrder\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"StartOrder\"\r\nINPUT: I want a pizza with corn, bacon and olives\r\n------------ TRANSCRIPT ----------------------------\r\n#me: I want a pizza with corn, bacon and olives\r\n#bot: Could you please specify the size of the pizza you'd like? We offer small, medium, and big sizes.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "Toppings/Toppings-L20/Line 6: assertion error - Line 6: Expected intent \"Toppings\" but found StartOrder\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"Toppings\"  - Actual: \"StartOrder\"\r\nINPUT: I want a pizza with corn, bacon and olives\r\n------------ TRANSCRIPT ----------------------------\r\n#me: I want a pizza with corn, bacon and olives\r\n#bot: Could you please specify the size of the pizza you'd like? We offer small, medium, and big sizes."
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "EndOrder/EndOrder-L01",
+      "fullTitle": "Botium Test-Suite EndOrder/EndOrder-L01",
+      "duration": 2378,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "EndOrder/EndOrder-L02",
+      "fullTitle": "Botium Test-Suite EndOrder/EndOrder-L02",
+      "duration": 2076,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "EndOrder/EndOrder-L03",
+      "fullTitle": "Botium Test-Suite EndOrder/EndOrder-L03",
+      "duration": 2102,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "EndOrder/EndOrder-L04",
+      "fullTitle": "Botium Test-Suite EndOrder/EndOrder-L04",
+      "duration": 2085,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "EndOrder/EndOrder-L05",
+      "fullTitle": "Botium Test-Suite EndOrder/EndOrder-L05",
+      "duration": 2109,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "EndOrder/EndOrder-L06",
+      "fullTitle": "Botium Test-Suite EndOrder/EndOrder-L06",
+      "duration": 2101,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "EndOrder/EndOrder-L07",
+      "fullTitle": "Botium Test-Suite EndOrder/EndOrder-L07",
+      "duration": 2073,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "EndOrder/EndOrder-L08",
+      "fullTitle": "Botium Test-Suite EndOrder/EndOrder-L08",
+      "duration": 2102,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "EndOrder/EndOrder-L09",
+      "fullTitle": "Botium Test-Suite EndOrder/EndOrder-L09",
+      "duration": 2067,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "EndOrder/EndOrder-L10",
+      "fullTitle": "Botium Test-Suite EndOrder/EndOrder-L10",
+      "duration": 2062,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "OrderDrinks/OrderDrinks-L1",
+      "fullTitle": "Botium Test-Suite OrderDrinks/OrderDrinks-L1",
+      "duration": 2093,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "OrderDrinks/OrderDrinks-L2",
+      "fullTitle": "Botium Test-Suite OrderDrinks/OrderDrinks-L2",
+      "duration": 2054,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "OrderDrinks/OrderDrinks-L3",
+      "fullTitle": "Botium Test-Suite OrderDrinks/OrderDrinks-L3",
+      "duration": 2075,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "OrderDrinks/OrderDrinks-L4",
+      "fullTitle": "Botium Test-Suite OrderDrinks/OrderDrinks-L4",
+      "duration": 2102,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "StartOrder/StartOrder-L1",
+      "fullTitle": "Botium Test-Suite StartOrder/StartOrder-L1",
+      "duration": 2058,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "StartOrder/StartOrder-L2",
+      "fullTitle": "Botium Test-Suite StartOrder/StartOrder-L2",
+      "duration": 2096,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "StartOrder/StartOrder-L3",
+      "fullTitle": "Botium Test-Suite StartOrder/StartOrder-L3",
+      "duration": 2082,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "StartOrder/StartOrder-L4",
+      "fullTitle": "Botium Test-Suite StartOrder/StartOrder-L4",
+      "duration": 2059,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "StartOrder/StartOrder-L5",
+      "fullTitle": "Botium Test-Suite StartOrder/StartOrder-L5",
+      "duration": 2073,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "StartOrder/StartOrder-L6",
+      "fullTitle": "Botium Test-Suite StartOrder/StartOrder-L6",
+      "duration": 2095,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "StartOrder/StartOrder-L7",
+      "fullTitle": "Botium Test-Suite StartOrder/StartOrder-L7",
+      "duration": 2060,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "StartOrder/StartOrder-L8",
+      "fullTitle": "Botium Test-Suite StartOrder/StartOrder-L8",
+      "duration": 2087,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Toppings/Toppings-L02",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L02",
+      "duration": 2083,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Toppings/Toppings-L03",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L03",
+      "duration": 2058,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Toppings/Toppings-L11",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L11",
+      "duration": 2080,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Toppings/Toppings-L12",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L12",
+      "duration": 2084,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Toppings/Toppings-L14",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L14",
+      "duration": 2074,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "Toppings/Toppings-L15",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L15",
+      "duration": 39,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "Toppings/Toppings-L16",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L16",
+      "duration": 20,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "Toppings/Toppings-L18",
+      "fullTitle": "Botium Test-Suite Toppings/Toppings-L18",
+      "duration": 2075,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "ToppingsInfo/ToppingsInfo-L01",
+      "fullTitle": "Botium Test-Suite ToppingsInfo/ToppingsInfo-L01",
+      "duration": 59,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "ToppingsInfo/ToppingsInfo-L02",
+      "fullTitle": "Botium Test-Suite ToppingsInfo/ToppingsInfo-L02",
+      "duration": 27,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "ToppingsInfo/ToppingsInfo-L03",
+      "fullTitle": "Botium Test-Suite ToppingsInfo/ToppingsInfo-L03",
+      "duration": 42,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "ToppingsInfo/ToppingsInfo-L04",
+      "fullTitle": "Botium Test-Suite ToppingsInfo/ToppingsInfo-L04",
+      "duration": 42,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "ToppingsInfo/ToppingsInfo-L05",
+      "fullTitle": "Botium Test-Suite ToppingsInfo/ToppingsInfo-L05",
+      "duration": 28,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "ToppingsInfo/ToppingsInfo-L06",
+      "fullTitle": "Botium Test-Suite ToppingsInfo/ToppingsInfo-L06",
+      "duration": 48,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "ToppingsInfo/ToppingsInfo-L07",
+      "fullTitle": "Botium Test-Suite ToppingsInfo/ToppingsInfo-L07",
+      "duration": 29,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "ToppingsInfo/ToppingsInfo-L08",
+      "fullTitle": "Botium Test-Suite ToppingsInfo/ToppingsInfo-L08",
+      "duration": 62,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "ToppingsInfo/ToppingsInfo-L09",
+      "fullTitle": "Botium Test-Suite ToppingsInfo/ToppingsInfo-L09",
+      "duration": 24,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "ToppingsInfo/ToppingsInfo-L10",
+      "fullTitle": "Botium Test-Suite ToppingsInfo/ToppingsInfo-L10",
+      "duration": 30,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    }
+  ]
+}
