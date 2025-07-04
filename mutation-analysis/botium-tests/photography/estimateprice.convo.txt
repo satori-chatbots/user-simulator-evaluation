@@ -1,0 +1,7 @@
+estimate_price
+
+#me
+estimate_price
+
+#bot
+INTENT estimate_price

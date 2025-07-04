@@ -1,0 +1,7 @@
+price
+
+#me
+price
+
+#bot
+INTENT price

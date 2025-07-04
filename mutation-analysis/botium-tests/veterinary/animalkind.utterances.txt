@@ -1,0 +1,11 @@
+animal_kind
+Which types of animals do you accommodate?
+What species of animals do you welcome?
+Do you cater to specific types of animals?
+Which animals are eligible for your services?
+What sorts of pets do you take in?
+Are there any particular kinds of animals you work with?
+Which types of pets are accepted here?
+Do you treat a variety of animals?
+What types of animals are allowed for care?
+Are there specific kinds of animals you specialize in?

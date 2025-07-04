@@ -1,0 +1,7 @@
+session_details
+
+#me
+session_details
+
+#bot
+INTENT session_details

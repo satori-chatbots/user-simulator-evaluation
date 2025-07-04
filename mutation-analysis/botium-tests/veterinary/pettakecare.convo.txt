@@ -1,0 +1,7 @@
+pet_take_care
+
+#me
+pet_take_care
+
+#bot
+INTENT pet_take_care

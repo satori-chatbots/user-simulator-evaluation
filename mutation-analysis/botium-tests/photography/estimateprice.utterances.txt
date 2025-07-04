@@ -1,0 +1,16 @@
+estimate_price
+Can you provide a price estimate for my project? 
+I'd like to get a sense of the pricing. Can you calculate a rough estimate for me? 
+To plan my budget, I need to know the estimated cost of the work. Can you help with that? 
+Before we proceed, I'd like to know the estimated cost. Can you provide that? 
+Can you provide a rough estimate for the work? 
+How much do you think it would cost for the work I need? 
+I'd like an estimation for a photography session
+I want an estimation for a session
+Can you do my gallery? 
+I'd like an estimation for a video session
+I'm looking for a price estimate for a virtual rendering.
+Could you provide a cost estimate for film my gallery?
+Can I get an approximate price for a capture my gallery?
+May I have a rough idea of the pricing for a video session?
+I'd like to know the estimated cost of a photography session.

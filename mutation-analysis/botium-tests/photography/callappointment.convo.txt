@@ -1,0 +1,7 @@
+call_appointment
+
+#me
+call_appointment
+
+#bot
+INTENT call_appointment

@@ -1,0 +1,7 @@
+cost
+
+#me
+cost
+
+#bot
+INTENT cost

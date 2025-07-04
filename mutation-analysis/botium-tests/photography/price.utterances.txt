@@ -1,0 +1,10 @@
+price
+Do you charge per hour or by number of photos? 
+What is your pricing? 
+How much cost your services?  
+Do you charge per session or per image when photographing artwork for art galleries? 
+How much does it cost for your photography services in art galleries? 
+How much do you charge for your services? 
+What's the cost of your photography service? 
+Is there a standard price for your services? 
+Are there any extra charges beyond the base price? 

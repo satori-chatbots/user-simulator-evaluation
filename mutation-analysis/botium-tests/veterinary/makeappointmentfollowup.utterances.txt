@@ -1,0 +1,13 @@
+make_appointment_followUp
+I need a check-up for my pet at 3 PM on Saturday
+I need the appointment at 3 PM today.
+noon on Friday
+I need  4 PM tomorrow?
+tomorrow at noon
+I need the appointment for dental careMonday
+Monday at 10:00
+I'd like a vaccination for my dog Tobbie, for tomorrow at 16:00
+I need get the laboratory analysis of my dog at 3 PM on Saturday
+I want schredule an appointment for my bird Arquimedes on Monday at 9:00
+Can you schedule the appointment next Monday to check my pet?
+I need picking up my pets Laboratory testing results on Monday

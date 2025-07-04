@@ -1,0 +1,10 @@
+open_hours
+When are you open? 
+What are your operating hours? 
+Could you please provide your business hours? 
+Are you open tomorrow at 3pm? 
+When is the photography shop open during the week? 
+Can you give me an idea of your weekly opening schedule? 
+How late are you open on weekends? 
+Are you open today? 
+When do you close ? 

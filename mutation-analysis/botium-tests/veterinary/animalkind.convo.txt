@@ -1,0 +1,7 @@
+animal_kind
+
+#me
+animal_kind
+
+#bot
+INTENT animal_kind

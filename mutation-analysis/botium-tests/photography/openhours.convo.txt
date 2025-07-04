@@ -1,0 +1,7 @@
+open_hours
+
+#me
+open_hours
+
+#bot
+INTENT open_hours

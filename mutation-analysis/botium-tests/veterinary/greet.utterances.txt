@@ -1,0 +1,9 @@
+greet
+hey
+hello
+hi
+good morning
+good evening
+hey there
+Hi, i am Peter Parker
+Hello, my name is Sofia Vergara

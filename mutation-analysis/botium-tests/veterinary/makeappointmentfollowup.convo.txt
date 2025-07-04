@@ -1,0 +1,7 @@
+make_appointment_followUp
+
+#me
+make_appointment_followUp
+
+#bot
+INTENT make_appointment_followUp

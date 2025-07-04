@@ -1,0 +1,7 @@
+make_appointment
+
+#me
+make_appointment
+
+#bot
+INTENT make_appointment

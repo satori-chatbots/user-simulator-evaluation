@@ -1,0 +1,7 @@
+location
+
+#me
+location
+
+#bot
+INTENT location

@@ -1,0 +1,7 @@
+hour
+
+#me
+hour
+
+#bot
+INTENT hour
