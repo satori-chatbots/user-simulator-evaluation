@@ -1,0 +1,7 @@
+ventana 1: activar venv en proyectos/satori/botium -> acceder directorio mutante rasa -> rasa train -> rasa run --enable-api
+ventana 2: activar venv en proyectos/satori/botium -> acceder directorio mutante rasa -> rasa train -> rasa run actions
+ventana 3: activar venv en proyectos/satori/botium -> botium-cli run json --convos ./tests --verbose -> capturar salida JSON y guardar en test_results.json en carpeta de mutante
+
+-- TRAS CADA EJECUCION HAY QUE CERRAR LAS VENTANAS 1 Y 2 Y EMPEZAR
+
+Generar tests botium: botium-cli rasaimport --nlufile ./Rasa_BikeShop/en/data/nlu.md
