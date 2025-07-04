@@ -1,0 +1,2306 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 143,
+    "passes": 143,
+    "pending": 0,
+    "failures": 0,
+    "start": "2025-07-04T18:04:41.814Z",
+    "end": "2025-07-04T18:09:26.236Z",
+    "duration": 284422
+  },
+  "tests": [
+    {
+      "title": "call_appointment/call_appointment-L01",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L01",
+      "duration": 4544,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L02",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L02",
+      "duration": 4183,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L03",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L03",
+      "duration": 4169,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L04",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L04",
+      "duration": 4179,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L05",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L05",
+      "duration": 4143,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L06",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L06",
+      "duration": 4159,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L07",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L07",
+      "duration": 4182,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L08",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L08",
+      "duration": 4185,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L09",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L09",
+      "duration": 4184,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L10",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L10",
+      "duration": 4187,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L11",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L11",
+      "duration": 4186,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L12",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L12",
+      "duration": 4174,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L13",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L13",
+      "duration": 4185,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L14",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L14",
+      "duration": 4193,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L15",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L15",
+      "duration": 4185,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L16",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L16",
+      "duration": 4170,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L17",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L17",
+      "duration": 4184,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L18",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L18",
+      "duration": 4189,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L19",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L19",
+      "duration": 4175,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L20",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L20",
+      "duration": 4178,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L21",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L21",
+      "duration": 4168,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L22",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L22",
+      "duration": 4191,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L23",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L23",
+      "duration": 4189,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L24",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L24",
+      "duration": 4194,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L25",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L25",
+      "duration": 4185,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L26",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L26",
+      "duration": 4188,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L27",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L27",
+      "duration": 4187,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L28",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L28",
+      "duration": 4188,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L29",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L29",
+      "duration": 4197,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L30",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L30",
+      "duration": 4188,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L31",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L31",
+      "duration": 4178,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L32",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L32",
+      "duration": 4184,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L33",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L33",
+      "duration": 4160,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L34",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L34",
+      "duration": 4162,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L35",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L35",
+      "duration": 4156,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L36",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L36",
+      "duration": 6241,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L37",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L37",
+      "duration": 6254,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L38",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L38",
+      "duration": 6267,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L39",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L39",
+      "duration": 4168,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L40",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L40",
+      "duration": 4164,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L41",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L41",
+      "duration": 4164,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "estimate_price/estimate_price-L01",
+      "fullTitle": "Botium Test-Suite estimate_price/estimate_price-L01",
+      "duration": 2111,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "estimate_price/estimate_price-L02",
+      "fullTitle": "Botium Test-Suite estimate_price/estimate_price-L02",
+      "duration": 2152,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "estimate_price/estimate_price-L03",
+      "fullTitle": "Botium Test-Suite estimate_price/estimate_price-L03",
+      "duration": 2148,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "estimate_price/estimate_price-L04",
+      "fullTitle": "Botium Test-Suite estimate_price/estimate_price-L04",
+      "duration": 2147,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "estimate_price/estimate_price-L05",
+      "fullTitle": "Botium Test-Suite estimate_price/estimate_price-L05",
+      "duration": 2146,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "estimate_price/estimate_price-L06",
+      "fullTitle": "Botium Test-Suite estimate_price/estimate_price-L06",
+      "duration": 2165,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "estimate_price/estimate_price-L07",
+      "fullTitle": "Botium Test-Suite estimate_price/estimate_price-L07",
+      "duration": 2141,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "estimate_price/estimate_price-L08",
+      "fullTitle": "Botium Test-Suite estimate_price/estimate_price-L08",
+      "duration": 2147,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "estimate_price/estimate_price-L09",
+      "fullTitle": "Botium Test-Suite estimate_price/estimate_price-L09",
+      "duration": 2129,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "estimate_price/estimate_price-L10",
+      "fullTitle": "Botium Test-Suite estimate_price/estimate_price-L10",
+      "duration": 2143,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "estimate_price/estimate_price-L11",
+      "fullTitle": "Botium Test-Suite estimate_price/estimate_price-L11",
+      "duration": 2148,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "estimate_price/estimate_price-L12",
+      "fullTitle": "Botium Test-Suite estimate_price/estimate_price-L12",
+      "duration": 2148,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "estimate_price/estimate_price-L13",
+      "fullTitle": "Botium Test-Suite estimate_price/estimate_price-L13",
+      "duration": 2147,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "estimate_price/estimate_price-L14",
+      "fullTitle": "Botium Test-Suite estimate_price/estimate_price-L14",
+      "duration": 2143,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "estimate_price/estimate_price-L15",
+      "fullTitle": "Botium Test-Suite estimate_price/estimate_price-L15",
+      "duration": 2144,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L01",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L01",
+      "duration": 4189,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L02",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L02",
+      "duration": 4192,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L03",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L03",
+      "duration": 4185,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L04",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L04",
+      "duration": 4175,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L05",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L05",
+      "duration": 4158,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L06",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L06",
+      "duration": 4148,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L07",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L07",
+      "duration": 4190,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L08",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L08",
+      "duration": 4146,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L09",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L09",
+      "duration": 4169,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L10",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L10",
+      "duration": 57,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L11",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L11",
+      "duration": 53,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L12",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L12",
+      "duration": 58,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L13",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L13",
+      "duration": 64,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L14",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L14",
+      "duration": 54,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L15",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L15",
+      "duration": 63,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L16",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L16",
+      "duration": 52,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L17",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L17",
+      "duration": 65,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L18",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L18",
+      "duration": 52,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L19",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L19",
+      "duration": 56,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L20",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L20",
+      "duration": 89,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L21",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L21",
+      "duration": 68,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L22",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L22",
+      "duration": 46,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L23",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L23",
+      "duration": 53,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L01",
+      "fullTitle": "Botium Test-Suite location/location-L01",
+      "duration": 41,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L02",
+      "fullTitle": "Botium Test-Suite location/location-L02",
+      "duration": 48,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L03",
+      "fullTitle": "Botium Test-Suite location/location-L03",
+      "duration": 49,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L04",
+      "fullTitle": "Botium Test-Suite location/location-L04",
+      "duration": 65,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L05",
+      "fullTitle": "Botium Test-Suite location/location-L05",
+      "duration": 68,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L06",
+      "fullTitle": "Botium Test-Suite location/location-L06",
+      "duration": 56,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L07",
+      "fullTitle": "Botium Test-Suite location/location-L07",
+      "duration": 50,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L08",
+      "fullTitle": "Botium Test-Suite location/location-L08",
+      "duration": 52,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L09",
+      "fullTitle": "Botium Test-Suite location/location-L09",
+      "duration": 69,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L10",
+      "fullTitle": "Botium Test-Suite location/location-L10",
+      "duration": 43,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L11",
+      "fullTitle": "Botium Test-Suite location/location-L11",
+      "duration": 50,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L12",
+      "fullTitle": "Botium Test-Suite location/location-L12",
+      "duration": 61,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L13",
+      "fullTitle": "Botium Test-Suite location/location-L13",
+      "duration": 30,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "location/location-L14",
+      "fullTitle": "Botium Test-Suite location/location-L14",
+      "duration": 32,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "location/location-L15",
+      "fullTitle": "Botium Test-Suite location/location-L15",
+      "duration": 45,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L16",
+      "fullTitle": "Botium Test-Suite location/location-L16",
+      "duration": 44,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L17",
+      "fullTitle": "Botium Test-Suite location/location-L17",
+      "duration": 29,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "location/location-L18",
+      "fullTitle": "Botium Test-Suite location/location-L18",
+      "duration": 32,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "location/location-L19",
+      "fullTitle": "Botium Test-Suite location/location-L19",
+      "duration": 35,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "location/location-L20",
+      "fullTitle": "Botium Test-Suite location/location-L20",
+      "duration": 53,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L21",
+      "fullTitle": "Botium Test-Suite location/location-L21",
+      "duration": 59,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L22",
+      "fullTitle": "Botium Test-Suite location/location-L22",
+      "duration": 54,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "media/media-L1",
+      "fullTitle": "Botium Test-Suite media/media-L1",
+      "duration": 38,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "media/media-L2",
+      "fullTitle": "Botium Test-Suite media/media-L2",
+      "duration": 50,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "media/media-L3",
+      "fullTitle": "Botium Test-Suite media/media-L3",
+      "duration": 56,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "media/media-L4",
+      "fullTitle": "Botium Test-Suite media/media-L4",
+      "duration": 60,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "media/media-L5",
+      "fullTitle": "Botium Test-Suite media/media-L5",
+      "duration": 55,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "media/media-L6",
+      "fullTitle": "Botium Test-Suite media/media-L6",
+      "duration": 40,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "media/media-L7",
+      "fullTitle": "Botium Test-Suite media/media-L7",
+      "duration": 56,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "media/media-L8",
+      "fullTitle": "Botium Test-Suite media/media-L8",
+      "duration": 65,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "media/media-L9",
+      "fullTitle": "Botium Test-Suite media/media-L9",
+      "duration": 54,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "open_hours/open_hours-L1",
+      "fullTitle": "Botium Test-Suite open_hours/open_hours-L1",
+      "duration": 51,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "open_hours/open_hours-L2",
+      "fullTitle": "Botium Test-Suite open_hours/open_hours-L2",
+      "duration": 56,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "open_hours/open_hours-L3",
+      "fullTitle": "Botium Test-Suite open_hours/open_hours-L3",
+      "duration": 59,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "open_hours/open_hours-L4",
+      "fullTitle": "Botium Test-Suite open_hours/open_hours-L4",
+      "duration": 53,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "open_hours/open_hours-L5",
+      "fullTitle": "Botium Test-Suite open_hours/open_hours-L5",
+      "duration": 66,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "open_hours/open_hours-L6",
+      "fullTitle": "Botium Test-Suite open_hours/open_hours-L6",
+      "duration": 53,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "open_hours/open_hours-L7",
+      "fullTitle": "Botium Test-Suite open_hours/open_hours-L7",
+      "duration": 72,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "open_hours/open_hours-L8",
+      "fullTitle": "Botium Test-Suite open_hours/open_hours-L8",
+      "duration": 31,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "open_hours/open_hours-L9",
+      "fullTitle": "Botium Test-Suite open_hours/open_hours-L9",
+      "duration": 38,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "portfolio/portfolio-L1",
+      "fullTitle": "Botium Test-Suite portfolio/portfolio-L1",
+      "duration": 44,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "portfolio/portfolio-L2",
+      "fullTitle": "Botium Test-Suite portfolio/portfolio-L2",
+      "duration": 56,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "portfolio/portfolio-L3",
+      "fullTitle": "Botium Test-Suite portfolio/portfolio-L3",
+      "duration": 52,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "portfolio/portfolio-L4",
+      "fullTitle": "Botium Test-Suite portfolio/portfolio-L4",
+      "duration": 51,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "portfolio/portfolio-L5",
+      "fullTitle": "Botium Test-Suite portfolio/portfolio-L5",
+      "duration": 54,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "portfolio/portfolio-L6",
+      "fullTitle": "Botium Test-Suite portfolio/portfolio-L6",
+      "duration": 83,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L1",
+      "fullTitle": "Botium Test-Suite price/price-L1",
+      "duration": 69,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "price/price-L2",
+      "fullTitle": "Botium Test-Suite price/price-L2",
+      "duration": 57,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "price/price-L3",
+      "fullTitle": "Botium Test-Suite price/price-L3",
+      "duration": 59,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "price/price-L4",
+      "fullTitle": "Botium Test-Suite price/price-L4",
+      "duration": 52,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "price/price-L5",
+      "fullTitle": "Botium Test-Suite price/price-L5",
+      "duration": 60,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "price/price-L6",
+      "fullTitle": "Botium Test-Suite price/price-L6",
+      "duration": 52,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "price/price-L7",
+      "fullTitle": "Botium Test-Suite price/price-L7",
+      "duration": 56,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "price/price-L8",
+      "fullTitle": "Botium Test-Suite price/price-L8",
+      "duration": 64,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "price/price-L9",
+      "fullTitle": "Botium Test-Suite price/price-L9",
+      "duration": 62,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "session_details/session_details-L1",
+      "fullTitle": "Botium Test-Suite session_details/session_details-L1",
+      "duration": 4173,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "session_details/session_details-L2",
+      "fullTitle": "Botium Test-Suite session_details/session_details-L2",
+      "duration": 4175,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "session_details/session_details-L3",
+      "fullTitle": "Botium Test-Suite session_details/session_details-L3",
+      "duration": 4186,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "session_details/session_details-L4",
+      "fullTitle": "Botium Test-Suite session_details/session_details-L4",
+      "duration": 4171,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "session_details/session_details-L5",
+      "fullTitle": "Botium Test-Suite session_details/session_details-L5",
+      "duration": 2146,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "session_details/session_details-L6",
+      "fullTitle": "Botium Test-Suite session_details/session_details-L6",
+      "duration": 2112,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "session_details/session_details-L7",
+      "fullTitle": "Botium Test-Suite session_details/session_details-L7",
+      "duration": 4172,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "session_details/session_details-L8",
+      "fullTitle": "Botium Test-Suite session_details/session_details-L8",
+      "duration": 4117,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "session_details/session_details-L9",
+      "fullTitle": "Botium Test-Suite session_details/session_details-L9",
+      "duration": 2093,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [],
+  "passes": [
+    {
+      "title": "call_appointment/call_appointment-L01",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L01",
+      "duration": 4544,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L02",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L02",
+      "duration": 4183,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L03",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L03",
+      "duration": 4169,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L04",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L04",
+      "duration": 4179,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L05",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L05",
+      "duration": 4143,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L06",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L06",
+      "duration": 4159,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L07",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L07",
+      "duration": 4182,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L08",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L08",
+      "duration": 4185,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L09",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L09",
+      "duration": 4184,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L10",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L10",
+      "duration": 4187,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L11",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L11",
+      "duration": 4186,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L12",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L12",
+      "duration": 4174,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L13",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L13",
+      "duration": 4185,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L14",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L14",
+      "duration": 4193,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L15",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L15",
+      "duration": 4185,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L16",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L16",
+      "duration": 4170,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L17",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L17",
+      "duration": 4184,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L18",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L18",
+      "duration": 4189,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L19",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L19",
+      "duration": 4175,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L20",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L20",
+      "duration": 4178,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L21",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L21",
+      "duration": 4168,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L22",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L22",
+      "duration": 4191,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L23",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L23",
+      "duration": 4189,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L24",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L24",
+      "duration": 4194,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L25",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L25",
+      "duration": 4185,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L26",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L26",
+      "duration": 4188,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L27",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L27",
+      "duration": 4187,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L28",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L28",
+      "duration": 4188,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L29",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L29",
+      "duration": 4197,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L30",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L30",
+      "duration": 4188,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L31",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L31",
+      "duration": 4178,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L32",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L32",
+      "duration": 4184,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L33",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L33",
+      "duration": 4160,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L34",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L34",
+      "duration": 4162,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L35",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L35",
+      "duration": 4156,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L36",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L36",
+      "duration": 6241,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L37",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L37",
+      "duration": 6254,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L38",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L38",
+      "duration": 6267,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L39",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L39",
+      "duration": 4168,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L40",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L40",
+      "duration": 4164,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "call_appointment/call_appointment-L41",
+      "fullTitle": "Botium Test-Suite call_appointment/call_appointment-L41",
+      "duration": 4164,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "estimate_price/estimate_price-L01",
+      "fullTitle": "Botium Test-Suite estimate_price/estimate_price-L01",
+      "duration": 2111,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "estimate_price/estimate_price-L02",
+      "fullTitle": "Botium Test-Suite estimate_price/estimate_price-L02",
+      "duration": 2152,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "estimate_price/estimate_price-L03",
+      "fullTitle": "Botium Test-Suite estimate_price/estimate_price-L03",
+      "duration": 2148,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "estimate_price/estimate_price-L04",
+      "fullTitle": "Botium Test-Suite estimate_price/estimate_price-L04",
+      "duration": 2147,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "estimate_price/estimate_price-L05",
+      "fullTitle": "Botium Test-Suite estimate_price/estimate_price-L05",
+      "duration": 2146,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "estimate_price/estimate_price-L06",
+      "fullTitle": "Botium Test-Suite estimate_price/estimate_price-L06",
+      "duration": 2165,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "estimate_price/estimate_price-L07",
+      "fullTitle": "Botium Test-Suite estimate_price/estimate_price-L07",
+      "duration": 2141,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "estimate_price/estimate_price-L08",
+      "fullTitle": "Botium Test-Suite estimate_price/estimate_price-L08",
+      "duration": 2147,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "estimate_price/estimate_price-L09",
+      "fullTitle": "Botium Test-Suite estimate_price/estimate_price-L09",
+      "duration": 2129,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "estimate_price/estimate_price-L10",
+      "fullTitle": "Botium Test-Suite estimate_price/estimate_price-L10",
+      "duration": 2143,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "estimate_price/estimate_price-L11",
+      "fullTitle": "Botium Test-Suite estimate_price/estimate_price-L11",
+      "duration": 2148,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "estimate_price/estimate_price-L12",
+      "fullTitle": "Botium Test-Suite estimate_price/estimate_price-L12",
+      "duration": 2148,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "estimate_price/estimate_price-L13",
+      "fullTitle": "Botium Test-Suite estimate_price/estimate_price-L13",
+      "duration": 2147,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "estimate_price/estimate_price-L14",
+      "fullTitle": "Botium Test-Suite estimate_price/estimate_price-L14",
+      "duration": 2143,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "estimate_price/estimate_price-L15",
+      "fullTitle": "Botium Test-Suite estimate_price/estimate_price-L15",
+      "duration": 2144,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L01",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L01",
+      "duration": 4189,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L02",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L02",
+      "duration": 4192,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L03",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L03",
+      "duration": 4185,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L04",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L04",
+      "duration": 4175,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L05",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L05",
+      "duration": 4158,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L06",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L06",
+      "duration": 4148,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L07",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L07",
+      "duration": 4190,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L08",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L08",
+      "duration": 4146,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L09",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L09",
+      "duration": 4169,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L10",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L10",
+      "duration": 57,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L11",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L11",
+      "duration": 53,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L12",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L12",
+      "duration": 58,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L13",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L13",
+      "duration": 64,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L14",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L14",
+      "duration": 54,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L15",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L15",
+      "duration": 63,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L16",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L16",
+      "duration": 52,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L17",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L17",
+      "duration": 65,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L18",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L18",
+      "duration": 52,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L19",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L19",
+      "duration": 56,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L20",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L20",
+      "duration": 89,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L21",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L21",
+      "duration": 68,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L22",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L22",
+      "duration": 46,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greetings/greetings-L23",
+      "fullTitle": "Botium Test-Suite greetings/greetings-L23",
+      "duration": 53,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L01",
+      "fullTitle": "Botium Test-Suite location/location-L01",
+      "duration": 41,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L02",
+      "fullTitle": "Botium Test-Suite location/location-L02",
+      "duration": 48,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L03",
+      "fullTitle": "Botium Test-Suite location/location-L03",
+      "duration": 49,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L04",
+      "fullTitle": "Botium Test-Suite location/location-L04",
+      "duration": 65,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L05",
+      "fullTitle": "Botium Test-Suite location/location-L05",
+      "duration": 68,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L06",
+      "fullTitle": "Botium Test-Suite location/location-L06",
+      "duration": 56,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L07",
+      "fullTitle": "Botium Test-Suite location/location-L07",
+      "duration": 50,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L08",
+      "fullTitle": "Botium Test-Suite location/location-L08",
+      "duration": 52,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L09",
+      "fullTitle": "Botium Test-Suite location/location-L09",
+      "duration": 69,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L10",
+      "fullTitle": "Botium Test-Suite location/location-L10",
+      "duration": 43,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L11",
+      "fullTitle": "Botium Test-Suite location/location-L11",
+      "duration": 50,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L12",
+      "fullTitle": "Botium Test-Suite location/location-L12",
+      "duration": 61,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L13",
+      "fullTitle": "Botium Test-Suite location/location-L13",
+      "duration": 30,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "location/location-L14",
+      "fullTitle": "Botium Test-Suite location/location-L14",
+      "duration": 32,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "location/location-L15",
+      "fullTitle": "Botium Test-Suite location/location-L15",
+      "duration": 45,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L16",
+      "fullTitle": "Botium Test-Suite location/location-L16",
+      "duration": 44,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L17",
+      "fullTitle": "Botium Test-Suite location/location-L17",
+      "duration": 29,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "location/location-L18",
+      "fullTitle": "Botium Test-Suite location/location-L18",
+      "duration": 32,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "location/location-L19",
+      "fullTitle": "Botium Test-Suite location/location-L19",
+      "duration": 35,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "location/location-L20",
+      "fullTitle": "Botium Test-Suite location/location-L20",
+      "duration": 53,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L21",
+      "fullTitle": "Botium Test-Suite location/location-L21",
+      "duration": 59,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "location/location-L22",
+      "fullTitle": "Botium Test-Suite location/location-L22",
+      "duration": 54,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "media/media-L1",
+      "fullTitle": "Botium Test-Suite media/media-L1",
+      "duration": 38,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "media/media-L2",
+      "fullTitle": "Botium Test-Suite media/media-L2",
+      "duration": 50,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "media/media-L3",
+      "fullTitle": "Botium Test-Suite media/media-L3",
+      "duration": 56,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "media/media-L4",
+      "fullTitle": "Botium Test-Suite media/media-L4",
+      "duration": 60,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "media/media-L5",
+      "fullTitle": "Botium Test-Suite media/media-L5",
+      "duration": 55,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "media/media-L6",
+      "fullTitle": "Botium Test-Suite media/media-L6",
+      "duration": 40,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "media/media-L7",
+      "fullTitle": "Botium Test-Suite media/media-L7",
+      "duration": 56,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "media/media-L8",
+      "fullTitle": "Botium Test-Suite media/media-L8",
+      "duration": 65,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "media/media-L9",
+      "fullTitle": "Botium Test-Suite media/media-L9",
+      "duration": 54,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "open_hours/open_hours-L1",
+      "fullTitle": "Botium Test-Suite open_hours/open_hours-L1",
+      "duration": 51,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "open_hours/open_hours-L2",
+      "fullTitle": "Botium Test-Suite open_hours/open_hours-L2",
+      "duration": 56,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "open_hours/open_hours-L3",
+      "fullTitle": "Botium Test-Suite open_hours/open_hours-L3",
+      "duration": 59,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "open_hours/open_hours-L4",
+      "fullTitle": "Botium Test-Suite open_hours/open_hours-L4",
+      "duration": 53,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "open_hours/open_hours-L5",
+      "fullTitle": "Botium Test-Suite open_hours/open_hours-L5",
+      "duration": 66,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "open_hours/open_hours-L6",
+      "fullTitle": "Botium Test-Suite open_hours/open_hours-L6",
+      "duration": 53,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "open_hours/open_hours-L7",
+      "fullTitle": "Botium Test-Suite open_hours/open_hours-L7",
+      "duration": 72,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "open_hours/open_hours-L8",
+      "fullTitle": "Botium Test-Suite open_hours/open_hours-L8",
+      "duration": 31,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "open_hours/open_hours-L9",
+      "fullTitle": "Botium Test-Suite open_hours/open_hours-L9",
+      "duration": 38,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "portfolio/portfolio-L1",
+      "fullTitle": "Botium Test-Suite portfolio/portfolio-L1",
+      "duration": 44,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "portfolio/portfolio-L2",
+      "fullTitle": "Botium Test-Suite portfolio/portfolio-L2",
+      "duration": 56,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "portfolio/portfolio-L3",
+      "fullTitle": "Botium Test-Suite portfolio/portfolio-L3",
+      "duration": 52,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "portfolio/portfolio-L4",
+      "fullTitle": "Botium Test-Suite portfolio/portfolio-L4",
+      "duration": 51,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "portfolio/portfolio-L5",
+      "fullTitle": "Botium Test-Suite portfolio/portfolio-L5",
+      "duration": 54,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "portfolio/portfolio-L6",
+      "fullTitle": "Botium Test-Suite portfolio/portfolio-L6",
+      "duration": 83,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "price/price-L1",
+      "fullTitle": "Botium Test-Suite price/price-L1",
+      "duration": 69,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "price/price-L2",
+      "fullTitle": "Botium Test-Suite price/price-L2",
+      "duration": 57,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "price/price-L3",
+      "fullTitle": "Botium Test-Suite price/price-L3",
+      "duration": 59,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "price/price-L4",
+      "fullTitle": "Botium Test-Suite price/price-L4",
+      "duration": 52,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "price/price-L5",
+      "fullTitle": "Botium Test-Suite price/price-L5",
+      "duration": 60,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "price/price-L6",
+      "fullTitle": "Botium Test-Suite price/price-L6",
+      "duration": 52,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "price/price-L7",
+      "fullTitle": "Botium Test-Suite price/price-L7",
+      "duration": 56,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "price/price-L8",
+      "fullTitle": "Botium Test-Suite price/price-L8",
+      "duration": 64,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "price/price-L9",
+      "fullTitle": "Botium Test-Suite price/price-L9",
+      "duration": 62,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "session_details/session_details-L1",
+      "fullTitle": "Botium Test-Suite session_details/session_details-L1",
+      "duration": 4173,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "session_details/session_details-L2",
+      "fullTitle": "Botium Test-Suite session_details/session_details-L2",
+      "duration": 4175,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "session_details/session_details-L3",
+      "fullTitle": "Botium Test-Suite session_details/session_details-L3",
+      "duration": 4186,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "session_details/session_details-L4",
+      "fullTitle": "Botium Test-Suite session_details/session_details-L4",
+      "duration": 4171,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "session_details/session_details-L5",
+      "fullTitle": "Botium Test-Suite session_details/session_details-L5",
+      "duration": 2146,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "session_details/session_details-L6",
+      "fullTitle": "Botium Test-Suite session_details/session_details-L6",
+      "duration": 2112,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "session_details/session_details-L7",
+      "fullTitle": "Botium Test-Suite session_details/session_details-L7",
+      "duration": 4172,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "session_details/session_details-L8",
+      "fullTitle": "Botium Test-Suite session_details/session_details-L8",
+      "duration": 4117,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "session_details/session_details-L9",
+      "fullTitle": "Botium Test-Suite session_details/session_details-L9",
+      "duration": 2093,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    }
+  ]
+}
