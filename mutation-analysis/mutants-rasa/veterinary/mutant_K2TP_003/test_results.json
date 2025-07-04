@@ -1,0 +1,1543 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 93,
+    "passes": 84,
+    "pending": 0,
+    "failures": 9,
+    "start": "2025-07-04T16:17:14.330Z",
+    "end": "2025-07-04T16:17:35.047Z",
+    "duration": 20717
+  },
+  "tests": [
+    {
+      "title": "animal_kind/animal_kind-L01",
+      "fullTitle": "Botium Test-Suite animal_kind/animal_kind-L01",
+      "duration": 295,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "animal_kind/animal_kind-L02",
+      "fullTitle": "Botium Test-Suite animal_kind/animal_kind-L02",
+      "duration": 59,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "animal_kind/animal_kind-L03",
+      "fullTitle": "Botium Test-Suite animal_kind/animal_kind-L03",
+      "duration": 42,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "animal_kind/animal_kind-L04",
+      "fullTitle": "Botium Test-Suite animal_kind/animal_kind-L04",
+      "duration": 45,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "animal_kind/animal_kind-L05",
+      "fullTitle": "Botium Test-Suite animal_kind/animal_kind-L05",
+      "duration": 58,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "animal_kind/animal_kind-L06",
+      "fullTitle": "Botium Test-Suite animal_kind/animal_kind-L06",
+      "duration": 55,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "animal_kind/animal_kind-L07",
+      "fullTitle": "Botium Test-Suite animal_kind/animal_kind-L07",
+      "duration": 42,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "animal_kind/animal_kind-L08",
+      "fullTitle": "Botium Test-Suite animal_kind/animal_kind-L08",
+      "duration": 39,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "animal_kind/animal_kind-L09",
+      "fullTitle": "Botium Test-Suite animal_kind/animal_kind-L09",
+      "duration": 57,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "animal_kind/animal_kind-L10",
+      "fullTitle": "Botium Test-Suite animal_kind/animal_kind-L10",
+      "duration": 47,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "cost/cost-L01",
+      "fullTitle": "Botium Test-Suite cost/cost-L01",
+      "duration": 44,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "cost/cost-L02",
+      "fullTitle": "Botium Test-Suite cost/cost-L02",
+      "duration": 58,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "cost/cost-L03",
+      "fullTitle": "Botium Test-Suite cost/cost-L03",
+      "duration": 71,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "cost/cost-L04",
+      "fullTitle": "Botium Test-Suite cost/cost-L04",
+      "duration": 68,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "cost/cost-L05",
+      "fullTitle": "Botium Test-Suite cost/cost-L05",
+      "duration": 69,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "cost/cost-L06",
+      "fullTitle": "Botium Test-Suite cost/cost-L06",
+      "duration": 68,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "cost/cost-L07",
+      "fullTitle": "Botium Test-Suite cost/cost-L07",
+      "duration": 68,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "cost/cost-L08",
+      "fullTitle": "Botium Test-Suite cost/cost-L08",
+      "duration": 68,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "cost/cost-L09",
+      "fullTitle": "Botium Test-Suite cost/cost-L09",
+      "duration": 59,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "cost/cost-L10",
+      "fullTitle": "Botium Test-Suite cost/cost-L10",
+      "duration": 50,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "cost/cost-L11",
+      "fullTitle": "Botium Test-Suite cost/cost-L11",
+      "duration": 53,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greet/greet-L1",
+      "fullTitle": "Botium Test-Suite greet/greet-L1",
+      "duration": 40,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greet/greet-L2",
+      "fullTitle": "Botium Test-Suite greet/greet-L2",
+      "duration": 34,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "greet/greet-L3",
+      "fullTitle": "Botium Test-Suite greet/greet-L3",
+      "duration": 34,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "greet/greet-L4",
+      "fullTitle": "Botium Test-Suite greet/greet-L4",
+      "duration": 44,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greet/greet-L5",
+      "fullTitle": "Botium Test-Suite greet/greet-L5",
+      "duration": 53,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greet/greet-L6",
+      "fullTitle": "Botium Test-Suite greet/greet-L6",
+      "duration": 45,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greet/greet-L7",
+      "fullTitle": "Botium Test-Suite greet/greet-L7",
+      "duration": 45,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greet/greet-L8",
+      "fullTitle": "Botium Test-Suite greet/greet-L8",
+      "duration": 59,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "hour/hour-L01",
+      "fullTitle": "Botium Test-Suite hour/hour-L01",
+      "duration": 53,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "hour/hour-L02",
+      "fullTitle": "Botium Test-Suite hour/hour-L02",
+      "duration": 41,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "hour/hour-L03",
+      "fullTitle": "Botium Test-Suite hour/hour-L03",
+      "duration": 60,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "hour/hour-L04",
+      "fullTitle": "Botium Test-Suite hour/hour-L04",
+      "duration": 56,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "hour/hour-L05",
+      "fullTitle": "Botium Test-Suite hour/hour-L05",
+      "duration": 26,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "hour/hour-L06",
+      "fullTitle": "Botium Test-Suite hour/hour-L06",
+      "duration": 42,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "hour/hour-L07",
+      "fullTitle": "Botium Test-Suite hour/hour-L07",
+      "duration": 41,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "hour/hour-L08",
+      "fullTitle": "Botium Test-Suite hour/hour-L08",
+      "duration": 54,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "hour/hour-L09",
+      "fullTitle": "Botium Test-Suite hour/hour-L09",
+      "duration": 56,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "hour/hour-L10",
+      "fullTitle": "Botium Test-Suite hour/hour-L10",
+      "duration": 51,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "hour/hour-L11",
+      "fullTitle": "Botium Test-Suite hour/hour-L11",
+      "duration": 53,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "hour/hour-L12",
+      "fullTitle": "Botium Test-Suite hour/hour-L12",
+      "duration": 45,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "hour/hour-L13",
+      "fullTitle": "Botium Test-Suite hour/hour-L13",
+      "duration": 39,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "hour/hour-L14",
+      "fullTitle": "Botium Test-Suite hour/hour-L14",
+      "duration": 41,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment/make_appointment-L01",
+      "fullTitle": "Botium Test-Suite make_appointment/make_appointment-L01",
+      "duration": 43,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment/make_appointment-L02",
+      "fullTitle": "Botium Test-Suite make_appointment/make_appointment-L02",
+      "duration": 43,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment/make_appointment-L03",
+      "fullTitle": "Botium Test-Suite make_appointment/make_appointment-L03",
+      "duration": 44,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment/make_appointment-L04",
+      "fullTitle": "Botium Test-Suite make_appointment/make_appointment-L04",
+      "duration": 42,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment/make_appointment-L05",
+      "fullTitle": "Botium Test-Suite make_appointment/make_appointment-L05",
+      "duration": 53,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment/make_appointment-L06",
+      "fullTitle": "Botium Test-Suite make_appointment/make_appointment-L06",
+      "duration": 55,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment/make_appointment-L07",
+      "fullTitle": "Botium Test-Suite make_appointment/make_appointment-L07",
+      "duration": 52,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment/make_appointment-L08",
+      "fullTitle": "Botium Test-Suite make_appointment/make_appointment-L08",
+      "duration": 43,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment/make_appointment-L09",
+      "fullTitle": "Botium Test-Suite make_appointment/make_appointment-L09",
+      "duration": 42,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment/make_appointment-L10",
+      "fullTitle": "Botium Test-Suite make_appointment/make_appointment-L10",
+      "duration": 56,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment/make_appointment-L11",
+      "fullTitle": "Botium Test-Suite make_appointment/make_appointment-L11",
+      "duration": 58,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment/make_appointment-L12",
+      "fullTitle": "Botium Test-Suite make_appointment/make_appointment-L12",
+      "duration": 50,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment/make_appointment-L13",
+      "fullTitle": "Botium Test-Suite make_appointment/make_appointment-L13",
+      "duration": 54,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment/make_appointment-L14",
+      "fullTitle": "Botium Test-Suite make_appointment/make_appointment-L14",
+      "duration": 52,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment/make_appointment-L15",
+      "fullTitle": "Botium Test-Suite make_appointment/make_appointment-L15",
+      "duration": 55,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment_followUp/make_appointment_followUp-L01",
+      "fullTitle": "Botium Test-Suite make_appointment_followUp/make_appointment_followUp-L01",
+      "duration": 69,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment_followUp/make_appointment_followUp-L02",
+      "fullTitle": "Botium Test-Suite make_appointment_followUp/make_appointment_followUp-L02",
+      "duration": 69,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment_followUp/make_appointment_followUp-L03",
+      "fullTitle": "Botium Test-Suite make_appointment_followUp/make_appointment_followUp-L03",
+      "duration": 49,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment_followUp/make_appointment_followUp-L04",
+      "fullTitle": "Botium Test-Suite make_appointment_followUp/make_appointment_followUp-L04",
+      "duration": 56,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment_followUp/make_appointment_followUp-L05",
+      "fullTitle": "Botium Test-Suite make_appointment_followUp/make_appointment_followUp-L05",
+      "duration": 51,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment_followUp/make_appointment_followUp-L06",
+      "fullTitle": "Botium Test-Suite make_appointment_followUp/make_appointment_followUp-L06",
+      "duration": 2232,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "make_appointment_followUp/make_appointment_followUp-L07",
+      "fullTitle": "Botium Test-Suite make_appointment_followUp/make_appointment_followUp-L07",
+      "duration": 46,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment_followUp/make_appointment_followUp-L08",
+      "fullTitle": "Botium Test-Suite make_appointment_followUp/make_appointment_followUp-L08",
+      "duration": 54,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment_followUp/make_appointment_followUp-L09",
+      "fullTitle": "Botium Test-Suite make_appointment_followUp/make_appointment_followUp-L09",
+      "duration": 64,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment_followUp/make_appointment_followUp-L10",
+      "fullTitle": "Botium Test-Suite make_appointment_followUp/make_appointment_followUp-L10",
+      "duration": 71,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment_followUp/make_appointment_followUp-L11",
+      "fullTitle": "Botium Test-Suite make_appointment_followUp/make_appointment_followUp-L11",
+      "duration": 57,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment_followUp/make_appointment_followUp-L12",
+      "fullTitle": "Botium Test-Suite make_appointment_followUp/make_appointment_followUp-L12",
+      "duration": 65,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "open_weekend/open_weekend-L01",
+      "fullTitle": "Botium Test-Suite open_weekend/open_weekend-L01",
+      "duration": 71,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: open_weekend/open_weekend-L01/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found hour\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"hour\"\r\nINPUT: How late are you open on weekends?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: How late are you open on weekends?\r\n#bot: We're open from 9 AM to 6 PM every weekday.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "open_weekend/open_weekend-L01/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found hour\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"hour\"\r\nINPUT: How late are you open on weekends?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: How late are you open on weekends?\r\n#bot: We're open from 9 AM to 6 PM every weekday."
+      }
+    },
+    {
+      "title": "open_weekend/open_weekend-L02",
+      "fullTitle": "Botium Test-Suite open_weekend/open_weekend-L02",
+      "duration": 53,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: open_weekend/open_weekend-L02/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found hour\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"hour\"\r\nINPUT: Are you open on weekends?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Are you open on weekends?\r\n#bot: We're open from 9 AM to 6 PM every weekday.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "open_weekend/open_weekend-L02/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found hour\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"hour\"\r\nINPUT: Are you open on weekends?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Are you open on weekends?\r\n#bot: We're open from 9 AM to 6 PM every weekday."
+      }
+    },
+    {
+      "title": "open_weekend/open_weekend-L03",
+      "fullTitle": "Botium Test-Suite open_weekend/open_weekend-L03",
+      "duration": 2122,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: open_weekend/open_weekend-L03/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found make_appointment_followUp\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"make_appointment_followUp\"\r\nINPUT: Do you operate on Saturdays and Sundays?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Do you operate on Saturdays and Sundays?\r\n#bot: I can not understand the date, please try again\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "open_weekend/open_weekend-L03/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found make_appointment_followUp\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"make_appointment_followUp\"\r\nINPUT: Do you operate on Saturdays and Sundays?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Do you operate on Saturdays and Sundays?\r\n#bot: I can not understand the date, please try again"
+      }
+    },
+    {
+      "title": "open_weekend/open_weekend-L04",
+      "fullTitle": "Botium Test-Suite open_weekend/open_weekend-L04",
+      "duration": 2124,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: open_weekend/open_weekend-L04/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found hour\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"hour\"\r\nINPUT: Are you available during the weekends?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Are you available during the weekends?\r\n#bot: I'm sorry, but I did not understand the last sentence, can you say that again?\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "open_weekend/open_weekend-L04/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found hour\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"hour\"\r\nINPUT: Are you available during the weekends?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Are you available during the weekends?\r\n#bot: I'm sorry, but I did not understand the last sentence, can you say that again?"
+      }
+    },
+    {
+      "title": "open_weekend/open_weekend-L05",
+      "fullTitle": "Botium Test-Suite open_weekend/open_weekend-L05",
+      "duration": 57,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "open_weekend/open_weekend-L06",
+      "fullTitle": "Botium Test-Suite open_weekend/open_weekend-L06",
+      "duration": 52,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: open_weekend/open_weekend-L06/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found hour\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"hour\"\r\nINPUT: Are you open on Saturdays and Sundays?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Are you open on Saturdays and Sundays?\r\n#bot: We're open from 9 AM to 6 PM every weekday.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "open_weekend/open_weekend-L06/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found hour\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"hour\"\r\nINPUT: Are you open on Saturdays and Sundays?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Are you open on Saturdays and Sundays?\r\n#bot: We're open from 9 AM to 6 PM every weekday."
+      }
+    },
+    {
+      "title": "open_weekend/open_weekend-L07",
+      "fullTitle": "Botium Test-Suite open_weekend/open_weekend-L07",
+      "duration": 2119,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: open_weekend/open_weekend-L07/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found animal_kind\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"animal_kind\"\r\nINPUT: Do you conduct business over the weekends?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Do you conduct business over the weekends?\r\n#bot: I'm sorry, but I did not understand the last sentence, can you say that again?\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "open_weekend/open_weekend-L07/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found animal_kind\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"animal_kind\"\r\nINPUT: Do you conduct business over the weekends?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Do you conduct business over the weekends?\r\n#bot: I'm sorry, but I did not understand the last sentence, can you say that again?"
+      }
+    },
+    {
+      "title": "open_weekend/open_weekend-L08",
+      "fullTitle": "Botium Test-Suite open_weekend/open_weekend-L08",
+      "duration": 2113,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "open_weekend/open_weekend-L09",
+      "fullTitle": "Botium Test-Suite open_weekend/open_weekend-L09",
+      "duration": 65,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "open_weekend/open_weekend-L10",
+      "fullTitle": "Botium Test-Suite open_weekend/open_weekend-L10",
+      "duration": 70,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: open_weekend/open_weekend-L10/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found animal_kind\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"animal_kind\"\r\nINPUT: Are you accessible on weekends?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Are you accessible on weekends?\r\n#bot: We are specialized in dogs, cats and birds. For other animals, please consult first.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "open_weekend/open_weekend-L10/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found animal_kind\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"animal_kind\"\r\nINPUT: Are you accessible on weekends?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Are you accessible on weekends?\r\n#bot: We are specialized in dogs, cats and birds. For other animals, please consult first."
+      }
+    },
+    {
+      "title": "open_weekend/open_weekend-L11",
+      "fullTitle": "Botium Test-Suite open_weekend/open_weekend-L11",
+      "duration": 2136,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: open_weekend/open_weekend-L11/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found make_appointment_followUp\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"make_appointment_followUp\"\r\nINPUT: Do you offer services on Saturdays and Sundays?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Do you offer services on Saturdays and Sundays?\r\n#bot: I can not understand the date, please try again\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "open_weekend/open_weekend-L11/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found make_appointment_followUp\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"make_appointment_followUp\"\r\nINPUT: Do you offer services on Saturdays and Sundays?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Do you offer services on Saturdays and Sundays?\r\n#bot: I can not understand the date, please try again"
+      }
+    },
+    {
+      "title": "open_weekend/open_weekend-L12",
+      "fullTitle": "Botium Test-Suite open_weekend/open_weekend-L12",
+      "duration": 2120,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: open_weekend/open_weekend-L12/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found make_appointment_followUp\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"make_appointment_followUp\"\r\nINPUT: Are you operational on both weekend days?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Are you operational on both weekend days?\r\n#bot: I'm sorry, but I did not understand the last sentence, can you say that again?\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "open_weekend/open_weekend-L12/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found make_appointment_followUp\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"make_appointment_followUp\"\r\nINPUT: Are you operational on both weekend days?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Are you operational on both weekend days?\r\n#bot: I'm sorry, but I did not understand the last sentence, can you say that again?"
+      }
+    },
+    {
+      "title": "pet_take_care/pet_take_care-L01",
+      "fullTitle": "Botium Test-Suite pet_take_care/pet_take_care-L01",
+      "duration": 63,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "pet_take_care/pet_take_care-L02",
+      "fullTitle": "Botium Test-Suite pet_take_care/pet_take_care-L02",
+      "duration": 62,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "pet_take_care/pet_take_care-L03",
+      "fullTitle": "Botium Test-Suite pet_take_care/pet_take_care-L03",
+      "duration": 69,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "pet_take_care/pet_take_care-L04",
+      "fullTitle": "Botium Test-Suite pet_take_care/pet_take_care-L04",
+      "duration": 65,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "pet_take_care/pet_take_care-L05",
+      "fullTitle": "Botium Test-Suite pet_take_care/pet_take_care-L05",
+      "duration": 60,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "pet_take_care/pet_take_care-L06",
+      "fullTitle": "Botium Test-Suite pet_take_care/pet_take_care-L06",
+      "duration": 48,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "pet_take_care/pet_take_care-L07",
+      "fullTitle": "Botium Test-Suite pet_take_care/pet_take_care-L07",
+      "duration": 64,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "pet_take_care/pet_take_care-L08",
+      "fullTitle": "Botium Test-Suite pet_take_care/pet_take_care-L08",
+      "duration": 55,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "pet_take_care/pet_take_care-L09",
+      "fullTitle": "Botium Test-Suite pet_take_care/pet_take_care-L09",
+      "duration": 45,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "pet_take_care/pet_take_care-L10",
+      "fullTitle": "Botium Test-Suite pet_take_care/pet_take_care-L10",
+      "duration": 37,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "pet_take_care/pet_take_care-L11",
+      "fullTitle": "Botium Test-Suite pet_take_care/pet_take_care-L11",
+      "duration": 60,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "open_weekend/open_weekend-L01",
+      "fullTitle": "Botium Test-Suite open_weekend/open_weekend-L01",
+      "duration": 71,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: open_weekend/open_weekend-L01/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found hour\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"hour\"\r\nINPUT: How late are you open on weekends?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: How late are you open on weekends?\r\n#bot: We're open from 9 AM to 6 PM every weekday.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "open_weekend/open_weekend-L01/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found hour\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"hour\"\r\nINPUT: How late are you open on weekends?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: How late are you open on weekends?\r\n#bot: We're open from 9 AM to 6 PM every weekday."
+      }
+    },
+    {
+      "title": "open_weekend/open_weekend-L02",
+      "fullTitle": "Botium Test-Suite open_weekend/open_weekend-L02",
+      "duration": 53,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: open_weekend/open_weekend-L02/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found hour\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"hour\"\r\nINPUT: Are you open on weekends?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Are you open on weekends?\r\n#bot: We're open from 9 AM to 6 PM every weekday.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "open_weekend/open_weekend-L02/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found hour\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"hour\"\r\nINPUT: Are you open on weekends?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Are you open on weekends?\r\n#bot: We're open from 9 AM to 6 PM every weekday."
+      }
+    },
+    {
+      "title": "open_weekend/open_weekend-L03",
+      "fullTitle": "Botium Test-Suite open_weekend/open_weekend-L03",
+      "duration": 2122,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: open_weekend/open_weekend-L03/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found make_appointment_followUp\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"make_appointment_followUp\"\r\nINPUT: Do you operate on Saturdays and Sundays?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Do you operate on Saturdays and Sundays?\r\n#bot: I can not understand the date, please try again\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "open_weekend/open_weekend-L03/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found make_appointment_followUp\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"make_appointment_followUp\"\r\nINPUT: Do you operate on Saturdays and Sundays?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Do you operate on Saturdays and Sundays?\r\n#bot: I can not understand the date, please try again"
+      }
+    },
+    {
+      "title": "open_weekend/open_weekend-L04",
+      "fullTitle": "Botium Test-Suite open_weekend/open_weekend-L04",
+      "duration": 2124,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: open_weekend/open_weekend-L04/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found hour\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"hour\"\r\nINPUT: Are you available during the weekends?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Are you available during the weekends?\r\n#bot: I'm sorry, but I did not understand the last sentence, can you say that again?\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "open_weekend/open_weekend-L04/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found hour\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"hour\"\r\nINPUT: Are you available during the weekends?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Are you available during the weekends?\r\n#bot: I'm sorry, but I did not understand the last sentence, can you say that again?"
+      }
+    },
+    {
+      "title": "open_weekend/open_weekend-L06",
+      "fullTitle": "Botium Test-Suite open_weekend/open_weekend-L06",
+      "duration": 52,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: open_weekend/open_weekend-L06/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found hour\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"hour\"\r\nINPUT: Are you open on Saturdays and Sundays?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Are you open on Saturdays and Sundays?\r\n#bot: We're open from 9 AM to 6 PM every weekday.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "open_weekend/open_weekend-L06/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found hour\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"hour\"\r\nINPUT: Are you open on Saturdays and Sundays?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Are you open on Saturdays and Sundays?\r\n#bot: We're open from 9 AM to 6 PM every weekday."
+      }
+    },
+    {
+      "title": "open_weekend/open_weekend-L07",
+      "fullTitle": "Botium Test-Suite open_weekend/open_weekend-L07",
+      "duration": 2119,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: open_weekend/open_weekend-L07/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found animal_kind\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"animal_kind\"\r\nINPUT: Do you conduct business over the weekends?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Do you conduct business over the weekends?\r\n#bot: I'm sorry, but I did not understand the last sentence, can you say that again?\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "open_weekend/open_weekend-L07/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found animal_kind\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"animal_kind\"\r\nINPUT: Do you conduct business over the weekends?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Do you conduct business over the weekends?\r\n#bot: I'm sorry, but I did not understand the last sentence, can you say that again?"
+      }
+    },
+    {
+      "title": "open_weekend/open_weekend-L10",
+      "fullTitle": "Botium Test-Suite open_weekend/open_weekend-L10",
+      "duration": 70,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: open_weekend/open_weekend-L10/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found animal_kind\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"animal_kind\"\r\nINPUT: Are you accessible on weekends?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Are you accessible on weekends?\r\n#bot: We are specialized in dogs, cats and birds. For other animals, please consult first.\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "open_weekend/open_weekend-L10/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found animal_kind\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"animal_kind\"\r\nINPUT: Are you accessible on weekends?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Are you accessible on weekends?\r\n#bot: We are specialized in dogs, cats and birds. For other animals, please consult first."
+      }
+    },
+    {
+      "title": "open_weekend/open_weekend-L11",
+      "fullTitle": "Botium Test-Suite open_weekend/open_weekend-L11",
+      "duration": 2136,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: open_weekend/open_weekend-L11/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found make_appointment_followUp\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"make_appointment_followUp\"\r\nINPUT: Do you offer services on Saturdays and Sundays?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Do you offer services on Saturdays and Sundays?\r\n#bot: I can not understand the date, please try again\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "open_weekend/open_weekend-L11/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found make_appointment_followUp\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"make_appointment_followUp\"\r\nINPUT: Do you offer services on Saturdays and Sundays?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Do you offer services on Saturdays and Sundays?\r\n#bot: I can not understand the date, please try again"
+      }
+    },
+    {
+      "title": "open_weekend/open_weekend-L12",
+      "fullTitle": "Botium Test-Suite open_weekend/open_weekend-L12",
+      "duration": 2120,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: open_weekend/open_weekend-L12/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found make_appointment_followUp\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"make_appointment_followUp\"\r\nINPUT: Are you operational on both weekend days?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Are you operational on both weekend days?\r\n#bot: I'm sorry, but I did not understand the last sentence, can you say that again?\n    at wrapBotiumError (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:76:12)\n    at finish (C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:205:24)\n    at C:\\Users\\jdela\\AppData\\Roaming\\npm\\node_modules\\botium-cli\\src\\run\\index.js:218:11",
+        "message": "open_weekend/open_weekend-L12/Line 6: assertion error - Line 6: Expected intent \"open_weekend\" but found make_appointment_followUp\r\n########################################\r\nASSERTION FAILED in IntentAsserter - Expected: \"open_weekend\"  - Actual: \"make_appointment_followUp\"\r\nINPUT: Are you operational on both weekend days?\r\n------------ TRANSCRIPT ----------------------------\r\n#me: Are you operational on both weekend days?\r\n#bot: I'm sorry, but I did not understand the last sentence, can you say that again?"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "animal_kind/animal_kind-L01",
+      "fullTitle": "Botium Test-Suite animal_kind/animal_kind-L01",
+      "duration": 295,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "animal_kind/animal_kind-L02",
+      "fullTitle": "Botium Test-Suite animal_kind/animal_kind-L02",
+      "duration": 59,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "animal_kind/animal_kind-L03",
+      "fullTitle": "Botium Test-Suite animal_kind/animal_kind-L03",
+      "duration": 42,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "animal_kind/animal_kind-L04",
+      "fullTitle": "Botium Test-Suite animal_kind/animal_kind-L04",
+      "duration": 45,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "animal_kind/animal_kind-L05",
+      "fullTitle": "Botium Test-Suite animal_kind/animal_kind-L05",
+      "duration": 58,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "animal_kind/animal_kind-L06",
+      "fullTitle": "Botium Test-Suite animal_kind/animal_kind-L06",
+      "duration": 55,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "animal_kind/animal_kind-L07",
+      "fullTitle": "Botium Test-Suite animal_kind/animal_kind-L07",
+      "duration": 42,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "animal_kind/animal_kind-L08",
+      "fullTitle": "Botium Test-Suite animal_kind/animal_kind-L08",
+      "duration": 39,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "animal_kind/animal_kind-L09",
+      "fullTitle": "Botium Test-Suite animal_kind/animal_kind-L09",
+      "duration": 57,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "animal_kind/animal_kind-L10",
+      "fullTitle": "Botium Test-Suite animal_kind/animal_kind-L10",
+      "duration": 47,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "cost/cost-L01",
+      "fullTitle": "Botium Test-Suite cost/cost-L01",
+      "duration": 44,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "cost/cost-L02",
+      "fullTitle": "Botium Test-Suite cost/cost-L02",
+      "duration": 58,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "cost/cost-L03",
+      "fullTitle": "Botium Test-Suite cost/cost-L03",
+      "duration": 71,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "cost/cost-L04",
+      "fullTitle": "Botium Test-Suite cost/cost-L04",
+      "duration": 68,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "cost/cost-L05",
+      "fullTitle": "Botium Test-Suite cost/cost-L05",
+      "duration": 69,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "cost/cost-L06",
+      "fullTitle": "Botium Test-Suite cost/cost-L06",
+      "duration": 68,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "cost/cost-L07",
+      "fullTitle": "Botium Test-Suite cost/cost-L07",
+      "duration": 68,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "cost/cost-L08",
+      "fullTitle": "Botium Test-Suite cost/cost-L08",
+      "duration": 68,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "cost/cost-L09",
+      "fullTitle": "Botium Test-Suite cost/cost-L09",
+      "duration": 59,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "cost/cost-L10",
+      "fullTitle": "Botium Test-Suite cost/cost-L10",
+      "duration": 50,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "cost/cost-L11",
+      "fullTitle": "Botium Test-Suite cost/cost-L11",
+      "duration": 53,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greet/greet-L1",
+      "fullTitle": "Botium Test-Suite greet/greet-L1",
+      "duration": 40,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greet/greet-L2",
+      "fullTitle": "Botium Test-Suite greet/greet-L2",
+      "duration": 34,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "greet/greet-L3",
+      "fullTitle": "Botium Test-Suite greet/greet-L3",
+      "duration": 34,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "greet/greet-L4",
+      "fullTitle": "Botium Test-Suite greet/greet-L4",
+      "duration": 44,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greet/greet-L5",
+      "fullTitle": "Botium Test-Suite greet/greet-L5",
+      "duration": 53,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greet/greet-L6",
+      "fullTitle": "Botium Test-Suite greet/greet-L6",
+      "duration": 45,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greet/greet-L7",
+      "fullTitle": "Botium Test-Suite greet/greet-L7",
+      "duration": 45,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "greet/greet-L8",
+      "fullTitle": "Botium Test-Suite greet/greet-L8",
+      "duration": 59,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "hour/hour-L01",
+      "fullTitle": "Botium Test-Suite hour/hour-L01",
+      "duration": 53,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "hour/hour-L02",
+      "fullTitle": "Botium Test-Suite hour/hour-L02",
+      "duration": 41,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "hour/hour-L03",
+      "fullTitle": "Botium Test-Suite hour/hour-L03",
+      "duration": 60,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "hour/hour-L04",
+      "fullTitle": "Botium Test-Suite hour/hour-L04",
+      "duration": 56,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "hour/hour-L05",
+      "fullTitle": "Botium Test-Suite hour/hour-L05",
+      "duration": 26,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "hour/hour-L06",
+      "fullTitle": "Botium Test-Suite hour/hour-L06",
+      "duration": 42,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "hour/hour-L07",
+      "fullTitle": "Botium Test-Suite hour/hour-L07",
+      "duration": 41,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "hour/hour-L08",
+      "fullTitle": "Botium Test-Suite hour/hour-L08",
+      "duration": 54,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "hour/hour-L09",
+      "fullTitle": "Botium Test-Suite hour/hour-L09",
+      "duration": 56,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "hour/hour-L10",
+      "fullTitle": "Botium Test-Suite hour/hour-L10",
+      "duration": 51,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "hour/hour-L11",
+      "fullTitle": "Botium Test-Suite hour/hour-L11",
+      "duration": 53,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "hour/hour-L12",
+      "fullTitle": "Botium Test-Suite hour/hour-L12",
+      "duration": 45,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "hour/hour-L13",
+      "fullTitle": "Botium Test-Suite hour/hour-L13",
+      "duration": 39,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "hour/hour-L14",
+      "fullTitle": "Botium Test-Suite hour/hour-L14",
+      "duration": 41,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment/make_appointment-L01",
+      "fullTitle": "Botium Test-Suite make_appointment/make_appointment-L01",
+      "duration": 43,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment/make_appointment-L02",
+      "fullTitle": "Botium Test-Suite make_appointment/make_appointment-L02",
+      "duration": 43,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment/make_appointment-L03",
+      "fullTitle": "Botium Test-Suite make_appointment/make_appointment-L03",
+      "duration": 44,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment/make_appointment-L04",
+      "fullTitle": "Botium Test-Suite make_appointment/make_appointment-L04",
+      "duration": 42,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment/make_appointment-L05",
+      "fullTitle": "Botium Test-Suite make_appointment/make_appointment-L05",
+      "duration": 53,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment/make_appointment-L06",
+      "fullTitle": "Botium Test-Suite make_appointment/make_appointment-L06",
+      "duration": 55,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment/make_appointment-L07",
+      "fullTitle": "Botium Test-Suite make_appointment/make_appointment-L07",
+      "duration": 52,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment/make_appointment-L08",
+      "fullTitle": "Botium Test-Suite make_appointment/make_appointment-L08",
+      "duration": 43,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment/make_appointment-L09",
+      "fullTitle": "Botium Test-Suite make_appointment/make_appointment-L09",
+      "duration": 42,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment/make_appointment-L10",
+      "fullTitle": "Botium Test-Suite make_appointment/make_appointment-L10",
+      "duration": 56,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment/make_appointment-L11",
+      "fullTitle": "Botium Test-Suite make_appointment/make_appointment-L11",
+      "duration": 58,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment/make_appointment-L12",
+      "fullTitle": "Botium Test-Suite make_appointment/make_appointment-L12",
+      "duration": 50,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment/make_appointment-L13",
+      "fullTitle": "Botium Test-Suite make_appointment/make_appointment-L13",
+      "duration": 54,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment/make_appointment-L14",
+      "fullTitle": "Botium Test-Suite make_appointment/make_appointment-L14",
+      "duration": 52,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment/make_appointment-L15",
+      "fullTitle": "Botium Test-Suite make_appointment/make_appointment-L15",
+      "duration": 55,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment_followUp/make_appointment_followUp-L01",
+      "fullTitle": "Botium Test-Suite make_appointment_followUp/make_appointment_followUp-L01",
+      "duration": 69,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment_followUp/make_appointment_followUp-L02",
+      "fullTitle": "Botium Test-Suite make_appointment_followUp/make_appointment_followUp-L02",
+      "duration": 69,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment_followUp/make_appointment_followUp-L03",
+      "fullTitle": "Botium Test-Suite make_appointment_followUp/make_appointment_followUp-L03",
+      "duration": 49,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment_followUp/make_appointment_followUp-L04",
+      "fullTitle": "Botium Test-Suite make_appointment_followUp/make_appointment_followUp-L04",
+      "duration": 56,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment_followUp/make_appointment_followUp-L05",
+      "fullTitle": "Botium Test-Suite make_appointment_followUp/make_appointment_followUp-L05",
+      "duration": 51,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment_followUp/make_appointment_followUp-L06",
+      "fullTitle": "Botium Test-Suite make_appointment_followUp/make_appointment_followUp-L06",
+      "duration": 2232,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "make_appointment_followUp/make_appointment_followUp-L07",
+      "fullTitle": "Botium Test-Suite make_appointment_followUp/make_appointment_followUp-L07",
+      "duration": 46,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment_followUp/make_appointment_followUp-L08",
+      "fullTitle": "Botium Test-Suite make_appointment_followUp/make_appointment_followUp-L08",
+      "duration": 54,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment_followUp/make_appointment_followUp-L09",
+      "fullTitle": "Botium Test-Suite make_appointment_followUp/make_appointment_followUp-L09",
+      "duration": 64,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment_followUp/make_appointment_followUp-L10",
+      "fullTitle": "Botium Test-Suite make_appointment_followUp/make_appointment_followUp-L10",
+      "duration": 71,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment_followUp/make_appointment_followUp-L11",
+      "fullTitle": "Botium Test-Suite make_appointment_followUp/make_appointment_followUp-L11",
+      "duration": 57,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "make_appointment_followUp/make_appointment_followUp-L12",
+      "fullTitle": "Botium Test-Suite make_appointment_followUp/make_appointment_followUp-L12",
+      "duration": 65,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "open_weekend/open_weekend-L05",
+      "fullTitle": "Botium Test-Suite open_weekend/open_weekend-L05",
+      "duration": 57,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "open_weekend/open_weekend-L08",
+      "fullTitle": "Botium Test-Suite open_weekend/open_weekend-L08",
+      "duration": 2113,
+      "currentRetry": 0,
+      "speed": "slow",
+      "err": {}
+    },
+    {
+      "title": "open_weekend/open_weekend-L09",
+      "fullTitle": "Botium Test-Suite open_weekend/open_weekend-L09",
+      "duration": 65,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "pet_take_care/pet_take_care-L01",
+      "fullTitle": "Botium Test-Suite pet_take_care/pet_take_care-L01",
+      "duration": 63,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "pet_take_care/pet_take_care-L02",
+      "fullTitle": "Botium Test-Suite pet_take_care/pet_take_care-L02",
+      "duration": 62,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "pet_take_care/pet_take_care-L03",
+      "fullTitle": "Botium Test-Suite pet_take_care/pet_take_care-L03",
+      "duration": 69,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "pet_take_care/pet_take_care-L04",
+      "fullTitle": "Botium Test-Suite pet_take_care/pet_take_care-L04",
+      "duration": 65,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "pet_take_care/pet_take_care-L05",
+      "fullTitle": "Botium Test-Suite pet_take_care/pet_take_care-L05",
+      "duration": 60,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "pet_take_care/pet_take_care-L06",
+      "fullTitle": "Botium Test-Suite pet_take_care/pet_take_care-L06",
+      "duration": 48,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "pet_take_care/pet_take_care-L07",
+      "fullTitle": "Botium Test-Suite pet_take_care/pet_take_care-L07",
+      "duration": 64,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "pet_take_care/pet_take_care-L08",
+      "fullTitle": "Botium Test-Suite pet_take_care/pet_take_care-L08",
+      "duration": 55,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "pet_take_care/pet_take_care-L09",
+      "fullTitle": "Botium Test-Suite pet_take_care/pet_take_care-L09",
+      "duration": 45,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    },
+    {
+      "title": "pet_take_care/pet_take_care-L10",
+      "fullTitle": "Botium Test-Suite pet_take_care/pet_take_care-L10",
+      "duration": 37,
+      "currentRetry": 0,
+      "speed": "fast",
+      "err": {}
+    },
+    {
+      "title": "pet_take_care/pet_take_care-L11",
+      "fullTitle": "Botium Test-Suite pet_take_care/pet_take_care-L11",
+      "duration": 60,
+      "currentRetry": 0,
+      "speed": "medium",
+      "err": {}
+    }
+  ]
+}
