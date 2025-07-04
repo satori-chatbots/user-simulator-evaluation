@@ -1,0 +1,1 @@
+Swapped response text between 'utter_ask_service' and 'utter_makeAppointment_inter'

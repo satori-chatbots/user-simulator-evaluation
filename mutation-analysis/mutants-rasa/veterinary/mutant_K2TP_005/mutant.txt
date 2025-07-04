@@ -1,0 +1,1 @@
+Reduced intent 'animal_kind' to 2 training phrases

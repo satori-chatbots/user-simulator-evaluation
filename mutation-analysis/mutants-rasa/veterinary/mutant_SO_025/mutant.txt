@@ -1,0 +1,1 @@
+Swapped response text between 'utter_hours' and 'utter_kind_animals'

@@ -1,0 +1,1 @@
+Swapped response text between 'utter_kind_animals' and 'utter_pet_take_care'

@@ -1,0 +1,1 @@
+Reduced intent 'open_weekend' to 2 training phrases

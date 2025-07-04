@@ -1,0 +1,1 @@
+Reduced intent 'make_appointment_followUp' to 2 training phrases

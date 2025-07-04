@@ -1,0 +1,1 @@
+Deleted parameter 'service' from intents: open_weekend,animal_kind,make_appointment_followUp

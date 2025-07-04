@@ -1,0 +1,1 @@
+Reduced intent 'greet' to 2 training phrases

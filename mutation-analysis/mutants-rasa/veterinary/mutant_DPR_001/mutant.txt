@@ -1,0 +1,1 @@
+Changed response text in 'utter_makeAppointment' from 'Ok, I have received your request to schedule an appointment for {date} at {time} for {service}. See you then!' to 'Ok, I have received your request to schedule an appointment for  at  for . See you then!'

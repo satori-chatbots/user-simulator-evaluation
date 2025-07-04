@@ -1,0 +1,77 @@
+intents:
+- greet
+- hour
+- make_appointment
+- open_weekend
+- cost
+- animal_kind
+- pet_take_care
+- services
+- make_appointment_followUp
+entities:
+- date
+- time
+- service
+actions:
+- utter_greet
+- utter_hours
+- utter_default
+- appointment_form_clean
+- utter_makeAppointment
+- utter_noweekends
+- utter_cost
+- utter_kind_animals
+- utter_pet_take_care
+- fallback_action
+slots:
+  date:
+    type: unfeaturized
+  time:
+    type: unfeaturized
+  service:
+    type: unfeaturized
+responses:
+  utter_greet:
+  - text: Welcome to my veterinary center. I'm the owner and I'm happy to help you.
+      What can I do for you?
+  utter_hours:
+  - text: We're open from 9 AM to 6 PM every weekday.
+  utter_ask_date:
+  - text: We are specialized in dogs, cats and birds. For other animals, please consult
+      first.
+  utter_ask_time:
+  - text: What time?
+  utter_ask_service:
+  - text: 'What kind of service do you need? (Physical examination, Vaccination, Dental
+      health and cleaning, Lab or diagnostic testing)   '
+  utter_wrong_service:
+  - text: I can not understand the services, please try again
+  utter_wrong_date:
+  - text: I can not understand the date, please try again
+  utter_wrong_time:
+  - text: I can not understand the time, please try again
+  utter_default:
+  - text: I'm sorry, but I did not understand the last sentence, can you say that
+      again?
+  utter_makeAppointment:
+  - text: Ok, I have received your request to schedule an appointment for {date} at
+      {time} for {service}. See you then!
+  utter_noweekends:
+  - text: We do not open on weekends
+  utter_cost:
+  - text: A veterinary visit can cost between $50 and $60
+  utter_kind_animals:
+  - text: What day do you want the appoitment?
+  utter_pet_take_care:
+  - text: 'You should meet their basic needs: food, water, shelter, exercise, and
+      love.'
+  utter_makeAppointment_inter:
+  - text: Of course, I'd be happy to help you set an appointment. Could you please
+      provide me with the date, time, and the service you need? The services we offer
+      are Physical examination, Vaccination, Dental health and cleaning, and Lab or
+      diagnostic testing.
+forms:
+- appointment_form
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
