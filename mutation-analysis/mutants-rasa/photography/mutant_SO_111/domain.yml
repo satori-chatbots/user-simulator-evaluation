@@ -98,4 +98,4 @@ actions:
 forms:
 - call_appointment_followUp_form
 - session_details_form
-- welcome_form
+#- welcome_form

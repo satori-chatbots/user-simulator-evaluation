@@ -261,14 +261,22 @@ class session_details_response (Action):
 		}
 		type_artworks = tracker.get_slot("session_details_artwork")
 		media = tracker.get_slot("session_details_media")
-		number_artworks = float(str(tracker.get_slot("session_details_num")))
+		slot_value = tracker.get_slot("session_details_num")
+		try:
+			number_artworks = float(str(slot_value))
+		except (TypeError, ValueError):
+			number_artworks = None
+		#number_artworks = float(str(tracker.get_slot("session_details_num")))
 		print("Type ", type_artworks)
 		print("Media ", media)
 		print("Number of artworks ", number_artworks)
-		artwork_price = artwork_prices[type_artworks.lower()]
-		media_price = media_prices[media.lower()]
-		price = artwork_price * media_price
-		text = f"The price would be around {number_artworks*price}$, but may depend on other factors, like the size of the artworks"
+		if type_artworks is not None and media is not None and number_artworks is not None:
+			artwork_price = artwork_prices[type_artworks.lower()]
+			media_price = media_prices[media.lower()]
+			price = artwork_price * media_price
+			text = f"The price would be around {number_artworks*price}$, but may depend on other factors, like the size of the artworks"
+		else:
+			text = f"I cannot gove you an estimate, due to missing data"
 		dispatcher.utter_message(text)
 		return [SlotSet("session_details_artwork", None), SlotSet("session_details_media", None), SlotSet("session_details_num", None)]         
 		

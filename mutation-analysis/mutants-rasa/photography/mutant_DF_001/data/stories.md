@@ -1,9 +1,6 @@
 ## path_1
 * greetings
-	- welcome_form
-	- form{"name": "welcome_form"}
-	- form{"name": null}
-	- action_greetings
+	- utter_welcome_response
 
 ## path_3
 * estimate_price
