@@ -7,6 +7,8 @@
 - I'd like to order a  [large]{"entity": "StartOrder_size","value":"big"} pizza. 
 - I'll take a  [medium]{"entity": "StartOrder_size","value":"medium"} pizza. 
 - May I have a  [small]{"entity": "StartOrder_size","value":"small"} pizza, please? 
+- I'd like a  [tiny]{"entity": "StartOrder_size","value":"small"} pizza. 
+
 
 ## intent:Toppings
 - extra [cheese]{"entity": "Toppings_toppings","value":"cheese" } , please
