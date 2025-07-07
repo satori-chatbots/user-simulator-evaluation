@@ -1,0 +1,67 @@
+serial: 2025-07-07-17-45-59
+language: English
+context:
+- your name is John Doe
+- you have a dog called Tommy
+ask_about:
+- Setting an appointment for {{ap_date}}, at {{hour}}, for a {{service}}
+- hour: '15:30'
+- ap_date: tomorrow
+- service: Physical examination
+conversation:
+- interaction_style:
+  - default
+- number: 8
+- all_answered:
+    export: true
+    limit: 5
+data_output:
+- confirmed_date: None
+- confirmed_time: None
+- confirmed_service: physical examination
+errors: []
+total_cost($): 0.0
+---
+conversation time: 13.651469
+assistant response time:
+- 0.16175
+- 0.015574
+- 0.010944
+- 0.010755
+- 0.011285
+response time report:
+  average: 0.042061
+  max: 0.16175
+  min: 0.010755
+---
+interaction:
+- User: Schedule an appointment for tomorrow at 15:30 for a physical examination for
+    Tommy
+- Assistant: Of course, I'd be happy to help you set an appointment. Could you please
+    provide me with the date, time, and the service you need? The services we offer
+    are Physical examination, Vaccination, Dental health and cleaning, and Lab or
+    diagnostic testing.
+- User: Schedule an appointment for tomorrow at 15:30 for a physical examination for
+    Tommy
+- Assistant: Of course, I'd be happy to help you set an appointment. Could you please
+    provide me with the date, time, and the service you need? The services we offer
+    are Physical examination, Vaccination, Dental health and cleaning, and Lab or
+    diagnostic testing.
+- User: Schedule an appointment for tomorrow at 15:30 for a physical examination for
+    Tommy
+- Assistant: Of course, I'd be happy to help you set an appointment. Could you please
+    provide me with the date, time, and the service you need? The services we offer
+    are Physical examination, Vaccination, Dental health and cleaning, and Lab or
+    diagnostic testing.
+- User: Schedule an appointment for tomorrow at 15:30 for a physical examination for
+    Tommy
+- Assistant: Of course, I'd be happy to help you set an appointment. Could you please
+    provide me with the date, time, and the service you need? The services we offer
+    are Physical examination, Vaccination, Dental health and cleaning, and Lab or
+    diagnostic testing.
+- User: Schedule an appointment for tomorrow at 15:30 for a physical examination for
+    Tommy
+- Assistant: Of course, I'd be happy to help you set an appointment. Could you please
+    provide me with the date, time, and the service you need? The services we offer
+    are Physical examination, Vaccination, Dental health and cleaning, and Lab or
+    diagnostic testing.

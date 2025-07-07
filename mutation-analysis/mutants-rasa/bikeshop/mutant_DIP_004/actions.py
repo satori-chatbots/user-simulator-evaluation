@@ -72,6 +72,8 @@ def costElement_validate(value:Text):
 		return "tire"
 	if value.lower() == "new seat":
 		return "new seat"
+	if "seat" in value.lower():
+		return "new seat"
 	return None
  
 class Make_AppointmentForm (FormAction):

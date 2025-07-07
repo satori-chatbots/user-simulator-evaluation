@@ -1,0 +1,13 @@
+Global report:
+  Average assistant response time: 0.060356
+  Maximum assistant response time: 0.09447
+  Minimum assistant response time: 0.033334
+  Errors: []
+  Total Cost: 0.0
+---
+Test name: appointment
+Average assistant response time: 0.060356
+Maximum assistant response time: 0.09447
+Minimum assistant response time: 0.033334
+Errors: []
+Total Cost: 0.0

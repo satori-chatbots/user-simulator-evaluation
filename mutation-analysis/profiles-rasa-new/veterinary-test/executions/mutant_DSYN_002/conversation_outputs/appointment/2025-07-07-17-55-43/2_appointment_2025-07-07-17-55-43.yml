@@ -1,0 +1,57 @@
+serial: 2025-07-07-17-55-43
+language: English
+context:
+- your name is John Doe
+- you have a dog called Tommy
+ask_about:
+- Setting an appointment for {{ap_date}}, at {{hour}}, for a {{service}}
+- hour: '13:00'
+- ap_date: tomorrow
+- service: Dental health and cleaning
+conversation:
+- interaction_style:
+  - default
+- number: 8
+- all_answered:
+    export: true
+    limit: 5
+data_output:
+- confirmed_date: Ok, I have received your request to schedule an appointment for
+    08-07-2025 at 13:00 for dental health and cleaning. See you then!
+- confirmed_time: Ok, I have received your request to schedule an appointment for
+    08-07-2025 at 13:00 for dental health and cleaning. See you then!
+- confirmed_service: dental health and cleaning
+errors: []
+total_cost($): 0.0
+---
+conversation time: 12.653251
+assistant response time:
+- 0.038376
+- 0.0173
+- 0.010788
+- 0.018926
+- 0.019788
+response time report:
+  average: 0.021035
+  max: 0.038376
+  min: 0.010788
+---
+interaction:
+- User: Schedule an appointment for tomorrow at 13:00 for Tommy's dental health and
+    cleaning
+- Assistant: What kind of service do you need? (Physical examination, Vaccination,
+    Dental health and cleaning, Lab or diagnostic testing)
+- User: Dental health and cleaning
+- Assistant: Ok, I have received your request to schedule an appointment for 08-07-2025
+    at 13:00 for dental health and cleaning. See you then!
+- User: Change the appointment date to tomorrow.
+- Assistant: Of course, I'd be happy to help you set an appointment. Could you please
+    provide me with the date, time, and the service you need? The services we offer
+    are Physical examination, Vaccination, Dental health and cleaning, and Lab or
+    diagnostic testing.
+- User: Schedule an appointment for tomorrow at 13:00 for dental health and cleaning
+- Assistant: What kind of service do you need? (Physical examination, Vaccination,
+    Dental health and cleaning, Lab or diagnostic testing)
+- User: Dental health and cleaning
+- Assistant: Ok, I have received your request to schedule an appointment for 08-07-2025
+    at 13:00 for dental health and cleaning. See you then!

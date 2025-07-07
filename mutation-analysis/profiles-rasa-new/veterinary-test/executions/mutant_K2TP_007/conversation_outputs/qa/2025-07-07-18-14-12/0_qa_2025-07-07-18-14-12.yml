@@ -1,0 +1,50 @@
+serial: 2025-07-07-18-14-12
+language: English
+context:
+- You are interested in asking the items below.
+- Just stick to asking opening times (weekdays and weekends), cost of visit, types
+  of animals accepted, care of pets. Do not ask anything else.
+ask_about:
+- When are you open on weekends?
+- How much does a vet visit cost?
+- What kind of animals do you accept?
+- What can I do to take care of my pet?
+conversation:
+- interaction_style:
+  - default
+- number: 1
+- all_answered:
+    export: true
+    limit: 9
+data_output:
+- opening_and_closing_weekends: We do not open on weekends
+- visit_cost: A veterinary visit can cost between $50 and $60
+- animal_kinds: We are specialized in dogs, cats and birds. For other animals, please
+    consult first.
+- care_pet: 'You should meet their basic needs: food, water, shelter, exercise, and
+    love.'
+errors: []
+total_cost($): 0.0
+---
+conversation time: 16.882213
+assistant response time:
+- 0.468363
+- 0.019449
+- 0.020101
+- 0.019556
+response time report:
+  average: 0.131867
+  max: 0.468363
+  min: 0.019449
+---
+interaction:
+- User: When are you open on weekends?
+- Assistant: We do not open on weekends
+- User: How much does a vet visit cost?
+- Assistant: A veterinary visit can cost between $50 and $60
+- User: What kind of animals do you accept?
+- Assistant: We are specialized in dogs, cats and birds. For other animals, please
+    consult first.
+- User: What can I do to take care of my pet?
+- Assistant: 'You should meet their basic needs: food, water, shelter, exercise, and
+    love.'

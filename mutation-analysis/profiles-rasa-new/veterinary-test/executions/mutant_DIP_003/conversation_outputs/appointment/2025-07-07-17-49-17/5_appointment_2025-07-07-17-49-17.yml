@@ -1,0 +1,55 @@
+serial: 2025-07-07-17-49-17
+language: English
+context:
+- your name is John Doe
+- you have a dog called Tommy
+ask_about:
+- Setting an appointment for {{ap_date}}, at {{hour}}, for a {{service}}
+- hour: '15:30'
+- ap_date: 10-10-2025
+- service: Dental health and cleaning
+conversation:
+- interaction_style:
+  - default
+- number: 8
+- all_answered:
+    export: true
+    limit: 5
+data_output:
+- confirmed_date: Ok, I have received your request to schedule an appointment for
+    08-07-2025 at 00:00 for dental health and cleaning. See you then!
+- confirmed_time: Ok, I have received your request to schedule an appointment for
+    10-10-2025 at 15:30 for dental health and cleaning. See you then!
+- confirmed_service: dental health and cleaning
+errors: []
+total_cost($): 0.0
+---
+conversation time: 14.148313
+assistant response time:
+- 0.032749
+- 0.016726
+- 0.033175
+- 0.01983
+- 0.037358
+response time report:
+  average: 0.027967
+  max: 0.037358
+  min: 0.016726
+---
+interaction:
+- User: Schedule an appointment for Tommy on 10-10-2025 at 15:30 for dental health
+    and cleaning
+- Assistant: What kind of service do you need? (Physical examination, Vaccination,
+    Dental health and cleaning, Lab or diagnostic testing)
+- User: Dental health and cleaning
+- Assistant: Ok, I have received your request to schedule an appointment for 08-07-2025
+    at 00:00 for dental health and cleaning. See you then!
+- User: Change the appointment date to 10-10-2025 at 15:30 for dental health and cleaning
+- Assistant: What kind of service do you need? (Physical examination, Vaccination,
+    Dental health and cleaning, Lab or diagnostic testing)
+- User: Dental health and cleaning
+- Assistant: Ok, I have received your request to schedule an appointment for 08-07-2025
+    at 00:00 for dental health and cleaning. See you then!
+- User: Change the appointment date to 10-10-2025 at 15:30 for dental health and cleaning
+- Assistant: What kind of service do you need? (Physical examination, Vaccination,
+    Dental health and cleaning, Lab or diagnostic testing)

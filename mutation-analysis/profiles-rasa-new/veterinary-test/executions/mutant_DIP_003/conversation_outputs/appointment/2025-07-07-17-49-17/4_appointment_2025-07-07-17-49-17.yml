@@ -1,0 +1,54 @@
+serial: 2025-07-07-17-49-17
+language: English
+context:
+- your name is John Doe
+- you have a dog called Tommy
+ask_about:
+- Setting an appointment for {{ap_date}}, at {{hour}}, for a {{service}}
+- hour: '10:00'
+- ap_date: 10-10-2025
+- service: Vaccination
+conversation:
+- interaction_style:
+  - default
+- number: 8
+- all_answered:
+    export: true
+    limit: 5
+data_output:
+- confirmed_date: Ok, I have received your request to schedule an appointment for
+    08-07-2025 at 00:00 for vaccination. See you then!
+- confirmed_time: Ok, I have received your request to schedule an appointment for
+    08-07-2025 at 00:00 for vaccination. See you then!
+- confirmed_service: vaccination
+errors: []
+total_cost($): 0.0
+---
+conversation time: 11.345837
+assistant response time:
+- 0.032702
+- 0.01589
+- 0.033578
+- 0.025944
+- 0.034654
+response time report:
+  average: 0.028553
+  max: 0.034654
+  min: 0.01589
+---
+interaction:
+- User: Schedule an appointment for 10-10-2025 at 10:00 for Tommy's vaccination
+- Assistant: What kind of service do you need? (Physical examination, Vaccination,
+    Dental health and cleaning, Lab or diagnostic testing)
+- User: Vaccination
+- Assistant: Ok, I have received your request to schedule an appointment for 08-07-2025
+    at 00:00 for vaccination. See you then!
+- User: Change the appointment date to 10-10-2025 at 10:00 for vaccination
+- Assistant: What kind of service do you need? (Physical examination, Vaccination,
+    Dental health and cleaning, Lab or diagnostic testing)
+- User: Vaccination
+- Assistant: Ok, I have received your request to schedule an appointment for 08-07-2025
+    at 00:00 for vaccination. See you then!
+- User: Change the appointment date to 10-10-2025 at 10:00 for Tommy's vaccination
+- Assistant: What kind of service do you need? (Physical examination, Vaccination,
+    Dental health and cleaning, Lab or diagnostic testing)

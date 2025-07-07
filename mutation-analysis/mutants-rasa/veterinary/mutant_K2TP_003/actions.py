@@ -38,8 +38,64 @@ import time
 from datetime import datetime, date
 from pytz import timezone
 
+from ctparse import ctparse
+from datetime import datetime
+
+def parse_time_to_iso(text: str) -> str:
+    """
+    Parses a natural language time expression and returns the result in ISO 8601 format.
+    
+    Args:
+        text (str): The natural language time expression.
+        reference (datetime, optional): Reference time for parsing. Defaults to current time.
+
+    Returns:
+        str or None: ISO 8601 formatted datetime string or None if parsing fails.
+    """
+    print("Parsing time:", text)
+    result = ctparse(text)
+    
+    if result and result.resolution:
+        try:
+            dt = result.resolution.dt
+            return dt.isoformat()
+        except AttributeError:
+            # resolution may not always have `.dt` depending on the type
+            return None
+    return None
+
+from ctparse import ctparse
+from datetime import datetime, timezone
+
+def parse_date_to_iso(text: str) -> str:
+    """
+    Parses a natural language date expression and returns the result in ISO date format (YYYY-MM-DD).
+    
+    Args:
+        text (str): The natural language date expression.
+        reference (datetime, optional): Reference time for parsing. Defaults to current time.
+
+    Returns:
+        str or None: ISO 8601 formatted date string or None if parsing fails.
+    """
+    reference = datetime.now(timezone.utc)
+    result = ctparse(text, ts=reference)
+    
+    if result and result.resolution:
+        try:
+            dt = result.resolution.dt
+            return dt.date().isoformat()
+        except AttributeError:
+            return None
+    return None
+
+
 d = DucklingWrapper()
 def time_validator(value:Text):
+    result = parse_time_to_iso(value)
+    if result:
+        return result
+
     parses = d.parse_time(value)
     for parse in parses:
         if parse ['dim'] == 'time':
@@ -47,18 +103,24 @@ def time_validator(value:Text):
                 return parse ['value']['value']
     return None
     
-def date_validator(value:Text):
+def date_validator(value:Text):        
+        date = parse_date_to_iso(value)
+        if date is not None:
+            return date
+
         parses = d.parse_time(value)
         for parse in parses:
             if parse ['dim'] == 'time':
                 if parse['value'].get('grain') == 'day' or parse['value'].get('grain') == 'month' or parse['value'].get('grain') == 'year': 
                     return parse ['value']['value']
         return None
+
 service_db = {"physical examination": ["physical examination", "sick", "check", "medical examination", "check-up", "clinical examination", "health assessment", "physical assessment", "medical assessment", "diagnostic examination", "body examination", "clinical assessment", "physical evaluation"],
                 "vaccination":["vaccination", "vaccinate", "immunization", "inoculation", "vaccine administration", "vaccinating", "preventive shot", "vaccination shot", "vaccine injection", "immunizing", "inoculating", "vaccine dose"],
                 "dental health and cleaning":["dental health and cleaning", "oral hygiene", "dental care", "dental hygiene", "oral health", "oral care", "dental wellness", "oral cleanliness", "dental hygiene"],
                 "lab or diagnostic testing":["lab or diagnostic testing", "laboratory analysis", "diagnostic screening", "clinical testing", "laboratory testing", "diagnostic assessment", "diagnostic evaluation", "diagnostic examination", "laboratory examination", "testing and analysis", "diagnostic investigation"]}      
 def service_validate(value:Text):
+    value = value.lower()
     for input in service_db:
         if value.lower() in service_db[input]:
             return input
@@ -100,12 +162,16 @@ class AppointmentForm(FormAction):
                          tracker: Tracker,
                          domain: Dict[Text, Any]) -> Dict[Text, Any]:
         """Validate date value."""
-        print(value)
+        print("Validate date: ", value)
+
         date = date_validator(value)
         if (date != None):
+            print("Date: ", date, type(date))
+            date = str(date)
             dat = datetime.fromisoformat(date)
             now = datetime.now()
-            now = now.replace(tzinfo=timezone('UTC'))
+            # now = now.replace(tzinfo=timezone.utc)
+
             if dat < now:
                 dispatcher.utter_message('I can not schedule an appointment for a past date. What day do you want the appointment?')
                 return {'date': None}
@@ -139,8 +205,18 @@ class AppointmentForm(FormAction):
                             tracker: Tracker,
                             domain: Dict[Text, Any]) -> Dict[Text, Any]:
         """Validate time value."""
+        
+        print("Validating time:", value)
+        if (isinstance(value, list)):
+            time = self.validate_time(value[0], dispatcher, tracker, domain)
+            date = self.validate_date(value[1], dispatcher, tracker, domain)
+            # Merge the two dictionaries
+            return {**time, **date}
+        
+
         time = time_validator(value)
         if (time != None):
+            time = str(time)
             tim = datetime.fromisoformat(time)
             if self.isToday:
                 now = datetime.now()

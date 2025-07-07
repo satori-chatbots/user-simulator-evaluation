@@ -72,6 +72,8 @@ def costElement_validate(value:Text):
 		return "tire"
 	if value.lower() == "new seat":
 		return "new seat"
+	if "seat" in value.lower():
+		return "new seat"
 	return None
  
 class Make_AppointmentForm (FormAction):
@@ -94,7 +96,7 @@ class Make_AppointmentForm (FormAction):
 		date = date_validator(value)
 		print(date)
 		if (date != None):
-			dat = datetime.fromisoformat(date)
+			dat = datetime.fromisoformat(str(date))
 			now = datetime.now()
 			now = now.replace(tzinfo=timezone('UTC'))
 			if dat < now:
@@ -119,7 +121,7 @@ class Make_AppointmentForm (FormAction):
 		print(value)
 		parsedValue = time_validator(value)
 		if (parsedValue != None):
-			tim = datetime.fromisoformat(parsedValue).time()
+			tim = datetime.fromisoformat(str(parsedValue)).time()
 			if self.isToday:
 				now = datetime.now().time()
 				if tim < now:

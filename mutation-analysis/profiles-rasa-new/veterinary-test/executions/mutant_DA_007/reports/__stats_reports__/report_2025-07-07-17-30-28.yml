@@ -1,0 +1,23 @@
+Global report:
+  Average assistant response time: 0.031462
+  Maximum assistant response time: 0.197971
+  Minimum assistant response time: 0.012534
+  Errors:
+  - error: 1001
+    count: 2
+    conversations:
+    - 7_appointment_2025-07-07-17-30-28.yml
+    - 1_appointment_2025-07-07-17-30-28.yml
+  Total Cost: 0.0
+---
+Test name: appointment
+Average assistant response time: 0.031462
+Maximum assistant response time: 0.197971
+Minimum assistant response time: 0.012534
+Errors:
+- error: 1001
+  count: 2
+  conversations:
+  - 7_appointment_2025-07-07-17-30-28.yml
+  - 1_appointment_2025-07-07-17-30-28.yml
+Total Cost: 0.0

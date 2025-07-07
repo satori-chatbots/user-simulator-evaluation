@@ -1,0 +1,54 @@
+serial: 2025-07-07-17-55-43
+language: English
+context:
+- your name is John Doe
+- you have a dog called Tommy
+ask_about:
+- Setting an appointment for {{ap_date}}, at {{hour}}, for a {{service}}
+- hour: '15:30'
+- ap_date: 10-10-2025
+- service: Vaccination
+conversation:
+- interaction_style:
+  - default
+- number: 8
+- all_answered:
+    export: true
+    limit: 5
+data_output:
+- confirmed_date: Ok, I have received your request to schedule an appointment for
+    08-07-2025 at 00:00 for vaccination. See you then!
+- confirmed_time: Ok, I have received your request to schedule an appointment for
+    08-07-2025 at 00:00 for vaccination. See you then!
+- confirmed_service: vaccination
+errors: []
+total_cost($): 0.0
+---
+conversation time: 14.046769
+assistant response time:
+- 0.043062
+- 0.03976
+- 0.040193
+- 0.039674
+- 0.042446
+response time report:
+  average: 0.041027
+  max: 0.043062
+  min: 0.039674
+---
+interaction:
+- User: Schedule an appointment for Tommy on 10-10-2025 at 15:30 for a vaccination
+- Assistant: Ok, I have received your request to schedule an appointment for 08-07-2025
+    at 00:00 for vaccination. See you then!
+- User: Change the appointment date to 10-10-2025 at 15:30 for vaccination
+- Assistant: Ok, I have received your request to schedule an appointment for 08-07-2025
+    at 00:00 for vaccination. See you then!
+- User: Change the appointment date to 10-10-2025 at 15:30 for vaccination
+- Assistant: Ok, I have received your request to schedule an appointment for 08-07-2025
+    at 00:00 for vaccination. See you then!
+- User: Change the appointment date to 10-10-2025 at 15:30 for vaccination
+- Assistant: Ok, I have received your request to schedule an appointment for 08-07-2025
+    at 00:00 for vaccination. See you then!
+- User: Change the appointment date to 10-10-2025 at 15:30 for vaccination
+- Assistant: Ok, I have received your request to schedule an appointment for 08-07-2025
+    at 00:00 for vaccination. See you then!

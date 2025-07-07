@@ -1,0 +1,54 @@
+serial: 2025-07-07-17-30-28
+language: English
+context:
+- your name is John Doe
+- you have a dog called Tommy
+ask_about:
+- Setting an appointment for {{ap_date}}, at {{hour}}, for a {{service}}
+- hour: '13:00'
+- ap_date: tomorrow
+- service: Vaccination
+conversation:
+- interaction_style:
+  - default
+- number: 8
+- all_answered:
+    export: true
+    limit: 5
+data_output:
+- confirmed_date: null
+- confirmed_time: I'm sorry, but I did not understand the last sentence, can you say
+    that again?
+- confirmed_service: vaccination
+errors:
+- 1001: 1 goals left to complete.
+total_cost($): 0.0
+---
+conversation time: 12.046839
+assistant response time:
+- 0.012806
+- 0.012534
+- 0.018221
+- 0.013492
+- 0.019143
+response time report:
+  average: 0.015239
+  max: 0.019143
+  min: 0.012534
+---
+interaction:
+- User: Schedule an appointment for tomorrow at 13:00 for Tommy's vaccination
+- Assistant: I'm sorry, but I did not understand the last sentence, can you say that
+    again?
+- User: Schedule an appointment for Tommy's vaccination tomorrow at 13:00
+- Assistant: I'm sorry, but I did not understand the last sentence, can you say that
+    again?
+- User: Schedule a vaccination appointment for Tommy tomorrow at 13:00
+- Assistant: I'm sorry, but I did not understand the last sentence, can you say that
+    again?
+- User: Schedule Tommy's vaccination for tomorrow at 13:00
+- Assistant: I'm sorry, but I did not understand the last sentence, can you say that
+    again?
+- User: Book a vaccination appointment for Tommy tomorrow at 13:00
+- Assistant: I'm sorry, but I did not understand the last sentence, can you say that
+    again?

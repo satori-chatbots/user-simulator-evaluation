@@ -1,0 +1,85 @@
+test_name: "custom_eval"
+
+llm:
+  temperature: 0.0
+  model: gpt-4o-mini
+
+user:
+  language: English
+  role: |
+    you must act as a user ordering a pizza to a pizza shop virtual assistant. Just order the pizza, once confirmed, then order the drink. Do not ask for extra toppings, or discounts, or delivery times or any other thing.
+
+  context:
+    - Just order the pizza, once confirmed, then order the drink. Do not ask for discounts, or delivery times or any other thing.
+    - First, specify that you want a custom pizza
+    - Then ask the toppings, once confirmed, then order the drink. Do not ask for discounts, or delivery times or any other thing.
+    - Do not ask two things in the same sentence (e.g., do not ask something like "I want a large pizzas with olives", but "I want a pizza", wait the response, and then "I want olives", later "I want some drink", etc.)
+    - Do not repeat twice the same request
+    
+  goals:
+    - "a {{size}} custom pizza"
+    - "the pizza has {{toppings}}"
+    - "the following drink: {{drink}}"
+
+    - size:
+        function: forward()
+        type: string
+        data:
+          - small
+          - medium
+          - big
+
+    - toppings:
+        function: random(3)
+        type: string
+        data:
+          - cheese
+          - mushrooms
+          - pepper
+          - ham
+          - bacon
+          - pepperoni
+          - olives
+          - corn
+          - chicken
+
+    - drink:
+        function: another()
+        type: string
+        data:
+          - sprite
+          - coke
+          - water
+    
+chatbot:  
+  is_starter: False
+#  fallback: I'm sorry, I did not get what you said. I can help you ordering predefined or custom pizzas, and then drinks.
+  fallback: I'm sorry it's a little loud in my pizza shop, can you say that again?
+  output:
+    - pizza_confirmation:
+        type: str
+        description: confirmation that the pizza has been the required toppings
+    - drinks_confirmation:
+        type: str
+        description: confirmation that the drinks has been ordered
+#  output:
+#    - price:
+#        type: money
+#        description: The price of the pizza order
+#    - order_id:
+#        type: str
+#        description: my order ID
+
+  
+
+
+conversation:
+  number: 3 # before was 7
+  goal_style:
+    all_answered:
+      export: True
+      limit: 10
+  interaction_style:
+    - default
+
+

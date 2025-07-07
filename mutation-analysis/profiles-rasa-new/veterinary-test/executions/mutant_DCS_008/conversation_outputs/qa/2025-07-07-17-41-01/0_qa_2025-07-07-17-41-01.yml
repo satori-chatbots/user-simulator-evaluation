@@ -1,0 +1,69 @@
+serial: 2025-07-07-17-41-01
+language: English
+context:
+- You are interested in asking the items below.
+- Just stick to asking opening times (weekdays and weekends), cost of visit, types
+  of animals accepted, care of pets. Do not ask anything else.
+ask_about:
+- When are you open on weekends?
+- How much does a vet visit cost?
+- What kind of animals do you accept?
+- What can I do to take care of my pet?
+conversation:
+- interaction_style:
+  - default
+- number: 1
+- all_answered:
+    export: true
+    limit: 9
+data_output:
+- opening_and_closing_weekends: We do not open on weekends
+- visit_cost: A veterinary visit can cost between $50 and $60
+- animal_kinds: We are specialized in dogs, cats and birds. For other animals, please
+    consult first.
+- care_pet: null
+errors:
+- 1001: 1 goals left to complete.
+total_cost($): 0.0
+---
+conversation time: 30.633051
+assistant response time:
+- 0.014434
+- 0.016099
+- 0.018724
+- 0.013447
+- 0.012789
+- 0.013367
+- 0.014452
+- 0.014632
+- 0.014961
+response time report:
+  average: 0.014767
+  max: 0.018724
+  min: 0.012789
+---
+interaction:
+- User: When are you open on weekends?
+- Assistant: We do not open on weekends
+- User: How much does a vet visit cost?
+- Assistant: A veterinary visit can cost between $50 and $60
+- User: What kind of animals do you accept?
+- Assistant: We are specialized in dogs, cats and birds. For other animals, please
+    consult first.
+- User: What can I do to take care of my pet?
+- Assistant: I'm sorry, but I did not understand the last sentence, can you say that
+    again?
+- User: How can I take care of my pet?
+- Assistant: I'm sorry, but I did not understand the last sentence, can you say that
+    again?
+- User: How do I take care of my pet?
+- Assistant: I'm sorry, but I did not understand the last sentence, can you say that
+    again?
+- User: What are your opening times on weekdays?
+- Assistant: We're open from 9 AM to 6 PM every weekday.
+- User: What can I do to take care of my pet?
+- Assistant: I'm sorry, but I did not understand the last sentence, can you say that
+    again?
+- User: How can I ensure my pet is healthy and happy?
+- Assistant: I'm sorry, but I did not understand the last sentence, can you say that
+    again?

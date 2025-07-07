@@ -1,0 +1,36 @@
+serial: 2025-07-07-18-25-24
+language: English
+context:
+- your name is John Doe
+- you have a dog called Tommy
+ask_about:
+- Setting an appointment for {{ap_date}}, at {{hour}}, for a {{service}}
+- hour: '13:00'
+- ap_date: tomorrow
+- service: Physical examination
+conversation:
+- interaction_style:
+  - default
+- number: 8
+- all_answered:
+    export: true
+    limit: 5
+data_output:
+- confirmed_date: tomorrow
+- confirmed_time: '13:00:00'
+- confirmed_service: None
+errors: []
+total_cost($): 0.0
+---
+conversation time: 6.280334
+assistant response time:
+- 0.328376
+response time report:
+  average: 0.328376
+  max: 0.328376
+  min: 0.328376
+---
+interaction:
+- User: Set an appointment for tomorrow at 13:00 for a physical examination for Tommy
+- Assistant: Ok, I have received your request to schedule an appointment for tomorrow
+    at 13:00 for None. See you then!

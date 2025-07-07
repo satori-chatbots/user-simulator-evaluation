@@ -1,0 +1,57 @@
+serial: 2025-07-07-18-25-24
+language: English
+context:
+- your name is John Doe
+- you have a dog called Tommy
+ask_about:
+- Setting an appointment for {{ap_date}}, at {{hour}}, for a {{service}}
+- hour: '14:00'
+- ap_date: 10-10-2025
+- service: Dental health and cleaning
+conversation:
+- interaction_style:
+  - default
+- number: 8
+- all_answered:
+    export: true
+    limit: 5
+data_output:
+- confirmed_date: Ok, I have received your request to schedule an appointment for
+    08-07-2025 at 00:00 for dental health and cleaning. See you then!
+- confirmed_time: Ok, I have received your request to schedule an appointment for
+    10-10-2025 at 14:00 for dental health and cleaning for Tommy.
+- confirmed_service: dental health and cleaning
+errors: []
+total_cost($): 0.0
+---
+conversation time: 13.189916
+assistant response time:
+- 0.051057
+- 0.027047
+- 0.050793
+- 0.03997
+- 0.056226
+response time report:
+  average: 0.045018
+  max: 0.056226
+  min: 0.027047
+---
+interaction:
+- User: Schedule an appointment for 10-10-2025 at 14:00 for dental health and cleaning
+    for Tommy
+- Assistant: What kind of service do you need? (Physical examination, Vaccination,
+    Dental health and cleaning, Lab or diagnostic testing)
+- User: Dental health and cleaning
+- Assistant: Ok, I have received your request to schedule an appointment for 08-07-2025
+    at 00:00 for dental health and cleaning. See you then!
+- User: Change the appointment date to 10-10-2025 at 14:00 for dental health and cleaning
+    for Tommy
+- Assistant: What kind of service do you need? (Physical examination, Vaccination,
+    Dental health and cleaning, Lab or diagnostic testing)
+- User: Dental health and cleaning
+- Assistant: Ok, I have received your request to schedule an appointment for 08-07-2025
+    at 00:00 for dental health and cleaning. See you then!
+- User: Change the appointment date to 10-10-2025 at 14:00 for dental health and cleaning
+    for Tommy
+- Assistant: What kind of service do you need? (Physical examination, Vaccination,
+    Dental health and cleaning, Lab or diagnostic testing)
