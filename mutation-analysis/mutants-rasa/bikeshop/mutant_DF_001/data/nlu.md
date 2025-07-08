@@ -14,6 +14,8 @@
 - When can I come by?
 
 ## intent:Make_Appointment
+- I want to set an appointment for [tomorrow](date)  at [15:30](time) for a [tune-up]{"entity": "appointmentType","value":"tune-up"} of my bike. Is that available?
+- Set an appointment for [tomorrow](date)  at [10:30](time) for a [tune-up]{"ent
 - Can I setup an appointment to [service]{"entity": "appointmentType","value":"tune-up"} my bike  [tomorrow](date)  at [5pm](time) ? 
 - Can you [fix]{"entity": "appointmentType","value":"repair"} my road bike? 
 - Can I schedule [service]{"entity": "appointmentType","value":"tune-up"} for  [9am](time)   [next monday](date) ? 
