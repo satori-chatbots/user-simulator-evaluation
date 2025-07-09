@@ -1,0 +1,55 @@
+serial: 2025-07-07-12-53-59
+language: English
+context:
+- Use very direct phrases, and when possible, use simple responses, like Yes or No.
+- For example, if you do not want more toppings, simply reply 'No'
+- First provide the pizza size, once confirmed, then the toppings, and finally the
+  drink, in different interactions.
+ask_about:
+- First, order a {{size}} pizza
+- Second, request the following toppings on the pizza {{toppings}}
+- Third, order a {{drink}}, after ordering the pizza toppings
+- toppings:
+  - cheese
+  - mushrooms
+- drink:
+  - coke
+- size:
+  - big
+conversation:
+- interaction_style:
+  - default
+- number: 3
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- confirmed_pizza_order: big pizza with no toppings
+- confirmed_drinks_order: coke
+errors: []
+---
+conversation time: 31.057142
+assistant response time:
+- 4.158553
+- 2.08433
+- 4.146727
+- 6.218366
+response time report:
+  average: 4.151994
+  max: 6.218366
+  min: 2.08433
+---
+interaction:
+- User: I’d like a big pizza, please. Is that okay?
+- Assistant: Could you please tell me what toppings you would like on your big pizza?
+    You can choose from cheese, mushrooms, pepper, ham, bacon, pepperoni, olives,
+    corn, or chicken.
+- User: I want cheese and mushrooms on the pizza. Is that good?
+- Assistant: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn,
+    onion and chicken
+- User: 'User: Yes, cheese and mushrooms are good. Can I get a drink with that?'
+- Assistant: Could you please let me know what drink you would like with your pizza?
+    The options are coke, sprite, or water.
+- User: I’d like a coke, please.
+- Assistant: Perfect, your big pizza order with no toppings and coke is on its way.
+    Have a great time with your pizza and beverages!

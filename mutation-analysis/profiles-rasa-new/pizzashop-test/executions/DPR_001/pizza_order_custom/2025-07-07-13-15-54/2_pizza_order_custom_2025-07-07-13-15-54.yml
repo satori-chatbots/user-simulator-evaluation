@@ -1,0 +1,56 @@
+serial: 2025-07-07-13-15-54
+language: English
+context:
+- Use very direct phrases, and when possible, use simple responses, like Yes or No.
+- For example, if you do not want more toppings, simply reply 'No'
+- First provide the pizza size, once confirmed, then the toppings, and finally the
+  drink, in different interactions.
+ask_about:
+- First, order a {{size}} pizza
+- Second, request the following toppings on the pizza {{toppings}}
+- Third, order a {{drink}}, after ordering the pizza toppings
+- toppings:
+  - bacon
+  - olives
+- drink:
+  - water
+- size:
+  - big
+conversation:
+- interaction_style:
+  - default
+- number: 3
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- confirmed_pizza_order: A big pizza with bacon and olives
+- confirmed_drinks_order: A big pizza with olives and bacon and water
+errors: []
+---
+conversation time: 35.386924
+assistant response time:
+- 4.129816
+- 6.183455
+- 4.159195
+- 6.201186
+response time report:
+  average: 5.168412
+  max: 6.201186
+  min: 4.129815
+---
+interaction:
+- User: I’d like a big pizza, please.
+- Assistant: Could you please tell me what toppings you would like on your  pizza?
+    You can choose from cheese, mushrooms, pepper, ham, bacon, pepperoni, olives,
+    corn, or chicken.
+- User: I want bacon and olives on the pizza.
+- Assistant: Great choice! A big pizza with olives and bacon. Just to confirm, would
+    you like to add any other toppings? We have mushrooms, pepper, ham, bacon, pepperoni,
+    corn, and chicken available.
+- User: No.
+- Assistant: Could you please let me know what drink you would like with your pizza?
+    The options are coke, sprite, or water.
+- User: I’ll have a water, please.
+- Assistant: Perfect, your big pizza order with olives and bacon and water is on its
+    way. Have a great time with your pizza and beverages!

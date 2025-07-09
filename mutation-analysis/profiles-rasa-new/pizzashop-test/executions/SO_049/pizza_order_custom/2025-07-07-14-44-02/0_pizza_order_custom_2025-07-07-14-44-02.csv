@@ -1,0 +1,4 @@
+;verification;data
+First,_order_a_small_pizza;True;User: Yes, a small pizza is fine.
+Second,_request_the_following_toppings_on_the_pizza_bacon,_chicken;True;User: No, just bacon and chicken, please.
+Third,_order_a_coke,_after_ordering_the_pizza_toppings;False;User: Can I get a coke to drink with my small pizza?

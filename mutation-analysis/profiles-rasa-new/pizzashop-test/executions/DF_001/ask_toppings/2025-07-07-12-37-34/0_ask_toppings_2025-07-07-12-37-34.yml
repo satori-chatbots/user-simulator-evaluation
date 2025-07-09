@@ -1,0 +1,31 @@
+serial: 2025-07-07-12-37-34
+language: English
+context:
+- You want to know the available pizza toppings, but not orderig a pizza, since you
+  are undecided
+ask_about:
+- Ask what are the available toppings for pizzas
+conversation:
+- interaction_style:
+  - default
+- number: 2
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- pizza_toppings: cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn,
+    onion, chicken
+errors: []
+---
+conversation time: 5.45586
+assistant response time:
+- 2.312536
+response time report:
+  average: 2.312536
+  max: 2.312536
+  min: 2.312536
+---
+interaction:
+- User: What are the available toppings for pizzas?
+- Assistant: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn,
+    onion and chicken

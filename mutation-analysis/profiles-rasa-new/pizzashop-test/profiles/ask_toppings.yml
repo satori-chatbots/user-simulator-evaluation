@@ -1,0 +1,41 @@
+test_name: "ask_toppings"
+
+llm:
+  temperature: 0.1
+  model: gpt-4o-mini
+
+user:
+  language: English
+  role: You are a client gathering information from a pizza shop, through a virtual assistant
+  context:
+    - You want to know the available pizza toppings, but not orderig a pizza, since you are undecided
+  goals:
+    - "Ask what are the available toppings for pizzas"
+
+chatbot:
+  is_starter: false
+  fallback: I'm sorry it's a little loud in my pizza shop, can you say that again?
+  output:
+    - pizza_toppings:
+        type: string
+        description: The confirmed available pizza toppings from the chatbot.
+
+conversation:
+  number: 2
+  goal_style:
+      # steps: 1
+      all_answered:
+        export: True
+        limit: 6
+  interaction_style:
+      - default
+      #- change language:
+      #    - spanish
+#      - random:
+#        - make spelling mistakes
+#        - all questions
+#        - long phrases
+#        - change language:
+#            - italian
+#            - portuguese
+#            - chinese

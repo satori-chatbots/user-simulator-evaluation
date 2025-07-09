@@ -1,0 +1,59 @@
+serial: 2025-07-07-15-52-59
+language: English
+context:
+- Use very direct phrases, and when possible, use simple responses, like Yes or No.
+- For example, if you do not want more toppings, simply reply 'No'
+- First provide the pizza size, once confirmed, then the toppings, and finally the
+  drink, in different interactions.
+ask_about:
+- First, order a {{size}} pizza
+- Second, request the following toppings on the pizza {{toppings}}
+- Third, order a {{drink}}, after ordering the pizza toppings
+- toppings:
+  - mushrooms
+  - chicken
+- drink:
+  - water
+- size:
+  - small
+conversation:
+- interaction_style:
+  - default
+- number: 3
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- confirmed_pizza_order: A small pizza with mushrooms and chicken.
+- confirmed_drinks_order: A small pizza with cheese, pepper, olives, bacon and mushrooms.
+errors: []
+---
+conversation time: 37.823501
+assistant response time:
+- 4.217192
+- 6.187608
+- 6.192858
+- 6.2189
+response time report:
+  average: 5.704139
+  max: 6.2189
+  min: 4.217192
+---
+interaction:
+- User: I would like to order a small pizza. Is that okay?
+- Assistant: Could you please tell me what toppings you would like on your small pizza?
+    You can choose from cheese, mushrooms, pepper, ham, bacon, pepperoni, olives,
+    corn, or chicken.
+- User: I would like mushrooms and chicken on the pizza. Is that okay?
+- Assistant: Great choice! A small pizza with cheese, pepper, olives, bacon and mushrooms.
+    Just to confirm, would you like to add any other toppings? We have mushrooms,
+    pepper, ham, bacon, pepperoni, corn, and chicken available.
+- User: No. Just mushrooms and chicken, please.
+- Assistant: Great choice! A small pizza with cheese, pepper, olives, bacon and mushrooms.
+    Just to confirm, would you like to add any other toppings? We have mushrooms,
+    pepper, ham, bacon, pepperoni, corn, and chicken available.
+- User: I just want mushrooms and chicken, no other toppings. Can I get a water with
+    that?
+- Assistant: Great choice! A small pizza with cheese, pepper, olives, bacon and mushrooms.
+    Just to confirm, would you like to add any other toppings? We have mushrooms,
+    pepper, ham, bacon, pepperoni, corn, and chicken available.

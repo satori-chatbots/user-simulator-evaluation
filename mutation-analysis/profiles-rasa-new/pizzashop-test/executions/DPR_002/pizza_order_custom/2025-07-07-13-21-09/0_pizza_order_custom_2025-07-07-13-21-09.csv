@@ -1,0 +1,4 @@
+;verification;data
+First,_order_a_small_pizza;True;User: I’d like to order a small pizza. Is that okay? Assistant: Could you please tell me what toppings you would like on your small pizza?
+Second,_request_the_following_toppings_on_the_pizza_cheese,_mushrooms;True;User: Yes, I want cheese and mushrooms. Assistant: Great choice! A small pizza with mushrooms and cheese.
+Third,_order_a_water,_after_ordering_the_pizza_toppings;True;User: Water, please. Assistant: Perfect, your small pizza order with mushrooms and cheese and water is on its way.

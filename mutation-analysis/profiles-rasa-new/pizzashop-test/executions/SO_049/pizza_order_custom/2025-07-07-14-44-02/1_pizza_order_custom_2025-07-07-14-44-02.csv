@@ -1,0 +1,4 @@
+;verification;data
+First,_order_a_medium_pizza;True;User: Yes, a medium pizza is fine.
+Second,_request_the_following_toppings_on_the_pizza_olives,_corn;True;User: I would like olives and corn as toppings on my medium pizza. Can you confirm that?
+Third,_order_a_sprite,_after_ordering_the_pizza_toppings;False;null

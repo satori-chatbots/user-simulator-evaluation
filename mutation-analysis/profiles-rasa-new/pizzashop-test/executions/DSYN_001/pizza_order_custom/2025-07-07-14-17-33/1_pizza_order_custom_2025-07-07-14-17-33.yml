@@ -1,0 +1,56 @@
+serial: 2025-07-07-14-17-33
+language: English
+context:
+- Use very direct phrases, and when possible, use simple responses, like Yes or No.
+- For example, if you do not want more toppings, simply reply 'No'
+- First provide the pizza size, once confirmed, then the toppings, and finally the
+  drink, in different interactions.
+ask_about:
+- First, order a {{size}} pizza
+- Second, request the following toppings on the pizza {{toppings}}
+- Third, order a {{drink}}, after ordering the pizza toppings
+- toppings:
+  - mushrooms
+  - cheese
+- drink:
+  - sprite
+- size:
+  - medium
+conversation:
+- interaction_style:
+  - default
+- number: 3
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- confirmed_pizza_order: medium pizza with ham, corn, cheese and mushrooms
+- confirmed_drinks_order: sprite
+errors: []
+---
+conversation time: 33.714813
+assistant response time:
+- 4.155853
+- 6.170009
+- 4.140047
+- 6.197348
+response time report:
+  average: 5.165814
+  max: 6.197348
+  min: 4.140047
+---
+interaction:
+- User: I would like to order a medium pizza. Is that okay?
+- Assistant: Could you please tell me what toppings you would like on your medium
+    pizza? You can choose from cheese, mushrooms, pepper, ham, bacon, pepperoni, olives,
+    corn, or chicken.
+- User: Yes, I want mushrooms and cheese on the pizza.
+- Assistant: Great choice! A medium pizza with ham, corn, cheese and mushrooms. Just
+    to confirm, would you like to add any other toppings? We have mushrooms, pepper,
+    ham, bacon, pepperoni, corn, and chicken available.
+- User: No.
+- Assistant: Could you please let me know what drink you would like with your pizza?
+    The options are coke, sprite, or water.
+- User: I would like a sprite, please.
+- Assistant: Perfect, your medium pizza order with ham, corn, cheese and mushrooms
+    and sprite is on its way. Have a great time with your pizza and beverages!

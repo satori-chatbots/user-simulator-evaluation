@@ -1,0 +1,56 @@
+serial: 2025-07-07-13-10-32
+language: English
+context:
+- You do not want to order pizza, but obtain some facts about the technology of the
+  assistant you are talking with
+ask_about:
+- Are you made with generativ artificial intelligence?
+- Where do you run? On a server in the cloud?
+conversation:
+- interaction_style:
+  - default
+- number: 1
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- summary: None
+errors: []
+---
+conversation time: 31.144157
+assistant response time:
+- 2.07774
+- 2.090252
+- 2.090613
+- 4.126229
+- 4.152468
+- 4.135412
+response time report:
+  average: 3.112119
+  max: 4.152468
+  min: 2.07774
+---
+interaction:
+- User: Are you made with generative artificial intelligence?
+- Assistant: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn,
+    onion and chicken
+- User: What I meant was, are you built using generative artificial intelligence technology?
+- Assistant: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn,
+    onion and chicken
+- User: Are you able to understand and process natural language effectively because
+    of that technology?
+- Assistant: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn,
+    onion and chicken
+- User: Is there a specific type of technology that helps you interact with customers,
+    like machine learning?
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.
+- User: Is there a particular programming language or framework that your system is
+    built on?
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.
+- User: What kind of data do you use to improve your responses?
+- Assistant: 'The topping responses is not available.
+
+    Could you please specify the size of the pizza you''d like? We offer small, medium,
+    and big sizes.'

@@ -1,0 +1,61 @@
+serial: 2025-07-07-14-28-16
+language: English
+context:
+- Use very direct phrases, and when possible, use simple responses, like Yes or No.
+- For example, if you do not want more toppings, simply reply 'No'
+- First provide the pizza size, once confirmed, then the toppings, and finally the
+  drink, in different interactions.
+ask_about:
+- First, order a {{size}} pizza
+- Second, request the following toppings on the pizza {{toppings}}
+- Third, order a {{drink}}, after ordering the pizza toppings
+- toppings:
+  - pepper
+  - bacon
+- drink:
+  - sprite
+- size:
+  - big
+conversation:
+- interaction_style:
+  - default
+- number: 3
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- confirmed_pizza_order: null
+- confirmed_drinks_order: null
+errors:
+- 1001: 2 goals left to complete.
+---
+conversation time: 30.465654
+assistant response time:
+- 4.161954
+- 2.082531
+- 2.090324
+- 2.088595
+- 2.092125
+- 2.075112
+response time report:
+  average: 2.431773
+  max: 4.161954
+  min: 2.075112
+---
+interaction:
+- User: I’d like a big pizza. Is that okay?
+- Assistant: Could you please tell me what toppings you would like on your big pizza?
+    You can choose from cheese, mushrooms, pepper, ham, bacon, pepperoni, olives,
+    corn, or chicken.
+- User: Yes, I want pepper and bacon on the pizza. Is that good?
+- Assistant: I'm sorry it's a little loud in my pizza shop, can you say that again?
+- User: I want pepper and bacon on the pizza. Can you confirm that?
+- Assistant: 'What topping do you want?
+
+    I''m sorry it''s a little loud in my pizza shop, can you say that again?'
+- User: I want pepper and bacon on the pizza. Can you confirm that?
+- Assistant: What topping do you want?
+- User: I want pepper and bacon on the pizza. Can you confirm that?
+- Assistant: What topping do you want?
+- User: I want pepper and bacon on the pizza. Can you confirm that?
+- Assistant: What topping do you want?

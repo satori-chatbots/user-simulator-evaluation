@@ -1,0 +1,4 @@
+;verification;data
+First,_order_a_small_pizza;True;User: I’d like to order a small pizza. Is that okay?
+Second,_request_the_following_toppings_on_the_pizza_ham,_bacon;True;User: I want ham and bacon on the pizza. Is that good?
+Third,_order_a_sprite,_after_ordering_the_pizza_toppings;True;User: I’d like a Sprite to go with that. Is that okay?

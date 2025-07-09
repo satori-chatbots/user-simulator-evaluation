@@ -1,0 +1,55 @@
+serial: 2025-07-07-13-15-54
+language: English
+context:
+- You do not want to order pizza, but obtain some facts about the technology of the
+  assistant you are talking with
+ask_about:
+- Are you made with generativ artificial intelligence?
+- Where do you run? On a server in the cloud?
+conversation:
+- interaction_style:
+  - default
+- number: 1
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- summary: null
+errors:
+- 1001: 1 goals left to complete.
+---
+conversation time: 33.26079
+assistant response time:
+- 2.078113
+- 2.092413
+- 4.147189
+- 4.157392
+- 4.142831
+- 4.12781
+response time report:
+  average: 3.457624
+  max: 4.157392
+  min: 2.078113
+---
+interaction:
+- User: Can you tell me if you're made with generative artificial intelligence?
+- Assistant: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn,
+    onion and chicken
+- User: That's interesting! But I'm more curious about your technology. Can you tell
+    me if you're designed to learn from conversations?
+- Assistant: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn,
+    onion and chicken
+- User: Is your technology based on algorithms that improve over time with more interactions?
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.
+- User: I see you have different pizza options! But I'm still curious about your technology.
+    Do you process language to understand and respond to questions?
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.
+- User: Can you tell me if your responses are generated in real-time based on user
+    input?
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.
+- User: Do you run on a server in the cloud?
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.

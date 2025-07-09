@@ -1,0 +1,5 @@
+name: shows_fallback
+description: Should show fallback (only relevant in pizza_facts conversations)
+active: True
+oracle: |
+  len(chatbot_returns("I'm sorry it's a little loud in my pizza shop, can you say that again?"))>0

@@ -1,0 +1,5 @@
+name: contains_requested_toppings
+description: the confirmed pizza should have the requested toppings
+active: False
+oracle: |
+  semantic_content(conv[0].confirmed_pizza_order, "A pizza with toppings: "+(",".join(conv[0].toppings)))

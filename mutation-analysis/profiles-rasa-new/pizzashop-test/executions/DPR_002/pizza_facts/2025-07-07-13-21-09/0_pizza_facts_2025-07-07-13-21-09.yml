@@ -1,0 +1,51 @@
+serial: 2025-07-07-13-21-09
+language: English
+context:
+- You do not want to order pizza, but obtain some facts about the technology of the
+  assistant you are talking with
+ask_about:
+- Are you made with generativ artificial intelligence?
+- Where do you run? On a server in the cloud?
+conversation:
+- interaction_style:
+  - default
+- number: 1
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- summary: None
+errors: []
+---
+conversation time: 26.710115
+assistant response time:
+- 2.069217
+- 2.104847
+- 2.086783
+- 2.096696
+- 2.091365
+- 2.09207
+response time report:
+  average: 2.090163
+  max: 2.104847
+  min: 2.069217
+---
+interaction:
+- User: Are you made with generative artificial intelligence?
+- Assistant: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn,
+    onion and chicken
+- User: That's interesting! But I meant to ask about your technology. Can you tell
+    me if you're using generative artificial intelligence?
+- Assistant: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn,
+    onion and chicken
+- User: What kind of technology powers your responses? Are you based on machine learning?
+- Assistant: I'm sorry it's a little loud in my pizza shop, can you say that again?
+- User: Could you clarify what technology you use to generate your responses? Is it
+    based on machine learning techniques?
+- Assistant: What topping do you want?
+- User: What kind of machine learning model are you using? Is it something like a
+    neural network?
+- Assistant: I'm sorry it's a little loud in my pizza shop, can you say that again?
+- User: Could you explain what type of machine learning model powers your responses?
+    Are you utilizing something like a neural network?
+- Assistant: What topping do you want?

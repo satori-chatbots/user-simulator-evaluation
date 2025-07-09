@@ -1,0 +1,9 @@
+rule,checks,pass,fail,not_applicable,fail_rate
+all_slots_set,6,5,1,0,16.67%
+empty_responses,6,6,0,0,0.00%
+empty_responses2,6,6,0,0,0.00%
+shows_fallback,6,0,6,0,100.00%
+goal_not_completed,6,6,0,0,0.00%
+no_response,6,6,0,0,0.00%
+timeout,6,6,0,0,0.00%
+exceeded_loop_limit,6,6,0,0,0.00%

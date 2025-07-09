@@ -1,0 +1,63 @@
+serial: 2025-07-07-14-28-16
+language: English
+context:
+- Use very direct phrases, and when possible, use simple responses, like Yes or No.
+- For example, if you do not want more toppings, simply reply 'No'
+- First provide the pizza size, once confirmed, then the toppings, and finally the
+  drink, in different interactions.
+ask_about:
+- First, order a {{size}} pizza
+- Second, request the following toppings on the pizza {{toppings}}
+- Third, order a {{drink}}, after ordering the pizza toppings
+- toppings:
+  - corn
+  - mushrooms
+- drink:
+  - coke
+- size:
+  - tiny
+conversation:
+- interaction_style:
+  - default
+- number: 3
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- confirmed_pizza_order: null
+- confirmed_drinks_order: null
+errors:
+- 1001: 2 goals left to complete.
+---
+conversation time: 41.274261
+assistant response time:
+- 4.22171
+- 4.141718
+- 4.141148
+- 4.159328
+- 4.14454
+- 4.156215
+response time report:
+  average: 4.160776
+  max: 4.22171
+  min: 4.141148
+---
+interaction:
+- User: I would like to order a tiny pizza. Is that okay?
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.
+- User: Yes, tiny pizza.
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.
+- User: I said tiny pizza. Can you confirm that?
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.
+- User: I want a tiny pizza. Can you confirm that?
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.
+- User: I want a tiny pizza. Can you confirm that?
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.
+- User: I want a tiny pizza. Can you confirm that?
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.

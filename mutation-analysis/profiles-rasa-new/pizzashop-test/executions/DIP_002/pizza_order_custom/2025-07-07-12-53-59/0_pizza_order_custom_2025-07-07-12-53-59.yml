@@ -1,0 +1,51 @@
+serial: 2025-07-07-12-53-59
+language: English
+context:
+- Use very direct phrases, and when possible, use simple responses, like Yes or No.
+- For example, if you do not want more toppings, simply reply 'No'
+- First provide the pizza size, once confirmed, then the toppings, and finally the
+  drink, in different interactions.
+ask_about:
+- First, order a {{size}} pizza
+- Second, request the following toppings on the pizza {{toppings}}
+- Third, order a {{drink}}, after ordering the pizza toppings
+- toppings:
+  - pepperoni
+  - olives
+- drink:
+  - sprite
+- size:
+  - small
+conversation:
+- interaction_style:
+  - default
+- number: 3
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- confirmed_pizza_order: small pizza with no toppings
+- confirmed_drinks_order: sprite
+errors: []
+---
+conversation time: 25.955579
+assistant response time:
+- 4.328199
+- 4.15367
+- 6.202271
+response time report:
+  average: 4.894713
+  max: 6.202271
+  min: 4.15367
+---
+interaction:
+- User: I would like to order a small pizza. Is that okay?
+- Assistant: Could you please tell me what toppings you would like on your small pizza?
+    You can choose from cheese, mushrooms, pepper, ham, bacon, pepperoni, olives,
+    corn, or chicken.
+- User: Yes, I want pepperoni and olives. Is that good?
+- Assistant: Could you please let me know what drink you would like with your pizza?
+    The options are coke, sprite, or water.
+- User: I would like a sprite, please. Is that all set?
+- Assistant: Perfect, your small pizza order with no toppings and sprite is on its
+    way. Have a great time with your pizza and beverages!

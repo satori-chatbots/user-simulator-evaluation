@@ -1,0 +1,4 @@
+;verification;data
+First,_order_a_big_pizza;True;User: I’d like a big pizza, please.
+Second,_request_the_following_toppings_on_the_pizza_bacon,_olives;True;User: I want bacon and olives on the pizza.
+Third,_order_a_water,_after_ordering_the_pizza_toppings;True;User: I’ll have a water, please.

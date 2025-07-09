@@ -1,0 +1,78 @@
+test_name: "pizza_order_custom"
+
+llm:
+  temperature: 0.0
+  model: gpt-4o-mini
+
+user:
+  language: English
+  role: You are a client ordering a pizza to a pizza shop, through a virtual assistant
+  context:
+    - Use very direct phrases, and when possible, use simple responses, like Yes or No.
+    - For example, if you do not want more toppings, simply reply 'No'
+    - First provide the pizza size, once confirmed, then the toppings, and finally the drink, in different interactions.
+  goals:
+    - "First, order a {{size}} pizza"
+    - "Second, request the following toppings on the pizza {{toppings}}"
+    - "Third, order a {{drink}}, after ordering the pizza toppings"
+
+    - size:
+        function: forward()
+        type: string
+        data:
+          - small
+          - medium
+          - big
+
+    - toppings:
+        function: random(2)
+        type: string
+        data:
+          - cheese
+          - mushrooms
+          - pepper
+          - ham
+          - bacon
+          - pepperoni
+          - olives
+          - corn
+          - chicken
+
+    - drink:
+        function: another()
+        type: string
+        data:
+          - sprite
+          - coke
+          - water
+
+chatbot:
+  is_starter: false
+  fallback: I'm sorry it's a little loud in my pizza shop, can you say that again?
+  output:
+    - confirmed_pizza_order:
+        type: string
+        description: The confirmed pizza size and toppings from the chatbot.
+    - confirmed_drinks_order:
+        type: string
+        description: The confirmed drink order from the chatbot.
+
+conversation:
+  number: 3
+  goal_style:
+      # steps: 1
+      all_answered:
+        export: True
+        limit: 6
+  interaction_style:
+      - default
+      #- change language:
+      #    - spanish
+#      - random:
+#        - make spelling mistakes
+#        - all questions
+#        - long phrases
+#        - change language:
+#            - italian
+#            - portuguese
+#            - chinese

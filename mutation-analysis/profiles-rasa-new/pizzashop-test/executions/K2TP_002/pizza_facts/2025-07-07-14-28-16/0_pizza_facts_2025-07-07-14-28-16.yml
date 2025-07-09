@@ -1,0 +1,56 @@
+serial: 2025-07-07-14-28-16
+language: English
+context:
+- You do not want to order pizza, but obtain some facts about the technology of the
+  assistant you are talking with
+ask_about:
+- Are you made with generativ artificial intelligence?
+- Where do you run? On a server in the cloud?
+conversation:
+- interaction_style:
+  - default
+- number: 1
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- summary: null
+errors:
+- 1001: 1 goals left to complete.
+---
+conversation time: 30.648232
+assistant response time:
+- 2.109381
+- 2.091324
+- 2.083952
+- 2.08721
+- 4.133778
+- 4.152452
+response time report:
+  average: 2.776349
+  max: 4.152452
+  min: 2.083952
+---
+interaction:
+- User: What kind of technology powers your virtual assistant? Are you made with generative
+    artificial intelligence?
+- Assistant: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn,
+    onion and chicken
+- User: That's interesting! But I'm curious, do you run on a server in the cloud?
+- Assistant: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn,
+    onion and chicken
+- User: Is there any specific type of server architecture you use for your operations?
+- Assistant: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn,
+    onion and chicken
+- User: I'm really intrigued by your technology! Can you tell me if you're constantly
+    learning from interactions?
+- Assistant: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn,
+    onion and chicken
+- User: Is there a specific programming language that was used to develop you?
+- Assistant: Could you please let me know what drink you would like with your pizza?
+    The options are coke, sprite, or water.
+- User: I'm not really looking to order anything right now. I'm more interested in
+    understanding your technology. Can you tell me if you use machine learning algorithms
+    in your design?
+- Assistant: Could you please let me know what drink you would like with your pizza?
+    The options are coke, sprite, or water.

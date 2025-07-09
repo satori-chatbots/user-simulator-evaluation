@@ -1,0 +1,57 @@
+serial: 2025-07-07-13-21-09
+language: English
+context:
+- Use very direct phrases, and when possible, use simple responses, like Yes or No.
+- For example, if you do not want more toppings, simply reply 'No'
+- First provide the pizza size, once confirmed, then the toppings, and finally the
+  drink, in different interactions.
+ask_about:
+- First, order a {{size}} pizza
+- Second, request the following toppings on the pizza {{toppings}}
+- Third, order a {{drink}}, after ordering the pizza toppings
+- toppings:
+  - chicken
+  - cheese
+- drink:
+  - coke
+- size:
+  - medium
+conversation:
+- interaction_style:
+  - default
+- number: 3
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- confirmed_pizza_order: A medium pizza with chicken and cheese.
+- confirmed_drinks_order: coke
+errors: []
+---
+conversation time: 34.936396
+assistant response time:
+- 4.160652
+- 6.197452
+- 6.195916
+- 4.146181
+response time report:
+  average: 5.17505
+  max: 6.197452
+  min: 4.146181
+---
+interaction:
+- User: I would like a medium pizza. Is that okay?
+- Assistant: Could you please tell me what toppings you would like on your medium
+    pizza? You can choose from cheese, mushrooms, pepper, ham, bacon, pepperoni, olives,
+    corn, or chicken.
+- User: I want chicken and cheese on the pizza. Is that good?
+- Assistant: Great choice! A medium pizza with cheese. Just to confirm, would you
+    like to add any other toppings? We have mushrooms, pepper, ham, bacon, pepperoni,
+    corn, and chicken available.
+- User: No. Just chicken and cheese. What's the drink?
+- Assistant: Great choice! A medium pizza with cheese. Just to confirm, would you
+    like to add any other toppings? We have mushrooms, pepper, ham, bacon, pepperoni,
+    corn, and chicken available.
+- User: I already said no to more toppings. Can I order a Coke now?
+- Assistant: Could you please let me know what drink you would like with your pizza?
+    The options are coke, sprite, or water.

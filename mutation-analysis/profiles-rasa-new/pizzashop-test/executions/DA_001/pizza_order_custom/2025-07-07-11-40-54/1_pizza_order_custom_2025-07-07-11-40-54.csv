@@ -1,0 +1,4 @@
+;verification;data
+First,_order_a_medium_pizza;True;User: I’d like to order a medium pizza. Is that okay? Assistant: <EMPTY-RESPONSE> User: Yes, that's okay.
+Second,_request_the_following_toppings_on_the_pizza_cheese,_pepper;True;User: Can I get cheese and pepper on that pizza? Assistant: Could you please let me know what drink you would like with your pizza? The options are coke, sprite, or water.
+Third,_order_a_coke,_after_ordering_the_pizza_toppings;True;User: I’ll have a coke with that, please.

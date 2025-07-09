@@ -1,0 +1,5 @@
+;verification;data
+First,_order_a_big_pizza;True;"User: I’d like a big pizza, please. Is that okay?
+Assistant: Could you please tell me what toppings you would like on your big pizza?"
+Second,_request_the_following_toppings_on_the_pizza_cheese,_mushrooms;True;User: Yes, cheese and mushrooms are good. Can I get a drink with that?
+Third,_order_a_coke,_after_ordering_the_pizza_toppings;True;User: I’d like a coke, please.

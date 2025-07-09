@@ -1,0 +1,68 @@
+serial: 2025-07-07-14-44-02
+language: English
+context:
+- Use very direct phrases, and when possible, use simple responses, like Yes or No.
+- For example, if you do not want more toppings, simply reply 'No'
+- First provide the pizza size, once confirmed, then the toppings, and finally the
+  drink, in different interactions.
+ask_about:
+- First, order a {{size}} pizza
+- Second, request the following toppings on the pizza {{toppings}}
+- Third, order a {{drink}}, after ordering the pizza toppings
+- toppings:
+  - olives
+  - corn
+- drink:
+  - sprite
+- size:
+  - medium
+conversation:
+- interaction_style:
+  - default
+- number: 3
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- confirmed_pizza_order: medium pizza with olives and corn
+- confirmed_drinks_order: null
+errors:
+- 1001: 1 goals left to complete.
+---
+conversation time: 51.746375
+assistant response time:
+- 4.146129
+- 2.078851
+- 6.174507
+- 6.20886
+- 6.197042
+- 6.193706
+response time report:
+  average: 5.166515
+  max: 6.20886
+  min: 2.078851
+---
+interaction:
+- User: I would like a medium pizza. Is that okay?
+- Assistant: Could you please let me know what drink you would like with your pizza?
+    The options are coke, sprite, or water.
+- User: Yes, a medium pizza is fine. Now, I would like olives and corn as toppings.
+    Is that okay?
+- Assistant: I'm sorry it's a little loud in my pizza shop, can you say that again?
+- User: I would like olives and corn as toppings on my medium pizza. Can you confirm
+    that?
+- Assistant: Great choice! A medium pizza with bacon, corn and olives. Just to confirm,
+    would you like to add any other toppings? We have mushrooms, pepper, ham, bacon,
+    pepperoni, corn, and chicken available.
+- User: No. Just olives and corn, please. What's the drink again?
+- Assistant: Great choice! A medium pizza with bacon, corn and olives. Just to confirm,
+    would you like to add any other toppings? We have mushrooms, pepper, ham, bacon,
+    pepperoni, corn, and chicken available.
+- User: I would like a medium pizza with olives and corn. Can you confirm that?
+- Assistant: Great choice! A medium pizza with bacon, corn and olives. Just to confirm,
+    would you like to add any other toppings? We have mushrooms, pepper, ham, bacon,
+    pepperoni, corn, and chicken available.
+- User: I would like a medium pizza with olives and corn. Can you confirm that?
+- Assistant: Great choice! A medium pizza with bacon, corn and olives. Just to confirm,
+    would you like to add any other toppings? We have mushrooms, pepper, ham, bacon,
+    pepperoni, corn, and chicken available.

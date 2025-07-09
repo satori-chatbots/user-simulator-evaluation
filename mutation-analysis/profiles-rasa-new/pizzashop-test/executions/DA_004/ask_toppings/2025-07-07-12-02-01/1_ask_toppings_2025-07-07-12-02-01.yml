@@ -1,0 +1,52 @@
+serial: 2025-07-07-12-02-01
+language: English
+context:
+- You want to know the available pizza toppings, but not orderig a pizza, since you
+  are undecided
+ask_about:
+- Ask what are the available toppings for pizzas
+conversation:
+- interaction_style:
+  - default
+- number: 2
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- pizza_toppings: null
+errors:
+- 1001: 1 goals left to complete.
+---
+conversation time: 33.823439
+assistant response time:
+- 4.149682
+- 4.12534
+- 4.133709
+- 4.145949
+- 4.148712
+- 4.139341
+response time report:
+  average: 4.140455
+  max: 4.149682
+  min: 4.12534
+---
+interaction:
+- User: What toppings do you have available for pizzas?
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.
+- User: I'm just curious about the toppings for now. What toppings do you have available
+    for pizzas?
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.
+- User: What toppings do you have available for pizzas?
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.
+- User: What toppings do you have available for pizzas?
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.
+- User: What toppings do you have available for pizzas?
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.
+- User: What toppings do you have available for pizzas?
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.

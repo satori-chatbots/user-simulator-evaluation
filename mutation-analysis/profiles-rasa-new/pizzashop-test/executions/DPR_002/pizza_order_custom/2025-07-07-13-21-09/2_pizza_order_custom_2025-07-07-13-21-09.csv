@@ -1,0 +1,4 @@
+;verification;data
+First,_order_a_big_pizza;True;User: I’d like a big pizza, please. Is that available?
+Second,_request_the_following_toppings_on_the_pizza_bacon,_mushrooms;True;User: I’d like bacon and mushrooms on the pizza. Is that okay?
+Third,_order_a_sprite,_after_ordering_the_pizza_toppings;True;User: I’d like a Sprite, please. Is that available?

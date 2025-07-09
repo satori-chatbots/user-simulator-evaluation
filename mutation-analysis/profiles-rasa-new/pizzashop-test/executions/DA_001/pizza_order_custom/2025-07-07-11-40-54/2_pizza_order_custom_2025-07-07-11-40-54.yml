@@ -1,0 +1,58 @@
+serial: 2025-07-07-11-40-54
+language: English
+context:
+- Use very direct phrases, and when possible, use simple responses, like Yes or No.
+- First provide the pizza size, once confirmed, then the toppings, and finally the
+  drink, in different interactions.
+ask_about:
+- First, order a {{size}} pizza
+- Second, request the following toppings on the pizza {{toppings}}
+- Third, order a {{drink}}, after ordering the pizza toppings
+- toppings:
+  - mushrooms
+  - bacon
+- drink:
+  - sprite
+- size:
+  - big
+conversation:
+- interaction_style:
+  - default
+- number: 3
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- confirmed_pizza_order: A big pizza with pepper, cheese, mushrooms, and bacon.
+- confirmed_drinks_order: sprite
+errors: []
+---
+conversation time: 45.305628
+assistant response time:
+- 4.136357
+- 6.202068
+- 6.209557
+- 4.151287
+- 6.192853
+response time report:
+  average: 5.378424
+  max: 6.209557
+  min: 4.136357
+---
+interaction:
+- User: I would like a big pizza, please. Is that okay?
+- Assistant: <EMPTY-RESPONSE>
+- User: Yes, that's okay. Can I add mushrooms to the pizza?
+- Assistant: Great choice! A big pizza with pepper, cheese and mushrooms. Just to
+    confirm, would you like to add any other toppings? We have mushrooms, pepper,
+    ham, bacon, pepperoni, corn, and chicken available.
+- User: Can I add bacon to the pizza?
+- Assistant: Great choice! A big pizza with pepper, cheese, mushrooms and bacon. Just
+    to confirm, would you like to add any other toppings? We have mushrooms, pepper,
+    ham, bacon, pepperoni, corn, and chicken available.
+- User: 'User: No, that''s all for the toppings. Can I get a drink with that?'
+- Assistant: Could you please let me know what drink you would like with your pizza?
+    The options are coke, sprite, or water.
+- User: I would like a sprite, please.
+- Assistant: Perfect, your big pizza order with pepper, cheese, mushrooms and bacon
+    and sprite is on its way. Have a great time with your pizza and beverages!

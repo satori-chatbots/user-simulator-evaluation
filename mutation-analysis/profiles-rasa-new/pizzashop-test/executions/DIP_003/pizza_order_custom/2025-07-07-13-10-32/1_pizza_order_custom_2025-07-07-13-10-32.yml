@@ -1,0 +1,58 @@
+serial: 2025-07-07-13-10-32
+language: English
+context:
+- Use very direct phrases, and when possible, use simple responses, like Yes or No.
+- For example, if you do not want more toppings, simply reply 'No'
+- First provide the pizza size, once confirmed, then the toppings, and finally the
+  drink, in different interactions.
+ask_about:
+- First, order a {{size}} pizza
+- Second, request the following toppings on the pizza {{toppings}}
+- Third, order a {{drink}}, after ordering the pizza toppings
+- toppings:
+  - olives
+  - corn
+- drink:
+  - sprite
+- size:
+  - medium
+conversation:
+- interaction_style:
+  - default
+- number: 3
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- confirmed_pizza_order: A medium pizza with corn and olives.
+- confirmed_drinks_order: None
+errors: []
+---
+conversation time: 37.895322
+assistant response time:
+- 4.146848
+- 6.215648
+- 6.204534
+- 6.2085
+response time report:
+  average: 5.693882
+  max: 6.215648
+  min: 4.146848
+---
+interaction:
+- User: I would like a medium pizza. Is that okay?
+- Assistant: Could you please tell me what toppings you would like on your medium
+    pizza? You can choose from cheese, mushrooms, pepper, ham, bacon, pepperoni, olives,
+    corn, or chicken.
+- User: Yes, I want olives and corn on the pizza. Is that good?
+- Assistant: Great choice! A medium pizza with corn and olives. Just to confirm, would
+    you like to add any other toppings? We have mushrooms, pepper, ham, bacon, pepperoni,
+    corn, and chicken available.
+- User: No. Just olives and corn. What's the drink?
+- Assistant: Great choice! A medium pizza with corn and olives. Just to confirm, would
+    you like to add any other toppings? We have mushrooms, pepper, ham, bacon, pepperoni,
+    corn, and chicken available.
+- User: 'User: No, just olives and corn. Can I get a Sprite to drink?'
+- Assistant: Great choice! A medium pizza with corn and olives. Just to confirm, would
+    you like to add any other toppings? We have mushrooms, pepper, ham, bacon, pepperoni,
+    corn, and chicken available.

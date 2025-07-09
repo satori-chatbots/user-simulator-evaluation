@@ -1,0 +1,4 @@
+;verification;data
+First,_order_a_regular_pizza;False;
+Second,_request_the_following_toppings_on_the_pizza_chicken,_ham;False;
+Third,_order_a_water,_after_ordering_the_pizza_toppings;False;

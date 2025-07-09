@@ -1,0 +1,52 @@
+serial: 2025-07-07-11-40-54
+language: English
+context:
+- Use very direct phrases, and when possible, use simple responses, like Yes or No.
+- First provide the pizza size, once confirmed, then the toppings, and finally the
+  drink, in different interactions.
+ask_about:
+- First, order a {{size}} pizza
+- Second, request the following toppings on the pizza {{toppings}}
+- Third, order a {{drink}}, after ordering the pizza toppings
+- toppings:
+  - cheese
+  - pepperoni
+- drink:
+  - water
+- size:
+  - small
+conversation:
+- interaction_style:
+  - default
+- number: 3
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- confirmed_pizza_order: Small pizza with pepperoni and cheese
+- confirmed_drinks_order: small pizza with pepperoni and cheese and water
+errors: []
+---
+conversation time: 39.360404
+assistant response time:
+- 4.143596
+- 4.13091
+- 6.20841
+- 6.201348
+response time report:
+  average: 5.171066
+  max: 6.20841
+  min: 4.13091
+---
+interaction:
+- User: I would like to order a small pizza. Is that okay?
+- Assistant: <EMPTY-RESPONSE>
+- User: Yes, that's okay. Can I confirm the small pizza for you?
+- Assistant: <EMPTY-RESPONSE>
+- User: Yes, please confirm the small pizza. Can I add cheese and pepperoni on it?
+- Assistant: Great choice! A small pizza with pepperoni and cheese. Just to confirm,
+    would you like to add any other toppings? We have mushrooms, pepper, ham, bacon,
+    pepperoni, corn, and chicken available.
+- User: No, just cheese and pepperoni, please. Can I also get a water with that?
+- Assistant: Perfect, your small pizza order with pepperoni and cheese and water is
+    on its way. Have a great time with your pizza and beverages!

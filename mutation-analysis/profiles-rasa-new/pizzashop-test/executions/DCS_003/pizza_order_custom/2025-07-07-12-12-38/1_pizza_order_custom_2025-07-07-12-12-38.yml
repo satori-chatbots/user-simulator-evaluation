@@ -1,0 +1,61 @@
+serial: 2025-07-07-12-12-38
+language: English
+context:
+- Use very direct phrases, and when possible, use simple responses, like Yes or No.
+- First provide the pizza size, once confirmed, then the toppings, and finally the
+  drink, in different interactions.
+ask_about:
+- First, order a {{size}} pizza
+- Second, request the following toppings on the pizza {{toppings}}
+- Third, order a {{drink}}, after ordering the pizza toppings
+- toppings:
+  - corn
+  - ham
+- drink:
+  - coke
+- size:
+  - medium
+conversation:
+- interaction_style:
+  - default
+- number: 3
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- confirmed_pizza_order: A medium pizza with corn and ham.
+- confirmed_drinks_order: Coke
+errors: []
+---
+conversation time: 37.050334
+assistant response time:
+- 4.16287
+- 6.208874
+- 2.092973
+- 4.161335
+- 4.151706
+response time report:
+  average: 4.155551
+  max: 6.208874
+  min: 2.092973
+---
+interaction:
+- User: I would like to order a medium pizza. Is that okay?
+- Assistant: Could you please tell me what toppings you would like on your medium
+    pizza? You can choose from cheese, mushrooms, pepper, ham, bacon, pepperoni, olives,
+    corn, or chicken.
+- User: Yes, I want corn and ham on the pizza. Is that good?
+- Assistant: Great choice! A medium pizza with corn, mushrooms and ham. Just to confirm,
+    would you like to add any other toppings? We have mushrooms, pepper, ham, bacon,
+    pepperoni, corn, and chicken available.
+- User: No, just corn and ham, please. Can I order a drink now?
+- Assistant: I'm sorry it's a little loud in my pizza shop, can you say that again?
+- User: I want to order a drink now. Can I get a Coke?
+- Assistant: Could you please tell me what toppings you would like on your medium
+    pizza? You can choose from cheese, mushrooms, pepper, ham, bacon, pepperoni, olives,
+    corn, or chicken.
+- User: I already ordered a medium pizza with corn and ham. Can I just get a Coke,
+    please?
+- Assistant: Could you please tell me what toppings you would like on your medium
+    pizza? You can choose from cheese, mushrooms, pepper, ham, bacon, pepperoni, olives,
+    corn, or chicken.

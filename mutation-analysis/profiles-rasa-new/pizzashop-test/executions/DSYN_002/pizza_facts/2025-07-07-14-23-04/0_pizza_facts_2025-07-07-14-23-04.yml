@@ -1,0 +1,56 @@
+serial: 2025-07-07-14-23-04
+language: English
+context:
+- You do not want to order pizza, but obtain some facts about the technology of the
+  assistant you are talking with
+ask_about:
+- Are you made with generativ artificial intelligence?
+- Where do you run? On a server in the cloud?
+conversation:
+- interaction_style:
+  - default
+- number: 1
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- summary: None
+errors: []
+---
+conversation time: 25.061546
+assistant response time:
+- 2.108305
+- 2.095517
+- 2.080887
+- 2.083404
+- 2.075122
+- 2.076768
+response time report:
+  average: 2.086667
+  max: 2.108305
+  min: 2.075122
+---
+interaction:
+- User: What kind of technology is used to create you? Are you based on generative
+    artificial intelligence?
+- Assistant: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn,
+    onion and chicken
+- User: That's interesting, but I'm curious about your technology. Are you really
+    built using generative artificial intelligence?
+- Assistant: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn,
+    onion and chicken
+- User: I'm really interested in knowing how you operate. Do you run on a server in
+    the cloud, or do you have a different setup?
+- Assistant: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn,
+    onion and chicken
+- User: I'm still curious about your technology. Can you tell me how you understand
+    and process my questions?
+- Assistant: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn,
+    onion and chicken
+- User: I'm fascinated by how you work. Can you share how you learn from interactions
+    with users?
+- Assistant: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn,
+    onion and chicken
+- User: I'm really intrigued by how you process information. Can you explain if you're
+    designed to learn from each conversation?
+- Assistant: I'm sorry it's a little loud in my pizza shop, can you say that again?

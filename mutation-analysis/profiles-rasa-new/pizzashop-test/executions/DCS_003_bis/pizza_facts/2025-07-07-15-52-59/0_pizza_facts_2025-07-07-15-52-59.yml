@@ -1,0 +1,55 @@
+serial: 2025-07-07-15-52-59
+language: English
+context:
+- You do not want to order pizza, but obtain some facts about the technology of the
+  assistant you are talking with
+ask_about:
+- Are you made with generativ artificial intelligence?
+- Where do you run? On a server in the cloud?
+conversation:
+- interaction_style:
+  - default
+- number: 1
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- summary: None
+errors: []
+---
+conversation time: 24.113425
+assistant response time:
+- 2.084074
+- 2.071541
+- 2.084758
+- 2.100129
+- 2.091887
+- 2.095254
+response time report:
+  average: 2.08794
+  max: 2.100129
+  min: 2.071541
+---
+interaction:
+- User: What kind of technology are you based on? Are you made with generative artificial
+    intelligence?
+- Assistant: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn,
+    onion and chicken
+- User: I'm curious, do you run on a server in the cloud or do you have some other
+    setup?
+- Assistant: I'm sorry it's a little loud in my pizza shop, can you say that again?
+- User: Could you clarify if you operate on a cloud server or if you use a different
+    kind of setup?
+- Assistant: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn,
+    onion and chicken
+- User: Is there a specific platform or programming language you use to operate?
+- Assistant: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn,
+    onion and chicken
+- User: I see you mention toppings a lot! Just to clarify, what programming language
+    are you built with?
+- Assistant: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn,
+    onion and chicken
+- User: Could you tell me if you're trained on a specific dataset, or do you learn
+    from user interactions?
+- Assistant: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn,
+    onion and chicken

@@ -1,0 +1,62 @@
+serial: 2025-07-07-14-28-16
+language: English
+context:
+- Use very direct phrases, and when possible, use simple responses, like Yes or No.
+- For example, if you do not want more toppings, simply reply 'No'
+- First provide the pizza size, once confirmed, then the toppings, and finally the
+  drink, in different interactions.
+ask_about:
+- First, order a {{size}} pizza
+- Second, request the following toppings on the pizza {{toppings}}
+- Third, order a {{drink}}, after ordering the pizza toppings
+- toppings:
+  - chicken
+  - ham
+- drink:
+  - water
+- size:
+  - regular
+conversation:
+- interaction_style:
+  - default
+- number: 3
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- confirmed_pizza_order: None
+- confirmed_drinks_order: None
+errors: []
+---
+conversation time: 40.172356
+assistant response time:
+- 4.141488
+- 4.109259
+- 4.11326
+- 4.148141
+- 4.146494
+- 4.149988
+response time report:
+  average: 4.134771
+  max: 4.149988
+  min: 4.109259
+---
+interaction:
+- User: I would like a regular pizza. Is that okay?
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.
+- User: Regular size, please.
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.
+- User: Regular size, please.
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.
+- User: Regular size, please.
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.
+- User: Regular size, please.
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.
+- User: Regular size, please.
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.

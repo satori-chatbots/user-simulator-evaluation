@@ -1,0 +1,23 @@
+Global report:
+  Average assistant response time: 3.735222
+  Maximum assistant response time: 6.218366
+  Mínimum assistant response time: 2.071222
+  Errors: []
+---
+Test name: ask_toppings
+Average assistant response time: 2.190849
+Maximum assistant response time: 2.310476
+Mínimum assistant response time: 2.071222
+Errors: []
+---
+Test name: pizza_order_custom
+Average assistant response time: 3.792608
+Maximum assistant response time: 6.218366
+Mínimum assistant response time: 2.082622
+Errors: []
+---
+Test name: pizza_facts
+Average assistant response time: 4.144804
+Maximum assistant response time: 4.172394
+Mínimum assistant response time: 4.12575
+Errors: []

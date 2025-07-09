@@ -1,0 +1,5 @@
+name: empty_responses2
+description: Checks if the chatbot provides <EMPTY-RESPONSE>
+active: False
+oracle: |
+  not chatbot_returns("<EMPTY-RESPONSE>")

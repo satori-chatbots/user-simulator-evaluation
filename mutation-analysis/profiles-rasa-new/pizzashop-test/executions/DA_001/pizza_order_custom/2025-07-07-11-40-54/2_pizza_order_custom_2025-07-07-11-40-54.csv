@@ -1,0 +1,9 @@
+;verification;data
+First,_order_a_big_pizza;True;"User: I would like a big pizza, please. Is that okay?
+Assistant: <EMPTY-RESPONSE>
+User: Yes, that's okay."
+Second,_request_the_following_toppings_on_the_pizza_mushrooms,_bacon;True;"Assistant: Great choice! A big pizza with pepper, cheese and mushrooms. Just to confirm, would you like to add any other toppings? We have mushrooms, pepper, ham, bacon, pepperoni, corn, and chicken available.
+User: Can I add bacon to the pizza?
+Assistant: Great choice! A big pizza with pepper, cheese, mushrooms and bacon."
+Third,_order_a_sprite,_after_ordering_the_pizza_toppings;True;"User: I would like a sprite, please.
+Assistant: Perfect, your big pizza order with pepper, cheese, mushrooms and bacon and sprite is on its way."

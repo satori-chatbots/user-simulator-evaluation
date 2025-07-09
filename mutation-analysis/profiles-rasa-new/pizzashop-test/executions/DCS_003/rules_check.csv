@@ -1,0 +1,8 @@
+rule,checks,pass,fail,not_applicable,fail_rate
+all_slots_set,5,5,0,0,0.00%
+empty_responses,5,5,0,0,0.00%
+empty_responses2,5,5,0,0,0.00%
+goal_not_completed,5,5,0,0,0.00%
+no_response,5,5,0,0,0.00%
+timeout,5,5,0,0,0.00%
+exceeded_loop_limit,5,5,0,0,0.00%

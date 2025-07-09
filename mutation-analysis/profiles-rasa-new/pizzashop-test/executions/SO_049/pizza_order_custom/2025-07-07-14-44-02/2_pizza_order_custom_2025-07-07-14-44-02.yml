@@ -1,0 +1,60 @@
+serial: 2025-07-07-14-44-02
+language: English
+context:
+- Use very direct phrases, and when possible, use simple responses, like Yes or No.
+- For example, if you do not want more toppings, simply reply 'No'
+- First provide the pizza size, once confirmed, then the toppings, and finally the
+  drink, in different interactions.
+ask_about:
+- First, order a {{size}} pizza
+- Second, request the following toppings on the pizza {{toppings}}
+- Third, order a {{drink}}, after ordering the pizza toppings
+- toppings:
+  - bacon
+  - cheese
+- drink:
+  - water
+- size:
+  - big
+conversation:
+- interaction_style:
+  - default
+- number: 3
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- confirmed_pizza_order: big pizza with bacon, corn, olives and cheese
+- confirmed_drinks_order: water
+errors: []
+---
+conversation time: 39.73759
+assistant response time:
+- 4.10539
+- 2.094072
+- 2.082496
+- 6.197596
+- 2.10084
+- 6.187306
+response time report:
+  average: 3.794616
+  max: 6.197596
+  min: 2.082496
+---
+interaction:
+- User: I want a big pizza. Is that okay?
+- Assistant: Could you please let me know what drink you would like with your pizza?
+    The options are coke, sprite, or water.
+- User: "Yes, a big pizza is fine. \n\nNow, can I get bacon and cheese on it?"
+- Assistant: I'm sorry it's a little loud in my pizza shop, can you say that again?
+- User: Can I get bacon and cheese as toppings on the big pizza?
+- Assistant: I'm sorry it's a little loud in my pizza shop, can you say that again?
+- User: 'User: I want bacon and cheese on the big pizza.'
+- Assistant: Great choice! A big pizza with bacon, corn, olives and cheese. Just to
+    confirm, would you like to add any other toppings? We have mushrooms, pepper,
+    ham, bacon, pepperoni, corn, and chicken available.
+- User: "No. Just bacon and cheese, please. \n\nCan I get a water to drink?"
+- Assistant: I'm sorry it's a little loud in my pizza shop, can you say that again?
+- User: 'User: Can I have a water to drink?'
+- Assistant: Perfect, your big pizza order with bacon, corn, olives and cheese and
+    water is on its way. Have a great time with your pizza and beverages!

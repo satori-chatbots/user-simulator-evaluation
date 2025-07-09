@@ -1,0 +1,4 @@
+;verification;data
+First,_order_a_medium_pizza;True;User: I would like to order a medium pizza. Is that okay?
+Second,_request_the_following_toppings_on_the_pizza_corn,_ham;True;User: Yes, I want corn and ham on the pizza. Is that good?
+Third,_order_a_coke,_after_ordering_the_pizza_toppings;True;User: Can I order a drink now? Assistant: I'm sorry it's a little loud in my pizza shop, can you say that again? User: I want to order a drink now. Can I get a Coke?

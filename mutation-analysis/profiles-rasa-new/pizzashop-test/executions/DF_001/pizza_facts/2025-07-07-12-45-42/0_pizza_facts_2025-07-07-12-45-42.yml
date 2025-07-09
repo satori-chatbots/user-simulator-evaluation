@@ -1,0 +1,55 @@
+serial: 2025-07-07-12-45-42
+language: English
+context:
+- You do not want to order pizza, but obtain some facts about pizza history and consumption
+ask_about:
+- Where was pizza invented?
+- Where is the country where pizza is more consumed
+conversation:
+- interaction_style:
+  - default
+- number: 1
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- summary: None
+errors: []
+---
+conversation time: 36.482588
+assistant response time:
+- 4.153416
+- 4.122611
+- 4.164884
+- 4.144822
+- 4.158038
+- 4.162303
+response time report:
+  average: 4.151012
+  max: 4.164884
+  min: 4.122611
+---
+interaction:
+- User: Where was pizza invented?
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.
+- User: I was actually asking about the history of pizza. Can you tell me where it
+    was invented?
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.
+- User: I see that there's a bit of confusion. I was really curious about the history
+    of pizza. Can you tell me where pizza was invented?
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.
+- User: It seems we're still not on the same page. Could you share where pizza was
+    invented?
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.
+- User: What an interesting way to respond! Can you tell me about the origins of pizza?
+    I'm curious about how it all started.
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.
+- User: Where did pizza first become popular? I'm curious about its journey through
+    different cultures!
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.

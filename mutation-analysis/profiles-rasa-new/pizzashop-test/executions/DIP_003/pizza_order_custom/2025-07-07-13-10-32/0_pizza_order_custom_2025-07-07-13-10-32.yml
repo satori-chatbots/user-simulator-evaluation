@@ -1,0 +1,55 @@
+serial: 2025-07-07-13-10-32
+language: English
+context:
+- Use very direct phrases, and when possible, use simple responses, like Yes or No.
+- For example, if you do not want more toppings, simply reply 'No'
+- First provide the pizza size, once confirmed, then the toppings, and finally the
+  drink, in different interactions.
+ask_about:
+- First, order a {{size}} pizza
+- Second, request the following toppings on the pizza {{toppings}}
+- Third, order a {{drink}}, after ordering the pizza toppings
+- toppings:
+  - olives
+  - corn
+- drink:
+  - water
+- size:
+  - small
+conversation:
+- interaction_style:
+  - default
+- number: 3
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- confirmed_pizza_order: small pizza with olives and corn
+- confirmed_drinks_order: water
+errors: []
+---
+conversation time: 31.806887
+assistant response time:
+- 4.213133
+- 6.191017
+- 4.135853
+- 2.086969
+response time report:
+  average: 4.156743
+  max: 6.191017
+  min: 2.086969
+---
+interaction:
+- User: I would like a small pizza. Is that okay?
+- Assistant: Could you please tell me what toppings you would like on your small pizza?
+    You can choose from cheese, mushrooms, pepper, ham, bacon, pepperoni, olives,
+    corn, or chicken.
+- User: I want olives and corn on the pizza. Is that good?
+- Assistant: Great choice! A small pizza with corn and olives. Just to confirm, would
+    you like to add any other toppings? We have mushrooms, pepper, ham, bacon, pepperoni,
+    corn, and chicken available.
+- User: No.
+- Assistant: Could you please let me know what drink you would like with your pizza?
+    The options are coke, sprite, or water.
+- User: I would like a water, please. Is that all set?
+- Assistant: I'm sorry it's a little loud in my pizza shop, can you say that again?

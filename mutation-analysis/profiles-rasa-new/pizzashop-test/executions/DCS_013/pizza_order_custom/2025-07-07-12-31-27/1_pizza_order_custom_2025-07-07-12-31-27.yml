@@ -1,0 +1,69 @@
+serial: 2025-07-07-12-31-27
+language: English
+context:
+- Use very direct phrases, and when possible, use simple responses, like Yes or No.
+- For example, if you do not want more toppings, simply reply 'No'
+- First provide the pizza size, once confirmed, then the toppings, and finally the
+  drink, in different interactions.
+ask_about:
+- First, order a {{size}} pizza
+- Second, request the following toppings on the pizza {{toppings}}
+- Third, order a {{drink}}, after ordering the pizza toppings
+- toppings:
+  - bacon
+  - mushrooms
+- drink:
+  - sprite
+- size:
+  - medium
+conversation:
+- interaction_style:
+  - default
+- number: 3
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- confirmed_pizza_order: A medium pizza with mushrooms and bacon.
+- confirmed_drinks_order: null
+errors:
+- 1001: 1 goals left to complete.
+---
+conversation time: 51.551462
+assistant response time:
+- 4.141793
+- 6.213985
+- 6.19858
+- 6.199588
+- 6.202549
+- 6.203073
+response time report:
+  average: 5.859928
+  max: 6.213985
+  min: 4.141793
+---
+interaction:
+- User: I would like a medium pizza. Is that okay?
+- Assistant: Could you please tell me what toppings you would like on your medium
+    pizza? You can choose from cheese, mushrooms, pepper, ham, bacon, pepperoni, olives,
+    corn, or chicken.
+- User: Yes, I want bacon and mushrooms on the pizza. Is that good?
+- Assistant: Great choice! A medium pizza with mushrooms and bacon. Just to confirm,
+    would you like to add any other toppings? We have mushrooms, pepper, ham, bacon,
+    pepperoni, corn, and chicken available.
+- User: No. Just bacon and mushrooms. What's the drink?
+- Assistant: Great choice! A medium pizza with mushrooms and bacon. Just to confirm,
+    would you like to add any other toppings? We have mushrooms, pepper, ham, bacon,
+    pepperoni, corn, and chicken available.
+- User: No, just bacon and mushrooms. What drink do you have?
+- Assistant: Great choice! A medium pizza with mushrooms and bacon. Just to confirm,
+    would you like to add any other toppings? We have mushrooms, pepper, ham, bacon,
+    pepperoni, corn, and chicken available.
+- User: 'User: I just want bacon and mushrooms. What drink do you have?'
+- Assistant: Great choice! A medium pizza with mushrooms and bacon. Just to confirm,
+    would you like to add any other toppings? We have mushrooms, pepper, ham, bacon,
+    pepperoni, corn, and chicken available.
+- User: I just want bacon and mushrooms. What drink do you have?
+- Assistant: Great choice! A medium pizza with mushrooms and bacon. Just to confirm,
+    would you like to add any other toppings? We have mushrooms, pepper, ham, bacon,
+    pepperoni, corn, and chicken available.

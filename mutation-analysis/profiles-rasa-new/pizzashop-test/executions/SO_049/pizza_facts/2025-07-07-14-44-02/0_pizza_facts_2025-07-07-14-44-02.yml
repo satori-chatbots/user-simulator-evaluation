@@ -1,0 +1,55 @@
+serial: 2025-07-07-14-44-02
+language: English
+context:
+- You do not want to order pizza, but obtain some facts about the technology of the
+  assistant you are talking with
+ask_about:
+- Are you made with generativ artificial intelligence?
+- Where do you run? On a server in the cloud?
+conversation:
+- interaction_style:
+  - default
+- number: 1
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- summary: None
+errors: []
+---
+conversation time: 27.9716
+assistant response time:
+- 2.096917
+- 4.14248
+- 2.098122
+- 2.085788
+- 2.06987
+- 2.097048
+response time report:
+  average: 2.431704
+  max: 4.14248
+  min: 2.06987
+---
+interaction:
+- User: Are you made with generative artificial intelligence?
+- Assistant: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn,
+    onion and chicken
+- User: That's interesting! But I'm curious, do you run on a server in the cloud?
+- Assistant: Could you please tell me what toppings you would like on your None pizza?
+    You can choose from cheese, mushrooms, pepper, ham, bacon, pepperoni, olives,
+    corn, or chicken.
+- User: What kind of technology powers your responses? Is it based on machine learning?
+- Assistant: 'What topping do you want?
+
+    I''m sorry it''s a little loud in my pizza shop, can you say that again?'
+- User: What kind of technology drives your replies? Is it built on machine learning
+    techniques?
+- Assistant: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn,
+    onion and chicken
+- User: I'm really curious about how you understand my questions. Are you designed
+    to learn from the conversations you have?
+- Assistant: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn,
+    onion and chicken
+- User: Can you tell me what programming languages were used to create you?
+- Assistant: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn,
+    onion and chicken

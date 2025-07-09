@@ -1,0 +1,61 @@
+serial: 2025-07-07-15-03-03
+language: English
+context:
+- Use very direct phrases, and when possible, use simple responses, like Yes or No.
+- For example, if you do not want more toppings, simply reply 'No'
+- First provide the pizza size, once confirmed, then the toppings, and finally the
+  drink, in different interactions.
+ask_about:
+- First, order a {{size}} pizza
+- Second, request the following toppings on the pizza {{toppings}}
+- Third, order a {{drink}}, after ordering the pizza toppings
+- toppings:
+  - pepper
+  - olives
+- drink:
+  - water
+- size:
+  - big
+conversation:
+- interaction_style:
+  - default
+- number: 3
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- confirmed_pizza_order: A big pizza with cheese, olives, and pepper.
+- confirmed_drinks_order: water
+errors: []
+---
+conversation time: 39.599402
+assistant response time:
+- 4.13419
+- 6.210009
+- 4.114882
+- 2.101616
+- 6.221038
+response time report:
+  average: 4.556347
+  max: 6.221038
+  min: 2.101616
+---
+interaction:
+- User: I’d like a big pizza, please. Is that okay?
+- Assistant: Could you please tell me what toppings you would like on your big pizza?
+    You can choose from cheese, mushrooms, pepper, ham, bacon, pepperoni, olives,
+    corn, or chicken.
+- User: Yes, I want pepper and olives on the pizza.
+- Assistant: Great choice! A big pizza with cheese, olives and pepper. Just to confirm,
+    would you like to add any other toppings? We have mushrooms, pepper, ham, bacon,
+    pepperoni, corn, and chicken available.
+- User: No.
+- Assistant: Could you please specify the size of the pizza you'd like? We offer small,
+    medium, and big sizes.
+- User: 'Assistant: Thank you for your order! Would you like a drink with your pizza?
+    We have soda, water, and juice available.'
+- Assistant: We have cheese, ham, pepperoni, bacon, mushrooms, pepper, olives, corn,
+    onion and chicken
+- User: Yes, I’d like a water, please.
+- Assistant: Perfect, your big pizza order with cheese, olives and pepper and water
+    is on its way. Have a great time with your pizza and beverages!

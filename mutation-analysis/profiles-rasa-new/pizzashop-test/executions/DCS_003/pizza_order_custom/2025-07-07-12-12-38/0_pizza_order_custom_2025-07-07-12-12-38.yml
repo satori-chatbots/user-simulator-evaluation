@@ -1,0 +1,52 @@
+serial: 2025-07-07-12-12-38
+language: English
+context:
+- Use very direct phrases, and when possible, use simple responses, like Yes or No.
+- First provide the pizza size, once confirmed, then the toppings, and finally the
+  drink, in different interactions.
+ask_about:
+- First, order a {{size}} pizza
+- Second, request the following toppings on the pizza {{toppings}}
+- Third, order a {{drink}}, after ordering the pizza toppings
+- toppings:
+  - mushrooms
+  - corn
+- drink:
+  - water
+- size:
+  - small
+conversation:
+- interaction_style:
+  - default
+- number: 3
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- confirmed_pizza_order: small pizza with mushrooms and corn
+- confirmed_drinks_order: A small pizza with corn and mushrooms.
+errors: []
+---
+conversation time: 27.523365
+assistant response time:
+- 4.215204
+- 6.206167
+- 6.219145
+response time report:
+  average: 5.546838
+  max: 6.219145
+  min: 4.215204
+---
+interaction:
+- User: I would like to order a small pizza. Is that okay?
+- Assistant: Could you please tell me what toppings you would like on your small pizza?
+    You can choose from cheese, mushrooms, pepper, ham, bacon, pepperoni, olives,
+    corn, or chicken.
+- User: I would like mushrooms and corn on the pizza. Is that good?
+- Assistant: Great choice! A small pizza with corn and mushrooms. Just to confirm,
+    would you like to add any other toppings? We have mushrooms, pepper, ham, bacon,
+    pepperoni, corn, and chicken available.
+- User: No, just mushrooms and corn. Can I order a water now?
+- Assistant: Great choice! A small pizza with corn and mushrooms. Just to confirm,
+    would you like to add any other toppings? We have mushrooms, pepper, ham, bacon,
+    pepperoni, corn, and chicken available.

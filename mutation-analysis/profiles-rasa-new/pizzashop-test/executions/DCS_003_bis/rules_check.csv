@@ -1,0 +1,6 @@
+rule,checks,pass,fail,not_applicable,fail_rate
+shows_fallback,6,2,4,0,66.67%
+goal_not_completed,6,6,0,0,0.00%
+no_response,6,6,0,0,0.00%
+timeout,6,6,0,0,0.00%
+exceeded_loop_limit,6,6,0,0,0.00%

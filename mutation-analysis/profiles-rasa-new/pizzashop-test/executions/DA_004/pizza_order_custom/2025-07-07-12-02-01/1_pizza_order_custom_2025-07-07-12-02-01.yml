@@ -1,0 +1,51 @@
+serial: 2025-07-07-12-02-01
+language: English
+context:
+- Use very direct phrases, and when possible, use simple responses, like Yes or No.
+- First provide the pizza size, once confirmed, then the toppings, and finally the
+  drink, in different interactions.
+ask_about:
+- First, order a {{size}} pizza
+- Second, request the following toppings on the pizza {{toppings}}
+- Third, order a {{drink}}, after ordering the pizza toppings
+- toppings:
+  - olives
+  - mushrooms
+- drink:
+  - water
+- size:
+  - medium
+conversation:
+- interaction_style:
+  - default
+- number: 3
+- all_answered:
+    export: true
+    limit: 6
+data_output:
+- confirmed_pizza_order: Medium pizza with mushrooms and olives
+- confirmed_drinks_order: A medium pizza with mushrooms and olives and water
+errors: []
+---
+conversation time: 28.319314
+assistant response time:
+- 4.148595
+- 6.219139
+- 6.20152
+response time report:
+  average: 5.523084
+  max: 6.219139
+  min: 4.148595
+---
+interaction:
+- User: I’d like to order a medium pizza. Is that okay?
+- Assistant: Could you please tell me what toppings you would like on your medium
+    pizza? You can choose from cheese, mushrooms, pepper, ham, bacon, pepperoni, olives,
+    corn, or chicken.
+- User: Yes, I’d like olives and mushrooms on the pizza. Is that good?
+- Assistant: Great choice! A medium pizza with mushrooms and olives. Just to confirm,
+    would you like to add any other toppings? We have mushrooms, pepper, ham, bacon,
+    pepperoni, corn, and chicken available.
+- User: No, just olives and mushrooms. Can I get a water with that?
+- Assistant: Perfect, your medium pizza order with mushrooms and olives and water
+    is on its way. Have a great time with your pizza and beverages!
